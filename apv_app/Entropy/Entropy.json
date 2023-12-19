@@ -3,48 +3,49 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "btnAditContratuais": 27,
-    "btnpróximo": 37,
-    "btnScreenSolViagens": 28,
-    "btnVoltar": 36,
-    "btnVoltar_1": 22,
-    "cabecalho": 25,
-    "galAdtContratuais": 30,
-    "galleryTemplate1": 31,
-    "galleryTemplate2": 7,
-    "GalSolViagens": 6,
-    "Home": 24,
+    "btnAditContratuais": 8,
+    "btnAditContratuais_1": 38,
+    "btnpróximo": 18,
+    "btnScreenSolViagens": 9,
+    "btnVoltar": 17,
+    "btnVoltar_1": 37,
+    "cabecalho": 6,
+    "galAdtContratuais": 11,
+    "galleryTemplate1": 12,
+    "galleryTemplate2": 22,
+    "GalSolViagens": 21,
+    "Home": 5,
     "Host": 3,
-    "lblDataSolicitacao": 13,
-    "lblDataSolicitacaoBD": 12,
-    "lblMotivo": 11,
-    "lblMotivoBD": 10,
-    "lblName": 26,
-    "lblSolBD": 9,
-    "lblSolicitante": 8,
-    "lblTitle": 5,
-    "lblValoDevolver": 19,
-    "lblValoDevolverBD": 18,
-    "lblValoRestituir": 20,
-    "lblValoRestituirBD": 21,
-    "lblValorGasto": 17,
-    "lblValorGastoBD": 16,
-    "lblValorSolicitado": 15,
-    "lblValorSolicitadoBD": 14,
-    "Rectangle7": 32,
-    "Separator7": 35,
-    "Subtitle6": 34,
-    "Tela AditivosContratuais": 29,
-    "Tela adtContVisualizacao": 23,
-    "Tela SolictacoesViagens": 4,
-    "Title7": 33
+    "lblDataSolicitacao": 28,
+    "lblDataSolicitacaoBD": 27,
+    "lblMotivo": 26,
+    "lblMotivoBD": 25,
+    "lblName": 7,
+    "lblSolBD": 24,
+    "lblSolicitante": 23,
+    "lblTitle": 20,
+    "lblValoDevolver": 34,
+    "lblValoDevolverBD": 33,
+    "lblValoRestituir": 35,
+    "lblValoRestituirBD": 36,
+    "lblValorGasto": 32,
+    "lblValorGastoBD": 31,
+    "lblValorSolicitado": 30,
+    "lblValorSolicitadoBD": 29,
+    "Rectangle7": 13,
+    "Separator7": 16,
+    "Subtitle6": 15,
+    "Tela AditivosContratuais": 10,
+    "Tela adtContVisualizacao": 4,
+    "Tela SolictacoesViagens": 19,
+    "Title7": 14
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "12/19/2023 13:45:52",
+  "HeaderLastSavedDateTimeUTC": "12/19/2023 14:08:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "f5533ccf-c48b-4a80-8434-07ba8e52221e": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/164be836f1d1487b954cf1671d9af612\""
+    "f5533ccf-c48b-4a80-8434-07ba8e52221e": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/7c112c13f9b140848ffd8095c4810857\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -52,8 +53,8 @@
     "logoagenciapeixevivo": "f9acd3af-c875-40b2-8626-0ec5c377fcd1.png"
   },
   "LocalResourceRootPaths": {
-    "Logo_branco": "https://docserverpwaprodsbr.blob.core.windows.net/3eac0175-214e-423f-94ea-b1bf256fb0ff-1/resource/Assets0Images0410c4135-3d3c-4dd6-bb3c-93ad750db68f.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-19T13%3A45%3A17Z&ske=2023-12-20T14%3A00%3A17Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-20T14%3A00%3A17Z&sr=b&sp=r&sig=%2BRbkIqiy0JE3A6h6%2FSdyQ0CDT9WW62EneV0yj1c7fAk%3D",
-    "logoagenciapeixevivo": "https://docserverpwaprodsbr.blob.core.windows.net/3eac0175-214e-423f-94ea-b1bf256fb0ff-1/resource/Assets0Images0f9acd3af-c875-40b2-8626-0ec5c377fcd1.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-19T13%3A45%3A16Z&ske=2023-12-20T14%3A00%3A16Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-20T14%3A00%3A16Z&sr=b&sp=r&sig=%2Bir9OM1Jsan3tbPlGCcOP4JxeRjBA748aZHjZ3mKOnU%3D"
+    "Logo_branco": "https://docserverpwaprodsbr.blob.core.windows.net/ec26ea9b-3fdb-4325-a0b8-bbc93a367865-1/resource/Assets0Images0410c4135-3d3c-4dd6-bb3c-93ad750db68f.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-19T14%3A06%3A36Z&ske=2023-12-20T14%3A21%3A36Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-20T14%3A21%3A36Z&sr=b&sp=r&sig=2PzWx6nNTP6Z0E5zhC0z9KGtcAFQK%2BJY9ElI2vhQyXY%3D",
+    "logoagenciapeixevivo": "https://docserverpwaprodsbr.blob.core.windows.net/ec26ea9b-3fdb-4325-a0b8-bbc93a367865-1/resource/Assets0Images0f9acd3af-c875-40b2-8626-0ec5c377fcd1.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-12-19T14%3A06%3A36Z&ske=2023-12-20T14%3A21%3A36Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2023-12-20T14%3A21%3A36Z&sr=b&sp=r&sig=6ieUCsDTVZk5dSO9Nir9ZGvuGuLe0iEgmHnQqN2A0DQ%3D"
   },
   "OldLogoFileName": "i3ba3dht.jpg",
   "OrderComponentMetadata": {},
@@ -62,7 +63,8 @@
     "Acompanhamento dos Termos aditivos da Agência": 1,
     "ComboBoxSample": 2,
     "CustomGallerySample": 3,
-    "gasto de viagem": 0
+    "gasto de viagem": 0,
+    "Solicitação de Férias": 4
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {
@@ -70,14 +72,15 @@
   },
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 2,
-    "gallery": 1,
+    "button": 1,
+    "gallery": 2,
     "label": 0,
     "rectangle": 3
   },
   "OverridablePropertiesEntry": {
     "App": {},
     "btnAditContratuais": {},
+    "btnAditContratuais_1": {},
     "btnpróximo": {},
     "btnScreenSolViagens": {},
     "btnVoltar": {},
@@ -133,6 +136,7 @@
   "PublishOrderIndices": {
     "App": 0,
     "btnAditContratuais": 2,
+    "btnAditContratuais_1": 2,
     "btnpróximo": 11,
     "btnScreenSolViagens": 3,
     "btnVoltar": 10,
@@ -176,9 +180,9 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.2265576,
+    "AnalysisLoadTime": 0.2559041,
     "ControlCount": {
-      "button": 5,
+      "button": 6,
       "gallery": 2,
       "galleryTemplate": 2,
       "Header": 1,
@@ -186,7 +190,7 @@
       "rectangle": 2,
       "screen": 4
     },
-    "DeserializationLoadTime": 1.0264563
+    "DeserializationLoadTime": 0.9019935
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
