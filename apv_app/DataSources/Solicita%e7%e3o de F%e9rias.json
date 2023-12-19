@@ -1,0 +1,50 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-10-30T18:14:11.1260000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Anexos",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Nome de arquivo com extensão",
+      "{FullPath}": "Caminho Completo",
+      "{HasAttachments}": "Tem anexos",
+      "{Identifier}": "Identificador",
+      "{IsFolder}": "ÉPasta",
+      "{Link}": "Link para o item",
+      "{ModerationComment}": "Comentários associados à aprovação de conteúdo deste item de lista",
+      "{ModerationStatus}": "Status de aprovação de conteúdo",
+      "{Name}": "Nome ({Name})",
+      "{Path}": "Caminho da pasta",
+      "{Thumbnail}": "Miniatura",
+      "{TriggerWindowEndToken}": "Token de Fim da Janela de Acionamento",
+      "{TriggerWindowStartToken}": "Token de Início da Janela de Acionamento",
+      "{VersionNumber}": "Número da versão",
+      "Author": "Criado por",
+      "Author#Claims": "Criado por Claims",
+      "ComplianceAssetId": "ID de Ativo de Conformidade",
+      "Created": "Criado",
+      "DiasdeF_x00e9_rias": "Dias de Férias",
+      "Editor": "Modificado por",
+      "Editor#Claims": "Modificado por Claims",
+      "EmaildoGerente": "Email do Gerente",
+      "FimdasF_x00e9_rias": "Fim das Férias",
+      "ID": "ID",
+      "Iniciodasf_x00e9_rias": "Inicio das Férias",
+      "Modified": "Modificado",
+      "Nome": "Nome do Colaborador",
+      "NomedoGerente": "Nome do Gerente",
+      "OData__ColorTag": "Pressione Delete para excluir o ícone.",
+      "Title": "Título"
+    },
+    "DatasetName": "https://agepeixevivo.sharepoint.com/sites/RecursosHumanos",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Solicitação de Férias",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
