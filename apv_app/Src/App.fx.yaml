@@ -1,0 +1,11 @@
+App As appinfo:
+    BackEnabled: =true
+    Theme: =SteelTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

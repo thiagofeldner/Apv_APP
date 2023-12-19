@@ -1,0 +1,119 @@
+"'Tela AditivosContratuais' As screen":
+
+    "galAdtContratuais As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DelayItemLoading: =true
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =669
+        Items: ='Acompanhamento dos Termos aditivos da Agência'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =
+        TemplatePadding: =4
+        TemplateSize: =110
+        Transition: =Transition.Pop
+        Width: =1305
+        WrapCount: =2
+        X: =36
+        Y: =27
+        ZIndex: =1
+
+        Title7 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Navigate('Tela adtContVisualizacao')
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Contrato de Gestão'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle6.Size * 1.8)) / 2
+            ZIndex: =1
+
+        Subtitle6 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Empresa Contratada'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title7.Width
+            X: =Title7.X
+            Y: =Title7.Y + Title7.Height
+            ZIndex: =2
+
+        Separator7 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =4
+
+        Rectangle7 As rectangle:
+            Height: =Parent.TemplateHeight - Separator7.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =5
+
+    btnpróximo As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(0, 120, 212, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.Arial
+        Height: =41
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: =Navigate('Tela SolictacoesViagens', ScreenTransition.Fade)
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Próximo"
+        Width: =116
+        X: =1211
+        Y: =715
+        ZIndex: =2
+
+    btnVoltar As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(0, 120, 212, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.Arial
+        Height: =41
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: =Navigate(Home, ScreenTransition.Fade)
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(16, 110, 190, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Text: ="Voltar"
+        Width: =116
+        X: =36
+        Y: =715
+        ZIndex: =3
+

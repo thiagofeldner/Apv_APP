@@ -1,0 +1,81 @@
+Home As screen:
+
+    btnAditContratuais As button:
+        BorderColor: =RGBA(102, 174, 229, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(50, 86, 160, 1)
+        Font: =Font.Arial
+        Height: =62
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: =Navigate('Tela AditivosContratuais', ScreenTransition.Fade )
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(136, 160, 209, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =14
+        Text: ="Aditivos Contratuais"
+        Width: =155
+        X: =16
+        Y: =114
+        ZIndex: =5
+
+    btnScreenSolViagens As button:
+        BorderColor: =RGBA(102, 174, 229, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        Fill: =RGBA(50, 86, 160, 1)
+        Font: =Font.Arial
+        Height: =62
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(16, 110, 190, 1)
+        OnSelect: =Navigate('Tela SolictacoesViagens', ScreenTransition.Fade )
+        PressedBorderColor: =RGBA(0, 69, 120, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(136, 160, 209, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =14
+        Text: ="Solicitação de Viagens"
+        Width: =155
+        X: =16
+        Y: =206
+        ZIndex: =6
+
+    cabecalho As Cabeçalho:
+        BasePaletteColor: =RGBA(39, 113, 194, 1)
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =61
+        IsProfilePictureVisible: =true
+        IsTitleVisible: =false
+        Logo: =Logo_branco
+        OnSelectLogo: =false
+        Style: ='Header.Style'.Primary
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =7
+
+    lblName As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Arial
+        Size: =12
+        Text: =User().FullName
+        X: =1147
+        Y: =10
+        ZIndex: =8
+

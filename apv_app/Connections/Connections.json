@@ -1,0 +1,38 @@
+{
+  "f5533ccf-c48b-4a80-8434-07ba8e52221e": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://agepeixevivo.sharepoint.com/sites/Projetos": {
+        "dataSources": {
+          "gasto de viagem": {
+            "tableName": "3b900e07-af4e-476b-bc4d-871eb2859547"
+          }
+        }
+      },
+      "https://agepeixevivo.sharepoint.com/sites/RH": {
+        "dataSources": {
+          "Acompanhamento dos Termos aditivos da Agência": {
+            "tableName": "9104b056-1407-4ae7-b64d-84b1fd5faea3"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Acompanhamento dos Termos aditivos da Agência",
+      "gasto de viagem"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "f5533ccf-c48b-4a80-8434-07ba8e52221e"
+  }
+}
