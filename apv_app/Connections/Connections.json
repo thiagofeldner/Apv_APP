@@ -19,13 +19,6 @@
           }
         }
       },
-      "https://agepeixevivo.sharepoint.com/sites/RecursosHumanos": {
-        "dataSources": {
-          "Solicitação de Férias": {
-            "tableName": "0246f463-d66c-4605-be58-c73981e62cff"
-          }
-        }
-      },
       "https://agepeixevivo.sharepoint.com/sites/RH": {
         "dataSources": {
           "Acompanhamento dos Termos aditivos da Agência": {
@@ -36,8 +29,7 @@
     },
     "dataSources": [
       "Acompanhamento dos Termos aditivos da Agência",
-      "gasto de viagem",
-      "Solicitação de Férias"
+      "gasto de viagem"
     ],
     "dependencies": {},
     "dependents": [],
