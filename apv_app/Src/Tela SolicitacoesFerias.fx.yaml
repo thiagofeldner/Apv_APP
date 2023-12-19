@@ -103,7 +103,7 @@
                 Y: =DataCardKey1.Y
                 ZIndex: =4
 
-        "'Nome do Gerente_DataCard1' As typedDataCard.textualEditCard":
+        "'Nome do Gerente_DataCard' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="NomedoGerente"
             Default: =ThisItem.'Nome do Gerente'
@@ -171,7 +171,7 @@
                 Y: =DataCardKey2.Y
                 ZIndex: =4
 
-        "'Email do Gerente_DataCard1' As typedDataCard.textualEditCard":
+        "'Email do Gerente_DataCard' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="EmaildoGerente"
             Default: =ThisItem.'Email do Gerente'
@@ -239,7 +239,7 @@
                 Y: =DataCardKey3.Y
                 ZIndex: =4
 
-        "'1 - Inicio das Férias_DataCard1' As typedDataCard.dateEditCard":
+        "'Inicio das Férias_DataCard1' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="Iniciodasf_x00e9_rias"
             Default: =ThisItem.'1 - Inicio das Férias'
@@ -248,7 +248,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue4.SelectedDate
+            Update: ='InicioFérias Value1'.SelectedDate
             Width: =431
             X: =0
             Y: =1
@@ -264,7 +264,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As datepicker:
+            "'InicioFérias Value1' As datepicker":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -291,7 +291,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
+                Y: ='InicioFérias Value1'.Y + 'InicioFérias Value1'.Height
                 ZIndex: =3
 
             StarVisible4 As label:
@@ -304,7 +304,7 @@
                 Y: =DataCardKey4.Y
                 ZIndex: =4
 
-        "'1 - Fim das Férias_DataCard1' As typedDataCard.dateEditCard":
+        "'Fim das Férias_DataCard1' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="FimdasF_x00e9_rias"
             Default: =ThisItem.'1 - Fim das Férias'
@@ -313,7 +313,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue5.SelectedDate
+            Update: ='FimFerias Value1'.SelectedDate
             Width: =431
             X: =1
             Y: =1
@@ -329,7 +329,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue5 As datepicker:
+            "'FimFerias Value1' As datepicker":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -356,7 +356,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue5.Y + DataCardValue5.Height
+                Y: ='FimFerias Value1'.Y + 'FimFerias Value1'.Height
                 ZIndex: =3
 
             StarVisible5 As label:
@@ -369,7 +369,7 @@
                 Y: =DataCardKey5.Y
                 ZIndex: =4
 
-        "'1 - Dias de Férias_DataCard1' As typedDataCard.numberEditCard":
+        "'Dias de Férias_DataCard1' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="DiasdeF_x00e9_rias"
             Default: =ThisItem.'1 - Dias de Férias'
@@ -378,7 +378,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue6.Text)
+            Update: =Value('DiasFerias Value1'.Text)
             Width: =431
             X: =2
             Y: =1
@@ -394,9 +394,9 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue6 As text:
+            "'DiasFerias Value1' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =DateDiff('InicioFérias Value1'.SelectedDate,'FimFerias Value1'.SelectedDate,TimeUnit.Days)
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -423,7 +423,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue6.Y + DataCardValue6.Height
+                Y: ='DiasFerias Value1'.Y + 'DiasFerias Value1'.Height
                 ZIndex: =3
 
             StarVisible6 As label:
@@ -436,7 +436,7 @@
                 Y: =DataCardKey6.Y
                 ZIndex: =4
 
-        "'2 - Início das Férias_DataCard1' As typedDataCard.dateEditCard":
+        "'Início das Férias_DataCard2' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="OData__x0032__x002d_In_x00ed_ciodasF_x"
             Default: =ThisItem.'2 - Início das Férias'
@@ -445,7 +445,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue7.SelectedDate
+            Update: ='InicioFerias Value2'.SelectedDate
             Width: =431
             X: =0
             Y: =2
@@ -461,7 +461,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue7 As datepicker:
+            "'InicioFerias Value2' As datepicker":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -488,7 +488,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue7.Y + DataCardValue7.Height
+                Y: ='InicioFerias Value2'.Y + 'InicioFerias Value2'.Height
                 ZIndex: =3
 
             StarVisible7 As label:
@@ -501,7 +501,7 @@
                 Y: =DataCardKey7.Y
                 ZIndex: =4
 
-        "'2 - Fim das Férias_DataCard1' As typedDataCard.dateEditCard":
+        "'Fim das Férias_DataCard2' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="OData__x0032__x002d_FimdasF_x00e9_rias"
             Default: =ThisItem.'2 - Fim das Férias'
@@ -510,7 +510,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue8.SelectedDate
+            Update: ='FimFerias Value2'.SelectedDate
             Width: =431
             X: =1
             Y: =2
@@ -526,7 +526,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue8 As datepicker:
+            "'FimFerias Value2' As datepicker":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -553,7 +553,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue8.Y + DataCardValue8.Height
+                Y: ='FimFerias Value2'.Y + 'FimFerias Value2'.Height
                 ZIndex: =3
 
             StarVisible8 As label:
@@ -566,7 +566,7 @@
                 Y: =DataCardKey8.Y
                 ZIndex: =4
 
-        "'2 - Dias de Férias_DataCard1' As typedDataCard.numberEditCard":
+        "'Dias de Férias_DataCard2' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="OData__x0032__x002d_DiasdeF_x00e9_rias"
             Default: =ThisItem.'2 - Dias de Férias'
@@ -575,7 +575,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue9.Text)
+            Update: =Value('DiasFerias Value2'.Text)
             Width: =431
             X: =2
             Y: =2
@@ -591,7 +591,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue9 As text:
+            "'DiasFerias Value2' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -620,7 +620,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue9.Y + DataCardValue9.Height
+                Y: ='DiasFerias Value2'.Y + 'DiasFerias Value2'.Height
                 ZIndex: =3
 
             StarVisible9 As label:
@@ -633,7 +633,7 @@
                 Y: =DataCardKey9.Y
                 ZIndex: =4
 
-        "'3 - Início Férias_DataCard1' As typedDataCard.dateEditCard":
+        "'Início Férias_DataCard3' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="OData__x0033__x002d_In_x00ed_cioF_x00e"
             Default: =ThisItem.'3 - Início Férias'
@@ -642,7 +642,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue10.SelectedDate
+            Update: ='InicioFerias Value3'.SelectedDate
             Width: =431
             X: =0
             Y: =3
@@ -658,7 +658,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue10 As datepicker:
+            "'InicioFerias Value3' As datepicker":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -685,7 +685,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue10.Y + DataCardValue10.Height
+                Y: ='InicioFerias Value3'.Y + 'InicioFerias Value3'.Height
                 ZIndex: =3
 
             StarVisible10 As label:
@@ -698,7 +698,7 @@
                 Y: =DataCardKey10.Y
                 ZIndex: =4
 
-        "'3 - Fim Férias_DataCard1' As typedDataCard.dateEditCard":
+        "'Fim Férias_DataCard3' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="OData__x0033__x002d_FimF_x00e9_rias"
             Default: =ThisItem.'3 - Fim Férias'
@@ -707,7 +707,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue11.SelectedDate
+            Update: ='FimFerias Value3'.SelectedDate
             Width: =431
             X: =1
             Y: =3
@@ -723,7 +723,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue11 As datepicker:
+            "'FimFerias Value3' As datepicker":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -750,7 +750,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue11.Y + DataCardValue11.Height
+                Y: ='FimFerias Value3'.Y + 'FimFerias Value3'.Height
                 ZIndex: =3
 
             StarVisible11 As label:
@@ -763,7 +763,7 @@
                 Y: =DataCardKey11.Y
                 ZIndex: =4
 
-        "'3 - Dias de Férias_DataCard1' As typedDataCard.numberEditCard":
+        "'Dias de Férias_DataCard3' As typedDataCard.numberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="OData__x0033__x002d_DiasF_x00e9_rias"
             Default: =ThisItem.'3 - Dias de Férias'
@@ -772,7 +772,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value(DataCardValue12.Text)
+            Update: =Value('DiasFerias Value3'.Text)
             Width: =431
             X: =2
             Y: =3
@@ -788,7 +788,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue12 As text:
+            "'DiasFerias Value3' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -817,7 +817,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue12.Y + DataCardValue12.Height
+                Y: ='DiasFerias Value3'.Y + 'DiasFerias Value3'.Height
                 ZIndex: =3
 
             StarVisible12 As label:
