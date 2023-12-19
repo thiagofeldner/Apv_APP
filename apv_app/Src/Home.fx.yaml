@@ -21,7 +21,7 @@ Home As screen:
         Size: =14
         Text: ="Aditivos Contratuais"
         Width: =155
-        X: =16
+        X: =53
         Y: =114
         ZIndex: =5
 
@@ -46,8 +46,8 @@ Home As screen:
         Size: =14
         Text: ="Solicitação de Viagens"
         Width: =155
-        X: =16
-        Y: =206
+        X: =53
+        Y: =208
         ZIndex: =6
 
     cabecalho As Cabeçalho:
@@ -100,7 +100,7 @@ Home As screen:
         Size: =14
         Text: ="Solicitação de Férias"
         Width: =155
-        X: =353
+        X: =328
         Y: =114
         ZIndex: =9
 
