@@ -29,6 +29,8 @@
     Form1 As form:
         DataSource: |
             =[@'Solicitação de Férias']
+        Height: =473
+        Width: =1293
         X: =40
         Y: =40
         ZIndex: =3
@@ -44,7 +46,7 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "Nome")
             Required: =false
             Update: =DataCardValue1.Text
-            Width: =266
+            Width: =431
             X: =0
             Y: =0
             ZIndex: =1
@@ -112,7 +114,7 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "NomedoGerente")
             Required: =false
             Update: =DataCardValue2.Text
-            Width: =266
+            Width: =431
             X: =1
             Y: =0
             ZIndex: =1
@@ -180,7 +182,7 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "EmaildoGerente")
             Required: =false
             Update: =DataCardValue3.Text
-            Width: =266
+            Width: =431
             X: =2
             Y: =0
             ZIndex: =1
@@ -247,7 +249,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue4.SelectedDate
-            Width: =266
+            Width: =431
             X: =0
             Y: =1
             ZIndex: =1
@@ -312,7 +314,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue5.SelectedDate
-            Width: =266
+            Width: =431
             X: =1
             Y: =1
             ZIndex: =1
@@ -377,7 +379,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue6.Text)
-            Width: =266
+            Width: =431
             X: =2
             Y: =1
             ZIndex: =1
@@ -444,7 +446,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue7.SelectedDate
-            Width: =266
+            Width: =431
             X: =0
             Y: =2
             ZIndex: =1
@@ -509,7 +511,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue8.SelectedDate
-            Width: =266
+            Width: =431
             X: =1
             Y: =2
             ZIndex: =1
@@ -574,7 +576,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue9.Text)
-            Width: =266
+            Width: =431
             X: =2
             Y: =2
             ZIndex: =1
@@ -641,7 +643,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue10.SelectedDate
-            Width: =266
+            Width: =431
             X: =0
             Y: =3
             ZIndex: =1
@@ -706,7 +708,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue11.SelectedDate
-            Width: =266
+            Width: =431
             X: =1
             Y: =3
             ZIndex: =1
@@ -771,7 +773,7 @@
             Height: =50
             Required: =false
             Update: =Value(DataCardValue12.Text)
-            Width: =266
+            Width: =431
             X: =2
             Y: =3
             ZIndex: =1
