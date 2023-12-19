@@ -248,7 +248,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: ='InicioFérias Value1'.SelectedDate
+            Update: ='InicioFerias Value1'.SelectedDate
             Width: =431
             X: =0
             Y: =1
@@ -264,7 +264,7 @@
                 Y: =10
                 ZIndex: =1
 
-            "'InicioFérias Value1' As datepicker":
+            "'InicioFerias Value1' As datepicker":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -291,7 +291,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='InicioFérias Value1'.Y + 'InicioFérias Value1'.Height
+                Y: ='InicioFerias Value1'.Y + 'InicioFerias Value1'.Height
                 ZIndex: =3
 
             StarVisible4 As label:
@@ -396,7 +396,7 @@
 
             "'DiasFerias Value1' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =DateDiff('InicioFérias Value1'.SelectedDate,'FimFerias Value1'.SelectedDate,TimeUnit.Days)
+                Default: =DateDiff('InicioFerias Value1'.SelectedDate,'FimFerias Value1'.SelectedDate,TimeUnit.Days)
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -593,7 +593,7 @@
 
             "'DiasFerias Value2' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =DateDiff('InicioFerias Value2'.SelectedDate,'FimFerias Value2'.SelectedDate,TimeUnit.Days)
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -790,7 +790,7 @@
 
             "'DiasFerias Value3' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =DateDiff('InicioFerias Value3'.SelectedDate,'FimFerias Value3'.SelectedDate,TimeUnit.Days)
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
