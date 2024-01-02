@@ -50,7 +50,7 @@
         BorderThickness: =1
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =547
+        Height: =509
         Items: ='gasto de viagem'
         LoadingSpinner: =LoadingSpinner.Data
         ShowNavigation: =true
@@ -94,8 +94,8 @@
             OnSelect: =Select(Parent)
             Text: =ThisItem.Solicitante.DisplayName
             Width: =197
-            X: =188
-            Y: =37
+            X: =155
+            Y: =36
             ZIndex: =4
 
         lblValorGasto As label:
@@ -115,7 +115,7 @@
                 ="Valor Gasto:"
             Width: =162
             X: =8
-            Y: =317
+            Y: =264
             ZIndex: =6
 
         lblValorSolicitado As label:
@@ -135,7 +135,7 @@
                 ="Valor Solicitado:"
             Width: =162
             X: =8
-            Y: =258
+            Y: =205
             ZIndex: =7
 
         lblDataSolicitacao As label:
@@ -155,7 +155,7 @@
                 ="Data Solicitação:"
             Width: =162
             X: =8
-            Y: =192
+            Y: =139
             ZIndex: =8
 
         lblValoDevolver As label:
@@ -175,7 +175,7 @@
                 ="Valor a Devolver:"
             Width: =162
             X: =8
-            Y: =371
+            Y: =318
             ZIndex: =9
 
         lblMotivo As label:
@@ -195,7 +195,7 @@
                 ="Motivo:"
             Width: =147
             X: =8
-            Y: =115
+            Y: =88
             ZIndex: =10
 
         lblMotivoBD As label:
@@ -212,7 +212,7 @@
             Text: =ThisItem.Título
             Width: =234
             X: =170
-            Y: =103
+            Y: =76
             ZIndex: =11
 
         lblDataSolicitacaoBD As label:
@@ -227,7 +227,7 @@
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Data Solicitação'
             X: =175
-            Y: =184
+            Y: =131
             ZIndex: =12
 
         lblValorSolicitadoBD As label:
@@ -243,7 +243,7 @@
             Text: |-
                 =Text(ThisItem.'Valor Solicitado',"$##.###00")
             X: =175
-            Y: =251
+            Y: =198
             ZIndex: =13
 
         lblValorGastoBD As label:
@@ -259,7 +259,7 @@
             Text: |-
                 =Text(ThisItem.'Valor Gasto', "$##.###00")
             X: =175
-            Y: =313
+            Y: =260
             ZIndex: =14
 
         lblValoDevolverBD As label:
@@ -279,7 +279,7 @@
                 =Text(Value(ThisItem.'Valor a Devolver', "en-US"), "R$ ##.###00", "en-US")
             Width: =178
             X: =175
-            Y: =368
+            Y: =315
             ZIndex: =15
 
         lblValoRestituir As label:
@@ -299,7 +299,7 @@
                 ="Valor a Restituir:"
             Width: =162
             X: =8
-            Y: =423
+            Y: =370
             ZIndex: =16
 
         lblValoRestituirBD As label:
@@ -317,19 +317,6 @@
                 =Text(Value(ThisItem.'Valor a Restituir', "en-US"), "R$ ##.###00", "en-US")
             Width: =178
             X: =175
-            Y: =423
+            Y: =370
             ZIndex: =17
-
-        Image2 As image:
-            Height: =45
-            Image: =User().Image
-            OnSelect: =Select(Parent)
-            RadiusBottomLeft: =100
-            RadiusBottomRight: =100
-            RadiusTopLeft: =100
-            RadiusTopRight: =100
-            Width: =44
-            X: =131
-            Y: =31
-            ZIndex: =18
 

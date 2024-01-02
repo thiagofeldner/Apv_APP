@@ -245,7 +245,6 @@
     "GalSolViagens": 336,
     "Home": 4,
     "Host": 3,
-    "Image2": 356,
     "Inicio das Férias_DataCard1": 273,
     "Início das Férias_DataCard2": 288,
     "Início do contrato_DataCard1": 61,
@@ -357,7 +356,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/02/2024 14:12:25",
+  "HeaderLastSavedDateTimeUTC": "01/02/2024 14:13:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "f5533ccf-c48b-4a80-8434-07ba8e52221e": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/164be836f1d1487b954cf1671d9af612\""
@@ -396,7 +395,6 @@
     "form": 4,
     "formViewer": 9,
     "gallery": 2,
-    "image": 10,
     "label": 0,
     "rectangle": 3,
     "text": 6
@@ -645,7 +643,6 @@
     "GalSolViagens": {},
     "Home": {},
     "Host": {},
-    "Image2": {},
     "Inicio das Férias_DataCard1": {},
     "Início das Férias_DataCard2": {},
     "Início do contrato_DataCard1": {},
@@ -1016,7 +1013,6 @@
     "GalSolViagens": 335,
     "Home": 3,
     "Host": 0,
-    "Image2": 0,
     "Inicio das Férias_DataCard1": 262,
     "Início das Férias_DataCard2": 265,
     "Início do contrato_DataCard1": 28,
