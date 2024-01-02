@@ -94,8 +94,8 @@
             OnSelect: =Select(Parent)
             Text: =ThisItem.Solicitante.DisplayName
             Width: =197
-            X: =155
-            Y: =36
+            X: =170
+            Y: =37
             ZIndex: =4
 
         lblValorGasto As label:
@@ -155,7 +155,7 @@
                 ="Data Solicitação:"
             Width: =162
             X: =8
-            Y: =139
+            Y: =148
             ZIndex: =8
 
         lblValoDevolver As label:
@@ -224,10 +224,11 @@
             DisabledColor: =RGBA(161, 159, 157, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
+            Height: =32
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Data Solicitação'
             X: =175
-            Y: =131
+            Y: =154
             ZIndex: =12
 
         lblValorSolicitadoBD As label:
@@ -243,7 +244,7 @@
             Text: |-
                 =Text(ThisItem.'Valor Solicitado',"$##.###00")
             X: =175
-            Y: =198
+            Y: =204
             ZIndex: =13
 
         lblValorGastoBD As label:
