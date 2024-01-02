@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2023-10-30T18:14:11.1260000Z",
+      "LastChangedTimeString": "2023-12-21T18:40:18.0790000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -38,6 +38,10 @@
       "Nome": "Nome do Colaborador",
       "NomedoGerente": "Nome do Gerente",
       "OData__ColorTag": "Pressione Delete para excluir o ícone.",
+      "OData__x0030__x002d_FimdasF_x00e9_rias": "0 - Fim das Férias",
+      "OData__x0030__x002d_FimdasF_x00e9_rias#Id": "0 - Fim das Férias Id",
+      "OData__x0030__x002d_In_x00ed_ciodasF_x": "0 - Início das Férias",
+      "OData__x0030__x002d_In_x00ed_ciodasF_x#Id": "0 - Início das Férias Id",
       "OData__x0032__x002d_DiasdeF_x00e9_rias": "2 - Dias de Férias",
       "OData__x0032__x002d_FimdasF_x00e9_rias": "2 - Fim das Férias",
       "OData__x0032__x002d_In_x00ed_ciodasF_x": "2 - Início das Férias",
