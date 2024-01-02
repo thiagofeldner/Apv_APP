@@ -3084,10 +3084,10 @@
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Claims"]
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@'Acompanhamento dos Termos aditivos da Agência'].OData__ModernAudienceTargetUserField)
+                Items: =Choices([@'Acompanhamento dos Termos aditivos da Agência'].Audiência)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Claims"]
-                SearchItems: =Choices('Acompanhamento dos Termos aditivos da Agência'.OData__ModernAudienceTargetUserField,DataCardValue52.SearchText)
+                SearchItems: =Choices('Acompanhamento dos Termos aditivos da Agência'.Audiência,DataCardValue52.SearchText)
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
