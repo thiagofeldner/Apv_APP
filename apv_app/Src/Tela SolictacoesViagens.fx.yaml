@@ -50,7 +50,7 @@
         BorderThickness: =1
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =539
+        Height: =547
         Items: ='gasto de viagem'
         LoadingSpinner: =LoadingSpinner.Data
         ShowNavigation: =true
@@ -59,7 +59,7 @@
         TemplateSize: =Min(440, Self.Height - 60)
         Width: =1329
         X: =20
-        Y: =137
+        Y: =128
         ZIndex: =3
 
         lblSolicitante As label:
@@ -78,7 +78,7 @@
                 ="Solicitante:"
             Width: =121
             X: =8
-            Y: =34
+            Y: =36
             ZIndex: =3
 
         lblSolBD As label:
@@ -93,9 +93,9 @@
             Height: =39
             OnSelect: =Select(Parent)
             Text: =ThisItem.Solicitante.DisplayName
-            Width: =261
-            X: =170
-            Y: =34
+            Width: =197
+            X: =188
+            Y: =37
             ZIndex: =4
 
         lblValorGasto As label:
@@ -115,7 +115,7 @@
                 ="Valor Gasto:"
             Width: =162
             X: =8
-            Y: =262
+            Y: =317
             ZIndex: =6
 
         lblValorSolicitado As label:
@@ -135,7 +135,7 @@
                 ="Valor Solicitado:"
             Width: =162
             X: =8
-            Y: =203
+            Y: =258
             ZIndex: =7
 
         lblDataSolicitacao As label:
@@ -155,7 +155,7 @@
                 ="Data Solicitação:"
             Width: =162
             X: =8
-            Y: =137
+            Y: =192
             ZIndex: =8
 
         lblValoDevolver As label:
@@ -175,7 +175,7 @@
                 ="Valor a Devolver:"
             Width: =162
             X: =8
-            Y: =316
+            Y: =371
             ZIndex: =9
 
         lblMotivo As label:
@@ -195,7 +195,7 @@
                 ="Motivo:"
             Width: =147
             X: =8
-            Y: =79
+            Y: =115
             ZIndex: =10
 
         lblMotivoBD As label:
@@ -207,11 +207,12 @@
             DisabledColor: =RGBA(161, 159, 157, 1)
             FocusedBorderThickness: =4
             Font: =Font.'Segoe UI'
+            Height: =55
             OnSelect: =Select(Parent)
             Text: =ThisItem.Título
-            Width: =250
+            Width: =234
             X: =170
-            Y: =74
+            Y: =103
             ZIndex: =11
 
         lblDataSolicitacaoBD As label:
@@ -226,7 +227,7 @@
             OnSelect: =Select(Parent)
             Text: =ThisItem.'Data Solicitação'
             X: =175
-            Y: =129
+            Y: =184
             ZIndex: =12
 
         lblValorSolicitadoBD As label:
@@ -242,7 +243,7 @@
             Text: |-
                 =Text(ThisItem.'Valor Solicitado',"$##.###00")
             X: =175
-            Y: =196
+            Y: =251
             ZIndex: =13
 
         lblValorGastoBD As label:
@@ -258,7 +259,7 @@
             Text: |-
                 =Text(ThisItem.'Valor Gasto', "$##.###00")
             X: =175
-            Y: =258
+            Y: =313
             ZIndex: =14
 
         lblValoDevolverBD As label:
@@ -278,7 +279,7 @@
                 =Text(Value(ThisItem.'Valor a Devolver', "en-US"), "R$ ##.###00", "en-US")
             Width: =178
             X: =175
-            Y: =313
+            Y: =368
             ZIndex: =15
 
         lblValoRestituir As label:
@@ -298,7 +299,7 @@
                 ="Valor a Restituir:"
             Width: =162
             X: =8
-            Y: =368
+            Y: =423
             ZIndex: =16
 
         lblValoRestituirBD As label:
@@ -316,6 +317,19 @@
                 =Text(Value(ThisItem.'Valor a Restituir', "en-US"), "R$ ##.###00", "en-US")
             Width: =178
             X: =175
-            Y: =368
+            Y: =423
             ZIndex: =17
+
+        Image2 As image:
+            Height: =45
+            Image: =User().Image
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =100
+            RadiusBottomRight: =100
+            RadiusTopLeft: =100
+            RadiusTopRight: =100
+            Width: =44
+            X: =131
+            Y: =31
+            ZIndex: =18
 
