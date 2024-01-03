@@ -447,6 +447,7 @@
             Height: =50
             Required: =false
             Update: ='InicioFerias Value2'.SelectedDate
+            Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =431
             X: =0
             Y: =2
@@ -512,6 +513,7 @@
             Height: =50
             Required: =false
             Update: ='FimFerias Value2'.SelectedDate
+            Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =431
             X: =1
             Y: =2
@@ -577,6 +579,7 @@
             Height: =50
             Required: =false
             Update: =Value('DiasFerias Value2'.Text)
+            Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =431
             X: =2
             Y: =2
@@ -644,6 +647,7 @@
             Height: =50
             Required: =false
             Update: ='InicioFerias Value3'.SelectedDate
+            Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =431
             X: =0
             Y: =3
@@ -709,6 +713,7 @@
             Height: =50
             Required: =false
             Update: ='FimFerias Value3'.SelectedDate
+            Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =431
             X: =1
             Y: =3
@@ -774,6 +779,7 @@
             Height: =50
             Required: =false
             Update: =Value('DiasFerias Value3'.Text)
+            Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =431
             X: =2
             Y: =3
@@ -833,10 +839,9 @@
 
     FormViewer1 As formViewer:
         DataSource: =Férias
-        Height: =182
-        Width: =853
+        Height: =140
         X: =22
-        Y: =463
+        Y: =534
         ZIndex: =4
 
         Colaborador_DataCard1 As typedDataCard.comboBoxViewCard:
@@ -849,7 +854,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue4.Selected
-            Width: =284
+            Width: =266
             X: =0
             Y: =0
             ZIndex: =5
@@ -914,7 +919,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =284
+            Width: =266
             X: =1
             Y: =0
             ZIndex: =5
@@ -951,7 +956,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =284
+            Width: =266
             X: =2
             Y: =0
             ZIndex: =5
@@ -988,7 +993,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =284
+            Width: =266
             X: =0
             Y: =1
             ZIndex: =5
@@ -1038,16 +1043,17 @@
         RadiusTopRight: =0
         Text: ="Enviar"
         Width: =116
-        X: =724
-        Y: =444
+        X: =628
+        Y: =460
         ZIndex: =5
 
     "Radio_PeriodoFerias As 'Botão de opção'.pcfdataset":
+        DefaultSelectedItems: =["1 período"]
         DisplayMode: =DisplayMode.Edit
-        Height: =100
-        Items: =["1 periodo", "Item 2", "Item 3"]
-        Width: =320
-        X: =918
-        Y: =504
+        Height: =112
+        Items: =["1 período", "2 períodos", "3 períodos"]
+        Width: =160
+        X: =1173
+        Y: =460
         ZIndex: =6
 
