@@ -30,13 +30,13 @@
         DataSource: |
             =[@'Solicitação de Férias']
         DefaultMode: =FormMode.New
-        Height: =473
-        Width: =1293
-        X: =40
+        Height: =494
+        Width: =1304
+        X: =28
         Y: =40
         ZIndex: =3
 
-        "'Nome do Colaborador_DataCard1' As typedDataCard.textualEditCard":
+        NomeColaborador_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Nome"
             Default: =ThisItem.'Nome do Colaborador'
@@ -46,8 +46,8 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "Nome")
             Required: =false
-            Update: ='Colaborador Value1'.Text
-            Width: =431
+            Update: =Colaborador_Value1.Text
+            Width: =434
             X: =0
             Y: =0
             ZIndex: =1
@@ -62,7 +62,7 @@
                 Y: =10
                 ZIndex: =1
 
-            "'Colaborador Value1' As text":
+            Colaborador_Value1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =User().FullName
                 DelayOutput: =true
@@ -91,7 +91,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='Colaborador Value1'.Y + 'Colaborador Value1'.Height
+                Y: =Colaborador_Value1.Y + Colaborador_Value1.Height
                 ZIndex: =3
 
             StarVisible1 As label:
@@ -115,7 +115,7 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "NomedoGerente")
             Required: =false
             Update: =DataCardValue2.Text
-            Width: =431
+            Width: =434
             X: =1
             Y: =0
             ZIndex: =1
@@ -183,7 +183,7 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "EmaildoGerente")
             Required: =false
             Update: =DataCardValue3.Text
-            Width: =431
+            Width: =434
             X: =2
             Y: =0
             ZIndex: =1
@@ -250,7 +250,7 @@
             Height: =50
             Required: =false
             Update: ='InicioFerias Value1'.SelectedDate
-            Width: =431
+            Width: =434
             X: =0
             Y: =1
             ZIndex: =1
@@ -315,7 +315,7 @@
             Height: =50
             Required: =false
             Update: ='FimFerias Value1'.SelectedDate
-            Width: =431
+            Width: =434
             X: =1
             Y: =1
             ZIndex: =1
@@ -380,7 +380,7 @@
             Height: =50
             Required: =false
             Update: =Value('DiasFerias Value1'.Text)
-            Width: =431
+            Width: =434
             X: =2
             Y: =1
             ZIndex: =1
@@ -448,7 +448,7 @@
             Required: =false
             Update: ='InicioFerias Value2'.SelectedDate
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
-            Width: =431
+            Width: =434
             X: =0
             Y: =2
             ZIndex: =1
@@ -514,7 +514,7 @@
             Required: =false
             Update: ='FimFerias Value2'.SelectedDate
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
-            Width: =431
+            Width: =434
             X: =1
             Y: =2
             ZIndex: =1
@@ -580,7 +580,7 @@
             Required: =false
             Update: =Value('DiasFerias Value2'.Text)
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
-            Width: =431
+            Width: =434
             X: =2
             Y: =2
             ZIndex: =1
@@ -648,7 +648,7 @@
             Required: =false
             Update: ='InicioFerias Value3'.SelectedDate
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
-            Width: =431
+            Width: =434
             X: =0
             Y: =3
             ZIndex: =1
@@ -714,7 +714,7 @@
             Required: =false
             Update: ='FimFerias Value3'.SelectedDate
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
-            Width: =431
+            Width: =434
             X: =1
             Y: =3
             ZIndex: =1
@@ -780,7 +780,7 @@
             Required: =false
             Update: =Value('DiasFerias Value3'.Text)
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
-            Width: =431
+            Width: =434
             X: =2
             Y: =3
             ZIndex: =1
@@ -837,190 +837,6 @@
                 Y: =DataCardKey12.Y
                 ZIndex: =4
 
-    FormViewer1 As formViewer:
-        DataSource: =Férias
-        Height: =140
-        X: =22
-        Y: =534
-        ZIndex: =4
-
-        Colaborador_DataCard1 As typedDataCard.comboBoxViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Colaborador"
-            Default: =ThisItem.Colaborador
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Férias],DataSourceInfo.DisplayName,"Colaborador")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue4.Selected
-            Width: =266
-            X: =0
-            Y: =0
-            ZIndex: =5
-
-            DataCardKey14 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =52
-                Y: =20
-                ZIndex: =1
-
-            DataCardValue4 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =If(ThisItem.Colaborador.DisplayName = User().FullName, 1, 0,)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["Claims"]
-                DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@Férias].Colaborador)
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["Claims"]
-                SearchItems: =Choices(Férias.Colaborador,DataCardValue4.SearchText)
-                SelectMultiple: =false
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
-                ZIndex: =2
-
-            ErrorMessage13 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
-                ZIndex: =3
-
-            StarVisible13 As label:
-                Align: =Align.Center
-                Height: =DataCardKey14.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey14.Y
-                ZIndex: =4
-
-        Inicio_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Inicio"
-            Default: =ThisItem.Inicio
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Férias],DataSourceInfo.DisplayName,"Inicio")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =266
-            X: =1
-            Y: =0
-            ZIndex: =5
-
-            DataCardKey15 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue5 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
-                ZIndex: =2
-
-        Fim_DataCard1 As typedDataCard.textualViewCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Fim"
-            Default: =ThisItem.Fim
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Férias],DataSourceInfo.DisplayName,"Fim")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =266
-            X: =2
-            Y: =0
-            ZIndex: =5
-
-            DataCardKey16 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue6 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
-                ZIndex: =2
-
-        "'Dias de Férias_DataCard4' As typedDataCard.textualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="DiasdeF_x00e9_rias"
-            Default: =ThisItem.'Dias de Férias'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@Férias],DataSourceInfo.DisplayName,"DiasdeF_x00e9_rias")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =266
-            X: =0
-            Y: =1
-            ZIndex: =5
-
-            DataCardKey17 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =24
-                Y: =12
-                ZIndex: =1
-
-            DataCardValue7 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey17.Y + DataCardKey17.Height + 5
-                ZIndex: =2
-
     btnEnviar As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -1053,7 +869,25 @@
         Height: =112
         Items: =["1 período", "2 períodos", "3 períodos"]
         Width: =160
-        X: =1173
+        X: =1053
         Y: =460
         ZIndex: =6
+
+    Label1 As label:
+        Text: =LookUp(Férias,email = User().Email , Inicio)
+        X: =63
+        Y: =532
+        ZIndex: =8
+
+    Label1_1 As label:
+        Text: =LookUp(Férias,email = User().Email , Fim)
+        X: =285
+        Y: =532
+        ZIndex: =9
+
+    Label1_2 As label:
+        Text: =LookUp(Férias,email = User().Email , 'Dias de Férias')
+        X: =335
+        Y: =604
+        ZIndex: =10
 
