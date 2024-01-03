@@ -397,7 +397,7 @@
 
             "'DiasFerias Value1' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =DateDiff('InicioFerias Value1'.SelectedDate,'FimFerias Value1'.SelectedDate,TimeUnit.Days)
+                Default: =DateDiff('InicioFerias Value1'.SelectedDate,'FimFerias Value1'.SelectedDate,TimeUnit.Days)+1
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -597,7 +597,7 @@
 
             "'DiasFerias Value2' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =DateDiff('InicioFerias Value2'.SelectedDate,'FimFerias Value2'.SelectedDate,TimeUnit.Days)
+                Default: =DateDiff('InicioFerias Value2'.SelectedDate,'FimFerias Value2'.SelectedDate,TimeUnit.Days)+1
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -797,7 +797,7 @@
 
             "'DiasFerias Value3' As text":
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =DateDiff('InicioFerias Value3'.SelectedDate,'FimFerias Value3'.SelectedDate,TimeUnit.Days)
+                Default: =DateDiff('InicioFerias Value3'.SelectedDate,'FimFerias Value3'.SelectedDate,TimeUnit.Days)+1
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -870,7 +870,7 @@
         Height: =166
         Items: =["1 período", "2 períodos", "3 períodos"]
         Width: =225
-        X: =152
+        X: =36
         Y: =485
         ZIndex: =6
 
