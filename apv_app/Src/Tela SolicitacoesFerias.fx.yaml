@@ -1038,7 +1038,16 @@
         RadiusTopRight: =0
         Text: ="Enviar"
         Width: =116
-        X: =692
-        Y: =463
+        X: =724
+        Y: =444
         ZIndex: =5
+
+    "Radio_PeriodoFerias As 'Botão de opção'.pcfdataset":
+        DisplayMode: =DisplayMode.Edit
+        Height: =100
+        Items: =["1 periodo", "Item 2", "Item 3"]
+        Width: =320
+        X: =918
+        Y: =504
+        ZIndex: =6
 
