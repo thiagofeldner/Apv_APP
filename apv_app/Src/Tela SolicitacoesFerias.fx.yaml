@@ -50,7 +50,7 @@
             Visible: =false
             Width: =434
             X: =0
-            Y: =4
+            Y: =2
             ZIndex: =1
 
             DataCardKey14 As label:
@@ -103,72 +103,6 @@
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey14.Y
-                ZIndex: =4
-
-        Períodos_DataCard1 As typedDataCard.comboBoxEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Per_x00ed_odos"
-            Default: =ThisItem.Períodos
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"Per_x00ed_odos")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue5.Selected
-            Width: =434
-            X: =1
-            Y: =4
-            ZIndex: =1
-
-            DataCardKey15 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue5 As combobox:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                DefaultSelectedItems: =Parent.Default
-                DisplayFields: =["Value"]
-                DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@'Solicitação de Férias'].Per_x00ed_odos)
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                SearchFields: =["Value"]
-                SearchItems: =Choices('Solicitação de Férias'.Per_x00ed_odos,DataCardValue5.SearchText)
-                SelectMultiple: =false
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey15.Y + DataCardKey15.Height + 5
-                ZIndex: =2
-
-            ErrorMessage61 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue5.Y + DataCardValue5.Height
-                ZIndex: =3
-
-            StarVisible61 As label:
-                Align: =Align.Center
-                Height: =DataCardKey15.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey15.Y
                 ZIndex: =4
 
         NomeColaborador_DataCard1 As typedDataCard.textualEditCard:
@@ -584,7 +518,7 @@
             Update: ='InicioFerias Value2'.SelectedDate
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =434
-            X: =0
+            X: =1
             Y: =2
             ZIndex: =1
 
@@ -650,7 +584,7 @@
             Update: ='FimFerias Value2'.SelectedDate
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =434
-            X: =1
+            X: =2
             Y: =2
             ZIndex: =1
 
@@ -716,8 +650,8 @@
             Update: =Value('DiasFerias Value2'.Text)
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =434
-            X: =2
-            Y: =2
+            X: =0
+            Y: =3
             ZIndex: =1
 
             DataCardKey9 As label:
@@ -784,7 +718,7 @@
             Update: ='InicioFerias Value3'.SelectedDate
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =434
-            X: =0
+            X: =1
             Y: =3
             ZIndex: =1
 
@@ -850,7 +784,7 @@
             Update: ='FimFerias Value3'.SelectedDate
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =434
-            X: =1
+            X: =2
             Y: =3
             ZIndex: =1
 
@@ -916,8 +850,8 @@
             Update: =Value('DiasFerias Value3'.Text)
             Visible: =If(Radio_PeriodoFerias.Selected.Value = "1 período" Or Radio_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =429
-            X: =2
-            Y: =3
+            X: =0
+            Y: =4
             ZIndex: =1
 
             DataCardKey12 As label:
