@@ -1544,6 +1544,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel"
                 }
               ],
@@ -1994,19 +2024,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.Períodos_DataCard1.DataCardValue5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.Períodos_DataCard1.DataCardValue5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4"
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.Períodos_DataCard1.DataCardValue5"
               }
             }
           ],
