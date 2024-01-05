@@ -938,9 +938,10 @@
         FontSize: =24
         Height: =166
         Items: =["1 período", "2 períodos", "3 períodos"]
+        OnSelect: =
         Width: =225
-        X: =36
-        Y: =485
+        X: =573
+        Y: =529
         ZIndex: =6
 
     Label1 As label:
