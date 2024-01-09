@@ -114,7 +114,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "NomedoGerente")
             Required: =false
-            Update: =DataCardValue2.Text
+            Update: =NomeGerente_Value.Text
             Width: =434
             X: =1
             Y: =0
@@ -130,7 +130,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As text:
+            NomeGerente_Value As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -159,7 +159,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue2.Y + DataCardValue2.Height
+                Y: =NomeGerente_Value.Y + NomeGerente_Value.Height
                 ZIndex: =3
 
             StarVisible2 As label:
@@ -437,7 +437,7 @@
                 Y: =DataCardKey6.Y
                 ZIndex: =4
 
-        "'Email do Colaborador_DataCard1' As typedDataCard.textualEditCard":
+        EmailColaborador_DataCard1 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="EmaildoColaborador"
             Default: =User().Email
@@ -447,8 +447,8 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "EmaildoColaborador")
             Required: =false
-            Update: =DataCardValue4.Text
-            Visible: =false
+            Update: =EmailColaborador_Value.Text
+            Visible: =true
             Width: =434
             X: =0
             Y: =2
@@ -464,7 +464,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As text:
+            EmailColaborador_Value As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -493,7 +493,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
+                Y: =EmailColaborador_Value.Y + EmailColaborador_Value.Height
                 ZIndex: =3
 
             StarVisible13 As label:
@@ -921,7 +921,11 @@
         OnSelect: |-
             =Patch('Solicitação de Férias',Defaults('Solicitação de Férias'),
                 {
-                    'Nome do Colaborador': Colaborador_Value1.Text
+                    'Nome do Colaborador': Colaborador_Value1.Text,
+                    'Email do Colaborador': EmailColaborador_Value.Text,
+                    'Nome do Gerente': NomeGerente_Value.Text,
+                    'Email do Gerente': NomeGerente_Value.Text
+                    
                 }
             );
         PressedBorderColor: =RGBA(0, 69, 120, 1)
