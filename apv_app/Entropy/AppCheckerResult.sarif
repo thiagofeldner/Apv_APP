@@ -14,19 +14,25 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charOffset": 30,
+                  "snippet": {
+                    "text": ""
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
                 "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4"
+                "type": "'Tela SolicitacoesFerias'.btnEnviar"
               }
             }
           ],
@@ -34,9 +40,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrOperandExpected",
           "ruleIndex": 0
         },
         {
@@ -44,450 +50,159 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charOffset": 30,
+                  "snippet": {
+                    "text": ""
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
                 "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1"
+                "type": "'Tela SolicitacoesFerias'.btnEnviar"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Eof",
+              "ParenClose"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.DataCardValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.DataCardValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.DataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.DataCardValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.DataCardValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.DataCardValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.'InicioFerias Value1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.'InicioFerias Value1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.'InicioFerias Value1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.'FimFerias Value1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.'FimFerias Value1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.'FimFerias Value1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.'DiasFerias Value1'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.'DiasFerias Value1'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.'DiasFerias Value1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.'InicioFerias Value2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.'InicioFerias Value2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.'InicioFerias Value2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.'FimFerias Value2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.'FimFerias Value2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.'FimFerias Value2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.'DiasFerias Value2'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.'DiasFerias Value2'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.'DiasFerias Value2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.'InicioFerias Value3'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.'InicioFerias Value3'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.'InicioFerias Value3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.'FimFerias Value3'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.'FimFerias Value3'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.'FimFerias Value3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.'DiasFerias Value3'.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.'DiasFerias Value3'.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.'DiasFerias Value3'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolictacoesViagens",
-                "type": "'Tela SolictacoesViagens'.GalSolViagens"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Tela SolictacoesViagens",
-                "type": "'Tela SolictacoesViagens'.GalSolViagens"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 5,
+                  "snippet": {
+                    "text": "("
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.btnEnviar"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charOffset": 30,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.btnEnviar"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Record",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType-ExpectedType-ProvidedType",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnEnviar.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charOffset": 30,
+                  "snippet": {
+                    "text": ""
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.btnEnviar"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "<error>"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrNeedRecord-Arg",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -517,7 +232,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -547,7 +262,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -577,7 +292,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -607,7 +322,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -637,7 +352,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -667,7 +382,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -697,7 +412,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -727,7 +442,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -757,7 +472,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -787,7 +502,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -817,7 +532,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -847,7 +562,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -877,7 +592,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -907,7 +622,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -937,7 +652,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -967,7 +682,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -997,7 +712,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1027,7 +742,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1057,7 +772,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1087,7 +802,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1117,7 +832,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1147,7 +862,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1177,7 +892,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1207,7 +922,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1237,7 +952,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1267,7 +982,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1297,7 +1012,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1327,7 +1042,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1357,7 +1072,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1387,7 +1102,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1417,7 +1132,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1447,7 +1162,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1477,7 +1192,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1507,7 +1222,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1537,7 +1252,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1567,7 +1282,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1597,7 +1312,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1627,7 +1342,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1657,7 +1372,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1687,7 +1402,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1717,7 +1432,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1747,7 +1462,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1777,7 +1492,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1807,7 +1522,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1837,7 +1552,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1867,7 +1582,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1897,7 +1612,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1927,7 +1642,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1957,7 +1672,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1987,7 +1702,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2017,7 +1732,517 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Colaborador_DataCard1'.DataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.DataCardValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.DataCardValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.DataCardValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.DataCardValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.DataCardValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.DataCardValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.'InicioFerias Value1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.'InicioFerias Value1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.'InicioFerias Value1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.'FimFerias Value1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.'FimFerias Value1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.'FimFerias Value1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.'DiasFerias Value1'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.'DiasFerias Value1'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.'DiasFerias Value1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.'InicioFerias Value2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.'InicioFerias Value2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.'InicioFerias Value2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.'FimFerias Value2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.'FimFerias Value2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.'FimFerias Value2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.'DiasFerias Value2'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.'DiasFerias Value2'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.'DiasFerias Value2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.'InicioFerias Value3'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.'InicioFerias Value3'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.'InicioFerias Value3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.'FimFerias Value3'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.'FimFerias Value3'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.'FimFerias Value3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.'DiasFerias Value3'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.'DiasFerias Value3'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.'DiasFerias Value3'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolictacoesViagens",
+                "type": "'Tela SolictacoesViagens'.GalSolViagens"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela SolictacoesViagens",
+                "type": "'Tela SolictacoesViagens'.GalSolViagens"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.Dropdown_PeriodoFerias.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.Dropdown_PeriodoFerias.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela SolicitacoesFerias",
+                "type": "'Tela SolicitacoesFerias'.Dropdown_PeriodoFerias"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2047,7 +2272,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
+          "ruleIndex": 8
         }
       ],
       "tool": {
@@ -2055,6 +2280,82 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrOperandExpected",
+              "messageStrings": {
+                "issue": {
+                  "text": "Expected an operand. The formula or expression expects a valid operand. For example, you can add the operand '2' to the expression ' 1 +_' so that the result is '3'. Or, you can add the operand \"there\" to the expression '\"Hi \"& _ ' so that the result is 'Hi there'."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Supply an operand value that will complete the expression. Ensure that the operand's type (text, number, date, or true/false) fits the expression. Match numbers with numbers, text with text, and so on. For example, '1 + \"Hi\"' isn't valid, but '1 + 2' is valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrExpectedFound-Ex-Fnd",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or replace the unexpected characters with an expected character."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType-ExpectedType-ProvidedType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type ({1}). Expecting a {0} value instead."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrNeedRecord-Arg",
+              "messageStrings": {
+                "issue": {
+                  "text": "Cannot use a non-record value in this context: '{0}'."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
