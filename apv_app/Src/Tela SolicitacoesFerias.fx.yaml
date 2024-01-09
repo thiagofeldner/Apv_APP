@@ -31,7 +31,7 @@
             =[@'Solicitação de Férias']
         DefaultMode: =FormMode.New
         Height: =504
-        Width: =1304
+        Width: =1295
         X: =28
         Y: =40
         ZIndex: =3
@@ -47,7 +47,7 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "Nome")
             Required: =false
             Update: =Colaborador_Value1.Text
-            Width: =434
+            Width: =431
             X: =0
             Y: =0
             ZIndex: =1
@@ -115,7 +115,7 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "NomedoGerente")
             Required: =false
             Update: =NomeGerente_Value.Text
-            Width: =434
+            Width: =431
             X: =1
             Y: =0
             ZIndex: =1
@@ -183,7 +183,7 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "EmaildoGerente")
             Required: =false
             Update: =DataCardValue3.Text
-            Width: =434
+            Width: =431
             X: =2
             Y: =0
             ZIndex: =1
@@ -250,7 +250,7 @@
             Height: =50
             Required: =false
             Update: =InicioFerias_Value1.SelectedDate
-            Width: =434
+            Width: =431
             X: =0
             Y: =1
             ZIndex: =1
@@ -315,7 +315,7 @@
             Height: =50
             Required: =false
             Update: =FimFerias_Value1.SelectedDate
-            Width: =434
+            Width: =431
             X: =1
             Y: =1
             ZIndex: =1
@@ -380,7 +380,7 @@
             Height: =50
             Required: =false
             Update: =Value(DiasFerias_Value1.Text)
-            Width: =434
+            Width: =431
             X: =2
             Y: =1
             ZIndex: =1
@@ -448,8 +448,8 @@
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "EmaildoColaborador")
             Required: =false
             Update: =EmailColaborador_Value.Text
-            Visible: =true
-            Width: =434
+            Visible: =false
+            Width: =431
             X: =0
             Y: =2
             ZIndex: =1
@@ -517,7 +517,7 @@
             Required: =false
             Update: =InicioFerias_Value2.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
-            Width: =434
+            Width: =431
             X: =1
             Y: =2
             ZIndex: =1
@@ -583,7 +583,7 @@
             Required: =false
             Update: =FimFerias_Value2.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
-            Width: =434
+            Width: =431
             X: =2
             Y: =2
             ZIndex: =1
@@ -649,7 +649,7 @@
             Required: =false
             Update: =Value(DiasFerias_Value2.Text)
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
-            Width: =434
+            Width: =431
             X: =0
             Y: =3
             ZIndex: =1
@@ -717,7 +717,7 @@
             Required: =false
             Update: =InicioFerias_Value3.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
-            Width: =434
+            Width: =431
             X: =1
             Y: =3
             ZIndex: =1
@@ -783,7 +783,7 @@
             Required: =false
             Update: =FimFerias_Value3.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
-            Width: =434
+            Width: =431
             X: =2
             Y: =3
             ZIndex: =1
@@ -849,7 +849,7 @@
             Required: =false
             Update: =Value(DiasFerias_Value3.Text)
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
-            Width: =429
+            Width: =431
             X: =0
             Y: =4
             ZIndex: =1
@@ -951,18 +951,6 @@
         Y: =460
         ZIndex: =5
 
-    "Radio_PeriodoFerias As 'Botão de opção'.pcfdataset":
-        DefaultSelectedItems: =["1 período"]
-        DisplayMode: =DisplayMode.Edit
-        FontSize: =24
-        Height: =166
-        Items: =["1 período", "2 períodos", "3 períodos"]
-        OnSelect: =
-        Width: =225
-        X: =573
-        Y: =529
-        ZIndex: =6
-
     Label1 As label:
         Align: =Align.Center
         Size: =20
@@ -1016,7 +1004,7 @@
 
     Dropdown_PeriodoFerias As dropdown:
         Items: =Choices('Solicitação de Férias'.Período)
-        X: =73
-        Y: =576
+        X: =56
+        Y: =577
         ZIndex: =16
 

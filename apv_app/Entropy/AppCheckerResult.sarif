@@ -1934,36 +1934,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.Radio_PeriodoFerias"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Tela SolictacoesViagens'.GalSolViagens.AccessibleLabel"
                 }
               ],
