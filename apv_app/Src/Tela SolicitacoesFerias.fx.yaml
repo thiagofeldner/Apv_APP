@@ -918,7 +918,7 @@
         Height: =41
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(16, 110, 190, 1)
-        OnSelect: |-
+        OnSelect: |+
             =Patch('Solicitação de Férias',Defaults('Solicitação de Férias'),
                 {
                     'Nome do Colaborador': Colaborador_Value1.Text,
@@ -926,17 +926,18 @@
                     'Nome do Gerente': NomeGerente_Value.Text,
                     'Email do Gerente': NomeGerente_Value.Text,
                     'Período': Dropdown_PeriodoFerias,
-                    '1 - Inicio das Férias': InicioFerias_Value1,
-                    '1 - Fim das Férias': FimFerias_Value1,
+                    '1 - Inicio das Férias': InicioFerias_Value1.SelectedDate,
+                    '1 - Fim das Férias': FimFerias_Value1.SelectedDate,
                     '1 - Dias de Férias': DiasFerias_Value1,
-                    '2 - Início das Férias': InicioFerias_Value2,
-                    '2 - Fim das Férias': FimFerias_Value2,
+                    '2 - Início das Férias': InicioFerias_Value2.SelectedDate,
+                    '2 - Fim das Férias': FimFerias_Value2.SelectedDate,
                     '2 - Dias de Férias': DiasFerias_Value2,
-                    '3 - Início Férias': InicioFerias_Value3,
-                    '3 - Fim Férias': FimFerias_Value3,
+                    '3 - Início Férias': InicioFerias_Value3.SelectedDate,
+                    '3 - Fim Férias': FimFerias_Value3.SelectedDate,
                     '3 - Dias de Férias': DiasFerias_Value3
                 }
             );
+            
         PressedBorderColor: =RGBA(0, 69, 120, 1)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(16, 110, 190, 1)
