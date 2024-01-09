@@ -918,7 +918,12 @@
         Height: =41
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(16, 110, 190, 1)
-        OnSelect: =Patch('Solicitação de Férias',
+        OnSelect: |-
+            =Patch('Solicitação de Férias',Defaults('Solicitação de Férias'),
+                {
+                    'Nome do Colaborador': Colaborador_Value1.Text
+                }
+            );
         PressedBorderColor: =RGBA(0, 69, 120, 1)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(16, 110, 190, 1)
