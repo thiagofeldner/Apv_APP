@@ -45,9 +45,8 @@
       "OData__x0033__x002d_DiasF_x00e9_rias": "3 - Dias de Férias",
       "OData__x0033__x002d_FimF_x00e9_rias": "3 - Fim Férias",
       "OData__x0033__x002d_In_x00ed_cioF_x00e": "3 - Início Férias",
-      "Periodo": "Periodo",
-      "Periodo2": "Periodo 2",
-      "Periodo2#Id": "Periodo 2 Id",
+      "Periodo2": "Período",
+      "Periodo2#Id": "Período Id",
       "Status": "Status ",
       "Title": "Título"
     },

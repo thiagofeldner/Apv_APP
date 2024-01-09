@@ -249,7 +249,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: ='InicioFerias Value1'.SelectedDate
+            Update: =InicioFerias_Value1.SelectedDate
             Width: =434
             X: =0
             Y: =1
@@ -265,7 +265,7 @@
                 Y: =10
                 ZIndex: =1
 
-            "'InicioFerias Value1' As datepicker":
+            InicioFerias_Value1 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -292,7 +292,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='InicioFerias Value1'.Y + 'InicioFerias Value1'.Height
+                Y: =InicioFerias_Value1.Y + InicioFerias_Value1.Height
                 ZIndex: =3
 
             StarVisible4 As label:
@@ -314,7 +314,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: ='FimFerias Value1'.SelectedDate
+            Update: =FimFerias_Value1.SelectedDate
             Width: =434
             X: =1
             Y: =1
@@ -330,7 +330,7 @@
                 Y: =10
                 ZIndex: =1
 
-            "'FimFerias Value1' As datepicker":
+            FimFerias_Value1 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -357,7 +357,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='FimFerias Value1'.Y + 'FimFerias Value1'.Height
+                Y: =FimFerias_Value1.Y + FimFerias_Value1.Height
                 ZIndex: =3
 
             StarVisible5 As label:
@@ -379,7 +379,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value('DiasFerias Value1'.Text)
+            Update: =Value(DiasFerias_Value1.Text)
             Width: =434
             X: =2
             Y: =1
@@ -395,9 +395,9 @@
                 Y: =10
                 ZIndex: =1
 
-            "'DiasFerias Value1' As text":
+            DiasFerias_Value1 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =DateDiff('InicioFerias Value1'.SelectedDate,'FimFerias Value1'.SelectedDate,TimeUnit.Days)+1
+                Default: =DateDiff(InicioFerias_Value1.SelectedDate,FimFerias_Value1.SelectedDate,TimeUnit.Days)+1
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -424,7 +424,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='DiasFerias Value1'.Y + 'DiasFerias Value1'.Height
+                Y: =DiasFerias_Value1.Y + DiasFerias_Value1.Height
                 ZIndex: =3
 
             StarVisible6 As label:
@@ -515,7 +515,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: ='InicioFerias Value2'.SelectedDate
+            Update: =InicioFerias_Value2.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =434
             X: =1
@@ -532,7 +532,7 @@
                 Y: =10
                 ZIndex: =1
 
-            "'InicioFerias Value2' As datepicker":
+            InicioFerias_Value2 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -559,7 +559,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='InicioFerias Value2'.Y + 'InicioFerias Value2'.Height
+                Y: =InicioFerias_Value2.Y + InicioFerias_Value2.Height
                 ZIndex: =3
 
             StarVisible7 As label:
@@ -581,7 +581,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: ='FimFerias Value2'.SelectedDate
+            Update: =FimFerias_Value2.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =434
             X: =2
@@ -598,7 +598,7 @@
                 Y: =10
                 ZIndex: =1
 
-            "'FimFerias Value2' As datepicker":
+            FimFerias_Value2 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -625,7 +625,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='FimFerias Value2'.Y + 'FimFerias Value2'.Height
+                Y: =FimFerias_Value2.Y + FimFerias_Value2.Height
                 ZIndex: =3
 
             StarVisible8 As label:
@@ -647,7 +647,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value('DiasFerias Value2'.Text)
+            Update: =Value(DiasFerias_Value2.Text)
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =434
             X: =0
@@ -664,9 +664,9 @@
                 Y: =10
                 ZIndex: =1
 
-            "'DiasFerias Value2' As text":
+            DiasFerias_Value2 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =DateDiff('InicioFerias Value2'.SelectedDate,'FimFerias Value2'.SelectedDate,TimeUnit.Days)+1
+                Default: =DateDiff(InicioFerias_Value2.SelectedDate,FimFerias_Value2.SelectedDate,TimeUnit.Days)+1
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -693,7 +693,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='DiasFerias Value2'.Y + 'DiasFerias Value2'.Height
+                Y: =DiasFerias_Value2.Y + DiasFerias_Value2.Height
                 ZIndex: =3
 
             StarVisible9 As label:
@@ -715,7 +715,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: ='InicioFerias Value3'.SelectedDate
+            Update: =InicioFerias_Value3.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =434
             X: =1
@@ -732,7 +732,7 @@
                 Y: =10
                 ZIndex: =1
 
-            "'InicioFerias Value3' As datepicker":
+            InicioFerias_Value3 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -759,7 +759,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='InicioFerias Value3'.Y + 'InicioFerias Value3'.Height
+                Y: =InicioFerias_Value3.Y + InicioFerias_Value3.Height
                 ZIndex: =3
 
             StarVisible10 As label:
@@ -781,7 +781,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: ='FimFerias Value3'.SelectedDate
+            Update: =FimFerias_Value3.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =434
             X: =2
@@ -798,7 +798,7 @@
                 Y: =10
                 ZIndex: =1
 
-            "'FimFerias Value3' As datepicker":
+            FimFerias_Value3 As datepicker:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultDate: =Parent.Default
                 DisplayMode: =Parent.DisplayMode
@@ -825,7 +825,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='FimFerias Value3'.Y + 'FimFerias Value3'.Height
+                Y: =FimFerias_Value3.Y + FimFerias_Value3.Height
                 ZIndex: =3
 
             StarVisible11 As label:
@@ -847,7 +847,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =Value('DiasFerias Value3'.Text)
+            Update: =Value(DiasFerias_Value3.Text)
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =429
             X: =0
@@ -864,9 +864,9 @@
                 Y: =10
                 ZIndex: =1
 
-            "'DiasFerias Value3' As text":
+            DiasFerias_Value3 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =DateDiff('InicioFerias Value3'.SelectedDate,'FimFerias Value3'.SelectedDate,TimeUnit.Days)+1
+                Default: =DateDiff(InicioFerias_Value3.SelectedDate,FimFerias_Value3.SelectedDate,TimeUnit.Days)+1
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
@@ -893,7 +893,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: ='DiasFerias Value3'.Y + 'DiasFerias Value3'.Height
+                Y: =DiasFerias_Value3.Y + DiasFerias_Value3.Height
                 ZIndex: =3
 
             StarVisible12 As label:
@@ -924,8 +924,17 @@
                     'Nome do Colaborador': Colaborador_Value1.Text,
                     'Email do Colaborador': EmailColaborador_Value.Text,
                     'Nome do Gerente': NomeGerente_Value.Text,
-                    'Email do Gerente': NomeGerente_Value.Text
-                    
+                    'Email do Gerente': NomeGerente_Value.Text,
+                    'Período': Dropdown_PeriodoFerias,
+                    '1 - Inicio das Férias': InicioFerias_Value1,
+                    '1 - Fim das Férias': FimFerias_Value1,
+                    '1 - Dias de Férias': DiasFerias_Value1,
+                    '2 - Início das Férias': InicioFerias_Value2,
+                    '2 - Fim das Férias': FimFerias_Value2,
+                    '2 - Dias de Férias': DiasFerias_Value2,
+                    '3 - Início Férias': InicioFerias_Value3,
+                    '3 - Fim Férias': FimFerias_Value3,
+                    '3 - Dias de Férias': DiasFerias_Value3
                 }
             );
         PressedBorderColor: =RGBA(0, 69, 120, 1)
@@ -1005,7 +1014,7 @@
         ZIndex: =13
 
     Dropdown_PeriodoFerias As dropdown:
-        Items: =Choices('Solicitação de Férias'.'Periodo 2')
+        Items: =Choices('Solicitação de Férias'.Período)
         X: =73
         Y: =576
         ZIndex: =16
