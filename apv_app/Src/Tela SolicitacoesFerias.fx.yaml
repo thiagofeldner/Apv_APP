@@ -1002,7 +1002,7 @@
 
     Dropdown_PeriodoFerias As dropdown:
         Items: =Choices('Solicitação de Férias'.'Periodo 2')
-        X: =90
-        Y: =504
+        X: =73
+        Y: =576
         ZIndex: =16
 
