@@ -451,7 +451,7 @@
             Visible: =false
             Width: =431
             X: =0
-            Y: =2
+            Y: =4
             ZIndex: =1
 
             DataCardKey14 As label:
@@ -518,7 +518,7 @@
             Update: =InicioFerias_Value2.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =431
-            X: =1
+            X: =0
             Y: =2
             ZIndex: =1
 
@@ -584,7 +584,7 @@
             Update: =FimFerias_Value2.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =431
-            X: =2
+            X: =1
             Y: =2
             ZIndex: =1
 
@@ -650,8 +650,8 @@
             Update: =Value(DiasFerias_Value2.Text)
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período", false, true)
             Width: =431
-            X: =0
-            Y: =3
+            X: =2
+            Y: =2
             ZIndex: =1
 
             DataCardKey9 As label:
@@ -718,7 +718,7 @@
             Update: =InicioFerias_Value3.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =431
-            X: =1
+            X: =0
             Y: =3
             ZIndex: =1
 
@@ -784,7 +784,7 @@
             Update: =FimFerias_Value3.SelectedDate
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =431
-            X: =2
+            X: =1
             Y: =3
             ZIndex: =1
 
@@ -850,8 +850,8 @@
             Update: =Value(DiasFerias_Value3.Text)
             Visible: =If(Dropdown_PeriodoFerias.Selected.Value = "1 período" Or Dropdown_PeriodoFerias.Selected.Value = "2 períodos", false, true)
             Width: =431
-            X: =0
-            Y: =4
+            X: =2
+            Y: =3
             ZIndex: =1
 
             DataCardKey12 As label:
