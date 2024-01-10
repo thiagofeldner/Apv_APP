@@ -182,7 +182,7 @@
             Height: =50
             MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "EmaildoGerente")
             Required: =false
-            Update: =DataCardValue3.Text
+            Update: =EmailGerente_Value.Text
             Width: =431
             X: =2
             Y: =0
@@ -198,7 +198,7 @@
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue3 As text:
+            EmailGerente_Value As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
@@ -212,7 +212,7 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                Y: =50
                 ZIndex: =2
 
             ErrorMessage3 As label:
@@ -227,7 +227,7 @@
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue3.Y + DataCardValue3.Height
+                Y: =EmailGerente_Value.Y + EmailGerente_Value.Height
                 ZIndex: =3
 
             StarVisible3 As label:
@@ -924,8 +924,8 @@
                     'Nome do Colaborador': Colaborador_Value1.Text,
                     'Email do Colaborador': EmailColaborador_Value.Text,
                     'Nome do Gerente': NomeGerente_Value.Text,
-                    'Email do Gerente': NomeGerente_Value.Text,
-                    'Período': Dropdown_PeriodoFerias.Selected,
+                    'Email do Gerente': EmailGerente_Value.Text,
+                    Período: Dropdown_PeriodoFerias.Selected,
                     '1 - Inicio das Férias': InicioFerias_Value1.SelectedDate,
                     '1 - Fim das Férias': FimFerias_Value1.SelectedDate,
                     '1 - Dias de Férias': DiasFerias_Value1.Text,
@@ -934,7 +934,8 @@
                     '2 - Dias de Férias': DiasFerias_Value2.Text,
                     '3 - Início Férias': InicioFerias_Value3.SelectedDate,
                     '3 - Fim Férias': FimFerias_Value3.SelectedDate,
-                    '3 - Dias de Férias': DiasFerias_Value3.Text
+                    '3 - Dias de Férias': DiasFerias_Value3.Text,
+                    'Status ': "Em Análise"
                 }
             );
             
