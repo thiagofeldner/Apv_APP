@@ -56,9 +56,10 @@
         ZIndex: =4
 
     Label7 As label:
+        Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Text: =LookUp('Solicitação de Férias', 'Email do Colaborador' = User().Email , 'Status ') 
-        X: =611
+        X: =622
         Y: =337
         ZIndex: =5
 
