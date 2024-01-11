@@ -1004,7 +1004,9 @@
         ZIndex: =13
 
     Dropdown_PeriodoFerias As dropdown:
+        Height: =46
         Items: =Choices('Solicitação de Férias'.Período)
+        Width: =376
         X: =56
         Y: =577
         ZIndex: =16
