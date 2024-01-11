@@ -4655,7 +4655,7 @@
       "MetaDataIDKey": "",
       "Name": "Dias de Férias_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4816,7 +4816,7 @@
       "MetaDataIDKey": "",
       "Name": "Dias de Férias_DataCard3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6367,7 +6367,7 @@
       "MetaDataIDKey": "",
       "Name": "EmailColaborador_DataCard1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10989,7 +10989,7 @@
       "MetaDataIDKey": "",
       "Name": "Fim das Férias_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11150,7 +11150,7 @@
       "MetaDataIDKey": "",
       "Name": "Fim Férias_DataCard3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 11,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12458,7 +12458,7 @@
       "MetaDataIDKey": "",
       "Name": "Início das Férias_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -12619,7 +12619,7 @@
       "MetaDataIDKey": "",
       "Name": "Início Férias_DataCard3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
