@@ -8,7 +8,7 @@
         Y: =40
         ZIndex: =1
 
-        "'Contrato de Gestão_DataCard1' As typedDataCard.textualEditCard":
+        crdContratoGestao As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.'Contrato de Gestão'
@@ -76,7 +76,7 @@
                 Y: =DataCardKey18.Y
                 ZIndex: =4
 
-        "'Responsável contrato de gestão_DataCard1' As typedDataCard.textualEditCard":
+        crdResponsavelcontrato As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_2"
             Default: =ThisItem.'Responsável contrato de gestão'
