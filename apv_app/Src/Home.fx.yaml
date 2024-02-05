@@ -100,8 +100,8 @@ Home As screen:
         Size: =14
         Text: ="Solicitação de Férias"
         Width: =155
-        X: =386
-        Y: =236
+        X: =385
+        Y: =234
         ZIndex: =9
 
     lblNameProjetos As text:
@@ -132,4 +132,17 @@ Home As screen:
         X: =373
         Y: =114
         ZIndex: =11
+
+    lblNameRH_1 As text:
+        Align: =Align.Center
+        Default: ="Financeiro"
+        DisplayMode: =DisplayMode.Disabled
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Semibold
+        Height: =58
+        Size: =20
+        Width: =180
+        X: =729
+        Y: =113
+        ZIndex: =12
 
