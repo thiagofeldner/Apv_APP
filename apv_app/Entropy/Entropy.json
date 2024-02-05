@@ -357,7 +357,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/05/2024 14:05:11",
+  "HeaderLastSavedDateTimeUTC": "02/05/2024 16:37:56",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "f5533ccf-c48b-4a80-8434-07ba8e52221e": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/164be836f1d1487b954cf1671d9af612\""
@@ -376,6 +376,8 @@
   "OrderComponentTemplate": {},
   "OrderDataSource": {
     "Acompanhamento dos Termos aditivos da Agência": 0,
+    "Cadastro de Atestado": 9,
+    "Cadastro de Patrimônio": 8,
     "ComboBoxSample": 1,
     "CustomGallerySample": 2,
     "DropDownSample": 7,

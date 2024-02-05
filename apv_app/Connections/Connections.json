@@ -12,6 +12,16 @@
       "parameterHintsV2": {}
     },
     "datasets": {
+      "https://agepeixevivo.sharepoint.com/sites/Intranet": {
+        "dataSources": {
+          "Cadastro de Atestado": {
+            "tableName": "bb2f9a67-095e-4712-a987-0d9583fa9205"
+          },
+          "Cadastro de Patrimônio": {
+            "tableName": "f4b2583f-4c6e-4c81-8921-e87fdc59032f"
+          }
+        }
+      },
       "https://agepeixevivo.sharepoint.com/sites/Projetos": {
         "dataSources": {
           "gasto de viagem": {
@@ -41,7 +51,9 @@
       "Acompanhamento dos Termos aditivos da Agência",
       "gasto de viagem",
       "Solicitação de Férias",
-      "Férias"
+      "Férias",
+      "Cadastro de Patrimônio",
+      "Cadastro de Atestado"
     ],
     "dependencies": {},
     "dependents": [],

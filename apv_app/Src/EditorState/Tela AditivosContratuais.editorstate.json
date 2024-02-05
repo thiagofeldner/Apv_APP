@@ -1155,7 +1155,14 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Live",
-        "Overflow",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Overflow",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Text",
         "Role",
         "Color",
@@ -1167,7 +1174,14 @@
         "PressedBorderColor",
         "HoverBorderColor",
         "BorderStyle",
-        "FocusedBorderColor",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Self.BorderColor",
+          "InvariantPropertyName": "FocusedBorderColor",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Fill",
         "DisabledFill",
         "PressedFill",
@@ -1279,7 +1293,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderColor",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",
