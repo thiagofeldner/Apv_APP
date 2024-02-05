@@ -104,7 +104,7 @@ Home As screen:
         Y: =236
         ZIndex: =9
 
-    lblNameDepto As text:
+    lblNameProjetos As text:
         Align: =Align.Center
         Default: |
             ="Projetos"
@@ -118,7 +118,7 @@ Home As screen:
         Y: =92
         ZIndex: =10
 
-    lblNameDepto_1 As text:
+    lblNameRH As text:
         Align: =Align.Center
         Default: |-
             ="RH
