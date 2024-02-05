@@ -133,7 +133,7 @@ Home As screen:
         Y: =114
         ZIndex: =11
 
-    lblNameRH_1 As text:
+    lblNameFinan As text:
         Align: =Align.Center
         Default: ="Financeiro"
         DisplayMode: =DisplayMode.Disabled

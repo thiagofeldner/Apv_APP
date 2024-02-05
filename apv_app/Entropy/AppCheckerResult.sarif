@@ -1874,19 +1874,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Home.lblNameRH_1.AccessibleLabel"
+                  "fullyQualifiedName": "Home.lblNameFinan.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Home.lblNameRH_1.AccessibleLabel",
+                  "fullyQualifiedName": "Home.lblNameFinan.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Home",
-                "type": "Home.lblNameRH_1"
+                "type": "Home.lblNameFinan"
               }
             }
           ],
