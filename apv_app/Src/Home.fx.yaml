@@ -22,7 +22,7 @@ Home As screen:
         Text: ="Aditivos Contratuais"
         Width: =155
         X: =53
-        Y: =114
+        Y: =236
         ZIndex: =5
 
     btnScreenSolViagens As button:
@@ -47,7 +47,7 @@ Home As screen:
         Text: ="Solicitação de Viagens"
         Width: =155
         X: =53
-        Y: =208
+        Y: =358
         ZIndex: =6
 
     cabecalho As Cabeçalho:
@@ -100,7 +100,21 @@ Home As screen:
         Size: =14
         Text: ="Solicitação de Férias"
         Width: =155
-        X: =328
-        Y: =114
+        X: =386
+        Y: =236
         ZIndex: =9
+
+    lblNameDepto As text:
+        Align: =Align.Center
+        Default: |
+            ="Projetos"
+        DisplayMode: =DisplayMode.Disabled
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Semibold
+        Height: =58
+        Size: =20
+        Width: =180
+        X: =40
+        Y: =92
+        ZIndex: =10
 
