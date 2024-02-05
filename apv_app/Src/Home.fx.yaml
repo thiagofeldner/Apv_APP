@@ -115,7 +115,7 @@ Home As screen:
         Size: =20
         Width: =180
         X: =40
-        Y: =92
+        Y: =114
         ZIndex: =10
 
     lblNameRH As text:
@@ -130,6 +130,6 @@ Home As screen:
         Size: =20
         Width: =180
         X: =373
-        Y: =92
+        Y: =114
         ZIndex: =11
 
