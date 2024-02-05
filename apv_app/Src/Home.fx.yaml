@@ -22,7 +22,7 @@ Home As screen:
         Text: ="Aditivos Contratuais"
         Width: =155
         X: =53
-        Y: =236
+        Y: =234
         ZIndex: =5
 
     btnScreenSolViagens As button:
