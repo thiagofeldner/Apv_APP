@@ -118,3 +118,18 @@ Home As screen:
         Y: =92
         ZIndex: =10
 
+    lblNameDepto_1 As text:
+        Align: =Align.Center
+        Default: |-
+            ="RH
+            "
+        DisplayMode: =DisplayMode.Disabled
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Semibold
+        Height: =58
+        Size: =20
+        Width: =180
+        X: =373
+        Y: =92
+        ZIndex: =11
+
