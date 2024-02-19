@@ -107,7 +107,7 @@ Home As screen:
     lblNameProjetos As text:
         Align: =Align.Center
         Default: |
-            ="Projetos"
+            ="Financeiro"
         DisplayMode: =DisplayMode.Disabled
         Font: =Font.Arial
         FontWeight: =FontWeight.Semibold
@@ -135,7 +135,7 @@ Home As screen:
 
     lblNameFinan As text:
         Align: =Align.Center
-        Default: ="Financeiro"
+        Default: ="Projetos"
         DisplayMode: =DisplayMode.Disabled
         Font: =Font.Arial
         FontWeight: =FontWeight.Semibold

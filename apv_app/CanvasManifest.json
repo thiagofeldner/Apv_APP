@@ -5,7 +5,7 @@
       "DataflowAnalysisEnabled": false,
       "DataflowAnalysisFlagStateToggledByUser": false
     },
-    "DocVersion": "1.336",
+    "DocVersion": "1.337",
     "MinVersionToLoad": "1.331",
     "MSAppStructureVersion": "2.0"
   },
@@ -115,7 +115,7 @@
     "FileID": "43041b7d-62e6-4346-a453-f5e2f01de746",
     "Id": "43041b7d-62e6-4346-a453-f5e2f01de746",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
+    "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "APP APV",
     "OriginatingVersion": "1.336",
