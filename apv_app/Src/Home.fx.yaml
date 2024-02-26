@@ -46,8 +46,8 @@ Home As screen:
         Size: =14
         Text: ="Solicitação de Viagens"
         Width: =155
-        X: =53
-        Y: =358
+        X: =728
+        Y: =234
         ZIndex: =6
 
     cabecalho As Cabeçalho:
