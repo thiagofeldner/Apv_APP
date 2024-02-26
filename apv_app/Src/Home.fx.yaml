@@ -79,7 +79,7 @@ Home As screen:
         Y: =10
         ZIndex: =8
 
-    btnAditContratuais_1 As button:
+    btnSolFerias As button:
         BorderColor: =RGBA(102, 174, 229, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(161, 159, 157, 1)
