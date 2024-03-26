@@ -14,126 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela AditivosContratuais",
-                "type": "'Tela AditivosContratuais'.galAdtContratuais"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Tela AditivosContratuais",
-                "type": "'Tela AditivosContratuais'.galAdtContratuais"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.Title7.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.Title7.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "Tela AditivosContratuais",
-                "type": "'Tela AditivosContratuais'.galAdtContratuais.Title7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.Title7.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.Title7.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Tela AditivosContratuais",
-                "type": "'Tela AditivosContratuais'.galAdtContratuais.Title7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Tela adtContVisualizacao'.frmAdtContratual.crdContratoGestao.DataCardValue8.AccessibleLabel"
                 }
               ],
@@ -1424,36 +1304,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela adtContVisualizacao'.frmAdtContratual.'Finalização do aditivo 5_DataCard1'.DataCardValue51.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela adtContVisualizacao'.frmAdtContratual.'Finalização do aditivo 5_DataCard1'.DataCardValue51.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela adtContVisualizacao",
-                "type": "'Tela adtContVisualizacao'.frmAdtContratual.'Finalização do aditivo 5_DataCard1'.DataCardValue51"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Tela adtContVisualizacao'.frmAdtContratual.Audiência_DataCard1.DataCardValue52.AccessibleLabel"
                 }
               ],
@@ -2084,6 +1934,126 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela AditivosContratuais",
+                "type": "'Tela AditivosContratuais'.galAdtContratuais"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela AditivosContratuais",
+                "type": "'Tela AditivosContratuais'.galAdtContratuais"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.Title7.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.Title7.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "Tela AditivosContratuais",
+                "type": "'Tela AditivosContratuais'.galAdtContratuais.Title7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.Title7.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela AditivosContratuais'.galAdtContratuais.Title7.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela AditivosContratuais",
+                "type": "'Tela AditivosContratuais'.galAdtContratuais.Title7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.logoagenciapeixevivo"
                 }
               ],
@@ -2184,7 +2154,7 @@
               }
             }
           ],
-          "version": "1.337"
+          "version": "1.338"
         }
       }
     }

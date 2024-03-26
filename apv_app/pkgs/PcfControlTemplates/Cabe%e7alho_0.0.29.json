@@ -7,9 +7,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 0,
-        "SectionName": "Style",
-        "SectionType": null,
+        "SectionIndex": 2,
+        "SectionName": null,
+        "SectionType": "StyleAndThemeSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 53,
         "WizardStep": null
       },
@@ -20,8 +21,9 @@
         "PropertyGroupName": "",
         "PropertyKind": 1,
         "SectionIndex": 2,
-        "SectionName": "Title",
-        "SectionType": null,
+        "SectionName": null,
+        "SectionType": "StyleAndThemeSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 33,
         "WizardStep": null
       },
@@ -32,8 +34,9 @@
         "PropertyGroupName": "",
         "PropertyKind": 1,
         "SectionIndex": 2,
-        "SectionName": "Title",
-        "SectionType": null,
+        "SectionName": null,
+        "SectionType": "StyleAndThemeSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 31,
         "WizardStep": null
       },
@@ -45,7 +48,8 @@
         "PropertyKind": 2,
         "SectionIndex": 1,
         "SectionName": null,
-        "SectionType": null,
+        "SectionType": "SizeAndPositioningSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -55,9 +59,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 3,
-        "SectionName": "Logo",
-        "SectionType": null,
+        "SectionIndex": 0,
+        "SectionName": null,
+        "SectionType": "GeneralSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -67,9 +72,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 4,
-        "SectionName": "User",
-        "SectionType": null,
+        "SectionIndex": 0,
+        "SectionName": null,
+        "SectionType": "GeneralSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -79,9 +85,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 2,
-        "SectionName": "Title",
-        "SectionType": null,
+        "SectionIndex": 0,
+        "SectionName": null,
+        "SectionType": "GeneralSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -91,9 +98,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 3,
-        "SectionName": "Logo",
-        "SectionType": null,
+        "SectionIndex": 0,
+        "SectionName": null,
+        "SectionType": "GeneralSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -103,9 +111,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 3,
-        "SectionName": "Logo",
-        "SectionType": null,
+        "SectionIndex": 0,
+        "SectionName": null,
+        "SectionType": "GeneralSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -115,9 +124,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 0,
-        "SectionName": "Style",
-        "SectionType": null,
+        "SectionIndex": 2,
+        "SectionName": null,
+        "SectionType": "StyleAndThemeSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -127,9 +137,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 2,
-        "SectionName": "Title",
-        "SectionType": null,
+        "SectionIndex": 0,
+        "SectionName": null,
+        "SectionType": "GeneralSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -140,8 +151,9 @@
         "PropertyGroupName": "",
         "PropertyKind": 1,
         "SectionIndex": 2,
-        "SectionName": "Title",
-        "SectionType": null,
+        "SectionName": null,
+        "SectionType": "StyleAndThemeSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -151,9 +163,10 @@
         "Hidden": false,
         "PropertyGroupName": "",
         "PropertyKind": 1,
-        "SectionIndex": 1,
+        "SectionIndex": 0,
         "SectionName": null,
-        "SectionType": null,
+        "SectionType": "GeneralSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -165,7 +178,8 @@
         "PropertyKind": 2,
         "SectionIndex": 1,
         "SectionName": null,
-        "SectionType": null,
+        "SectionType": "SizeAndPositioningSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -177,7 +191,8 @@
         "PropertyKind": 2,
         "SectionIndex": 1,
         "SectionName": null,
-        "SectionType": null,
+        "SectionType": "SizeAndPositioningSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -189,7 +204,8 @@
         "PropertyKind": 2,
         "SectionIndex": 1,
         "SectionName": null,
-        "SectionType": null,
+        "SectionType": "SizeAndPositioningSection",
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       }
@@ -204,6 +220,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -216,6 +233,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -228,6 +246,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -240,6 +259,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       },
@@ -252,6 +272,7 @@
         "SectionIndex": 0,
         "SectionName": "Design",
         "SectionType": null,
+        "ShowInCanvasInlineActionBar": false,
         "Type": 0,
         "WizardStep": null
       }
@@ -1037,7 +1058,7 @@
       "IsControlSpecific": false,
       "LoadingOrder": 10,
       "ModifiedPath": "",
-      "Path": "{\"Id\":\"PowerAppsControlInfo\",\"Data\":{\"TemplateVersion\":1,\"Version\":\"0.0.27\",\"IsFirstParty\":true}}",
+      "Path": "{\"Id\":\"PowerAppsControlInfo\",\"Data\":{\"TemplateVersion\":1,\"Version\":\"0.0.29\",\"IsFirstParty\":true}}",
       "Type": 3
     },
     {
@@ -1055,330 +1076,323 @@
       "Type": 2
     },
     {
-      "IsControlSpecific": false,
-      "LoadingOrder": 13,
-      "ModifiedPath": "",
-      "Path": "{\"Id\":\"FormattingData\",\"Data\":{\"timeZoneUtcOffsetMinutes\":0,\"dateTimeFormatInfo\":{\"AMDesignator\":\"\",\"Calendar\":{\"MinSupportedDateTime\":\"0001-01-01T00:00:00\",\"MaxSupportedDateTime\":\"9999-12-31T23:59:59.9999999\",\"AlgorithmType\":1,\"CalendarType\":1,\"Eras\":[1],\"TwoDigitYearMax\":2049,\"IsReadOnly\":false},\"DateSeparator\":\"/\",\"FirstDayOfWeek\":0,\"CalendarWeekRule\":0,\"FullDateTimePattern\":\"dddd, d' de 'MMMM' de 'yyyy HH:mm:ss\",\"LongDatePattern\":\"dddd, d' de 'MMMM' de 'yyyy\",\"LongTimePattern\":\"HH:mm:ss\",\"MonthDayPattern\":\"d 'de' MMMM\",\"PMDesignator\":\"\",\"RFC1123Pattern\":\"ddd, dd MMM yyyy HH':'mm':'ss 'GMT'\",\"ShortDatePattern\":\"dd/MM/yyyy\",\"ShortTimePattern\":\"HH:mm\",\"SortableDateTimePattern\":\"yyyy'-'MM'-'dd'T'HH':'mm':'ss\",\"TimeSeparator\":\":\",\"UniversalSortableDateTimePattern\":\"yyyy'-'MM'-'dd HH':'mm':'ss'Z'\",\"YearMonthPattern\":\"MMMM' de 'yyyy\",\"AbbreviatedDayNames\":[\"dom\",\"seg\",\"ter\",\"qua\",\"qui\",\"sex\",\"sáb\"],\"ShortestDayNames\":[\"D\",\"S\",\"T\",\"Q\",\"Q\",\"S\",\"S\"],\"DayNames\":[\"domingo\",\"segunda-feira\",\"terça-feira\",\"quarta-feira\",\"quinta-feira\",\"sexta-feira\",\"sábado\"],\"AbbreviatedMonthNames\":[\"jan\",\"fev\",\"mar\",\"abr\",\"mai\",\"jun\",\"jul\",\"ago\",\"set\",\"out\",\"nov\",\"dez\",\"\"],\"MonthNames\":[\"janeiro\",\"fevereiro\",\"março\",\"abril\",\"maio\",\"junho\",\"julho\",\"agosto\",\"setembro\",\"outubro\",\"novembro\",\"dezembro\",\"\"],\"IsReadOnly\":false,\"NativeCalendarName\":\"Calendário gregoriano\",\"AbbreviatedMonthGenitiveNames\":[\"jan\",\"fev\",\"mar\",\"abr\",\"mai\",\"jun\",\"jul\",\"ago\",\"set\",\"out\",\"nov\",\"dez\",\"\"],\"MonthGenitiveNames\":[\"janeiro\",\"fevereiro\",\"março\",\"abril\",\"maio\",\"junho\",\"julho\",\"agosto\",\"setembro\",\"outubro\",\"novembro\",\"dezembro\",\"\"]},\"numberFormatInfo\":{\"CurrencyDecimalDigits\":2,\"CurrencyDecimalSeparator\":\",\",\"IsReadOnly\":false,\"CurrencyGroupSizes\":[3],\"NumberGroupSizes\":[3],\"PercentGroupSizes\":[3],\"CurrencyGroupSeparator\":\".\",\"CurrencySymbol\":\"R$\",\"NaNSymbol\":\"NaN\",\"CurrencyNegativePattern\":9,\"NumberNegativePattern\":1,\"PercentPositivePattern\":1,\"PercentNegativePattern\":1,\"NegativeInfinitySymbol\":\"-∞\",\"NegativeSign\":\"-\",\"NumberDecimalDigits\":2,\"NumberDecimalSeparator\":\",\",\"NumberGroupSeparator\":\".\",\"CurrencyPositivePattern\":2,\"PositiveInfinitySymbol\":\"∞\",\"PositiveSign\":\"+\",\"PercentDecimalDigits\":2,\"PercentDecimalSeparator\":\",\",\"PercentGroupSeparator\":\".\",\"PercentSymbol\":\"%\",\"PerMilleSymbol\":\"‰\",\"NativeDigits\":[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"],\"DigitSubstitution\":1},\"timeZoneAdjusters\":[],\"formatInfoCultureName\":\"pt-BR\",\"formatter\":null,\"languagesByCode\":{\"1046\":\"Portuguese (Brazil)\",\"-1\":\"All Languages\"}}}",
-      "Type": 3
-    },
-    {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1025.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1026.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1027.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1028.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1029.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1030.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1031.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1032.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1033.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1035.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1036.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1037.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1038.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1040.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1041.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1042.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1043.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1044.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1045.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1046.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1048.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1049.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1050.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1051.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1053.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1054.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1055.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1057.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1058.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1060.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1061.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1062.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1063.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1066.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1069.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1081.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1086.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1087.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.1110.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.2052.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.2070.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.2074.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.3076.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.3082.json",
       "Type": 5
     },
     {
       "IsControlSpecific": true,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "/PCFControls/Header/strings/Header.3098.json",
       "Type": 5
     },
     {
       "IsControlSpecific": false,
-      "LoadingOrder": 14,
+      "LoadingOrder": 13,
       "ModifiedPath": "",
       "Path": "{\"Id\":\"LocalizedStrings\",\"Data\":{\"LocStrings\":{\"Header_Display_Key\":\"Cabeçalho\",\"Header_Desc_Key\":\"Os controles que compõem o cabeçalho\",\"Title_Display_Key\":\"Título\",\"Title_Desc_Key\":\"O texto do título do cabeçalho\",\"Default_Title\":\"Título do Cabeçalho\",\"IsTitleVisible_Display_Key\":\"Visível\",\"IsTitleVisible_Desc_Key\":\"Alterna a exibição do título\",\"TitleFontSize_Display_Key\":\"Tamanho da fonte\",\"TitleFontSize_Desc_Key\":\"O tamanho da fonte do título\",\"Logo_Display_Key\":\"Logotipo\",\"Logo_Desc_Key\":\"A imagem do logotipo do controle\",\"IsLogoVisible_Display_Key\":\"Visível\",\"IsLogoVisible_Desc_Key\":\"Alterna a exibição do logotipo\",\"LogoTooltip_Display_Key\":\"Dica de Ferramenta\",\"LogoTooltip_Desc_Key\":\"A dica de ferramenta da imagem do logotipo\",\"Default_LogoTooltip\":\"A imagem do logotipo\",\"LogoMaxHeight_Display_Key\":\"Altura máximo do logotipo\",\"LogoMaxHeight_Desc_Key\":\"A imagem do logotipo\",\"OnSelectLogo_Display_Key\":\"Ao selecionar logotipo\",\"OnSelectLogo_Desc_Key\":\"O evento a ser disparado quando o logotipo for selecionado\",\"UserName_Display_Key\":\"Nome de usuário\",\"UserName_Desc_Key\":\"O nome completo do usuário\",\"UserEmail_Display_Key\":\"Email do usuário\",\"UserEmail_Desc_Key\":\"O endereço de email do usuário\",\"IsProfilePictureVisible_Display_Key\":\"Imagem do perfil\",\"IsProfilePictureVisible_Desc_Key\":\"Alterna a exibição da imagem do perfil\",\"UserImage_Display_Key\":\"Imagem do usuário\",\"UserImage_Desc_Key\":\"A imagem da foto do perfil do usuário\",\"Style_Display_Key\":\"Estilo\",\"Style_Desc_Key\":\"O estilo da tela de fundo do cabeçalho\",\"Style_Neutral\":\"Neutro\",\"Style_Primary\":\"Primário\",\"Style_Light\":\"Claro\",\"Base_Palette_Color\":\"Cor da paleta base\",\"Base_Palette_Color_description\":\"Você pode fornecer uma paleta de cor diferente para o item selecionado especificando uma cor de paleta base. Esta cor gera um conjunto de cores semelhantes que são aplicadas a diferentes aspectos do item, mais comumente: estados de preenchimento, borda e interação. Um valor em branco indica que o item usará a paleta de cor do tema do aplicativo.\",\"Font\":\"Fonte\",\"Font_description\":\"O nome da família de fontes em que o texto aparece\",\"Font_Color\":\"Cor da fonte\",\"Font_Color_description\":\"A cor do texto no controle\"}}}",
       "Type": 3
@@ -1405,5 +1419,5 @@
       "Type": 4
     }
   ],
-  "Version": "0.0.27"
+  "Version": "0.0.29"
 }

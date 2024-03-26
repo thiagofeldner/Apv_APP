@@ -54,7 +54,7 @@
     "Name": "Header",
     "OverridableProperties": {},
     "TemplateDisplayName": "Cabeçalho",
-    "Version": "0.0.27"
+    "Version": "0.0.29"
   },
   "combobox": {
     "CustomGroupControlTemplateName": "",
@@ -110,7 +110,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "form",
     "OverridableProperties": {},
-    "Version": "2.4.0"
+    "Version": "2.4.1"
   },
   "gallery": {
     "CustomGroupControlTemplateName": "",
@@ -124,7 +124,7 @@
     "LastModifiedTimestamp": "0",
     "Name": "gallery",
     "OverridableProperties": {},
-    "Version": "2.14.0"
+    "Version": "2.14.1"
   },
   "galleryTemplate": {
     "CustomGroupControlTemplateName": "",
