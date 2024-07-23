@@ -48479,7 +48479,7 @@
       "StyleName": "accentLabelStyle",
       "Type": "ControlInfo"
     },
-    "Tela adtContVisualizacao": {
+    "Tela contContratos": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
@@ -48499,19 +48499,14 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Tela adtContVisualizacao",
+      "Name": "Tela contContratos",
       "OptimizeForDevices": "Off",
       "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
           "Category": "Design",
-          "PropertyName": "Width",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "Height",
+          "PropertyName": "Fill",
           "RuleProviderType": "Unknown"
         },
         {
@@ -48521,17 +48516,12 @@
         },
         {
           "Category": "Design",
-          "PropertyName": "Fill",
+          "PropertyName": "Height",
           "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
-          "PropertyName": "LoadingSpinner",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "LoadingSpinnerColor",
+          "PropertyName": "Width",
           "RuleProviderType": "Unknown"
         },
         {
@@ -48542,6 +48532,16 @@
         {
           "Category": "Design",
           "PropertyName": "Orientation",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "LoadingSpinner",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Design",
+          "PropertyName": "LoadingSpinnerColor",
           "RuleProviderType": "Unknown"
         }
       ],
@@ -48710,5 +48710,5 @@
       "Type": "ControlInfo"
     }
   },
-  "TopParentName": "Tela adtContVisualizacao"
+  "TopParentName": "Tela contContratos"
 }

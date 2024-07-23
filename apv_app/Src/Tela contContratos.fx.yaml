@@ -1,4 +1,4 @@
-"'Tela adtContVisualizacao' As screen":
+"'Tela contContratos' As screen":
 
     frmAdtContratual As form:
         DataSource: ='Controle de contratos'
