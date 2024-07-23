@@ -44,7 +44,7 @@
             ZIndex: =2
 
         bodyContrato As label:
-            Fill: =If(ThisItem.IsSelected,ColorFade(bodyContrato.,75%))
+            Fill: =If(ThisItem.IsSelected,ColorFade(bodyContrato.Fill,75%))
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -55,8 +55,8 @@
             Text: =ThisItem.'Contrato de gestão '
             VerticalAlign: =VerticalAlign.Top
             Width: =titleContratada.Width
-            X: =titleContratada.X
-            Y: =sub_cnpj.Y + sub_cnpj.Height
+            X: =9
+            Y: =70
             ZIndex: =3
 
         NextArrow4 As icon.ChevronRight:
