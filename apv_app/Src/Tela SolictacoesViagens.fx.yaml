@@ -310,14 +310,6 @@
         Width: =1366
         ZIndex: =6
 
-        Icon1_1 As icon.Leave:
-            Height: =41
-            Icon: =Icon.Leave
-            Width: =41
-            X: =1302
-            Y: =21
-            ZIndex: =2
-
         TextCanvas1_1 As Texto:
             Align: ='TextCanvas.Align'.Center
             DisplayMode: =DisplayMode.Edit
@@ -332,4 +324,12 @@
             X: =444
             Y: =21
             ZIndex: =3
+
+        Icon1_1 As icon.Leave:
+            Height: =41
+            Icon: =Icon.Leave
+            Width: =41
+            X: =1283
+            Y: =21
+            ZIndex: =4
 
