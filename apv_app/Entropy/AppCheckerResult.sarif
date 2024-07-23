@@ -14,6 +14,324 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.sub_cnpj.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.sub_cnpj.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".CNPJ"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos.sub_cnpj"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "CNPJ"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.NextArrow4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.NextArrow4.AccessibleLabel",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 4,
+                  "snippet": {
+                    "text": ".Tooltip"
+                  }
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos.NextArrow4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "'NextArrow4'.'AccessibleLabel' -> 'NextArrow4'.'AccessibleLabel'"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrCycleKnown",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.bodyContrato.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.bodyContrato.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 22,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".'Contrato de gestão '"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos.bodyContrato"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Contrato de gestão "
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 7,
+                  "snippet": {
+                    "text": "form_contratos"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrBadType",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Filter"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Filter"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 1,
+                  "charOffset": 47,
+                  "snippet": {
+                    "text": "="
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table",
+              "Control"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleTypesForEquality-Left-Right",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 118,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Filter(form_contratos; 'Controle de contratos' = gal_contratos.Selected.'titleContratada'; 'sub_cnpj'; 'bodyContrato')"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "'gal_contratos'.'Items' -> 'gal_contratos'.'Items'"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrCycleKnown",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.titleContratada.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.titleContratada.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Contratada"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos.titleContratada"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Contratada"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Contrato de gestão _DataCard1'.DataCardValue1.AccessibleLabel"
                 }
               ],
@@ -37,7 +355,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -67,7 +385,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -97,7 +415,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -127,7 +445,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -157,7 +475,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -187,7 +505,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -217,7 +535,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -247,7 +565,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -277,7 +595,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -307,7 +625,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -337,7 +655,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -367,7 +685,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -397,7 +715,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -427,7 +745,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -457,7 +775,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -487,7 +805,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -517,7 +835,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -547,7 +865,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -577,7 +895,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -607,7 +925,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -637,7 +955,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -667,7 +985,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -697,7 +1015,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -727,7 +1045,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -757,7 +1075,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -787,7 +1105,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -817,7 +1135,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -847,7 +1165,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -877,7 +1195,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -907,7 +1225,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -937,7 +1255,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -967,7 +1285,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -997,7 +1315,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1027,7 +1345,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1057,7 +1375,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1087,7 +1405,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1117,7 +1435,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1147,7 +1465,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1177,7 +1495,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1207,7 +1525,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1237,7 +1555,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1267,7 +1585,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1297,7 +1615,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1327,7 +1645,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1357,7 +1675,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1387,7 +1705,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1417,7 +1735,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1447,7 +1765,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1477,7 +1795,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1507,7 +1825,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1537,7 +1855,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1567,7 +1885,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1597,7 +1915,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1627,7 +1945,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1657,7 +1975,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1687,7 +2005,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1717,7 +2035,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1747,7 +2065,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1777,7 +2095,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1807,7 +2125,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1837,7 +2155,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1867,7 +2185,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1897,7 +2215,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 2
+          "ruleIndex": 7
         }
       ],
       "tool": {
@@ -1905,6 +2223,83 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrCycleKnown",
+              "messageStrings": {
+                "issue": {
+                  "text": "This rule creates a circular reference between properties, which is not allowed. A property cannot reference itself or other properties affected by its value. This is the shortest circular reference: {0}"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrBadType",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid argument type."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleTypesForEquality-Left-Right",
+              "messageStrings": {
+                "issue": {
+                  "text": "Incompatible types for comparison. These types can't be compared: {0}, {1}."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "You might need to convert the value to be the same type, such as converting a date string (e.g., \"12/31/2018\") to a date value.",
+                  "If you’re comparing records or tables, the field or column types must match exactly."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {

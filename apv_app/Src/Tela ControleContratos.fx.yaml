@@ -5,7 +5,7 @@
         DelayItemLoading: =true
         Fill: =RGBA(0,0,0,0)
         Height: =708
-        Items: ='Controle de contratos'
+        Items: =Filter(form_contratos, 'Controle de contratos' = gal_contratos.Selected.'titleContratada', 'sub_cnpj', 'bodyContrato')
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
