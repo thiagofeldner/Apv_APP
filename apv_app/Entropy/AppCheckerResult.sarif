@@ -854,19 +854,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.MinuteValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.HourValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.MinuteValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.HourValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela contContratos",
-                "type": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.MinuteValue1"
+                "type": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.HourValue1"
               }
             }
           ],
@@ -884,19 +884,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.HourValue1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.MinuteValue1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.HourValue1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.MinuteValue1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela contContratos",
-                "type": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.HourValue1"
+                "type": "'Tela contContratos'.frmAdtContratual.'Data início seguro_DataCard1'.MinuteValue1"
               }
             }
           ],
