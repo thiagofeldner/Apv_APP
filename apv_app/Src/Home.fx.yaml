@@ -75,7 +75,7 @@ Home As screen:
         Font: =Font.Arial
         Size: =12
         Text: =User().FullName
-        X: =1134
+        X: =1147
         Y: =26
         ZIndex: =8
 
