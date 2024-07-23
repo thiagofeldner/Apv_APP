@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 56,
+                  "charLength": 65,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "If(ThisItem.IsSelected;ColorFade(bodyContrato.Fill;75%))"
+                    "text": "If(ThisItem.IsSelected; ColorFade(bodyContrato.PressedFill; 75%))"
                   }
                 }
               },
@@ -40,6 +40,46 @@
           "message": {
             "arguments": [
               "'bodyContrato'.'Fill' -> 'bodyContrato'.'Fill'"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrCycleKnown",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.bodyContrato.PressedFill"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.gal_contratos.bodyContrato.PressedFill",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 4,
+                  "snippet": {
+                    "text": ".Fill"
+                  }
+                }
+              },
+              "properties": {
+                "member": "PressedFill",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.gal_contratos.bodyContrato"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "'bodyContrato'.'PressedFill' -> 'bodyContrato'.'PressedFill'"
             ],
             "id": "issue"
           },
