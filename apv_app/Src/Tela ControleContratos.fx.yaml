@@ -1,30 +1,28 @@
-"'Tela AditivosContratuais' As screen":
+"'Tela ControleContratos' As screen":
+    Fill: =RGBA(255, 255, 255, 1)
 
-    "galAdtContratuais As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+    "galAdtContratuais As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         '#CopilotOverlayLabel': ="Filtrada"
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
         DelayItemLoading: =true
         DisplayMode: =DisplayMode.View
-        Fill: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(174, 208, 221, 1)
         Height: =669
-        Items: ='Acompanhamento dos Termos aditivos da Agência'
+        Items: ='Controle de contratos'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =
-        TemplatePadding: =4
-        TemplateSize: =110
+        TemplatePadding: =0
+        TemplateSize: =116
         Transition: =Transition.Pop
         Width: =1305
-        WrapCount: =2
         X: =36
         Y: =27
         ZIndex: =1
 
-        Title7 As label:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            Color: =RGBA(50, 49, 48, 1)
+        Title3 As label:
             FocusedBorderColor: =
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
@@ -33,16 +31,14 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =14
-            Text: =ThisItem.'Contrato de Gestão'
+            Text: =ThisItem.Contratada
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle6.Size * 1.8)) / 2
+            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle3.Size*1.8 + 2 + Body2.Size*1.8)) / 2
             ZIndex: =1
 
-        Subtitle6 As label:
-            BorderColor: =RGBA(0, 0, 0, 1)
+        Subtitle3 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -50,29 +46,57 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.'Empresa Contratada'
+            Text: =ThisItem.CNPJ
             VerticalAlign: =VerticalAlign.Top
-            Width: =Title7.Width
-            X: =Title7.X
-            Y: =Title7.Y + Title7.Height
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height
             ZIndex: =2
 
-        Separator7 As rectangle:
-            Fill: =RGBA(255, 255, 255, 1)
+        Body2 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Contrato de gestão '
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Subtitle3.Y + Subtitle3.Height
+            ZIndex: =3
+
+        NextArrow3 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            Tooltip: ="Exibir detalhes do item"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator3 As rectangle:
             Height: =8
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =4
+            ZIndex: =5
 
-        Rectangle7 As rectangle:
-            Fill: =RGBA(0, 18, 107, 1)
-            Height: =Parent.TemplateHeight - Separator7.Height
+        Rectangle4 As rectangle:
+            Height: =Parent.TemplateHeight - Separator3.Height
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =4
-            ZIndex: =5
+            ZIndex: =6
 
     btnVoltar As button:
         BorderColor: =RGBA(0, 0, 0, 0)

@@ -1,4 +1,26 @@
 {
+  "e69a1ddf-0e84-4646-a57a-66581889683e": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://agepeixevivo.sharepoint.com/sites/Intranet": {
+        "dataSources": {
+          "Controle de contratos": {
+            "tableName": "97dc5553-caf9-4c15-a5e7-bb64b98b92f9"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Controle de contratos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "e69a1ddf-0e84-4646-a57a-66581889683e"
+  },
   "f5533ccf-c48b-4a80-8434-07ba8e52221e": {
     "appActions": [
       "providers/PowerPlatform.Governance/Operations/Read"
