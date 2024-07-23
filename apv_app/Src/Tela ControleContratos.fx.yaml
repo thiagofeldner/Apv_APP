@@ -115,7 +115,7 @@
             Icon: =Icon.Leave
             Width: =41
             X: =1302
-            Y: =6
+            Y: =21
             ZIndex: =2
 
     form_contratos As form.PowerApps_CoreControls_Form:
