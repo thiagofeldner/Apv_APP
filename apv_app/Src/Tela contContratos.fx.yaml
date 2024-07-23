@@ -26,6 +26,8 @@
 
             DataCardKey13 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -53,12 +55,16 @@
 
             ErrorMessage14 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -68,6 +74,8 @@
 
             StarVisible14 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey13.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -94,6 +102,8 @@
 
             DataCardKey15 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -121,12 +131,16 @@
 
             ErrorMessage15 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -136,6 +150,8 @@
 
             StarVisible15 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey15.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -161,6 +177,8 @@
 
             DataCardKey16 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -187,12 +205,16 @@
 
             ErrorMessage16 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -202,6 +224,8 @@
 
             StarVisible16 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey16.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -228,6 +252,8 @@
 
             DataCardKey17 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -255,12 +281,16 @@
 
             ErrorMessage17 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -270,6 +300,8 @@
 
             StarVisible17 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey17.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -296,6 +328,8 @@
 
             DataCardKey18 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -323,12 +357,16 @@
 
             ErrorMessage18 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -338,6 +376,8 @@
 
             StarVisible18 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey18.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -364,6 +404,8 @@
 
             DataCardKey19 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -391,12 +433,16 @@
 
             ErrorMessage19 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -406,6 +452,8 @@
 
             StarVisible19 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey19.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -432,6 +480,8 @@
 
             DataCardKey20 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -459,12 +509,16 @@
 
             ErrorMessage20 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -474,6 +528,8 @@
 
             StarVisible20 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey20.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -499,6 +555,8 @@
 
             DataCardKey21 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -524,12 +582,16 @@
 
             ErrorMessage21 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -539,6 +601,8 @@
 
             StarVisible21 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey21.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -565,6 +629,8 @@
 
             DataCardKey22 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -592,12 +658,16 @@
 
             ErrorMessage22 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -607,6 +677,8 @@
 
             StarVisible22 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey22.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -632,6 +704,8 @@
 
             DataCardKey23 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -657,12 +731,16 @@
 
             ErrorMessage23 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -672,6 +750,8 @@
 
             StarVisible23 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey23.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -698,6 +778,8 @@
 
             DataCardKey24 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -725,12 +807,16 @@
 
             ErrorMessage24 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -740,6 +826,8 @@
 
             StarVisible24 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey24.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -765,6 +853,8 @@
 
             DataCardKey25 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -838,12 +928,16 @@
 
             ErrorMessage25 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -853,6 +947,8 @@
 
             StarVisible25 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey25.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -878,6 +974,8 @@
 
             DataCardKey26 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -903,12 +1001,16 @@
 
             ErrorMessage26 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -918,6 +1020,8 @@
 
             StarVisible26 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey26.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -944,6 +1048,8 @@
 
             DataCardKey27 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -971,12 +1077,16 @@
 
             ErrorMessage27 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -986,6 +1096,8 @@
 
             StarVisible27 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey27.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1012,6 +1124,8 @@
 
             DataCardKey28 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1039,12 +1153,16 @@
 
             ErrorMessage28 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1054,6 +1172,8 @@
 
             StarVisible28 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey28.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1079,6 +1199,8 @@
 
             DataCardKey29 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1104,12 +1226,16 @@
 
             ErrorMessage29 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1119,6 +1245,8 @@
 
             StarVisible29 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey29.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1144,6 +1272,8 @@
 
             DataCardKey30 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1169,12 +1299,16 @@
 
             ErrorMessage30 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1184,6 +1318,8 @@
 
             StarVisible30 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey30.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1209,6 +1345,8 @@
 
             DataCardKey31 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1234,12 +1372,16 @@
 
             ErrorMessage31 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1249,6 +1391,8 @@
 
             StarVisible31 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey31.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1274,6 +1418,8 @@
 
             DataCardKey32 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1299,12 +1445,16 @@
 
             ErrorMessage32 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1314,6 +1464,8 @@
 
             StarVisible32 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey32.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1339,6 +1491,8 @@
 
             DataCardKey33 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1364,12 +1518,16 @@
 
             ErrorMessage33 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1379,6 +1537,8 @@
 
             StarVisible33 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey33.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1404,6 +1564,8 @@
 
             DataCardKey34 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1429,12 +1591,16 @@
 
             ErrorMessage34 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1444,6 +1610,8 @@
 
             StarVisible34 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey34.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1469,6 +1637,8 @@
 
             DataCardKey35 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1494,12 +1664,16 @@
 
             ErrorMessage35 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1509,6 +1683,8 @@
 
             StarVisible35 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey35.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1534,6 +1710,8 @@
 
             DataCardKey36 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1559,12 +1737,16 @@
 
             ErrorMessage36 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1574,6 +1756,8 @@
 
             StarVisible36 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey36.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1599,6 +1783,8 @@
 
             DataCardKey37 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1624,12 +1810,16 @@
 
             ErrorMessage37 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1639,6 +1829,8 @@
 
             StarVisible37 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey37.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1664,6 +1856,8 @@
 
             DataCardKey38 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1689,12 +1883,16 @@
 
             ErrorMessage38 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1704,6 +1902,8 @@
 
             StarVisible38 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey38.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1729,6 +1929,8 @@
 
             DataCardKey39 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1754,12 +1956,16 @@
 
             ErrorMessage39 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1769,6 +1975,8 @@
 
             StarVisible39 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey39.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1794,6 +2002,8 @@
 
             DataCardKey40 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1819,12 +2029,16 @@
 
             ErrorMessage40 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1834,6 +2048,8 @@
 
             StarVisible40 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey40.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1859,6 +2075,8 @@
 
             DataCardKey41 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1884,12 +2102,16 @@
 
             ErrorMessage41 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1899,6 +2121,8 @@
 
             StarVisible41 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey41.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1925,6 +2149,8 @@
 
             DataCardKey42 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1952,12 +2178,16 @@
 
             ErrorMessage42 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1967,6 +2197,8 @@
 
             StarVisible42 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey42.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1993,6 +2225,8 @@
 
             DataCardKey43 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2020,12 +2254,16 @@
 
             ErrorMessage43 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2035,6 +2273,8 @@
 
             StarVisible43 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey43.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2060,6 +2300,8 @@
 
             DataCardKey44 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2085,12 +2327,16 @@
 
             ErrorMessage44 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2100,6 +2346,8 @@
 
             StarVisible44 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey44.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2125,6 +2373,8 @@
 
             DataCardKey45 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2150,12 +2400,16 @@
 
             ErrorMessage45 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2165,6 +2419,8 @@
 
             StarVisible45 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey45.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2191,6 +2447,8 @@
 
             DataCardKey46 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2218,12 +2476,16 @@
 
             ErrorMessage46 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2233,6 +2495,8 @@
 
             StarVisible46 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey46.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2258,6 +2522,8 @@
 
             DataCardKey47 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2277,12 +2543,16 @@
 
             ErrorMessage47 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2292,6 +2562,8 @@
 
             StarVisible47 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey47.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2317,6 +2589,8 @@
 
             DataCardKey48 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2343,12 +2617,16 @@
 
             ErrorMessage48 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2358,6 +2636,8 @@
 
             StarVisible48 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey48.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2383,6 +2663,8 @@
 
             DataCardKey49 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2408,12 +2690,16 @@
 
             ErrorMessage49 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2423,6 +2709,8 @@
 
             StarVisible49 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey49.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
