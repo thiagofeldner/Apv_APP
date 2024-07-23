@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 9,
-                  "charOffset": 33,
+                  "charLength": 1,
+                  "charOffset": 46,
                   "snippet": {
-                    "text": "lblHeader"
+                    "text": ";"
                   }
                 }
               },
@@ -39,14 +39,15 @@
           ],
           "message": {
             "arguments": [
-              "lblHeader"
+              "Comma",
+              "Ident"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidName",
+          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
           "ruleIndex": 0
         },
         {
@@ -63,10 +64,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 5,
-                  "charOffset": 42,
+                  "charLength": 1,
+                  "charOffset": 45,
                   "snippet": {
-                    "text": ".Fill"
+                    "text": "."
                   }
                 }
               },
@@ -79,14 +80,14 @@
           ],
           "message": {
             "arguments": [
-              "Error"
+              "_"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidDot",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 1
         },
         {
@@ -2026,6 +2027,23 @@
           "name": "PowerApps app checker",
           "rules": [
             {
+              "id": "app-ErrExpectedFound-Ex-Fnd",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or replace the unexpected characters with an expected character."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
               "id": "app-ErrInvalidName",
               "messageStrings": {
                 "issue": {
@@ -2037,20 +2055,6 @@
                 "howToFix": [
                   "Remove or correct the reference to the name that isn't valid."
                 ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidDot",
-              "messageStrings": {
-                "issue": {
-                  "text": "The '.' operator cannot be used on {0} values."
-                }
-              },
-              "properties": {
-                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""
