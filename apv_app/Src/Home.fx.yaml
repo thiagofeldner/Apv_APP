@@ -1,6 +1,6 @@
 Home As screen:
 
-    btnAditContratuais As button:
+    btnControleContratos As button:
         BorderColor: =RGBA(102, 174, 229, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(161, 159, 157, 1)
