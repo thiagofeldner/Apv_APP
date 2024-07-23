@@ -114,6 +114,7 @@
         Icon1 As icon.Leave:
             Height: =41
             Icon: =Icon.Leave
+            OnSelect: =Navigate(Home)
             Width: =41
             X: =1302
             Y: =21
