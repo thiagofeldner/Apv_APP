@@ -8,6 +8,7 @@
         Items: ='Controle de contratos'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =true
         TemplatePadding: =0
         TemplateSize: =116
         Width: =574
