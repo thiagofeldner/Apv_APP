@@ -2,10 +2,10 @@
 
     frmAdtContratual As form:
         DataSource: ='Controle de contratos'
-        Height: =713
-        Width: =1313
-        X: =24
-        Y: =40
+        Height: =657
+        Width: =1341
+        X: =15
+        Y: =95
         ZIndex: =1
 
         "'Contrato de gestão _DataCard1' As typedDataCard.textualEditCard":
@@ -19,7 +19,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, Title)
             Required: =false
             Update: =DataCardValue1.Text
-            Width: =437
+            Width: =447
             X: =0
             Y: =0
             ZIndex: =2
@@ -95,7 +95,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_1)
             Required: =false
             Update: =DataCardValue2.Text
-            Width: =437
+            Width: =447
             X: =1
             Y: =0
             ZIndex: =2
@@ -170,7 +170,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue3.Selected
-            Width: =437
+            Width: =447
             X: =2
             Y: =0
             ZIndex: =2
@@ -245,7 +245,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_3)
             Required: =false
             Update: =DataCardValue4.Text
-            Width: =437
+            Width: =447
             X: =0
             Y: =1
             ZIndex: =2
@@ -321,7 +321,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_4)
             Required: =false
             Update: =DataCardValue5.Text
-            Width: =437
+            Width: =447
             X: =1
             Y: =1
             ZIndex: =2
@@ -397,7 +397,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_5)
             Required: =false
             Update: =DataCardValue6.Text
-            Width: =437
+            Width: =447
             X: =2
             Y: =1
             ZIndex: =2
@@ -473,7 +473,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_6)
             Required: =false
             Update: =DataCardValue7.Text
-            Width: =437
+            Width: =447
             X: =0
             Y: =2
             ZIndex: =2
@@ -548,7 +548,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue8.SelectedDate
-            Width: =437
+            Width: =447
             X: =1
             Y: =2
             ZIndex: =2
@@ -622,7 +622,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_9)
             Required: =false
             Update: =DataCardValue9.Text
-            Width: =437
+            Width: =447
             X: =2
             Y: =2
             ZIndex: =2
@@ -697,7 +697,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue10.SelectedDate
-            Width: =437
+            Width: =447
             X: =0
             Y: =3
             ZIndex: =2
@@ -771,7 +771,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_11)
             Required: =false
             Update: =DataCardValue11.Text
-            Width: =437
+            Width: =447
             X: =1
             Y: =3
             ZIndex: =2
@@ -846,7 +846,7 @@
             Height: =50
             Required: =false
             Update: =If(Not IsBlank(DateValue1.SelectedDate), DateTime(Year(DateValue1.SelectedDate), Month(DateValue1.SelectedDate), Day(DateValue1.SelectedDate), Value(HourValue1.Selected.Value), Value(MinuteValue1.Selected.Value), 0))
-            Width: =437
+            Width: =447
             X: =2
             Y: =3
             ZIndex: =2
@@ -967,7 +967,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue12.SelectedDate
-            Width: =437
+            Width: =447
             X: =0
             Y: =4
             ZIndex: =2
@@ -1041,7 +1041,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_14)
             Required: =false
             Update: =DataCardValue13.Text
-            Width: =437
+            Width: =447
             X: =1
             Y: =4
             ZIndex: =2
@@ -1117,7 +1117,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_15)
             Required: =false
             Update: =DataCardValue14.Text
-            Width: =437
+            Width: =447
             X: =2
             Y: =4
             ZIndex: =2
@@ -1192,7 +1192,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue15.SelectedDate
-            Width: =437
+            Width: =447
             X: =0
             Y: =5
             ZIndex: =2
@@ -1265,7 +1265,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue16.SelectedItems
-            Width: =437
+            Width: =447
             X: =1
             Y: =5
             ZIndex: =2
@@ -1338,7 +1338,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue17.SelectedDate
-            Width: =437
+            Width: =447
             X: =2
             Y: =5
             ZIndex: =2
@@ -1411,7 +1411,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue18.SelectedDate
-            Width: =437
+            Width: =447
             X: =0
             Y: =6
             ZIndex: =2
@@ -1484,7 +1484,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue19.SelectedItems
-            Width: =437
+            Width: =447
             X: =1
             Y: =6
             ZIndex: =2
@@ -1557,7 +1557,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue20.SelectedDate
-            Width: =437
+            Width: =447
             X: =2
             Y: =6
             ZIndex: =2
@@ -1630,7 +1630,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue21.SelectedDate
-            Width: =437
+            Width: =447
             X: =0
             Y: =7
             ZIndex: =2
@@ -1703,7 +1703,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue22.SelectedItems
-            Width: =437
+            Width: =447
             X: =1
             Y: =7
             ZIndex: =2
@@ -1776,7 +1776,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue23.SelectedDate
-            Width: =437
+            Width: =447
             X: =2
             Y: =7
             ZIndex: =2
@@ -1849,7 +1849,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue24.SelectedDate
-            Width: =437
+            Width: =447
             X: =0
             Y: =8
             ZIndex: =2
@@ -1922,7 +1922,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue25.SelectedItems
-            Width: =437
+            Width: =447
             X: =1
             Y: =8
             ZIndex: =2
@@ -1995,7 +1995,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue26.SelectedDate
-            Width: =437
+            Width: =447
             X: =2
             Y: =8
             ZIndex: =2
@@ -2068,7 +2068,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue27.SelectedDate
-            Width: =437
+            Width: =447
             X: =0
             Y: =9
             ZIndex: =2
@@ -2142,7 +2142,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_29)
             Required: =false
             Update: =DataCardValue28.Text
-            Width: =437
+            Width: =447
             X: =1
             Y: =9
             ZIndex: =2
@@ -2218,7 +2218,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_30)
             Required: =false
             Update: =DataCardValue29.Text
-            Width: =437
+            Width: =447
             X: =2
             Y: =9
             ZIndex: =2
@@ -2293,7 +2293,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue30.SelectedDate
-            Width: =437
+            Width: =447
             X: =0
             Y: =10
             ZIndex: =2
@@ -2366,7 +2366,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue31.SelectedDate
-            Width: =437
+            Width: =447
             X: =1
             Y: =10
             ZIndex: =2
@@ -2440,7 +2440,7 @@
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_33)
             Required: =false
             Update: =DataCardValue32.Text
-            Width: =437
+            Width: =447
             X: =2
             Y: =10
             ZIndex: =2
@@ -2515,7 +2515,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue33.Value
-            Width: =437
+            Width: =447
             X: =0
             Y: =11
             ZIndex: =2
@@ -2582,7 +2582,7 @@
             Height: =50
             Required: =true
             Update: =DataCardValue34.Selected
-            Width: =437
+            Width: =447
             X: =1
             Y: =11
             ZIndex: =2
@@ -2656,7 +2656,7 @@
             Height: =50
             Required: =false
             Update: =DataCardValue35.Attachments
-            Width: =437
+            Width: =447
             X: =2
             Y: =11
             ZIndex: =2
@@ -2718,4 +2718,33 @@
                 Wrap: =false
                 Y: =DataCardKey49.Y
                 ZIndex: =4
+
+    Container1_2 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(71, 158, 245, 1)
+        Height: =80
+        Width: =1366
+        ZIndex: =2
+
+        TextCanvas1_2 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(0, 0, 0, 1)
+            Height: =53
+            Size: =28
+            Text: ="Controle de Contratos"
+            VerticalAlign: ='TextCanvas.VerticalAlign'.Middle
+            Weight: ='TextCanvas.Weight'.Regular
+            Width: =352
+            X: =460
+            Y: =15
+            ZIndex: =1
+
+        Icon1_2 As icon.Leave:
+            Height: =41
+            Icon: =Icon.Leave
+            Width: =41
+            X: =1302
+            Y: =21
+            ZIndex: =2
 
