@@ -13,10 +13,10 @@
             DataField: ="Title"
             Default: =ThisItem.'Contrato de Gestão'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"Title")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,Title)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "Title")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, Title)
             Required: =false
             Update: =DataCardValue8.Text
             Width: =437
@@ -26,6 +26,8 @@
 
             DataCardKey18 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -53,12 +55,16 @@
 
             ErrorMessage15 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -68,6 +74,8 @@
 
             StarVisible15 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey18.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -81,10 +89,10 @@
             DataField: ="field_2"
             Default: =ThisItem.'Responsável contrato de gestão'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_2")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_2)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_2")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_2)
             Required: =false
             Update: =DataCardValue9.Text
             Width: =437
@@ -94,6 +102,8 @@
 
             DataCardKey19 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -121,12 +131,16 @@
 
             ErrorMessage16 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -136,6 +150,8 @@
 
             StarVisible16 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey19.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -149,10 +165,10 @@
             DataField: ="field_3"
             Default: =ThisItem.'N° do contrato'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_3")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_3)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_3")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_3)
             Required: =false
             Update: =DataCardValue10.Text
             Width: =437
@@ -162,6 +178,8 @@
 
             DataCardKey20 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -189,12 +207,16 @@
 
             ErrorMessage17 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -204,6 +226,8 @@
 
             StarVisible17 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey20.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -217,10 +241,10 @@
             DataField: ="field_4"
             Default: =ThisItem.'Objeto da contratação'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_4")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_4)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_4")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_4)
             Required: =false
             Update: =DataCardValue11.Text
             Width: =437
@@ -230,6 +254,8 @@
 
             DataCardKey21 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -257,12 +283,16 @@
 
             ErrorMessage18 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -272,6 +302,8 @@
 
             StarVisible18 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey21.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -285,10 +317,10 @@
             DataField: ="field_5"
             Default: =ThisItem.'Empresa Contratada'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_5")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_5)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_5")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_5)
             Required: =false
             Update: =DataCardValue12.Text
             Width: =437
@@ -298,6 +330,8 @@
 
             DataCardKey22 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -325,12 +359,16 @@
 
             ErrorMessage19 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -340,6 +378,8 @@
 
             StarVisible19 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey22.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -353,10 +393,10 @@
             DataField: ="field_6"
             Default: =ThisItem.'Fiscal Técnico responsável'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_6")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_6)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_6")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_6)
             Required: =false
             Update: =DataCardValue13.Text
             Width: =437
@@ -366,6 +406,8 @@
 
             DataCardKey23 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -393,12 +435,16 @@
 
             ErrorMessage20 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -408,6 +454,8 @@
 
             StarVisible20 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey23.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -421,10 +469,10 @@
             DataField: ="field_7"
             Default: =ThisItem.'Lista de dados de email'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_7")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_7)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_7")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_7)
             Required: =false
             Update: =DataCardValue14.Text
             Width: =437
@@ -434,6 +482,8 @@
 
             DataCardKey24 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -461,12 +511,16 @@
 
             ErrorMessage21 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -476,6 +530,8 @@
 
             StarVisible21 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey24.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -489,7 +545,7 @@
             DataField: ="field_8"
             Default: =ThisItem.'Início do contrato'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_8")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_8)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -501,6 +557,8 @@
 
             DataCardKey25 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -526,12 +584,16 @@
 
             ErrorMessage22 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -541,6 +603,8 @@
 
             StarVisible22 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey25.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -554,7 +618,7 @@
             DataField: ="field_9"
             Default: =ThisItem.'Finalização do contrato'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_9")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_9)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -566,6 +630,8 @@
 
             DataCardKey26 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -591,12 +657,16 @@
 
             ErrorMessage23 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -606,6 +676,8 @@
 
             StarVisible23 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey26.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -619,10 +691,10 @@
             DataField: ="field_10"
             Default: =ThisItem.'Enviar email'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_10")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_10)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_10")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_10)
             Required: =false
             Update: =DataCardValue17.Text
             Width: =437
@@ -632,6 +704,8 @@
 
             DataCardKey27 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -659,12 +733,16 @@
 
             ErrorMessage24 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -674,6 +752,8 @@
 
             StarVisible24 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey27.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -687,10 +767,10 @@
             DataField: ="field_11"
             Default: =ThisItem.'Email Enviado?'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_11")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_11)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_11")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_11)
             Required: =false
             Update: =DataCardValue18.Text
             Width: =437
@@ -700,6 +780,8 @@
 
             DataCardKey28 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -727,12 +809,16 @@
 
             ErrorMessage25 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -742,6 +828,8 @@
 
             StarVisible25 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey28.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -755,7 +843,7 @@
             DataField: ="field_12"
             Default: =ThisItem.'Status de prazo do envio do email'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_12")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_12)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -767,6 +855,8 @@
 
             DataCardKey29 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -794,12 +884,16 @@
 
             ErrorMessage26 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -809,6 +903,8 @@
 
             StarVisible26 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey29.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -822,10 +918,10 @@
             DataField: ="field_13"
             Default: =ThisItem.'Email de confirmação?'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_13")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_13)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_13")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_13)
             Required: =false
             Update: =DataCardValue20.Text
             Width: =437
@@ -835,6 +931,8 @@
 
             DataCardKey30 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -862,12 +960,16 @@
 
             ErrorMessage27 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -877,6 +979,8 @@
 
             StarVisible27 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey30.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -890,10 +994,10 @@
             DataField: ="field_14"
             Default: =ThisItem.'Terá aditivo'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_14")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_14)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_14")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_14)
             Required: =false
             Update: =DataCardValue21.Text
             Width: =437
@@ -903,6 +1007,8 @@
 
             DataCardKey31 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -930,12 +1036,16 @@
 
             ErrorMessage28 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -945,6 +1055,8 @@
 
             StarVisible28 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey31.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -958,10 +1070,10 @@
             DataField: ="field_15"
             Default: =ThisItem.'Data de assinatura do aditivo 1'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_15")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_15)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_15")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_15)
             Required: =false
             Update: =DataCardValue22.Text
             Width: =437
@@ -971,6 +1083,8 @@
 
             DataCardKey32 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -998,12 +1112,16 @@
 
             ErrorMessage29 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1013,6 +1131,8 @@
 
             StarVisible29 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey32.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1026,10 +1146,10 @@
             DataField: ="field_16"
             Default: =ThisItem.'Finalização Estimada do aditivo 1'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_16")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_16)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_16")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_16)
             Required: =false
             Update: =DataCardValue23.Text
             Width: =437
@@ -1039,6 +1159,8 @@
 
             DataCardKey33 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1066,12 +1188,16 @@
 
             ErrorMessage30 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1081,6 +1207,8 @@
 
             StarVisible30 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey33.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1094,10 +1222,10 @@
             DataField: ="field_17"
             Default: =ThisItem.'Enviar email2'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_17")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_17)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_17")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_17)
             Required: =false
             Update: =DataCardValue24.Text
             Width: =437
@@ -1107,6 +1235,8 @@
 
             DataCardKey34 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1134,12 +1264,16 @@
 
             ErrorMessage31 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1149,6 +1283,8 @@
 
             StarVisible31 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey34.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1162,10 +1298,10 @@
             DataField: ="field_18"
             Default: =ThisItem.'Email Enviado?3'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_18")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_18)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_18")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_18)
             Required: =false
             Update: =DataCardValue25.Text
             Width: =437
@@ -1175,6 +1311,8 @@
 
             DataCardKey35 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1202,12 +1340,16 @@
 
             ErrorMessage32 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1217,6 +1359,8 @@
 
             StarVisible32 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey35.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1230,7 +1374,7 @@
             DataField: ="field_19"
             Default: =ThisItem.'Status de prazo do envio do email4'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_19")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_19)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1242,6 +1386,8 @@
 
             DataCardKey36 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1269,12 +1415,16 @@
 
             ErrorMessage33 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1284,6 +1434,8 @@
 
             StarVisible33 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey36.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1297,10 +1449,10 @@
             DataField: ="field_20"
             Default: =ThisItem.'Email de confirmação?5'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_20")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_20)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_20")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_20)
             Required: =false
             Update: =DataCardValue27.Text
             Width: =437
@@ -1310,6 +1462,8 @@
 
             DataCardKey37 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1337,12 +1491,16 @@
 
             ErrorMessage34 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1352,6 +1510,8 @@
 
             StarVisible34 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey37.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1365,10 +1525,10 @@
             DataField: ="field_21"
             Default: =ThisItem.'Terá aditivo6'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_21")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_21)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_21")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_21)
             Required: =false
             Update: =DataCardValue28.Text
             Width: =437
@@ -1378,6 +1538,8 @@
 
             DataCardKey38 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1405,12 +1567,16 @@
 
             ErrorMessage35 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1420,6 +1586,8 @@
 
             StarVisible35 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey38.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1433,10 +1601,10 @@
             DataField: ="field_22"
             Default: =ThisItem.'Data de assinatura do aditivo 2'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_22")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_22)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_22")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_22)
             Required: =false
             Update: =DataCardValue29.Text
             Width: =437
@@ -1446,6 +1614,8 @@
 
             DataCardKey39 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1473,12 +1643,16 @@
 
             ErrorMessage36 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1488,6 +1662,8 @@
 
             StarVisible36 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey39.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1501,10 +1677,10 @@
             DataField: ="field_23"
             Default: =ThisItem.'Finalização do aditivo 2'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_23")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_23)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_23")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_23)
             Required: =false
             Update: =DataCardValue30.Text
             Width: =437
@@ -1514,6 +1690,8 @@
 
             DataCardKey40 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1541,12 +1719,16 @@
 
             ErrorMessage37 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1556,6 +1738,8 @@
 
             StarVisible37 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey40.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1569,10 +1753,10 @@
             DataField: ="field_24"
             Default: =ThisItem.'Enviar email7'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_24")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_24)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_24")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_24)
             Required: =false
             Update: =DataCardValue31.Text
             Width: =437
@@ -1582,6 +1766,8 @@
 
             DataCardKey41 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1609,12 +1795,16 @@
 
             ErrorMessage38 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1624,6 +1814,8 @@
 
             StarVisible38 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey41.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1637,10 +1829,10 @@
             DataField: ="field_25"
             Default: =ThisItem.'Email Enviado?8'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_25")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_25)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_25")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_25)
             Required: =false
             Update: =DataCardValue32.Text
             Width: =437
@@ -1650,6 +1842,8 @@
 
             DataCardKey42 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1677,12 +1871,16 @@
 
             ErrorMessage39 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1692,6 +1890,8 @@
 
             StarVisible39 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey42.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1705,7 +1905,7 @@
             DataField: ="field_26"
             Default: =ThisItem.'Status de prazo do envio do email9'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_26")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_26)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1717,6 +1917,8 @@
 
             DataCardKey43 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1744,12 +1946,16 @@
 
             ErrorMessage40 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1759,6 +1965,8 @@
 
             StarVisible40 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey43.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1772,10 +1980,10 @@
             DataField: ="field_27"
             Default: =ThisItem.'Email de confirmação?10'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_27")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_27)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_27")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_27)
             Required: =false
             Update: =DataCardValue34.Text
             Width: =437
@@ -1785,6 +1993,8 @@
 
             DataCardKey44 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1812,12 +2022,16 @@
 
             ErrorMessage41 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1827,6 +2041,8 @@
 
             StarVisible41 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey44.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1840,10 +2056,10 @@
             DataField: ="field_28"
             Default: =ThisItem.'Terá aditivo11'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_28")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_28)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_28")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_28)
             Required: =false
             Update: =DataCardValue35.Text
             Width: =437
@@ -1853,6 +2069,8 @@
 
             DataCardKey45 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1880,12 +2098,16 @@
 
             ErrorMessage42 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1895,6 +2117,8 @@
 
             StarVisible42 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey45.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1908,10 +2132,10 @@
             DataField: ="field_29"
             Default: =ThisItem.'Data de assinatura do aditivo 3'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_29")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_29)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_29")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_29)
             Required: =false
             Update: =DataCardValue36.Text
             Width: =437
@@ -1921,6 +2145,8 @@
 
             DataCardKey46 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1948,12 +2174,16 @@
 
             ErrorMessage43 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -1963,6 +2193,8 @@
 
             StarVisible43 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey46.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -1976,10 +2208,10 @@
             DataField: ="field_30"
             Default: =ThisItem.'Finalização do aditivo 3'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_30")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_30)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_30")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_30)
             Required: =false
             Update: =DataCardValue37.Text
             Width: =437
@@ -1989,6 +2221,8 @@
 
             DataCardKey47 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2016,12 +2250,16 @@
 
             ErrorMessage44 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2031,6 +2269,8 @@
 
             StarVisible44 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey47.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2044,10 +2284,10 @@
             DataField: ="field_31"
             Default: =ThisItem.'Enviar email12'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_31")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_31)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_31")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_31)
             Required: =false
             Update: =DataCardValue38.Text
             Width: =437
@@ -2057,6 +2297,8 @@
 
             DataCardKey48 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2084,12 +2326,16 @@
 
             ErrorMessage45 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2099,6 +2345,8 @@
 
             StarVisible45 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey48.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2112,10 +2360,10 @@
             DataField: ="field_32"
             Default: =ThisItem.'Email Enviado?13'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_32")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_32)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_32")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_32)
             Required: =false
             Update: =DataCardValue39.Text
             Width: =437
@@ -2125,6 +2373,8 @@
 
             DataCardKey49 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2152,12 +2402,16 @@
 
             ErrorMessage46 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2167,6 +2421,8 @@
 
             StarVisible46 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey49.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2180,7 +2436,7 @@
             DataField: ="field_33"
             Default: =ThisItem.'Status de prazo do envio do email14'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_33")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_33)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -2192,6 +2448,8 @@
 
             DataCardKey50 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2219,12 +2477,16 @@
 
             ErrorMessage47 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2234,6 +2496,8 @@
 
             StarVisible47 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey50.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2247,10 +2511,10 @@
             DataField: ="field_34"
             Default: =ThisItem.'Email de confirmação?15'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_34")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_34)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_34")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_34)
             Required: =false
             Update: =DataCardValue41.Text
             Width: =437
@@ -2260,6 +2524,8 @@
 
             DataCardKey51 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2287,12 +2553,16 @@
 
             ErrorMessage48 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2302,6 +2572,8 @@
 
             StarVisible48 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey51.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2315,10 +2587,10 @@
             DataField: ="field_35"
             Default: =ThisItem.'Terá aditivo16'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_35")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_35)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_35")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_35)
             Required: =false
             Update: =DataCardValue42.Text
             Width: =437
@@ -2328,6 +2600,8 @@
 
             DataCardKey52 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2355,12 +2629,16 @@
 
             ErrorMessage49 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2370,6 +2648,8 @@
 
             StarVisible49 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey52.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2383,10 +2663,10 @@
             DataField: ="field_36"
             Default: =ThisItem.'Data de assinatura do aditivo 4'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_36")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_36)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_36")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_36)
             Required: =false
             Update: =DataCardValue43.Text
             Width: =437
@@ -2396,6 +2676,8 @@
 
             DataCardKey53 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2423,12 +2705,16 @@
 
             ErrorMessage50 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2438,6 +2724,8 @@
 
             StarVisible50 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey53.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2451,10 +2739,10 @@
             DataField: ="field_37"
             Default: =ThisItem.'Finalização do aditivo 4'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_37")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_37)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_37")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_37)
             Required: =false
             Update: =DataCardValue44.Text
             Width: =437
@@ -2464,6 +2752,8 @@
 
             DataCardKey54 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2491,12 +2781,16 @@
 
             ErrorMessage51 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2506,6 +2800,8 @@
 
             StarVisible51 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey54.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2519,10 +2815,10 @@
             DataField: ="field_38"
             Default: =ThisItem.'Enviar email17'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_38")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_38)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_38")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_38)
             Required: =false
             Update: =DataCardValue45.Text
             Width: =437
@@ -2532,6 +2828,8 @@
 
             DataCardKey55 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2559,12 +2857,16 @@
 
             ErrorMessage52 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2574,6 +2876,8 @@
 
             StarVisible52 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey55.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2587,10 +2891,10 @@
             DataField: ="field_39"
             Default: =ThisItem.'Email Enviado?18'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_39")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_39)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_39")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_39)
             Required: =false
             Update: =DataCardValue46.Text
             Width: =437
@@ -2600,6 +2904,8 @@
 
             DataCardKey56 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2627,12 +2933,16 @@
 
             ErrorMessage53 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2642,6 +2952,8 @@
 
             StarVisible53 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey56.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2655,7 +2967,7 @@
             DataField: ="field_40"
             Default: =ThisItem.'Status de prazo do envio do email19'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_40")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_40)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -2667,6 +2979,8 @@
 
             DataCardKey57 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2694,12 +3008,16 @@
 
             ErrorMessage54 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2709,6 +3027,8 @@
 
             StarVisible54 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey57.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2722,10 +3042,10 @@
             DataField: ="field_41"
             Default: =ThisItem.'Email de confirmação?20'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_41")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_41)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_41")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_41)
             Required: =false
             Update: =DataCardValue48.Text
             Width: =437
@@ -2735,6 +3055,8 @@
 
             DataCardKey58 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2762,12 +3084,16 @@
 
             ErrorMessage55 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2777,6 +3103,8 @@
 
             StarVisible55 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey58.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2790,10 +3118,10 @@
             DataField: ="field_42"
             Default: =ThisItem.'Terá aditivo21'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_42")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_42)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_42")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_42)
             Required: =false
             Update: =DataCardValue49.Text
             Width: =437
@@ -2803,6 +3131,8 @@
 
             DataCardKey59 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2830,12 +3160,16 @@
 
             ErrorMessage56 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2845,6 +3179,8 @@
 
             StarVisible56 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey59.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2858,10 +3194,10 @@
             DataField: ="field_43"
             Default: =ThisItem.'Data de assinatura do aditivo 5'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"field_43")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,field_43)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, "field_43")
+            MaxLength: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'], DataSourceInfo.MaxLength, field_43)
             Required: =false
             Update: =DataCardValue50.Text
             Width: =437
@@ -2871,6 +3207,8 @@
 
             DataCardKey60 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2898,12 +3236,16 @@
 
             ErrorMessage57 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2913,6 +3255,8 @@
 
             StarVisible57 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey60.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2926,7 +3270,7 @@
             DataField: ="OData__ModernAudienceTargetUserField"
             Default: =ThisItem.Audiência
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"OData__ModernAudienceTargetUserField")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,OData__ModernAudienceTargetUserField)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -2938,6 +3282,8 @@
 
             DataCardKey62 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -2963,12 +3309,16 @@
 
             ErrorMessage59 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -2978,6 +3328,8 @@
 
             StarVisible59 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey62.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -2991,7 +3343,7 @@
             DataField: ="{Attachments}"
             Default: =ThisItem.Anexos
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,"{Attachments}")
+            DisplayName: =DataSourceInfo([@'Acompanhamento dos Termos aditivos da Agência'],DataSourceInfo.DisplayName,'{Attachments}')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =279
             Required: =false
@@ -3003,6 +3355,8 @@
 
             DataCardKey63 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -3028,12 +3382,16 @@
 
             ErrorMessage60 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -3043,6 +3401,8 @@
 
             StarVisible60 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey63.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)

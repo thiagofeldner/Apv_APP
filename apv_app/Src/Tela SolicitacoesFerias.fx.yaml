@@ -41,10 +41,10 @@
             DataField: ="Nome"
             Default: =ThisItem.'Nome do Colaborador'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"Nome")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'Nome do Colaborador')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "Nome")
+            MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, 'Nome do Colaborador')
             Required: =false
             Update: =Colaborador_Value1.Text
             Width: =431
@@ -54,6 +54,8 @@
 
             DataCardKey1 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -81,12 +83,16 @@
 
             ErrorMessage1 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -96,6 +102,8 @@
 
             StarVisible1 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey1.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -109,10 +117,10 @@
             DataField: ="NomedoGerente"
             Default: =ThisItem.'Nome do Gerente'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"NomedoGerente")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'Nome do Gerente')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "NomedoGerente")
+            MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, 'Nome do Gerente')
             Required: =false
             Update: =NomeGerente_Value.Text
             Width: =431
@@ -122,6 +130,8 @@
 
             DataCardKey2 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -149,12 +159,16 @@
 
             ErrorMessage2 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -164,6 +178,8 @@
 
             StarVisible2 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey2.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -177,10 +193,10 @@
             DataField: ="EmaildoGerente"
             Default: =ThisItem.'Email do Gerente'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"EmaildoGerente")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'Email do Gerente')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "EmaildoGerente")
+            MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, 'Email do Gerente')
             Required: =false
             Update: =EmailGerente_Value.Text
             Width: =431
@@ -190,6 +206,8 @@
 
             DataCardKey3 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -217,12 +235,16 @@
 
             ErrorMessage3 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -232,6 +254,8 @@
 
             StarVisible3 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey3.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -245,7 +269,7 @@
             DataField: ="Iniciodasf_x00e9_rias"
             Default: =ThisItem.'1 - Inicio das Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"Iniciodasf_x00e9_rias")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'1 - Inicio das Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -257,6 +281,8 @@
 
             DataCardKey4 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -282,12 +308,16 @@
 
             ErrorMessage4 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -297,6 +327,8 @@
 
             StarVisible4 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey4.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -310,7 +342,7 @@
             DataField: ="FimdasF_x00e9_rias"
             Default: =ThisItem.'1 - Fim das Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"FimdasF_x00e9_rias")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'1 - Fim das Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -322,6 +354,8 @@
 
             DataCardKey5 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -347,12 +381,16 @@
 
             ErrorMessage5 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -362,6 +400,8 @@
 
             StarVisible5 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey5.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -375,7 +415,7 @@
             DataField: ="DiasdeF_x00e9_rias"
             Default: =ThisItem.'1 - Dias de Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"DiasdeF_x00e9_rias")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'1 - Dias de Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -387,6 +427,8 @@
 
             DataCardKey6 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -414,12 +456,16 @@
 
             ErrorMessage6 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -429,6 +475,8 @@
 
             StarVisible6 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey6.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -442,7 +490,7 @@
             DataField: ="OData__x0032__x002d_In_x00ed_ciodasF_x"
             Default: =ThisItem.'2 - Início das Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"OData__x0032__x002d_In_x00ed_ciodasF_x")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'2 - Início das Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -455,6 +503,8 @@
 
             DataCardKey7 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -480,12 +530,16 @@
 
             ErrorMessage7 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -495,6 +549,8 @@
 
             StarVisible7 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey7.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -508,7 +564,7 @@
             DataField: ="OData__x0032__x002d_FimdasF_x00e9_rias"
             Default: =ThisItem.'2 - Fim das Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"OData__x0032__x002d_FimdasF_x00e9_rias")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'2 - Fim das Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -521,6 +577,8 @@
 
             DataCardKey8 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -546,12 +604,16 @@
 
             ErrorMessage8 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -561,6 +623,8 @@
 
             StarVisible8 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey8.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -574,7 +638,7 @@
             DataField: ="OData__x0032__x002d_DiasdeF_x00e9_rias"
             Default: =ThisItem.'2 - Dias de Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"OData__x0032__x002d_DiasdeF_x00e9_rias")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'2 - Dias de Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -587,6 +651,8 @@
 
             DataCardKey9 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -614,12 +680,16 @@
 
             ErrorMessage9 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -629,6 +699,8 @@
 
             StarVisible9 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey9.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -642,7 +714,7 @@
             DataField: ="OData__x0033__x002d_In_x00ed_cioF_x00e"
             Default: =ThisItem.'3 - Início Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"OData__x0033__x002d_In_x00ed_cioF_x00e")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'3 - Início Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -655,6 +727,8 @@
 
             DataCardKey10 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -680,12 +754,16 @@
 
             ErrorMessage10 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -695,6 +773,8 @@
 
             StarVisible10 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey10.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -708,7 +788,7 @@
             DataField: ="OData__x0033__x002d_FimF_x00e9_rias"
             Default: =ThisItem.'3 - Fim Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"OData__x0033__x002d_FimF_x00e9_rias")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'3 - Fim Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -721,6 +801,8 @@
 
             DataCardKey11 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -746,12 +828,16 @@
 
             ErrorMessage11 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -761,6 +847,8 @@
 
             StarVisible11 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey11.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -774,7 +862,7 @@
             DataField: ="OData__x0033__x002d_DiasF_x00e9_rias"
             Default: =ThisItem.'3 - Dias de Férias'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"OData__x0033__x002d_DiasF_x00e9_rias")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'3 - Dias de Férias')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -787,6 +875,8 @@
 
             DataCardKey12 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -814,12 +904,16 @@
 
             ErrorMessage12 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -829,6 +923,8 @@
 
             StarVisible12 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey12.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -842,10 +938,10 @@
             DataField: ="EmaildoColaborador"
             Default: =User().Email
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,"EmaildoColaborador")
+            DisplayName: =DataSourceInfo([@'Solicitação de Férias'],DataSourceInfo.DisplayName,'Email do Colaborador')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, "EmaildoColaborador")
+            MaxLength: =DataSourceInfo([@'Solicitação de Férias'], DataSourceInfo.MaxLength, 'Email do Colaborador')
             Required: =false
             Update: =EmailColaborador_Value.Text
             Visible: =false
@@ -856,6 +952,8 @@
 
             DataCardKey14 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -883,12 +981,16 @@
 
             ErrorMessage13 As label:
                 AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(168, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
                 Height: =10
                 Live: =Live.Assertive
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
+                Size: =14
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
@@ -898,6 +1000,8 @@
 
             StarVisible13 As label:
                 Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Color: =RGBA(0, 18, 107, 1)
                 Height: =DataCardKey14.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)

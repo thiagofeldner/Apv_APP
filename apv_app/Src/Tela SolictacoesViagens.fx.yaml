@@ -45,6 +45,7 @@
         ZIndex: =2
 
     "GalSolViagens As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
+        '#CopilotOverlayLabel': ="Filtrada"
         BorderColor: =RGBA(0, 0, 0, 1)
         BorderStyle: =BorderStyle.None
         BorderThickness: =1
