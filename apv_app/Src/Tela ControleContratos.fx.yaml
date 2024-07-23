@@ -3,7 +3,7 @@
 
     "gal_contratos As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
-        Fill: =If(ThisItem.IsSelected, Color.Aqua)
+        Fill: =RGBA(0,0,0,0)
         Height: =708
         Items: ='Controle de contratos'
         Layout: =Layout.Vertical
