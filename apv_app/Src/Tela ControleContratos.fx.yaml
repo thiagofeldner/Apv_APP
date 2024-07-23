@@ -5,7 +5,7 @@
         DelayItemLoading: =true
         Fill: =RGBA(0,0,0,0)
         Height: =708
-        Items: =Filter(form_contratos, 'Controle de contratos' = gal_contratos.Selected.'titleContratada', 'sub_cnpj', 'bodyContrato')
+        Items: ='Controle de contratos'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -22,7 +22,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Contratada
+            Text: =ThisItem.'Contrato de gestão '
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
@@ -37,7 +37,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.CNPJ
+            Text: =ThisItem.'Processo adm. original'
             VerticalAlign: =VerticalAlign.Top
             Width: =titleContratada.Width
             X: =titleContratada.X
@@ -52,7 +52,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Contrato de gestão '
+            Text: =ThisItem.'Modalidade da contratação'.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =titleContratada.Width
             X: =9
