@@ -3,6 +3,7 @@
 
     "gal_contratos As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
+        Fill: =If(ThisItem.IsSelected, Color.Aqua)
         Height: =708
         Items: ='Controle de contratos'
         Layout: =Layout.Vertical
@@ -44,7 +45,6 @@
             ZIndex: =2
 
         bodyContrato As label:
-            Fill: =If(ThisItem.IsSelected, Color.AntiqueWhite)
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
