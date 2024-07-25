@@ -101,7 +101,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 1,
+    "BindingErrorCount": 7,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -135,7 +135,7 @@
     "UserLocale": "pt-BR"
   },
   "ScreenOrder": [
-    "Home",
+    "HomeScreen",
     "Tela ControleContratos",
     "Tela SolictacoesViagens",
     "Tela contContratos",
