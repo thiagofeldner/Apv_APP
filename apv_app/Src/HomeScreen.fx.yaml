@@ -91,7 +91,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =79
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =
+        OnSelect: =Navigate('Tela SolicitacoesFerias',ScreenTransition.Fade)
         Text: ="RH"
         VerticalAlign: =VerticalAlign.Middle
         Width: =210
