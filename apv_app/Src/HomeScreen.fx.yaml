@@ -67,10 +67,11 @@ HomeScreen As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisplayMode: =DisplayMode.View
-        Height: =32
+        Font: =Font.'Lato Black'
+        Height: =67
         Size: =18
         Text: =User().Email
         Width: =467
-        Y: =733
+        Y: =698
         ZIndex: =2
 
