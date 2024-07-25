@@ -2743,7 +2743,7 @@
         Icon1_2 As icon.Leave:
             Height: =41
             Icon: =Icon.Leave
-            OnSelect: =Navigate(Home)
+            OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCover)
             Width: =41
             X: =1302
             Y: =21
