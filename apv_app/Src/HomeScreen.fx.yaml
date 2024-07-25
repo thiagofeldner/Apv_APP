@@ -29,3 +29,34 @@ HomeScreen As screen:
             X: =1235
             ZIndex: =2
 
+        lblUserName As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.Lato
+            Height: =41
+            Size: =16
+            Text: =User().FullName
+            Width: =167
+            Wrap: =false
+            X: =1050
+            Y: =46
+            ZIndex: =3
+
+        lblApv As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =75
+            Size: =38
+            Text: |-
+                ="Agência Peixe Vivo
+                "
+            Width: =467
+            Wrap: =false
+            X: =394
+            Y: =29
+            ZIndex: =4
+
