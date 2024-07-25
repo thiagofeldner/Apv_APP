@@ -136,6 +136,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =79
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: =Navigate('Tela ControleContratos', ScreenTransition.Fade)
         Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =210
