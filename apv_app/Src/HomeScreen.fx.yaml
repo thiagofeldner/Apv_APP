@@ -1,6 +1,6 @@
 HomeScreen As screen:
 
-    Container2 As groupContainer.manualLayoutContainer:
+    cont_Home As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(15, 108, 189, 1)
         Fill: =RGBA(71, 158, 245, 1)
         Height: =141
@@ -11,7 +11,7 @@ HomeScreen As screen:
         Width: =1366
         ZIndex: =1
 
-        Image1 As image:
+        imgLogo As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             DisplayMode: =DisplayMode.View
             Height: =140
