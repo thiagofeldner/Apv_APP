@@ -14,7 +14,7 @@ HomeScreen As screen:
         imgLogo As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             DisplayMode: =DisplayMode.View
-            Height: =140
+            Height: =133
             Image: =Logo_branco
             Width: =206
             ZIndex: =1
