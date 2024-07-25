@@ -132,7 +132,6 @@
     form_contratos As form.PowerApps_CoreControls_Form:
         DataSource: ='Controle de contratos'
         Height: =687
-        Item: =gal_contratos.AllItems
         UseFluentV9Cards: =true
         Width: =791
         X: =574
