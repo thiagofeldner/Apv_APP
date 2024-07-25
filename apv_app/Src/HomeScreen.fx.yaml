@@ -225,12 +225,12 @@ HomeScreen As screen:
         Font: =Font.'Lato Black'
         FontSize: =32
         FontWeight: =FontWeight.Semibold
-        Height: =110
+        Height: =86
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
         Text: ="Admin"
         VerticalAlign: =VerticalAlign.Middle
-        Width: =227
-        X: =1088
-        Y: =616
+        Width: =193
+        X: =1152
+        Y: =664
         ZIndex: =9
 
