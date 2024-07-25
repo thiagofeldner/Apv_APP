@@ -3,7 +3,7 @@ HomeScreen As screen:
     cont_Home As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(15, 108, 189, 1)
-        Height: =133
+        Height: =115
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -14,19 +14,20 @@ HomeScreen As screen:
         imgLogo As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             DisplayMode: =DisplayMode.View
-            Height: =133
+            Height: =115
             Image: =Logo_branco
-            Width: =206
+            Width: =187
+            X: =1
             ZIndex: =1
 
         imgUser As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             DisplayMode: =DisplayMode.View
-            Height: =133
+            Height: =115
             Image: =User().Image
-            Width: =131
-            X: =1235
+            Width: =112
+            X: =1253
             ZIndex: =2
 
         lblUserName As label:
@@ -41,8 +42,8 @@ HomeScreen As screen:
             Text: =User().FullName
             Width: =167
             Wrap: =false
-            X: =1050
-            Y: =46
+            X: =1068
+            Y: =37
             ZIndex: =3
 
         lblApv As label:
@@ -58,8 +59,8 @@ HomeScreen As screen:
                 "
             Width: =467
             Wrap: =false
-            X: =394
-            Y: =29
+            X: =435
+            Y: =20
             ZIndex: =4
 
     lblEmail As label:
