@@ -37,12 +37,11 @@ HomeScreen As screen:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
             Font: =Font.Lato
-            Height: =41
+            Height: =39
             Size: =16
-            Text: =User().FullName
-            Width: =167
-            Wrap: =false
-            X: =1100
+            Text: ="Bem vindo, " & User().FullName
+            Width: =274
+            X: =992
             Y: =20
             ZIndex: =3
 
