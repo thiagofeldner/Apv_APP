@@ -3,7 +3,7 @@ HomeScreen As screen:
     cont_Home As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(15, 108, 189, 1)
-        Height: =80
+        Height: =100
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -14,9 +14,9 @@ HomeScreen As screen:
         imgLogo As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             DisplayMode: =DisplayMode.View
-            Height: =78
+            Height: =99
             Image: =Logo_branco
-            Width: =144
+            Width: =166
             X: =1
             ZIndex: =1
 
@@ -24,10 +24,11 @@ HomeScreen As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             DisplayMode: =DisplayMode.View
-            Height: =78
+            Height: =99
             Image: =User().Image
-            Width: =83
-            X: =1283
+            ImagePosition: =ImagePosition.Fill
+            Width: =105
+            X: =1261
             ZIndex: =2
 
         lblUserName As label:
@@ -41,8 +42,8 @@ HomeScreen As screen:
             Size: =16
             Text: ="Bem vindo, " & User().FullName
             Width: =282
-            X: =990
-            Y: =3
+            X: =953
+            Y: =12
             ZIndex: =3
 
         lblApv As label:
@@ -52,14 +53,14 @@ HomeScreen As screen:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
             Height: =75
-            Size: =28
+            Size: =32
             Text: |-
                 ="Agência Peixe Vivo
                 "
             Width: =467
             Wrap: =false
-            X: =432
-            Y: =3
+            X: =415
+            Y: =12
             ZIndex: =4
 
     lblEmail As label:
