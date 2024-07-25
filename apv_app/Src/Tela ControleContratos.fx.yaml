@@ -1,9 +1,8 @@
 "'Tela ControleContratos' As screen":
     Fill: =RGBA(255, 255, 255, 1)
 
-    "gal_contratos As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+    "Gallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
-        Fill: =RGBA(0,0,0,0)
         Height: =687
         Items: ='Controle de contratos'
         Layout: =Layout.Vertical
@@ -14,9 +13,7 @@
         Y: =80
         ZIndex: =1
 
-        titleContratada As label:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            Color: =RGBA(50, 49, 48, 1)
+        Title2 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -24,16 +21,14 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =14
             Text: =ThisItem.Contratada
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + sub_cnpj.Size*1.8 + 2 + bodyContrato.Size*1.8)) / 2
+            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle2.Size*1.8 + 2 + Body1.Size*1.8)) / 2
             ZIndex: =1
 
-        sub_cnpj As label:
-            BorderColor: =RGBA(0, 0, 0, 1)
+        Subtitle2 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -41,16 +36,14 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =12
             Text: =ThisItem.CNPJ
             VerticalAlign: =VerticalAlign.Top
-            Width: =titleContratada.Width
-            X: =titleContratada.X
-            Y: =titleContratada.Y + titleContratada.Height
+            Width: =Title2.Width
+            X: =Title2.X
+            Y: =Title2.Y + Title2.Height
             ZIndex: =2
 
-        bodyContrato As label:
-            BorderColor: =RGBA(0, 0, 0, 1)
+        Body1 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -58,15 +51,14 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Size: =12
             Text: =ThisItem.'Contrato de gestão '
             VerticalAlign: =VerticalAlign.Top
-            Width: =titleContratada.Width
-            X: =16
-            Y: =69
+            Width: =Title2.Width
+            X: =Title2.X
+            Y: =Subtitle2.Y + Subtitle2.Height
             ZIndex: =3
 
-        NextArrow4 As icon.ChevronRight:
+        NextArrow2 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Color: =RGBA(166, 166, 166, 1)
             Height: =50
@@ -82,17 +74,15 @@
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
-        Separator5 As rectangle:
-            Fill: =RGBA(255, 255, 255, 1)
+        Separator2 As rectangle:
             Height: =8
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - Self.Height
             ZIndex: =5
 
-        Rectangle5 As rectangle:
-            Fill: =RGBA(0, 18, 107, 1)
-            Height: =Parent.TemplateHeight - Separator5.Height
+        Rectangle4 As rectangle:
+            Height: =Parent.TemplateHeight - Separator2.Height
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
             Width: =4
