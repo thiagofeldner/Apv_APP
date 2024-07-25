@@ -175,46 +175,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnVoltar_2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela SolicitacoesFerias'.btnVoltar_2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 9,
-                  "snippet": {
-                    "text": "Home"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela SolicitacoesFerias",
-                "type": "'Tela SolicitacoesFerias'.btnVoltar_2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Home"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Tela SolictacoesViagens'.Container1_1.Icon1_1.OnSelect"
                 }
               ],
