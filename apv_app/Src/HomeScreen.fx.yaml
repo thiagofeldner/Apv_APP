@@ -34,6 +34,7 @@ HomeScreen As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
             Font: =Font.Lato
             Height: =41
             Size: =16
@@ -49,6 +50,7 @@ HomeScreen As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
             Height: =75
             Size: =38
             Text: |-
@@ -59,4 +61,16 @@ HomeScreen As screen:
             X: =394
             Y: =29
             ZIndex: =4
+
+    Label10 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisplayMode: =DisplayMode.View
+        Height: =32
+        Size: =18
+        Text: =User().Email
+        Width: =467
+        Y: =733
+        ZIndex: =2
 
