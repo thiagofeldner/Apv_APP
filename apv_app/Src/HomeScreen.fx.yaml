@@ -19,7 +19,7 @@ HomeScreen As screen:
             Width: =206
             ZIndex: =1
 
-        Image3 As image:
+        imgUser As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             DisplayMode: =DisplayMode.View
