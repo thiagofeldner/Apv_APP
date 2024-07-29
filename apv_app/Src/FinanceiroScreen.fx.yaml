@@ -11,7 +11,7 @@ FinanceiroScreen As screen:
         Width: =1366
         ZIndex: =1
 
-        imgLogoRH_1 As image:
+        imgLogoFinan As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             DisplayMode: =DisplayMode.View
             Height: =99
@@ -20,7 +20,7 @@ FinanceiroScreen As screen:
             X: =1
             ZIndex: =1
 
-        imgUserRH_1 As image:
+        imgUserFinan As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             DisplayMode: =DisplayMode.View
@@ -31,7 +31,7 @@ FinanceiroScreen As screen:
             X: =1261
             ZIndex: =2
 
-        lblUserNameRH_1 As label:
+        lblUserNameFinan As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -46,7 +46,7 @@ FinanceiroScreen As screen:
             Y: =12
             ZIndex: =3
 
-        lblRH_1 As label:
+        lblFin As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
