@@ -132,7 +132,6 @@
 
     form_contratos As form.PowerApps_CoreControls_Form:
         DataSource: ='Controle de contratos'
-        DefaultMode: =FormMode.View
         Height: =687
         UseFluentV9Cards: =true
         Width: =791

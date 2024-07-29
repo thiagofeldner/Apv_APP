@@ -14560,14 +14560,7 @@
     "form_contratos": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "FormMode.Edit",
-          "InvariantPropertyName": "DefaultMode",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DefaultMode",
         "UseFluentV9Cards",
         "Fill",
         "BorderColor",
