@@ -11,15 +11,6 @@ FinanScreen As screen:
         Width: =1366
         ZIndex: =1
 
-        imgLogoFinan As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            DisplayMode: =DisplayMode.View
-            Height: =99
-            Image: =Logo_branco
-            Width: =166
-            X: =1
-            ZIndex: =1
-
         imgUserFinan As image:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -30,21 +21,6 @@ FinanScreen As screen:
             Width: =105
             X: =1261
             ZIndex: =2
-
-        lblUserNameFinan As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Font: =Font.Lato
-            Height: =75
-            Size: =16
-            Text: ="Bem vindo, " & User().FullName
-            Width: =282
-            X: =953
-            Y: =12
-            ZIndex: =3
 
         lblFin As label:
             Align: =Align.Center
@@ -57,9 +33,22 @@ FinanScreen As screen:
             Text: ="Financeiro"
             Width: =247
             Wrap: =false
-            X: =436
+            X: =556
             Y: =12
             ZIndex: =4
+
+        icon_RH_1 As icon.Home:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            FocusedBorderThickness: =0
+            Height: =62
+            Icon: =Icon.Home
+            OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
+            Width: =68
+            X: =19
+            Y: =18
+            ZIndex: =5
 
     btnCtrlContratos As Botão:
         Align: =Align.Center
