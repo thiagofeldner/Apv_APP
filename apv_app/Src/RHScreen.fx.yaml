@@ -62,3 +62,27 @@ RHScreen As screen:
             Y: =12
             ZIndex: =4
 
+    btnRH_1 As Botão:
+        Align: =Align.Center
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        BasePaletteColor: =RGBA(54, 150, 209, 1)
+        BorderRadiusBottomLeft: =10
+        BorderRadiusBottomRight: =10
+        BorderRadiusTopLeft: =10
+        BorderRadiusTopRight: =10
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =24
+        FontWeight: =FontWeight.Semibold
+        Height: =82
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate('Tela SolicitacoesFerias',ScreenTransition.Fade)
+        Text: ="Solicitação de Férias"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =247
+        X: =164
+        Y: =188
+        ZIndex: =2
+
