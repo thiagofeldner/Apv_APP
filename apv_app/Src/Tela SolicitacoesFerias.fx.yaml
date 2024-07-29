@@ -30,10 +30,10 @@
         DataSource: |
             =[@'Solicitação de Férias']
         DefaultMode: =FormMode.New
-        Height: =504
+        Height: =487
         Width: =1295
         X: =28
-        Y: =40
+        Y: =95
         ZIndex: =3
 
         NomeColaborador_DataCard1 As typedDataCard.textualEditCard:
@@ -1112,7 +1112,38 @@
         Height: =46
         Items: =Choices('Solicitação de Férias'.Período)
         Width: =376
-        X: =56
-        Y: =577
+        X: =49
+        Y: =606
         ZIndex: =16
+
+    contSolViag_1 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(15, 108, 189, 1)
+        Height: =97
+        Width: =1366
+        ZIndex: =17
+
+        txtSolViag_1 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =53
+            Size: =28
+            Text: ="Solicitação de Férias"
+            VerticalAlign: ='TextCanvas.VerticalAlign'.Middle
+            Weight: ='TextCanvas.Weight'.Regular
+            Width: =352
+            X: =444
+            Y: =21
+            ZIndex: =3
+
+        iconVoltar_1 As icon.Leave:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =41
+            Icon: =Icon.Leave
+            OnSelect: =Navigate(ProjetosScreen, ScreenTransition.Cover)
+            Width: =41
+            X: =1283
+            Y: =21
+            ZIndex: =4
 
