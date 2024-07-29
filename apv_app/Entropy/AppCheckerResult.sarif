@@ -2294,19 +2294,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RHScreen.containerRH.Icon3.AccessibleLabel"
+                  "fullyQualifiedName": "RHScreen.containerRH.icon_RH.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RHScreen.containerRH.Icon3.AccessibleLabel",
+                  "fullyQualifiedName": "RHScreen.containerRH.icon_RH.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RHScreen",
-                "type": "RHScreen.containerRH.Icon3"
+                "type": "RHScreen.containerRH.icon_RH"
               }
             }
           ],
@@ -2324,19 +2324,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RHScreen.containerRH.Icon3.TabIndex"
+                  "fullyQualifiedName": "RHScreen.containerRH.icon_RH.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RHScreen.containerRH.Icon3.TabIndex",
+                  "fullyQualifiedName": "RHScreen.containerRH.icon_RH.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "RHScreen",
-                "type": "RHScreen.containerRH.Icon3"
+                "type": "RHScreen.containerRH.icon_RH"
               }
             }
           ],
@@ -2354,19 +2354,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RHScreen.containerRH.Icon3.FocusedBorderThickness"
+                  "fullyQualifiedName": "RHScreen.containerRH.icon_RH.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RHScreen.containerRH.Icon3.FocusedBorderThickness",
+                  "fullyQualifiedName": "RHScreen.containerRH.icon_RH.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "RHScreen",
-                "type": "RHScreen.containerRH.Icon3"
+                "type": "RHScreen.containerRH.icon_RH"
               }
             }
           ],

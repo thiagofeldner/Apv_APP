@@ -37,7 +37,7 @@ RHScreen As screen:
             Y: =12
             ZIndex: =4
 
-        Icon3 As icon.Home:
+        icon_RH As icon.Home:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             Color: =RGBA(255, 255, 255, 1)
