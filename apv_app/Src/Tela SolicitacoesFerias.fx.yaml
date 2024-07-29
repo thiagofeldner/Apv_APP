@@ -12,7 +12,7 @@
         Height: =41
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(16, 110, 190, 1)
-        OnSelect: =Navigate(HomeScreen, ScreenTransition.Fade)
+        OnSelect: =Navigate(RHScreen, ScreenTransition.Fade)
         PressedBorderColor: =RGBA(0, 69, 120, 1)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(16, 110, 190, 1)
