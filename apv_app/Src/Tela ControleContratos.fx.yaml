@@ -101,7 +101,7 @@
             DisplayMode: =DisplayMode.Edit
             Height: =32
             OnSelect: |-
-                =Office365Outlook.SendEmailV2(User().Email, "Assunto do e-mail", "Corpo do Email: Teste com conector")
+                =Office365Outlook.SendEmailV2(User().Email, "Assunto do e-mail: Email de teste", "Corpo do Email: Teste com conector")
             Text: ="Envar"
             Width: =96
             X: =441
