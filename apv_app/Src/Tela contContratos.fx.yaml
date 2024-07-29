@@ -34,8 +34,11 @@
     ComboBox1 As combobox:
         DefaultSelectedItems: |-
             =UsuáriosdoOffice365.SearchUser({searchTerm:varUserInfo.displayName})
-        Items: =ComboBoxSample
-        SearchItems: =Search(ComboBoxSample,ComboBox1.SearchText,Value1)
+        DisplayFields: =["City"]
+        Items: =UsuáriosdoOffice365.SearchUser()
+        OnChange: =Set(varSearchUserInfo, UsuáriosdoOffice365.UserProfile(Self.Selected.Id))
+        SearchFields: =["City"]
+        SearchItems: =Search(UsuáriosdoOffice365.SearchUser(),ComboBox1.SearchText,City)
         X: =24
         Y: =192
         ZIndex: =3
