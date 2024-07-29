@@ -92,7 +92,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =79
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =Navigate('RHScreen',ScreenTransition.Fade)
+        OnSelect: =Navigate(RHScreen,ScreenTransition.Fade)
         Text: ="RH"
         VerticalAlign: =VerticalAlign.Middle
         Width: =210
