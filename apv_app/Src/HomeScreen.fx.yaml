@@ -116,7 +116,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =79
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        OnSelect: =Navigate('Tela ControleContratos', ScreenTransition.Fade)
+        OnSelect: =Navigate(FinanScreen, ScreenTransition.Fade)
         Text: ="Financeiro"
         VerticalAlign: =VerticalAlign.Middle
         Width: =210
