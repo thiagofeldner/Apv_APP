@@ -101,7 +101,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 13,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -120,7 +120,7 @@
     "ManualOfflineProfileId": "",
     "Name": "APP APV",
     "OriginatingVersion": "1.336",
-    "ParserErrorCount": 0,
+    "ParserErrorCount": 2,
     "ShowStatusBar": false
   },
   "PublishInfo": {
