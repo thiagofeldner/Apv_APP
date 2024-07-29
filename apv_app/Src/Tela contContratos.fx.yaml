@@ -122,3 +122,33 @@
         Y: =612
         ZIndex: =18
 
+    Label8_5 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =35
+        Text: ="UF"
+        Width: =134
+        X: =800
+        Y: =200
+        ZIndex: =19
+
+    TextInput1_5 As text:
+        Default: =varSearchUserInfo.Country
+        X: =800
+        Y: =248
+        ZIndex: =20
+
+    Label8_6 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =35
+        Text: ="CEP"
+        Width: =134
+        X: =800
+        Y: =319
+        ZIndex: =21
+
+    TextInput1_6 As text:
+        Default: =varSearchUserInfo.PostalCode
+        X: =800
+        Y: =367
+        ZIndex: =22
+
