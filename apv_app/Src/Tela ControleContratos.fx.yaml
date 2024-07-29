@@ -100,8 +100,7 @@
         ButtonCanvas2 As Botão:
             DisplayMode: =DisplayMode.Edit
             Height: =32
-            OnSelect: |-
-                =Office365Outlook.SendEmailV2(User().Email, "Email de teste", "Corpo do Email: Teste com conector")
+            OnSelect: =Office365Outlook.SendEmailV2(User().Email, "Email de teste", "Teste com conector do outlook 365 no power apps")
             Text: ="Envar"
             Width: =96
             X: =441
