@@ -42,7 +42,7 @@ HomeScreen As screen:
             Font: =Font.Lato
             Height: =75
             Size: =16
-            Text: ="Bem vindo, " & User().FullName
+            Text: ="Bem vindo, " & varUserInfo.displayName
             Width: =282
             X: =953
             Y: =12
@@ -74,7 +74,7 @@ HomeScreen As screen:
         Font: =Font.'Lato Black'
         Height: =67
         Size: =18
-        Text: =User().Email
+        Text: =varUserInfo.mail
         Width: =467
         Y: =698
         ZIndex: =2
