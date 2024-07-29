@@ -41,7 +41,6 @@ RHScreen As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
             FocusedBorderThickness: =0
             Height: =62
             Icon: =Icon.Home
