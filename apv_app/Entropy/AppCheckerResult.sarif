@@ -2594,17 +2594,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.varUser"
+                  "fullyQualifiedName": "App.varUserInfo"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.varUser",
+                  "fullyQualifiedName": "App.varUserInfo",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "varUser",
+                "member": "varUserInfo",
                 "module": "App",
                 "type": "App"
               }

@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =Set(varUser, UsuáriosdoOffice365.MyProfileV2())
+    OnStart: =Set(varUserInfo, UsuáriosdoOffice365.MyProfileV2())
     Theme: =SteelTheme
 
     Host As hostControl.DefaultHostControlVariant:
