@@ -67,6 +67,7 @@ HomeScreen As screen:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
+        Color: =RGBA(139, 154, 159, 1)
         DisplayMode: =DisplayMode.View
         Font: =Font.'Lato Black'
         Height: =67
