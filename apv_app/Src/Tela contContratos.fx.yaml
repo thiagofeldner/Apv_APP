@@ -121,3 +121,15 @@
             Y: =21
             ZIndex: =2
 
+    ButtonCanvas2 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =12
+        Height: =56
+        OnSelect: =Collect(ColItemCollection, 'Controle de contratos')
+        Text: ="Adicionar à Coleção"
+        Width: =140
+        X: =635
+        Y: =143
+        ZIndex: =3
+
