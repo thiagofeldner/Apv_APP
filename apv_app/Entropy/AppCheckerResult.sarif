@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1_4.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1_4.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela contContratos",
-                "type": "'Tela contContratos'.TextInputCanvas1_4"
+                "type": "'Tela contContratos'.TextInput1"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1_3.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1_3.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela contContratos",
-                "type": "'Tela contContratos'.TextInputCanvas1_3"
+                "type": "'Tela contContratos'.TextInput1_1"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1_2.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1_2.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela contContratos",
-                "type": "'Tela contContratos'.TextInputCanvas1_2"
+                "type": "'Tela contContratos'.TextInput1_2"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela contContratos",
-                "type": "'Tela contContratos'.TextInputCanvas1_1"
+                "type": "'Tela contContratos'.TextInput1_3"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela contContratos'.TextInputCanvas1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela contContratos'.TextInput1_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela contContratos",
-                "type": "'Tela contContratos'.TextInputCanvas1"
+                "type": "'Tela contContratos'.TextInput1_4"
               }
             }
           ],

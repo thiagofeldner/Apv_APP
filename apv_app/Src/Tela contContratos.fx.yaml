@@ -44,6 +44,7 @@
         ZIndex: =3
 
     Label8 As label:
+        DisplayMode: =
         FontWeight: =FontWeight.Semibold
         Text: ="Nome Completo"
         Width: =172
@@ -85,49 +86,39 @@
         Y: =564
         ZIndex: =8
 
-    "TextInputCanvas1 As 'Entrada de texto'":
-        DisplayMode: =
-        Height: =32
-        OnChange: =varSearchUserInfo.DisplayName
-        Value: =""
-        Width: =320
+    TextInput1 As text:
+        Default: =varSearchUserInfo.DisplayName
         X: =32
-        Y: =265
-        ZIndex: =9
+        Y: =261
+        ZIndex: =14
 
-    "TextInputCanvas1_1 As 'Entrada de texto'":
-        DisplayMode: =
-        Height: =32
-        Value: =""
-        Width: =320
+    TextInput1_1 As text:
+        Default: =varSearchUserInfo.JobTitle
+        Height: =38
+        Width: =391
         X: =32
-        Y: =355
-        ZIndex: =10
+        Y: =351
+        ZIndex: =15
 
-    "TextInputCanvas1_2 As 'Entrada de texto'":
-        DisplayMode: =
-        Height: =32
-        Value: =""
-        Width: =320
+    TextInput1_2 As text:
+        Default: =varSearchUserInfo.Department
+        Height: =43
+        Width: =380
         X: =32
-        Y: =452
-        ZIndex: =11
+        Y: =447
+        ZIndex: =16
 
-    "TextInputCanvas1_3 As 'Entrada de texto'":
-        DisplayMode: =
-        Height: =32
-        Value: =""
-        Width: =320
+    TextInput1_3 As text:
+        Default: =varUserInfo.mail
+        Height: =34
+        Width: =391
         X: =32
         Y: =530
-        ZIndex: =12
+        ZIndex: =17
 
-    "TextInputCanvas1_4 As 'Entrada de texto'":
-        DisplayMode: =
-        Height: =32
-        Value: =""
-        Width: =320
-        X: =28
-        Y: =627
-        ZIndex: =13
+    TextInput1_4 As text:
+        Default: =varSearchUserInfo.City
+        X: =32
+        Y: =612
+        ZIndex: =18
 
