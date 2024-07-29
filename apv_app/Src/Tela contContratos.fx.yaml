@@ -39,7 +39,95 @@
         OnChange: =Set(varSearchUserInfo, UsuáriosdoOffice365.UserProfile(Self.Selected.Id))
         SearchFields: =["City"]
         SearchItems: =Search(UsuáriosdoOffice365.SearchUser(),ComboBox1.SearchText,City)
-        X: =24
-        Y: =192
+        X: =20
+        Y: =132
         ZIndex: =3
+
+    Label8 As label:
+        FontWeight: =FontWeight.Semibold
+        Text: ="Nome Completo"
+        Width: =172
+        X: =32
+        Y: =212
+        ZIndex: =4
+
+    Label8_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =39
+        Text: ="Cargo"
+        Width: =79
+        X: =32
+        Y: =311
+        ZIndex: =5
+
+    Label8_2 As label:
+        FontWeight: =FontWeight.Semibold
+        Text: ="Departamento"
+        Width: =172
+        X: =32
+        Y: =407
+        ZIndex: =6
+
+    Label8_3 As label:
+        FontWeight: =FontWeight.Semibold
+        Text: ="Email"
+        Width: =172
+        X: =32
+        Y: =490
+        ZIndex: =7
+
+    Label8_4 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =35
+        Text: ="Cidade"
+        Width: =134
+        X: =32
+        Y: =564
+        ZIndex: =8
+
+    "TextInputCanvas1 As 'Entrada de texto'":
+        DisplayMode: =
+        Height: =32
+        OnChange: =varSearchUserInfo.DisplayName
+        Value: =""
+        Width: =320
+        X: =32
+        Y: =265
+        ZIndex: =9
+
+    "TextInputCanvas1_1 As 'Entrada de texto'":
+        DisplayMode: =
+        Height: =32
+        Value: =""
+        Width: =320
+        X: =32
+        Y: =355
+        ZIndex: =10
+
+    "TextInputCanvas1_2 As 'Entrada de texto'":
+        DisplayMode: =
+        Height: =32
+        Value: =""
+        Width: =320
+        X: =32
+        Y: =452
+        ZIndex: =11
+
+    "TextInputCanvas1_3 As 'Entrada de texto'":
+        DisplayMode: =
+        Height: =32
+        Value: =""
+        Width: =320
+        X: =32
+        Y: =530
+        ZIndex: =12
+
+    "TextInputCanvas1_4 As 'Entrada de texto'":
+        DisplayMode: =
+        Height: =32
+        Value: =""
+        Width: =320
+        X: =28
+        Y: =627
+        ZIndex: =13
 
