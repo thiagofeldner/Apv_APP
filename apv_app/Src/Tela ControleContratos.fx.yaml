@@ -14,6 +14,8 @@
         ZIndex: =1
 
         Title2 As label:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Color: =RGBA(50, 49, 48, 1)
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -21,6 +23,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =14
             Text: =ThisItem.Contratada
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
@@ -29,6 +32,7 @@
             ZIndex: =1
 
         Subtitle2 As label:
+            BorderColor: =RGBA(0, 0, 0, 1)
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -36,6 +40,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =12
             Text: =ThisItem.CNPJ
             VerticalAlign: =VerticalAlign.Top
             Width: =Title2.Width
@@ -44,6 +49,7 @@
             ZIndex: =2
 
         Body1 As label:
+            BorderColor: =RGBA(0, 0, 0, 1)
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
@@ -51,6 +57,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
+            Size: =12
             Text: =ThisItem.'Contrato de gestão '
             VerticalAlign: =VerticalAlign.Top
             Width: =Title2.Width
@@ -75,6 +82,7 @@
             ZIndex: =4
 
         Separator2 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
             Height: =8
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
@@ -82,6 +90,7 @@
             ZIndex: =5
 
         Rectangle4 As rectangle:
+            Fill: =RGBA(0, 18, 107, 1)
             Height: =Parent.TemplateHeight - Separator2.Height
             OnSelect: =Select(Parent)
             Visible: =ThisItem.IsSelected
@@ -135,10 +144,10 @@
             DataField: ="Title"
             Default: =ThisItem.'Contrato de gestão '
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,Title)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Contrato de gestão ')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, Title)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Contrato de gestão ')
             Required: =false
             Update: =DataCardValue36.Value
             Width: =263
@@ -197,10 +206,10 @@
             DataField: ="field_1"
             Default: =ThisItem.'Processo adm. original'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_1)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Processo adm. original')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_1)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Processo adm. original')
             Required: =false
             Update: =DataCardValue37.Value
             Width: =263
@@ -259,7 +268,7 @@
             DataField: ="field_2"
             Default: =ThisItem.'Modalidade da contratação'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_2)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Modalidade da contratação')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -285,7 +294,7 @@
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
-                Items: =Choices([@'Controle de contratos'].field_2)
+                Items: =Choices([@'Controle de contratos'].'Modalidade da contratação')
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =Parent.Width - 48
                 X: =24
@@ -319,10 +328,10 @@
             DataField: ="field_3"
             Default: =ThisItem.'Nº da modalidade'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_3)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Nº da modalidade')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_3)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Nº da modalidade')
             Required: =false
             Update: =DataCardValue39.Value
             Width: =263
@@ -381,10 +390,10 @@
             DataField: ="field_4"
             Default: =ThisItem.Contratada
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_4)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,Contratada)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_4)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, Contratada)
             Required: =false
             Update: =DataCardValue40.Value
             Width: =263
@@ -443,10 +452,10 @@
             DataField: ="field_5"
             Default: =ThisItem.CNPJ
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_5)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,CNPJ)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_5)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, CNPJ)
             Required: =false
             Update: =DataCardValue41.Value
             Width: =263
@@ -505,10 +514,10 @@
             DataField: ="field_6"
             Default: =ThisItem.'Nº do contrato'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_6)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Nº do contrato')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_6)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Nº do contrato')
             Required: =false
             Update: =DataCardValue42.Value
             Width: =263
@@ -567,7 +576,7 @@
             DataField: ="field_8"
             Default: =ThisItem.'Assinatura do contrato'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_8)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Assinatura do contrato')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -628,10 +637,10 @@
             DataField: ="field_9"
             Default: =ThisItem.'Nº da OS'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_9)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Nº da OS')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_9)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Nº da OS')
             Required: =false
             Update: =DataCardValue44.Value
             Width: =263
@@ -690,7 +699,7 @@
             DataField: ="field_10"
             Default: =ThisItem.'Data da OS'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_10)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Data da OS')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -751,10 +760,10 @@
             DataField: ="field_11"
             Default: =ThisItem.'Apólice seguro?'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_11)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Apólice seguro?')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_11)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Apólice seguro?')
             Required: =false
             Update: =DataCardValue46.Value
             Width: =263
@@ -813,7 +822,7 @@
             DataField: ="field_12"
             Default: =ThisItem.'Data início seguro'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_12)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Data início seguro')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -903,7 +912,7 @@
             DataField: ="field_13"
             Default: =ThisItem.'Data final seguro'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_13)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Data final seguro')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -964,10 +973,10 @@
             DataField: ="field_14"
             Default: =ThisItem.'Portaria original'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_14)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Portaria original')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_14)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Portaria original')
             Required: =false
             Update: =DataCardValue48.Value
             Width: =263
@@ -1026,10 +1035,10 @@
             DataField: ="field_15"
             Default: =ThisItem.'Portaria atual'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_15)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Portaria atual')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_15)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Portaria atual')
             Required: =false
             Update: =DataCardValue49.Value
             Width: =263
@@ -1088,7 +1097,7 @@
             DataField: ="field_16"
             Default: =ThisItem.'Data da portaria'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_16)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Data da portaria')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1149,7 +1158,7 @@
             DataField: ="field_17"
             Default: =ThisItem.'Fiscal TÉC titular '
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_17)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Fiscal TÉC titular ')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1175,7 +1184,7 @@
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
-                Items: =Choices([@'Controle de contratos'].field_17)
+                Items: =Choices([@'Controle de contratos'].'Fiscal TÉC titular ')
                 SelectMultiple: =true
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =Parent.Width - 48
@@ -1210,7 +1219,7 @@
             DataField: ="field_18"
             Default: =ThisItem.'Início fiscal TÉC titular'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_18)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Início fiscal TÉC titular')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1271,7 +1280,7 @@
             DataField: ="field_19"
             Default: =ThisItem.'Final fiscal TÉC titular'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_19)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Final fiscal TÉC titular')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1332,7 +1341,7 @@
             DataField: ="field_20"
             Default: =ThisItem.'Fiscal TÉC suplente'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_20)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Fiscal TÉC suplente')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1358,7 +1367,7 @@
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
-                Items: =Choices([@'Controle de contratos'].field_20)
+                Items: =Choices([@'Controle de contratos'].'Fiscal TÉC suplente')
                 SelectMultiple: =true
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =Parent.Width - 48
@@ -1393,7 +1402,7 @@
             DataField: ="field_21"
             Default: =ThisItem.'Início fiscal TÉC suplente'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_21)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Início fiscal TÉC suplente')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1454,7 +1463,7 @@
             DataField: ="field_22"
             Default: =ThisItem.'Final fiscal TÉC suplente'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_22)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Final fiscal TÉC suplente')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1515,7 +1524,7 @@
             DataField: ="field_23"
             Default: =ThisItem.'Fiscal ADM titular'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_23)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Fiscal ADM titular')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1541,7 +1550,7 @@
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
-                Items: =Choices([@'Controle de contratos'].field_23)
+                Items: =Choices([@'Controle de contratos'].'Fiscal ADM titular')
                 SelectMultiple: =true
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =Parent.Width - 48
@@ -1576,7 +1585,7 @@
             DataField: ="field_24"
             Default: =ThisItem.'Início fiscal ADM titular'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_24)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Início fiscal ADM titular')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1637,7 +1646,7 @@
             DataField: ="field_25"
             Default: =ThisItem.'Final fiscal ADM titular'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_25)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Final fiscal ADM titular')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1698,7 +1707,7 @@
             DataField: ="field_26"
             Default: =ThisItem.'Fiscal ADM suplente'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_26)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Fiscal ADM suplente')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1724,7 +1733,7 @@
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
-                Items: =Choices([@'Controle de contratos'].field_26)
+                Items: =Choices([@'Controle de contratos'].'Fiscal ADM suplente')
                 SelectMultiple: =true
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =Parent.Width - 48
@@ -1759,7 +1768,7 @@
             DataField: ="field_27"
             Default: =ThisItem.'Início fiscal ADM suplente'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_27)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Início fiscal ADM suplente')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1820,7 +1829,7 @@
             DataField: ="field_28"
             Default: =ThisItem.'Final fiscal ADM suplente'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_28)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Final fiscal ADM suplente')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -1881,10 +1890,10 @@
             DataField: ="field_29"
             Default: =ThisItem.'Termo aditivo'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_29)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Termo aditivo')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_29)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Termo aditivo')
             Required: =false
             Update: =DataCardValue63.Value
             Width: =263
@@ -1943,10 +1952,10 @@
             DataField: ="field_30"
             Default: =ThisItem.'Objeto do termo'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_30)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Objeto do termo')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_30)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Objeto do termo')
             Required: =false
             Update: =DataCardValue64.Value
             Width: =263
@@ -2005,7 +2014,7 @@
             DataField: ="field_31"
             Default: =ThisItem.'Prazo do contrato (execução)'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_31)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Prazo do contrato (execução)')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -2066,7 +2075,7 @@
             DataField: ="field_32"
             Default: =ThisItem.'Prazo do contrato (vigência)'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_32)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Prazo do contrato (vigência)')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -2127,10 +2136,10 @@
             DataField: ="field_33"
             Default: =ThisItem.'Prazo de vigência após aditamento'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_33)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Prazo de vigência após aditamento')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_33)
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, 'Prazo de vigência após aditamento')
             Required: =false
             Update: =DataCardValue67.Value
             Width: =263
@@ -2189,7 +2198,7 @@
             DataField: ="Renovar_x003f_"
             Default: =ThisItem.'Renovar?'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,Renovar_x003f_)
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'Renovar?')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
@@ -2310,7 +2319,7 @@
             DataField: ="{Attachments}"
             Default: =ThisItem.Anexos
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'{Attachments}')
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,Anexos)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
