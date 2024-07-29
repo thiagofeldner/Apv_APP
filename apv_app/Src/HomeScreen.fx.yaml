@@ -102,7 +102,7 @@ HomeScreen As screen:
 
     btnFinan As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(49, 157, 224, 1)
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -125,7 +125,7 @@ HomeScreen As screen:
 
     btnProjetos As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(49, 157, 224, 1)
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -148,7 +148,7 @@ HomeScreen As screen:
 
     btnIntegracao As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(49, 157, 224, 1)
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -170,7 +170,7 @@ HomeScreen As screen:
 
     btnJuridico As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(49, 157, 224, 1)
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -192,7 +192,7 @@ HomeScreen As screen:
 
     btnContratos As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(49, 157, 224, 1)
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -214,7 +214,7 @@ HomeScreen As screen:
 
     btnFinan_1 As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(49, 157, 224, 1)
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
