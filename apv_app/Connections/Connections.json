@@ -1,18 +1,4 @@
 {
-  "412746d8-6848-4d09-9b16-3ce49d8c854c": {
-    "connectionRef": {
-      "displayName": "Office 365 Outlook",
-      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1686/1.0.1686.3706/office365/icon.png",
-      "id": "/providers/microsoft.powerapps/apis/shared_office365"
-    },
-    "datasets": {},
-    "dataSources": [
-      "Office365Outlook"
-    ],
-    "dependencies": {},
-    "dependents": [],
-    "id": "412746d8-6848-4d09-9b16-3ce49d8c854c"
-  },
   "77463e0c-8857-405f-81ef-2c235c31447e": {
     "connectionRef": {
       "displayName": "Usuários do Office 365",

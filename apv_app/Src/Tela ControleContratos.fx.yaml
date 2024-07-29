@@ -97,16 +97,6 @@
             Width: =4
             ZIndex: =6
 
-        ButtonCanvas2 As Botão:
-            DisplayMode: =DisplayMode.Edit
-            Height: =32
-            OnSelect: =Office365Outlook.SendEmailV2(User().Email, "Email de teste", "Teste com conector do outlook 365 no power apps")
-            Text: ="Envar"
-            Width: =96
-            X: =441
-            Y: =69
-            ZIndex: =7
-
     Container1 As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
