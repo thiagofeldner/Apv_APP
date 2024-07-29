@@ -54,7 +54,7 @@ FinanScreen As screen:
             DisplayMode: =DisplayMode.View
             Height: =75
             Size: =32
-            Text: ="FInanceiro"
+            Text: ="Financeiro"
             Width: =247
             Wrap: =false
             X: =436
