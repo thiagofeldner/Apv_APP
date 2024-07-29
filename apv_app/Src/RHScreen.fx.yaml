@@ -1,2 +1,65 @@
 RHScreen As screen:
 
+    containerRH As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(15, 108, 189, 1)
+        Height: =100
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =1366
+        ZIndex: =1
+
+        imgLogoRH As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisplayMode: =DisplayMode.View
+            Height: =99
+            Image: =logoagenciapeixevivo
+            Width: =166
+            X: =1
+            ZIndex: =1
+
+        imgUserRH As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisplayMode: =DisplayMode.View
+            Height: =99
+            Image: =User().Image
+            ImagePosition: =ImagePosition.Fill
+            Width: =105
+            X: =1261
+            ZIndex: =2
+
+        lblUserNameRH As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Font: =Font.Lato
+            Height: =75
+            Size: =16
+            Text: ="Bem vindo, " & User().FullName
+            Width: =282
+            X: =953
+            Y: =12
+            ZIndex: =3
+
+        lblRH As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =75
+            Size: =32
+            Text: |-
+                ="Agência Peixe Vivo
+                "
+            Width: =467
+            Wrap: =false
+            X: =415
+            Y: =12
+            ZIndex: =4
+
