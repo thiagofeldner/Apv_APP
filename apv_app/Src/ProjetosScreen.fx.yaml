@@ -1,0 +1,76 @@
+ProjetosScreen As screen:
+
+    contFin_1 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(15, 108, 189, 1)
+        Height: =100
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =1366
+        ZIndex: =1
+
+        imgUserFinan_1 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisplayMode: =DisplayMode.View
+            Height: =99
+            Image: =User().Image
+            ImagePosition: =ImagePosition.Fill
+            Width: =105
+            X: =1261
+            ZIndex: =2
+
+        lblFin_1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =75
+            Size: =32
+            Text: ="Projetos"
+            Width: =247
+            Wrap: =false
+            X: =550
+            Y: =12
+            ZIndex: =4
+
+        icon_RH_2 As icon.Home:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            FocusedBorderThickness: =0
+            Height: =62
+            Icon: =Icon.Home
+            OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
+            Width: =68
+            X: =19
+            Y: =18
+            ZIndex: =5
+
+    btnCtrlContratos_1 As Botão:
+        Align: =Align.Center
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        BasePaletteColor: =RGBA(54, 150, 209, 1)
+        BorderRadiusBottomLeft: =10
+        BorderRadiusBottomRight: =10
+        BorderRadiusTopLeft: =10
+        BorderRadiusTopRight: =10
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =24
+        FontWeight: =FontWeight.Semibold
+        Height: =93
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: =Navigate('Tela ControleContratos',ScreenTransition.Fade)
+        Text: ="Solicitação de Viagem"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =215
+        X: =164
+        Y: =188
+        ZIndex: =2
+
