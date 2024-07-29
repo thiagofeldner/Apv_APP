@@ -139,7 +139,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =79
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        OnSelect: =Navigate('Tela SolictacoesViagens', ScreenTransition.Fade)
+        OnSelect: =Navigate(ProjetosScreen, ScreenTransition.Fade)
         Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =210
