@@ -122,6 +122,7 @@
 
         Icon1 As icon.Leave:
             Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
             Height: =53
             Icon: =Icon.Leave
             OnSelect: =Navigate(FinanScreen, ScreenTransition.Cover)
@@ -134,6 +135,8 @@
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
             Height: =53
             Icon: =Icon.Home
             OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCover)
