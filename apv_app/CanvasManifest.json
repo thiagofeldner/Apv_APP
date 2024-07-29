@@ -137,6 +137,7 @@
   "ScreenOrder": [
     "HomeScreen",
     "RHScreen",
+    "FinanceiroScreen",
     "Tela ControleContratos",
     "Tela SolictacoesViagens",
     "Tela contContratos",

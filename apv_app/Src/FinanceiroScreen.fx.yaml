@@ -1,0 +1,87 @@
+FinanceiroScreen As screen:
+
+    contFin As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(15, 108, 189, 1)
+        Height: =100
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Width: =1366
+        ZIndex: =1
+
+        imgLogoRH_1 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            DisplayMode: =DisplayMode.View
+            Height: =99
+            Image: =Logo_branco
+            Width: =166
+            X: =1
+            ZIndex: =1
+
+        imgUserRH_1 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            DisplayMode: =DisplayMode.View
+            Height: =99
+            Image: =User().Image
+            ImagePosition: =ImagePosition.Fill
+            Width: =105
+            X: =1261
+            ZIndex: =2
+
+        lblUserNameRH_1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Font: =Font.Lato
+            Height: =75
+            Size: =16
+            Text: ="Bem vindo, " & User().FullName
+            Width: =282
+            X: =953
+            Y: =12
+            ZIndex: =3
+
+        lblRH_1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =75
+            Size: =32
+            Text: ="FInanceiro"
+            Width: =247
+            Wrap: =false
+            X: =436
+            Y: =12
+            ZIndex: =4
+
+    btnCtrlContratos As Botão:
+        Align: =Align.Center
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        BasePaletteColor: =RGBA(54, 150, 209, 1)
+        BorderRadiusBottomLeft: =10
+        BorderRadiusBottomRight: =10
+        BorderRadiusTopLeft: =10
+        BorderRadiusTopRight: =10
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =0
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontSize: =24
+        FontWeight: =FontWeight.Semibold
+        Height: =93
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: =Navigate('Tela ControleContratos',ScreenTransition.Fade)
+        Text: ="Controle Contratos"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =247
+        X: =164
+        Y: =188
+        ZIndex: =2
+
