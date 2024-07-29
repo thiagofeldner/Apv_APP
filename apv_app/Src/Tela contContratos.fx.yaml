@@ -1,5 +1,92 @@
 "'Tela contContratos' As screen":
 
+    "Gallery3 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =651
+        Items: ='Controle de contratos'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =116
+        X: =12
+        Y: =96
+        ZIndex: =1
+
+        Title5 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Contratada
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle4.Size*1.8 + 2 + Body2.Size*1.8)) / 2
+            ZIndex: =1
+
+        Subtitle4 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.CNPJ
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title5.Width
+            X: =Title5.X
+            Y: =Title5.Y + Title5.Height
+            ZIndex: =2
+
+        Body2 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Contrato de gestão '
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title5.Width
+            X: =Title5.X
+            Y: =Subtitle4.Y + Subtitle4.Height
+            ZIndex: =3
+
+        NextArrow5 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            Tooltip: ="Exibir detalhes do item"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator5 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+        Rectangle6 As rectangle:
+            Height: =Parent.TemplateHeight - Separator5.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =6
+
     Container1_2 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(15, 108, 189, 1)
         Height: =81
@@ -30,126 +117,4 @@
             X: =1302
             Y: =21
             ZIndex: =2
-
-    ComboBox1 As combobox:
-        DefaultSelectedItems: |-
-            =UsuáriosdoOffice365.SearchUser({searchTerm:varUserInfo.displayName})
-        DisplayFields: =["DisplayName"]
-        Items: =UsuáriosdoOffice365.SearchUser()
-        OnChange: =Set(varSearchUserInfo, UsuáriosdoOffice365.UserProfile(Self.Selected.Id))
-        SearchFields: =["City"]
-        SearchItems: =Search(UsuáriosdoOffice365.SearchUser(),ComboBox1.SearchText,City)
-        SelectMultiple: =false
-        X: =20
-        Y: =132
-        ZIndex: =3
-
-    Label8 As label:
-        DisplayMode: =
-        FontWeight: =FontWeight.Semibold
-        Text: ="Nome Completo"
-        Width: =172
-        X: =32
-        Y: =212
-        ZIndex: =4
-
-    Label8_1 As label:
-        FontWeight: =FontWeight.Semibold
-        Height: =39
-        Text: ="Cargo"
-        Width: =79
-        X: =330
-        Y: =213
-        ZIndex: =5
-
-    Label8_2 As label:
-        FontWeight: =FontWeight.Semibold
-        Text: ="Departamento"
-        Width: =172
-        X: =627
-        Y: =218
-        ZIndex: =6
-
-    Label8_3 As label:
-        FontWeight: =FontWeight.Semibold
-        Text: ="Email"
-        Width: =172
-        X: =958
-        Y: =218
-        ZIndex: =7
-
-    Label8_4 As label:
-        FontWeight: =FontWeight.Semibold
-        Height: =35
-        Text: ="Cidade"
-        Width: =134
-        X: =32
-        Y: =330
-        ZIndex: =8
-
-    TextInput1 As text:
-        Default: =varSearchUserInfo.DisplayName
-        Width: =278
-        X: =32
-        Y: =261
-        ZIndex: =14
-
-    TextInput1_1 As text:
-        Default: =varSearchUserInfo.JobTitle
-        Width: =286
-        X: =330
-        Y: =261
-        ZIndex: =15
-
-    TextInput1_2 As text:
-        Default: =varSearchUserInfo.Department
-        Height: =43
-        Width: =318
-        X: =627
-        Y: =258
-        ZIndex: =16
-
-    TextInput1_3 As text:
-        Default: =varSearchUserInfo.Mail
-        Height: =43
-        Width: =391
-        X: =958
-        Y: =258
-        ZIndex: =17
-
-    TextInput1_4 As text:
-        Default: =varSearchUserInfo.City
-        X: =32
-        Y: =378
-        ZIndex: =18
-
-    Label8_5 As label:
-        FontWeight: =FontWeight.Semibold
-        Height: =35
-        Text: ="UF"
-        Width: =134
-        X: =384
-        Y: =330
-        ZIndex: =19
-
-    TextInput1_5 As text:
-        Default: =varSearchUserInfo.Country
-        X: =384
-        Y: =378
-        ZIndex: =20
-
-    Label8_6 As label:
-        FontWeight: =FontWeight.Semibold
-        Height: =35
-        Text: ="CEP"
-        Width: =134
-        X: =737
-        Y: =330
-        ZIndex: =21
-
-    TextInput1_6 As text:
-        Default: =varSearchUserInfo.PostalCode
-        X: =737
-        Y: =378
-        ZIndex: =22
 
