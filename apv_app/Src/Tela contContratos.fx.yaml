@@ -23,7 +23,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Contrato de gestão '
+            Text: =ThisItem.Contratada
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
@@ -38,7 +38,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Processo adm. original'
+            Text: =ThisItem.CNPJ
             VerticalAlign: =VerticalAlign.Top
             Width: =Title5.Width
             X: =Title5.X
@@ -53,7 +53,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Modalidade da contratação'.Value
+            Text: =ThisItem.'Contrato de gestão '
             VerticalAlign: =VerticalAlign.Top
             Width: =Title5.Width
             X: =Title5.X
