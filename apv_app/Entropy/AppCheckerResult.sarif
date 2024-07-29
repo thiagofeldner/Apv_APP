@@ -2414,19 +2414,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProjetosScreen.contFin_1.icon_RH_2.AccessibleLabel"
+                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProjetosScreen.contFin_1.icon_RH_2.AccessibleLabel",
+                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ProjetosScreen",
-                "type": "ProjetosScreen.contFin_1.icon_RH_2"
+                "type": "ProjetosScreen.contProj.icon_Proj"
               }
             }
           ],
@@ -2444,19 +2444,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProjetosScreen.contFin_1.icon_RH_2.TabIndex"
+                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProjetosScreen.contFin_1.icon_RH_2.TabIndex",
+                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ProjetosScreen",
-                "type": "ProjetosScreen.contFin_1.icon_RH_2"
+                "type": "ProjetosScreen.contProj.icon_Proj"
               }
             }
           ],
@@ -2474,19 +2474,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProjetosScreen.contFin_1.icon_RH_2.FocusedBorderThickness"
+                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProjetosScreen.contFin_1.icon_RH_2.FocusedBorderThickness",
+                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "ProjetosScreen",
-                "type": "ProjetosScreen.contFin_1.icon_RH_2"
+                "type": "ProjetosScreen.contProj.icon_Proj"
               }
             }
           ],
@@ -2504,19 +2504,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProjetosScreen.btnCtrlContratos_1.AccessibleLabel"
+                  "fullyQualifiedName": "ProjetosScreen.btnSolViagem.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProjetosScreen.btnCtrlContratos_1.AccessibleLabel",
+                  "fullyQualifiedName": "ProjetosScreen.btnSolViagem.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ProjetosScreen",
-                "type": "ProjetosScreen.btnCtrlContratos_1"
+                "type": "ProjetosScreen.btnSolViagem"
               }
             }
           ],
