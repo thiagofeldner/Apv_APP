@@ -22,21 +22,6 @@ RHScreen As screen:
             X: =1261
             ZIndex: =2
 
-        lblUserNameRH As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Font: =Font.Lato
-            Height: =75
-            Size: =16
-            Text: ="Bem vindo, " & User().FullName
-            Width: =282
-            X: =953
-            Y: =12
-            ZIndex: =3
-
         lblRH As label:
             Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -48,7 +33,7 @@ RHScreen As screen:
             Text: ="RH"
             Width: =130
             Wrap: =false
-            X: =495
+            X: =609
             Y: =12
             ZIndex: =4
 
@@ -58,12 +43,12 @@ RHScreen As screen:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
             FocusedBorderThickness: =0
-            Height: =75
+            Height: =62
             Icon: =Icon.Home
             OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
-            Width: =77
-            X: =18
-            Y: =12
+            Width: =68
+            X: =31
+            Y: =18
             ZIndex: =5
 
     btnRH_1 As Botão:
