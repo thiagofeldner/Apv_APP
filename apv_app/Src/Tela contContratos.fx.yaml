@@ -36,7 +36,7 @@
             =UsuáriosdoOffice365.SearchUser({searchTerm:varUserInfo.displayName})
         DisplayFields: =["DisplayName"]
         Items: =UsuáriosdoOffice365.SearchUser()
-        OnChange: =Set(varSearchUserInfo, UsuáriosdoOffice365.UserProfile(Self.Selected.Id))
+        OnChange: =Set(varSearchUserInfo, UsuáriosdoOffice365.Manager(ComboBox1.Selected.Id))
         SearchFields: =["City"]
         SearchItems: =Search(UsuáriosdoOffice365.SearchUser(),ComboBox1.SearchText,City)
         X: =20
