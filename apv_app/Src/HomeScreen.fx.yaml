@@ -42,7 +42,7 @@ HomeScreen As screen:
             Font: =Font.Lato
             Height: =75
             Size: =16
-            Text: ="Bem vindo, " & User().FullName
+            Text: ="Bem vindo, " & varUserInfo(DataSourceInfo.DisplayName)
             Width: =282
             X: =953
             Y: =12
