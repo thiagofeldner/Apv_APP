@@ -15,7 +15,7 @@ RHScreen As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             DisplayMode: =DisplayMode.View
             Height: =99
-            Image: =logoagenciapeixevivo
+            Image: =Logo_branco
             Width: =166
             X: =1
             ZIndex: =1
@@ -26,7 +26,6 @@ RHScreen As screen:
             DisplayMode: =DisplayMode.View
             Height: =99
             Image: =User().Image
-            ImagePosition: =ImagePosition.Fill
             Width: =105
             X: =1261
             ZIndex: =2
