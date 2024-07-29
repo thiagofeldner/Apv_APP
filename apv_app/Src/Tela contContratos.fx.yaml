@@ -8,6 +8,7 @@
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =116
+        Width: =608
         X: =12
         Y: =96
         ZIndex: =1
@@ -20,7 +21,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Contratada
+            Text: =ThisItem.'Contrato de gestão '
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
@@ -35,7 +36,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.CNPJ
+            Text: =ThisItem.'Processo adm. original'
             VerticalAlign: =VerticalAlign.Top
             Width: =Title5.Width
             X: =Title5.X
@@ -50,7 +51,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Contrato de gestão '
+            Text: =ThisItem.'Modalidade da contratação'.Value
             VerticalAlign: =VerticalAlign.Top
             Width: =Title5.Width
             X: =Title5.X
