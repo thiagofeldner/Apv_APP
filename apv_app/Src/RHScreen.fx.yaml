@@ -26,6 +26,7 @@ RHScreen As screen:
             DisplayMode: =DisplayMode.View
             Height: =99
             Image: =User().Image
+            ImagePosition: =ImagePosition.Fill
             Width: =105
             X: =1261
             ZIndex: =2
