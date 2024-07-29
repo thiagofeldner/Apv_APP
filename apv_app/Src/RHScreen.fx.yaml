@@ -77,8 +77,8 @@ RHScreen As screen:
         Font: =Font.'Lato Black'
         FontSize: =24
         FontWeight: =FontWeight.Semibold
-        Height: =82
-        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Height: =93
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
         OnSelect: =Navigate('Tela SolicitacoesFerias',ScreenTransition.Fade)
         Text: ="Solicitação de Férias"
         VerticalAlign: =VerticalAlign.Middle
