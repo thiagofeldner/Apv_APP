@@ -1904,19 +1904,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela SolictacoesViagens'.Container1_1.Icon1_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela SolictacoesViagens'.contSolViag.iconVoltar.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela SolictacoesViagens'.Container1_1.Icon1_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela SolictacoesViagens'.contSolViag.iconVoltar.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela SolictacoesViagens",
-                "type": "'Tela SolictacoesViagens'.Container1_1.Icon1_1"
+                "type": "'Tela SolictacoesViagens'.contSolViag.iconVoltar"
               }
             }
           ],
@@ -1934,19 +1934,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela SolictacoesViagens'.Container1_1.Icon1_1.TabIndex"
+                  "fullyQualifiedName": "'Tela SolictacoesViagens'.contSolViag.iconVoltar.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela SolictacoesViagens'.Container1_1.Icon1_1.TabIndex",
+                  "fullyQualifiedName": "'Tela SolictacoesViagens'.contSolViag.iconVoltar.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tela SolictacoesViagens",
-                "type": "'Tela SolictacoesViagens'.Container1_1.Icon1_1"
+                "type": "'Tela SolictacoesViagens'.contSolViag.iconVoltar"
               }
             }
           ],

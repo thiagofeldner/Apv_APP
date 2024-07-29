@@ -278,13 +278,13 @@
             Y: =370
             ZIndex: =17
 
-    Container1_1 As groupContainer.manualLayoutContainer:
+    contSolViag As groupContainer.manualLayoutContainer:
         Fill: =RGBA(15, 108, 189, 1)
         Height: =97
         Width: =1366
         ZIndex: =6
 
-        TextCanvas1_1 As Texto:
+        txtSolViag As Texto:
             Align: ='TextCanvas.Align'.Center
             DisplayMode: =DisplayMode.Edit
             Font: =Font.'Lato Black'
@@ -299,7 +299,7 @@
             Y: =21
             ZIndex: =3
 
-        Icon1_1 As icon.Leave:
+        iconVoltar As icon.Leave:
             Color: =RGBA(255, 255, 255, 1)
             Height: =41
             Icon: =Icon.Leave
