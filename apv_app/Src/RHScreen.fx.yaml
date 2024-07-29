@@ -54,12 +54,10 @@ RHScreen As screen:
             DisplayMode: =DisplayMode.View
             Height: =75
             Size: =32
-            Text: |-
-                ="Agência Peixe Vivo
-                "
-            Width: =467
+            Text: ="RH"
+            Width: =130
             Wrap: =false
-            X: =415
+            X: =495
             Y: =12
             ZIndex: =4
 
