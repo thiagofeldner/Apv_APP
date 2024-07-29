@@ -1,0 +1,21 @@
+Screen1 As screen:
+
+    ComboBox1_1 As combobox:
+        DefaultSelectedItems: |-
+            =UsuáriosdoOffice365.SearchUser({searchTerm:varUserInfo.displayName})
+        DisplayFields: =["DisplayName"]
+        Items: =UsuáriosdoOffice365.SearchUser()
+        OnChange: =ClearCollect(colDirectReports, UsuáriosdoOffice365.DirectReportsV2(Self.Selected.Id).value)
+        SearchFields: =["City"]
+        SearchItems: =Search(UsuáriosdoOffice365.SearchUser(),ComboBox1_1.SearchText,City)
+        SelectMultiple: =false
+        X: =21
+        Y: =84
+        ZIndex: =1
+
+    Label9 As label:
+        Text: =CountRows(colDirectReports)
+        X: =21
+        Y: =147
+        ZIndex: =2
+
