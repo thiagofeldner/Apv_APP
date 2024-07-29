@@ -122,13 +122,25 @@
 
         Icon1 As icon.Leave:
             Color: =RGBA(255, 255, 255, 1)
-            Height: =41
+            Height: =53
             Icon: =Icon.Leave
             OnSelect: =Navigate(FinanScreen, ScreenTransition.Cover)
-            Width: =41
+            Width: =40
             X: =1302
-            Y: =21
+            Y: =15
             ZIndex: =2
+
+        Icon2 As icon.Home:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =53
+            Icon: =Icon.Home
+            OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCover)
+            Width: =44
+            X: =1226
+            Y: =15
+            ZIndex: =3
 
     form_contratos As form.PowerApps_CoreControls_Form:
         DataSource: ='Controle de contratos'
