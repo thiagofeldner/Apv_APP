@@ -1,4 +1,4 @@
-FinanceiroScreen As screen:
+FinanScreen As screen:
 
     contFin As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(0, 0, 0, 0)

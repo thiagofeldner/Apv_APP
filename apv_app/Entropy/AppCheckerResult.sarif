@@ -2204,19 +2204,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FinanceiroScreen.btnCtrlContratos.AccessibleLabel"
+                  "fullyQualifiedName": "FinanScreen.btnCtrlContratos.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FinanceiroScreen.btnCtrlContratos.AccessibleLabel",
+                  "fullyQualifiedName": "FinanScreen.btnCtrlContratos.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "FinanceiroScreen",
-                "type": "FinanceiroScreen.btnCtrlContratos"
+                "module": "FinanScreen",
+                "type": "FinanScreen.btnCtrlContratos"
               }
             }
           ],
