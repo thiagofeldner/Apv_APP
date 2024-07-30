@@ -6,7 +6,7 @@ Screen1 As screen:
         Fill: =RGBA(0, 0, 0, 0)
         Height: =610
         Items: =colItemsCollection
-        Width: =1109
+        Width: =1303
         X: =40
         Y: =40
         ZIndex: =1
@@ -124,6 +124,7 @@ Screen1 As screen:
             ZIndex: =10
 
         Finaldotermo_Coluna2 As dataTableColumn.textualColumn:
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Finaldotermo"
             FieldName: ="Finaldotermo"
@@ -132,7 +133,7 @@ Screen1 As screen:
             LayoutHeight: =Parent.Height
             Order: =11
             Text: =ThisItem.Finaldotermo
-            Width: =100
+            Width: =167
             X: =0
             Y: =0
             ZIndex: =11
@@ -150,7 +151,7 @@ Screen1 As screen:
     ButtonCanvas1_1 As Botão:
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        OnSelect: =Collect(colDropCollection, DropColumns(ColItemCollection, 'Contrato de gestão '))
+        OnSelect: =Collect(colDropCollection, DropColumns(ColItemCollection, 'Final do termo'))
         Text: ="Descartar Coluna"
         Width: =136
         X: =212
