@@ -478,7 +478,7 @@
                     LayoutMinHeight: =32
                     LayoutMinWidth: =96
                     OnSelect: |
-                        =SubmitForm(ApprovalForm1); ResetForm(ApprovalForm1);
+                        =SubmitForm(ApprovalForm1); ResetForm(ApprovalForm1);Navigate(RHScreen, ScreenTransition.Fade);
                     Text: ="Enviar solicitação"
                     Width: =140
                     X: =0
