@@ -132,11 +132,60 @@
 
     ButtonCanvas3 As Botão:
         DisplayMode: =DisplayMode.Edit
-        Height: =50
+        FontSize: =24
+        Height: =57
         OnSelect: =Collect(colItemsCollection, 'Controle de contratos')
         Text: ="Add to collection"
-        Width: =159
-        X: =605
-        Y: =480
+        Width: =213
+        X: =574
+        Y: =692
         ZIndex: =5
+
+    Label8 As label:
+        FontWeight: =FontWeight.Semibold
+        Size: =18
+        Text: ="Contratada"
+        X: =612
+        Y: =119
+        ZIndex: =6
+
+    ButtonCanvas4 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =24
+        Height: =44
+        OnSelect: |-
+            =Patch(colItemsCollection, LookUp(colItemsCollection, CNPJ = TextInputCanvas3), { 'Contrato de gestão ': TextInputCanvas3_1})
+        Text: ="Update"
+        Width: =127
+        X: =612
+        Y: =329
+        ZIndex: =7
+
+    Label8_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =47
+        Size: =18
+        Text: ="Contrato gestão"
+        Width: =204
+        X: =612
+        Y: =181
+        ZIndex: =9
+
+    "TextInputCanvas3 As 'Entrada de texto'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Value: =Gallery1.Selected.CNPJ
+        Width: =320
+        X: =816
+        Y: =114
+        ZIndex: =10
+
+    "TextInputCanvas3_1 As 'Entrada de texto'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Value: =Gallery1.Selected.'Contrato de gestão '
+        Width: =320
+        X: =816
+        Y: =188
+        ZIndex: =11
 
