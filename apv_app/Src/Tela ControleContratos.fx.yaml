@@ -154,11 +154,11 @@
         FontSize: =24
         Height: =44
         OnSelect: |-
-            =Patch(colItemsCollection, LookUp(colItemsCollection, CNPJ = TextInputCanvas3), { 'Contrato de gestão ': TextInputCanvas3_1})
+            =Patch('Controle de contratos', LookUp('Controle de contratos', Contratada = Contratada), {'Contrato de gestão ': txtCG})
         Text: ="Update"
-        Width: =127
-        X: =612
-        Y: =329
+        Width: =139
+        X: =623
+        Y: =316
         ZIndex: =7
 
     Label8_1 As label:
@@ -171,20 +171,24 @@
         Y: =181
         ZIndex: =9
 
-    "TextInputCanvas3 As 'Entrada de texto'":
+    "txtContratada As 'Entrada de texto'":
         DisplayMode: =DisplayMode.Edit
-        Height: =32
-        Value: =Gallery1.Selected.CNPJ
-        Width: =320
-        X: =816
+        Font: =Font.Lato
+        FontSize: =18
+        Height: =45
+        Value: =Gallery1.Selected.Contratada
+        Width: =571
+        X: =762
         Y: =114
         ZIndex: =10
 
-    "TextInputCanvas3_1 As 'Entrada de texto'":
+    "txtCG As 'Entrada de texto'":
         DisplayMode: =DisplayMode.Edit
-        Height: =32
+        Font: =Font.Lato
+        FontSize: =18
+        Height: =40
         Value: =Gallery1.Selected.'Contrato de gestão '
-        Width: =320
+        Width: =517
         X: =816
         Y: =188
         ZIndex: =11
