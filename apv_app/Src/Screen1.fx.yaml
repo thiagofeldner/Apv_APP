@@ -140,7 +140,7 @@ Screen1 As screen:
     ButtonCanvas1 As Botão:
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        OnSelect: =Collect(colAddCollection, AddColumns(ColItemCollection, Revenue, 'Contrato de gestão '))
+        OnSelect: =Collect(colAddCollection, AddColumns(ColItemCollection, Revenue, 'Valor contrato' * Execução))
         Text: ="Adicionar Coluna"
         Width: =140
         X: =40
