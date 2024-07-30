@@ -90,7 +90,7 @@ RHScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =93
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        OnSelect: =false
+        OnSelect: =Navigate(Screen2, ScreenTransition.Cover)
         Text: ="Atestado Médico"
         VerticalAlign: =VerticalAlign.Middle
         Width: =247

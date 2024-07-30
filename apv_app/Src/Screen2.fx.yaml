@@ -589,7 +589,7 @@
                     ReviewTypeText1 As Texto:
                         DisplayMode: =DisplayMode.Edit
                         Height: =Parent.TemplateHeight / 2 - 5
-                        Text: =ThisItem.Title
+                        Text: =varUserInfo.displayName
                         VerticalAlign: ='TextCanvas.VerticalAlign'.Top
                         Weight: =If(ThisItem.Current, "Bold", "Regular")
                         Width: =ReviewerNameText1.Width
