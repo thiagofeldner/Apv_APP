@@ -71,10 +71,10 @@ HomeScreen As screen:
         Color: =RGBA(139, 154, 159, 1)
         DisplayMode: =DisplayMode.View
         Font: =Font.Lato
-        Height: =42
+        Height: =34
         Text: =varUserInfo.mail
         Width: =336
-        Y: =722
+        Y: =730
         ZIndex: =2
 
     btnRH As Botão:
