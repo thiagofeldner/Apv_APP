@@ -154,11 +154,11 @@
         ZIndex: =6
 
     ButtonCanvas4 As Botão:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
         FontSize: =24
         Height: =44
-        OnSelect: |-
-            =Patch('Controle de contratos', LookUp('Controle de contratos', Contratada = txtContratada), {'Contrato de gestão ': txtCG})
+        OnSelect: =false
         Text: ="Update"
         Width: =139
         X: =623
