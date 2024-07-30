@@ -102,6 +102,10 @@
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(15, 108, 189, 1)
         Height: =80
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =1366
         ZIndex: =4
 
