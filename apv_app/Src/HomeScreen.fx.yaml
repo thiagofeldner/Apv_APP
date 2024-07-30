@@ -71,12 +71,13 @@ HomeScreen As screen:
         BorderStyle: =BorderStyle.None
         Color: =RGBA(139, 154, 159, 1)
         DisplayMode: =DisplayMode.View
-        Font: =Font.'Lato Black'
-        Height: =67
-        Size: =18
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Lighter
+        Height: =42
+        Size: =14
         Text: =varUserInfo.mail
-        Width: =467
-        Y: =698
+        Width: =348
+        Y: =723
         ZIndex: =2
 
     btnRH As Botão:
