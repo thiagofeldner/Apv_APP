@@ -132,6 +132,7 @@ Screen1 As screen:
     ButtonCanvas1_2 As Botão:
         DisplayMode: =DisplayMode.Edit
         Height: =32
+        OnSelect: =Collect(colShowCollection, ShowColumns(ColItemCollection, Contratada))
         Text: ="Mostrar Coluna"
         Width: =132
         X: =408

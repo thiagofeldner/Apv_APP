@@ -181,7 +181,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/30/2024 12:18:57",
+  "HeaderLastSavedDateTimeUTC": "07/30/2024 12:19:54",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "77463e0c-8857-405f-81ef-2c235c31447e": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/aee4941be57b40e99dbc87ed46e1586f\"",
@@ -207,6 +207,7 @@
     "colAddCollection": 14,
     "colDropCollection": 13,
     "ColItemCollection": 12,
+    "colShowCollection": 15,
     "ComboBoxSample": 2,
     "Controle de contratos": 11,
     "CustomGallerySample": 3,
