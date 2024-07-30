@@ -123,6 +123,7 @@ Screen1 As screen:
     ButtonCanvas1_1 As Botão:
         DisplayMode: =DisplayMode.Edit
         Height: =32
+        OnSelect: =Collect(colDropCollection, DropColumns(ColItemCollection, 'Contrato de gestão '))
         Text: ="Descartar Coluna"
         Width: =136
         X: =222
