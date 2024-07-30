@@ -1,4 +1,4 @@
-"'Tela SolicitacoesFerias' As screen":
+ScreenSolicitacoesFerias As screen:
 
     "'SolicitacoesFerias Form' As form":
         DataSource: |
@@ -1017,7 +1017,7 @@
                 }
             );
             
-            Navigate('Tela SolicitacoesFerias Sucess')
+            Navigate('ScreenSolicitacoesFerias Sucess')
         PressedBorderColor: =RGBA(0, 69, 120, 1)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(16, 110, 190, 1)

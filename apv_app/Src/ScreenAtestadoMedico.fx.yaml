@@ -1,4 +1,4 @@
-"Screen2 As screen.'autoLayout_Approval_ver1.0'":
+"ScreenAtestadoMedico As screen.'autoLayout_Approval_ver1.0'":
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
@@ -498,7 +498,7 @@
                 RadiusBottomRight: =8
                 RadiusTopLeft: =8
                 RadiusTopRight: =8
-                Visible: =If(Screen2.Size = ScreenSize.Small, false, true)
+                Visible: =If(ScreenAtestadoMedico.Size = ScreenSize.Small, false, true)
                 ZIndex: =9
 
                 ReviewersText1 As Texto:
@@ -552,7 +552,7 @@
                     LoadingSpinner: =LoadingSpinner.Data
                     TabIndex: =0
                     TemplatePadding: =0
-                    TemplateSize: =If(Screen2.Size = ScreenSize.Small, 80, 140)
+                    TemplateSize: =If(ScreenAtestadoMedico.Size = ScreenSize.Small, 80, 140)
                     ZIndex: =11
 
                     RectangleShape1 As rectangle:

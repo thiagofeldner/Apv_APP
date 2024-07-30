@@ -1,4 +1,4 @@
-"'Tela SolictacoesViagens' As screen":
+ScreenSolictacoesViagens As screen:
 
     "GalSolViagens As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
         '#CopilotOverlayLabel': ="Filtrada"

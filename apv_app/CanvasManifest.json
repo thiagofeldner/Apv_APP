@@ -139,12 +139,12 @@
     "RHScreen",
     "FinanScreen",
     "ProjetosScreen",
-    "Tela ControleContratos",
-    "Tela SolictacoesViagens",
-    "Tela contContratos",
-    "Tela SolicitacoesFerias",
-    "Tela SolicitacoesFerias Sucess",
-    "Screen1",
-    "Screen2"
+    "ScreenControleContratos",
+    "ScreenSolictacoesViagens",
+    "ScreencontContratos",
+    "ScreenSolicitacoesFerias",
+    "ScreenSolicitacoesFerias Sucess",
+    "ScreenAtestadoMedico",
+    "Screen1"
   ]
 }

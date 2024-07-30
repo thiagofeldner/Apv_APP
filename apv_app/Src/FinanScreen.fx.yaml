@@ -66,7 +66,7 @@ FinanScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =93
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        OnSelect: =Navigate('Tela ControleContratos',ScreenTransition.Fade)
+        OnSelect: =Navigate(ScreenControleContratos,ScreenTransition.Fade)
         Text: ="Controle Contratos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =247

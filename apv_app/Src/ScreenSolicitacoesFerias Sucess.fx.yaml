@@ -1,4 +1,4 @@
-"'Tela SolicitacoesFerias Sucess' As screen":
+"'ScreenSolicitacoesFerias Sucess' As screen":
 
     btnVoltar_3 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
