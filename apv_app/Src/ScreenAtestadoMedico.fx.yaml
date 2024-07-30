@@ -602,23 +602,23 @@
 
     Icon3 As icon.Home:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =53
+        Height: =47
         Icon: =Icon.Home
         OnSelect: =Navigate(HomeScreen, ScreenTransition.CoverRight)
-        Width: =47
-        X: =30
-        Y: =25
+        Width: =46
+        X: =27
+        Y: =27
         ZIndex: =2
 
     Icon5 As icon.Leave:
         BorderStyle: =BorderStyle.None
         Color: =RGBA(255, 255, 255, 1)
         FocusedBorderThickness: =0
-        Height: =53
+        Height: =40
         Icon: =Icon.Leave
         OnSelect: =Navigate(RHScreen, ScreenTransition.None)
-        Width: =41
-        X: =95
-        Y: =25
+        Width: =29
+        X: =1236
+        Y: =31
         ZIndex: =3
 
