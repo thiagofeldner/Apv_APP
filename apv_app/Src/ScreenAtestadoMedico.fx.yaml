@@ -610,3 +610,15 @@
         Y: =25
         ZIndex: =2
 
+    Icon5 As icon.Leave:
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(255, 255, 255, 1)
+        FocusedBorderThickness: =0
+        Height: =53
+        Icon: =Icon.Leave
+        OnSelect: =Navigate(RHScreen, ScreenTransition.None)
+        Width: =41
+        X: =95
+        Y: =25
+        ZIndex: =3
+
