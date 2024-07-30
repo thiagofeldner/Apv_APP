@@ -602,11 +602,11 @@
 
     Icon3 As icon.Home:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =47
+        Height: =44
         Icon: =Icon.Home
         OnSelect: =Navigate(HomeScreen, ScreenTransition.CoverRight)
-        Width: =46
-        X: =27
+        Width: =36
+        X: =28
         Y: =27
         ZIndex: =2
 
