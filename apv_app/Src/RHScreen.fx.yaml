@@ -94,7 +94,7 @@ RHScreen As screen:
         Text: ="Atestado Médico"
         VerticalAlign: =VerticalAlign.Middle
         Width: =247
-        X: =164
-        Y: =338
+        X: =499
+        Y: =188
         ZIndex: =3
 
