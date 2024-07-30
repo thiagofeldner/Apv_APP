@@ -142,6 +142,7 @@ Screen1 As screen:
     ButtonCanvas1_3 As Botão:
         DisplayMode: =DisplayMode.Edit
         Height: =32
+        OnSelect: =Collect(colRenameCollection, RenameColumns(ColItemCollection, 'Contrato de gestão ', 'Acompanhamento dos Termos aditivos da Agência' ))
         Text: ="Renomear Coluna"
         Width: =141
         X: =574
