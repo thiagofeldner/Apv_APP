@@ -228,21 +228,21 @@ HomeScreen As screen:
         Font: =Font.'Lato Black'
         FontSize: =32
         FontWeight: =FontWeight.Semibold
-        Height: =86
+        Height: =52
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
         Text: ="Admin"
         VerticalAlign: =VerticalAlign.Middle
-        Width: =166
-        X: =1175
-        Y: =664
+        Width: =127
+        X: =1213
+        Y: =698
         ZIndex: =9
 
     Icon2 As icon.Settings:
         Color: =RGBA(0, 0, 0, 1)
-        Height: =77
+        Height: =52
         Icon: =Icon.Settings
-        Width: =87
-        X: =1056
-        Y: =673
+        Width: =69
+        X: =1129
+        Y: =698
         ZIndex: =10
 
