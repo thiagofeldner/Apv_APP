@@ -31,6 +31,8 @@
                 BasePaletteColor: =RGBA(5, 102, 178, 1)
                 DisplayMode: =DisplayMode.Edit
                 Height: =75
+                IsLogoVisible: =false
+                IsProfilePictureVisible: =true
                 LayoutMinHeight: =75
                 LayoutMinWidth: =Parent.Width
                 Logo: =Logo_branco
@@ -597,4 +599,14 @@
                         X: =ReviewerNameText1.X
                         Y: =ReviewerNameText1.Y + ReviewerNameText1.Height
                         ZIndex: =15
+
+    Icon3 As icon.Home:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =60
+        Icon: =Icon.Home
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.CoverRight)
+        Width: =52
+        X: =30
+        Y: =25
+        ZIndex: =2
 
