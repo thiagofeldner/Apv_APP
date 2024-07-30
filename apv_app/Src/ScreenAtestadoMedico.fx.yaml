@@ -605,7 +605,7 @@
         Height: =44
         Icon: =Icon.Home
         OnSelect: =Navigate(HomeScreen, ScreenTransition.CoverRight)
-        Width: =36
+        Width: =53
         X: =28
         Y: =27
         ZIndex: =2
@@ -617,8 +617,8 @@
         Height: =40
         Icon: =Icon.Leave
         OnSelect: =Navigate(RHScreen, ScreenTransition.None)
-        Width: =29
-        X: =1236
+        Width: =40
+        X: =1226
         Y: =31
         ZIndex: =3
 
