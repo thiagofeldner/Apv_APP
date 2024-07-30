@@ -232,8 +232,17 @@ HomeScreen As screen:
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
         Text: ="Admin"
         VerticalAlign: =VerticalAlign.Middle
-        Width: =193
-        X: =1152
+        Width: =166
+        X: =1175
         Y: =664
         ZIndex: =9
+
+    Icon2 As icon.Settings:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =77
+        Icon: =Icon.Settings
+        Width: =87
+        X: =1056
+        Y: =673
+        ZIndex: =10
 
