@@ -130,3 +130,13 @@
             Y: =15
             ZIndex: =2
 
+    ButtonCanvas3 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Height: =50
+        OnSelect: =Collect(colItemsCollection, 'Controle de contratos')
+        Text: ="Add to collection"
+        Width: =159
+        X: =605
+        Y: =480
+        ZIndex: =5
+

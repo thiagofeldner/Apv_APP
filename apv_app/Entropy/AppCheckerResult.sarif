@@ -1603,6 +1603,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Tela ControleContratos'.ButtonCanvas3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.ButtonCanvas3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.ButtonCanvas3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.logoagenciapeixevivo"
                 }
               ],
@@ -1627,6 +1657,36 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela ControleContratos'.ButtonCanvas3.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela ControleContratos'.ButtonCanvas3.OnSelect",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela ControleContratos",
+                "type": "'Tela ControleContratos'.ButtonCanvas3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-CollectDelegatableDataSource",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1759,7 +1819,7 @@
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Limite os dados coletados da fonte de dados atualizando a fórmula \"Collect(ColItemCollection; 'Controle de contratos')\" para incluir uma função de filtragem, como 'Filter' ou 'Search'."
+                  "Limite os dados coletados da fonte de dados atualizando a fórmula \"Collect(colItemsCollection; 'Controle de contratos')\" para incluir uma função de filtragem, como 'Filter' ou 'Search'."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
