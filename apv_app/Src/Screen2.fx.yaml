@@ -1,0 +1,599 @@
+"Screen2 As screen.'autoLayout_Approval_ver1.0'":
+
+    ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =16
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =2
+
+            Header1 As Cabeçalho:
+                DisplayMode: =DisplayMode.Edit
+                Height: =75
+                LayoutMinHeight: =75
+                LayoutMinWidth: =Parent.Width
+                Logo: =Logo_branco
+                OnSelectLogo: =false
+                Title: =
+                UserEmail: =User().Email
+                UserImage: =User().Image
+                UserName: =User().FullName
+                Width: =Parent.Width
+                X: =0
+                Y: =0
+                ZIndex: =3
+
+        MainContainer1 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.None
+            Fill: =RGBA(245, 245, 245, 1)
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutGap: =16
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            LayoutWrap: =true
+            PaddingBottom: =2
+            PaddingLeft: =2
+            PaddingRight: =2
+            PaddingTop: =2
+            ZIndex: =4
+
+            FormContainer1 As groupContainer.verticalAutoLayoutContainer:
+                Fill: =RGBA(255, 255, 255, 1)
+                FillPortions: =7
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =16
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                PaddingBottom: =15
+                PaddingLeft: =15
+                PaddingRight: =15
+                PaddingTop: =15
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                ZIndex: =5
+
+                FormTitleText1 As Texto:
+                    Align: ='TextCanvas.Align'.End
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =32
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
+                    Size: =20
+                    Text: ="Solicitar aprovação"
+                    Weight: ='TextCanvas.Weight'.Semibold
+                    Width: =180
+                    X: =0
+                    Y: =0
+                    ZIndex: =6
+
+                ApprovalForm1 As form.PowerApps_CoreControls_Form:
+                    DataSource: ='Cadastro de Atestado'
+                    DefaultMode: =FormMode.New
+                    LayoutMinHeight: =0
+                    LayoutMinWidth: =0
+                    NumberOfColumns: =1
+                    UseFluentV9Cards: =true
+                    ZIndex: =7
+
+                    Título_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Title"
+                        Default: =ThisItem.Título
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Cadastro de Atestado'],DataSourceInfo.DisplayName,Title)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Cadastro de Atestado'], DataSourceInfo.MaxLength, Title)
+                        Required: =true
+                        Update: =DataCardValue1.Value
+                        Width: =992
+                        X: =0
+                        Y: =0
+                        ZIndex: =8
+
+                        DataCardKey13 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue1 As 'Entrada de texto'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey13.Y + DataCardKey13.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage14 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue1.Y + DataCardValue1.Height
+                            ZIndex: =3
+
+                        StarVisible14 As Texto:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey13.Y
+                            ZIndex: =4
+
+                    Etapa_DataCard1 As typedDataCard.fluentV9ComboBoxEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Etapa"
+                        Default: =ThisItem.Etapa
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Cadastro de Atestado'],DataSourceInfo.DisplayName,Etapa)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue2.Selected
+                        Width: =992
+                        X: =0
+                        Y: =1
+                        ZIndex: =8
+
+                        DataCardKey15 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue2 As 'Caixa de Combinação'.pcfdataset":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DefaultSelectedItems: =[Parent.Default]
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Items: =Choices([@'Cadastro de Atestado'].Etapa)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey15.Y + DataCardKey15.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage15 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue2.Y + DataCardValue2.Height
+                            ZIndex: =3
+
+                        StarVisible15 As Texto:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =20
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey15.Y
+                            ZIndex: =4
+
+                    "'Data inicial_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Datainicial"
+                        Default: =ThisItem.'Data inicial'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Cadastro de Atestado'],DataSourceInfo.DisplayName,Datainicial)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue3.SelectedDate
+                        Width: =992
+                        X: =0
+                        Y: =2
+                        ZIndex: =8
+
+                        DataCardKey16 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue3 As 'Seletor de data'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            EndDate: =Date(Year(Today())+100, 12, 31)
+                            Height: =32
+                            SelectedDate: =Parent.Default
+                            StartDate: =Date(1900, 1, 1)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey16.Y + DataCardKey16.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage16 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue3.Y + DataCardValue3.Height
+                            ZIndex: =3
+
+                        StarVisible16 As Texto:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey16.Y
+                            ZIndex: =4
+
+                    "'Data Final_DataCard1' As typedDataCard.fluentV9DateEditCard":
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="DataFinal"
+                        Default: =ThisItem.'Data Final'
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Cadastro de Atestado'],DataSourceInfo.DisplayName,DataFinal)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        Required: =false
+                        Update: =DataCardValue4.SelectedDate
+                        Width: =992
+                        X: =0
+                        Y: =3
+                        ZIndex: =8
+
+                        DataCardKey17 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue4 As 'Seletor de data'":
+                            AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                            DisplayMode: =Parent.DisplayMode
+                            EndDate: =Date(Year(Today())+100, 12, 31)
+                            Height: =32
+                            SelectedDate: =Parent.Default
+                            StartDate: =Date(1900, 1, 1)
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey17.Y + DataCardKey17.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage17 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue4.Y + DataCardValue4.Height
+                            ZIndex: =3
+
+                        StarVisible17 As Texto:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey17.Y
+                            ZIndex: =4
+
+                    Obsevações_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="Obseva_x00e7__x00f5_es"
+                        Default: =ThisItem.Obsevações
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Cadastro de Atestado'],DataSourceInfo.DisplayName,Obseva_x00e7__x00f5_es)
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =70
+                        MaxLength: =DataSourceInfo([@'Cadastro de Atestado'], DataSourceInfo.MaxLength, Obseva_x00e7__x00f5_es)
+                        Required: =true
+                        Update: =DataCardValue5.Value
+                        Width: =992
+                        X: =0
+                        Y: =4
+                        ZIndex: =8
+
+                        DataCardKey18 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =22
+                            Text: =Parent.DisplayName
+                            Weight: ='TextCanvas.Weight'.Semibold
+                            Width: =Parent.Width - 48
+                            Wrap: =false
+                            X: =24
+                            Y: =10
+                            ZIndex: =1
+
+                        "DataCardValue5 As 'Entrada de texto'":
+                            AccessibleLabel: =Parent.DisplayName
+                            DisplayMode: =Parent.DisplayMode
+                            Height: =32
+                            Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
+                            Required: =Parent.Required
+                            ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                            Value: =Parent.Default
+                            Width: =Parent.Width - 48
+                            X: =24
+                            Y: =DataCardKey18.Y + DataCardKey18.Height + 4
+                            ZIndex: =2
+
+                        ErrorMessage18 As Texto:
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: =Parent.Error
+                            Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =Parent.Width - 48
+                            Wrap: =true
+                            X: =24
+                            Y: =DataCardValue5.Y + DataCardValue5.Height
+                            ZIndex: =3
+
+                        StarVisible18 As Texto:
+                            Align: ='TextCanvas.Align'.Center
+                            DisplayMode: =DisplayMode.Edit
+                            Height: =30
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            X: =0
+                            Y: =DataCardKey18.Y
+                            ZIndex: =4
+
+                    Anexos_DataCard1 As typedDataCard.attachmentsEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="{Attachments}"
+                        Default: =ThisItem.Anexos
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@'Cadastro de Atestado'],DataSourceInfo.DisplayName,'{Attachments}')
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =50
+                        Required: =false
+                        Update: =DataCardValue6.Attachments
+                        Width: =992
+                        X: =0
+                        Y: =5
+                        ZIndex: =8
+
+                        DataCardKey19 As label:
+                            AutoHeight: =true
+                            Height: =34
+                            Text: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            Wrap: =false
+                            X: =30
+                            Y: =10
+                            ZIndex: =1
+
+                        DataCardValue6 As attachments:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            DisplayMode: =Parent.DisplayMode
+                            IsInDataCard: =true
+                            Items: =Parent.Default
+                            PaddingBottom: =5
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            Tooltip: =Parent.DisplayName
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardKey19.Y + DataCardKey19.Height + 5
+                            ZIndex: =2
+
+                        ErrorMessage19 As label:
+                            AutoHeight: =true
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue6.Y + DataCardValue6.Height
+                            ZIndex: =3
+
+                        StarVisible19 As label:
+                            Align: =Align.Center
+                            Height: =DataCardKey19.Height
+                            Text: ="*"
+                            Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                            Width: =30
+                            Wrap: =false
+                            Y: =DataCardKey19.Y
+                            ZIndex: =4
+
+                SubmitButton1 As Botão:
+                    AccessibleLabel: ="Botão Enviar solicitação de aprovação"
+                    AlignInContainer: =AlignInContainer.End
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =32
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
+                    OnSelect: |
+                        =SubmitForm(ApprovalForm1); ResetForm(ApprovalForm1);
+                    Text: ="Enviar solicitação"
+                    Width: =140
+                    X: =0
+                    Y: =0
+                    ZIndex: =8
+
+            SidebarContainer1 As groupContainer.verticalAutoLayoutContainer:
+                Fill: =RGBA(255, 255, 255, 1)
+                FillPortions: =2
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =16
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                PaddingTop: =15
+                RadiusBottomLeft: =8
+                RadiusBottomRight: =8
+                RadiusTopLeft: =8
+                RadiusTopRight: =8
+                Visible: =If(Screen2.Size = ScreenSize.Small, false, true)
+                ZIndex: =9
+
+                ReviewersText1 As Texto:
+                    Align: ='TextCanvas.Align'.End
+                    DisplayMode: =DisplayMode.Edit
+                    Height: =32
+                    LayoutMinHeight: =32
+                    LayoutMinWidth: =96
+                    Size: =20
+                    Text: ="Revisores"
+                    Weight: ='TextCanvas.Weight'.Semibold
+                    Width: =115
+                    X: =0
+                    Y: =0
+                    ZIndex: =10
+
+                ReviewersGallery1 As gallery.galleryVertical:
+                    AccessibleLabel: ="Galeria de revisores"
+                    DelayItemLoading: =true
+                    Items: |-
+                        =[
+                            {
+                                Step: 1,
+                                Name: "Name",
+                                Title: "Title",
+                                Status: "Approved",
+                                Current: true
+                            },
+                            {
+                                Step: 2,
+                                Name: "Name",
+                                Title: "Title",
+                                Status: "Pending"
+                            },
+                            {
+                                Step: 3,
+                                Name: "Name",
+                                Title: "Title",
+                                Status: "Not Started"
+                            },
+                            {
+                                Step: 4,
+                                Name: "Name",
+                                Title: "Title",
+                                Status: "Not Started"
+                            }
+                        ]
+                    Layout: =Layout.Vertical
+                    LayoutMinHeight: =0
+                    LayoutMinWidth: =Parent.Width
+                    LoadingSpinner: =LoadingSpinner.Data
+                    TabIndex: =0
+                    TemplatePadding: =0
+                    TemplateSize: =If(Screen2.Size = ScreenSize.Small, 80, 140)
+                    ZIndex: =11
+
+                    RectangleShape1 As rectangle:
+                        DisplayMode: =DisplayMode.Disabled
+                        Fill: =RGBA(214, 221, 224, 1)
+                        Height: =If(ThisItem.Step = 1, Parent.TemplateHeight - BadgeStatus1.Height - BadgeStatus1.Y, ThisItem.Step <> Parent.AllItemsCount, Parent.TemplateHeight, BadgeStatus1.Y)
+                        OnSelect: =Select(Parent)
+                        Width: =2
+                        X: =BadgeStatus1.X + (BadgeStatus1.Width / 2)
+                        Y: =If(ThisItem.Step = 1, BadgeStatus1.Height + BadgeStatus1.Y, 0)
+                        ZIndex: =12
+
+                    BadgeStatus1 As Notificação:
+                        AccessibleLabel: ="Notificação de status da revisão"
+                        BasePaletteColor: =Switch(ThisItem.Status, "Pending", Color.DarkGoldenRod, "Approved", Color.DarkGreen, "Rejected", Color.Red)
+                        Content: =Left(ThisItem.Status, 1)
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =47
+                        Width: =49
+                        X: =30
+                        Y: =((Parent.TemplateHeight - Self.Height) / 2) - 32
+                        ZIndex: =13
+
+                    ReviewerNameText1 As Texto:
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =26
+                        Text: =ThisItem.Name
+                        Weight: =If(ThisItem.Current, "Bold", "Regular")
+                        Width: =Parent.TemplateWidth-Self.X
+                        X: =BadgeStatus1.X + BadgeStatus1.Width + 10
+                        Y: =BadgeStatus1.Y
+                        ZIndex: =14
+
+                    ReviewTypeText1 As Texto:
+                        DisplayMode: =DisplayMode.Edit
+                        Height: =Parent.TemplateHeight / 2 - 5
+                        Text: =ThisItem.Title
+                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        Weight: =If(ThisItem.Current, "Bold", "Regular")
+                        Width: =ReviewerNameText1.Width
+                        X: =ReviewerNameText1.X
+                        Y: =ReviewerNameText1.Y + ReviewerNameText1.Height
+                        ZIndex: =15
+
