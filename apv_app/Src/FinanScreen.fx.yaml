@@ -62,14 +62,14 @@ FinanScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
-        FontSize: =24
+        FontSize: =18
         FontWeight: =FontWeight.Semibold
-        Height: =93
+        Height: =62
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
         OnSelect: =Navigate(ScreencontContratos,ScreenTransition.Fade)
         Text: ="Controle Contratos"
         VerticalAlign: =VerticalAlign.Middle
-        Width: =247
+        Width: =123
         X: =164
         Y: =188
         ZIndex: =2
