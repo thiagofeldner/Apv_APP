@@ -151,7 +151,6 @@ ScreencontContratos As screen:
 
     Form2 As form:
         DataSource: ='Controle de contratos'
-        DefaultMode: =FormMode.View
         Height: =658
         Item: =Gallery3.Selected
         Width: =877
