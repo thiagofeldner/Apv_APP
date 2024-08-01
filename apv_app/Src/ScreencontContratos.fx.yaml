@@ -4,7 +4,7 @@ ScreencontContratos As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DelayItemLoading: =true
-        Height: =595
+        Height: =658
         Items: ='Controle de contratos'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -149,25 +149,12 @@ ScreencontContratos As screen:
             Y: =21
             ZIndex: =2
 
-    ButtonCanvas2 As Botão:
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontSize: =12
-        Height: =30
-        OnSelect: =Collect(ColItemCollection, 'Controle de contratos')
-        Text: ="Adicionar à Coleção"
-        Width: =140
-        X: =25
-        Y: =715
-        ZIndex: =3
-
     Form2 As form:
         DataSource: ='Controle de contratos'
         DefaultMode: =FormMode.View
         Height: =658
         Item: =Gallery3.Selected
-        NumberOfColumns: =6
-        Width: =854
+        Width: =877
         X: =479
         Y: =96
         ZIndex: =4
@@ -183,7 +170,7 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, Title)
             Required: =false
             Update: =DataCardValue36.Text
-            Width: =284
+            Width: =292
             X: =0
             Y: =0
             ZIndex: =5
@@ -251,8 +238,8 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_1)
             Required: =false
             Update: =DataCardValue37.Text
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =0
             ZIndex: =5
 
@@ -318,8 +305,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue38.Selected
-            Width: =284
-            X: =4
+            Width: =292
+            X: =2
             Y: =0
             ZIndex: =5
 
@@ -385,7 +372,7 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_3)
             Required: =false
             Update: =DataCardValue39.Text
-            Width: =284
+            Width: =292
             X: =0
             Y: =1
             ZIndex: =5
@@ -453,8 +440,8 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_4)
             Required: =false
             Update: =DataCardValue40.Text
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =1
             ZIndex: =5
 
@@ -521,8 +508,8 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_5)
             Required: =false
             Update: =DataCardValue41.Text
-            Width: =284
-            X: =4
+            Width: =292
+            X: =2
             Y: =1
             ZIndex: =5
 
@@ -578,6 +565,74 @@ ScreencontContratos As screen:
                 Y: =DataCardKey54.Y
                 ZIndex: =4
 
+        "'Nº da OS_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_9"
+            Default: =ThisItem.'Nº da OS'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_9)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_9)
+            Required: =false
+            Update: =DataCardValue44.Text
+            Width: =292
+            X: =2
+            Y: =2
+            ZIndex: =5
+
+            DataCardKey57 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue44 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey57.Y + DataCardKey57.Height + 5
+                ZIndex: =2
+
+            ErrorMessage57 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue44.Y + DataCardValue44.Height
+                ZIndex: =3
+
+            StarVisible57 As label:
+                Align: =Align.Center
+                Height: =DataCardKey57.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey57.Y
+                ZIndex: =4
+
         "'Nº do contrato_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_6"
@@ -589,7 +644,7 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_6)
             Required: =false
             Update: =DataCardValue42.Text
-            Width: =284
+            Width: =292
             X: =0
             Y: =2
             ZIndex: =5
@@ -656,8 +711,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue43.SelectedDate
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =2
             ZIndex: =5
 
@@ -711,74 +766,6 @@ ScreencontContratos As screen:
                 Y: =DataCardKey56.Y
                 ZIndex: =4
 
-        "'Nº da OS_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="field_9"
-            Default: =ThisItem.'Nº da OS'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_9)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_9)
-            Required: =false
-            Update: =DataCardValue44.Text
-            Width: =284
-            X: =4
-            Y: =2
-            ZIndex: =5
-
-            DataCardKey57 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue44 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey57.Y + DataCardKey57.Height + 5
-                ZIndex: =2
-
-            ErrorMessage57 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue44.Y + DataCardValue44.Height
-                ZIndex: =3
-
-            StarVisible57 As label:
-                Align: =Align.Center
-                Height: =DataCardKey57.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey57.Y
-                ZIndex: =4
-
         "'Data da OS_DataCard2' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_10"
@@ -789,7 +776,7 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue45.SelectedDate
-            Width: =284
+            Width: =292
             X: =0
             Y: =3
             ZIndex: =5
@@ -855,8 +842,8 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_11)
             Required: =false
             Update: =DataCardValue46.Text
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =3
             ZIndex: =5
 
@@ -922,8 +909,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue47.SelectedDate
-            Width: =284
-            X: =4
+            Width: =292
+            X: =2
             Y: =3
             ZIndex: =5
 
@@ -987,7 +974,7 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue48.SelectedDate
-            Width: =284
+            Width: =292
             X: =0
             Y: =4
             ZIndex: =5
@@ -1053,8 +1040,8 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_14)
             Required: =false
             Update: =DataCardValue49.Text
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =4
             ZIndex: =5
 
@@ -1121,8 +1108,8 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_15)
             Required: =false
             Update: =DataCardValue50.Text
-            Width: =284
-            X: =4
+            Width: =292
+            X: =2
             Y: =4
             ZIndex: =5
 
@@ -1188,7 +1175,7 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue51.SelectedDate
-            Width: =284
+            Width: =292
             X: =0
             Y: =5
             ZIndex: =5
@@ -1253,8 +1240,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue52.SelectedItems
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =5
             ZIndex: =5
 
@@ -1318,8 +1305,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue53.SelectedItems
-            Width: =284
-            X: =4
+            Width: =292
+            X: =2
             Y: =5
             ZIndex: =5
 
@@ -1383,7 +1370,7 @@ ScreencontContratos As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue54.SelectedItems
-            Width: =284
+            Width: =292
             X: =0
             Y: =6
             ZIndex: =5
@@ -1448,8 +1435,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue55.SelectedItems
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =6
             ZIndex: =5
 
@@ -1514,8 +1501,8 @@ ScreencontContratos As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_29)
             Required: =false
             Update: =DataCardValue56.Text
-            Width: =284
-            X: =4
+            Width: =292
+            X: =2
             Y: =6
             ZIndex: =5
 
@@ -1581,7 +1568,7 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue57.Selected
-            Width: =284
+            Width: =292
             X: =0
             Y: =7
             ZIndex: =5
@@ -1647,8 +1634,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue58.SelectedDate
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =7
             ZIndex: =5
 
@@ -1712,8 +1699,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue59.SelectedDate
-            Width: =284
-            X: =4
+            Width: =292
+            X: =2
             Y: =7
             ZIndex: =5
 
@@ -1777,7 +1764,7 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue60.SelectedDate
-            Width: =284
+            Width: =292
             X: =0
             Y: =8
             ZIndex: =5
@@ -1842,8 +1829,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue61.SelectedDate
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =8
             ZIndex: =5
 
@@ -1907,8 +1894,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue62.Text)
-            Width: =284
-            X: =4
+            Width: =292
+            X: =2
             Y: =8
             ZIndex: =5
 
@@ -1974,7 +1961,7 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue63.Selected
-            Width: =284
+            Width: =292
             X: =0
             Y: =9
             ZIndex: =5
@@ -2040,8 +2027,8 @@ ScreencontContratos As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue64.Attachments
-            Width: =284
-            X: =2
+            Width: =292
+            X: =1
             Y: =9
             ZIndex: =5
 
