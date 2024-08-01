@@ -54,14 +54,14 @@ HomeScreen As screen:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
             Height: =56
-            Size: =26
+            Size: =24
             Text: |-
                 ="Agência Peixe Vivo
                 "
-            Width: =329
+            Width: =321
             Wrap: =false
-            X: =494
-            Y: =8
+            X: =545
+            Y: =11
             ZIndex: =4
 
     lblEmail As label:
