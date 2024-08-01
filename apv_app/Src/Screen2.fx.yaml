@@ -1881,7 +1881,7 @@ Screen2 As screen:
             Height: =245
             Required: =false
             Update: =DataCardValue35.Attachments
-            Width: =647
+            Width: =1294
             X: =0
             Y: =14
             ZIndex: =2
