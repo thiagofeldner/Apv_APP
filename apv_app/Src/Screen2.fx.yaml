@@ -4,6 +4,7 @@ Screen2 As screen:
         BorderColor: =RGBA(71, 158, 245, 1)
         DataSource: ='Controle de contratos'
         Height: =657
+        Item: =Gallery3.Selected
         NumberOfColumns: =2
         Width: =1295
         X: =35
