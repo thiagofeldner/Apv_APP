@@ -3,7 +3,7 @@ RHScreen As screen:
     containerRH As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(15, 108, 189, 1)
-        Height: =100
+        Height: =74
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -15,11 +15,11 @@ RHScreen As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             DisplayMode: =DisplayMode.View
-            Height: =99
+            Height: =74
             Image: =User().Image
             ImagePosition: =ImagePosition.Fill
-            Width: =105
-            X: =1261
+            Width: =74
+            X: =1290
             ZIndex: =2
 
         lblRH As label:
@@ -28,12 +28,12 @@ RHScreen As screen:
             BorderStyle: =BorderStyle.None
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
-            Height: =75
-            Size: =32
+            Height: =49
+            Size: =24
             Text: ="RH"
-            Width: =130
+            Width: =94
             Wrap: =false
-            X: =609
+            X: =647
             Y: =12
             ZIndex: =4
 
@@ -42,12 +42,12 @@ RHScreen As screen:
             BorderStyle: =BorderStyle.None
             Color: =RGBA(255, 255, 255, 1)
             FocusedBorderThickness: =0
-            Height: =62
+            Height: =43
             Icon: =Icon.Home
             OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
-            Width: =68
-            X: =31
-            Y: =18
+            Width: =47
+            X: =8
+            Y: =15
             ZIndex: =5
 
     btnRH_1 As Botão:
