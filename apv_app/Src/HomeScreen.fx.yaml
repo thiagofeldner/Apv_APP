@@ -26,16 +26,11 @@ HomeScreen As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             DisplayMode: =DisplayMode.View
-            Height: =62
+            Height: =73
             Image: =User().Image
             ImagePosition: =ImagePosition.Fill
-            RadiusBottomLeft: =50
-            RadiusBottomRight: =50
-            RadiusTopLeft: =50
-            RadiusTopRight: =50
-            Width: =66
+            Width: =71
             X: =1295
-            Y: =5
             ZIndex: =2
 
         lblUserName As label:
