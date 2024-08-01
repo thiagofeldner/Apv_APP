@@ -1875,7 +1875,7 @@ Screen2 As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'{Attachments}')
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =124
             Required: =false
             Update: =DataCardValue35.Attachments
             Width: =1295
@@ -1890,12 +1890,13 @@ Screen2 As screen:
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue35.Height / 2) - (Self.Height / 2)
+                Y: =193
                 ZIndex: =1
 
             DataCardValue35 As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DisplayMode: =Parent.DisplayMode
+                Height: =167
                 IsInDataCard: =true
                 Items: =Parent.Default
                 PaddingBottom: =5
@@ -1903,9 +1904,9 @@ Screen2 As screen:
                 PaddingRight: =5
                 PaddingTop: =5
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey48.X + DataCardKey48.Width
-                Y: =10
+                Width: =673
+                X: =592
+                Y: =143
                 ZIndex: =2
 
             ErrorMessage48 As label:
