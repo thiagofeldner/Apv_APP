@@ -1,10 +1,11 @@
 Screen2 As screen:
 
     Form1 As form:
+        BorderColor: =RGBA(71, 158, 245, 1)
         DataSource: ='Controle de contratos'
-        Height: =665
-        NumberOfColumns: =6
-        Width: =1313
+        Height: =657
+        NumberOfColumns: =1
+        Width: =1295
         X: =35
         Y: =60
         ZIndex: =1
@@ -20,7 +21,7 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, Title)
             Required: =false
             Update: =DataCardValue7.Text
-            Width: =436
+            Width: =1295
             X: =0
             Y: =0
             ZIndex: =2
@@ -29,10 +30,10 @@ Screen2 As screen:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue7.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue7 As text:
@@ -47,9 +48,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey20.Y + DataCardKey20.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey20.X + DataCardKey20.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage20 As label:
@@ -88,19 +89,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_1)
             Required: =false
             Update: =DataCardValue8.Text
-            Width: =436
-            X: =2
-            Y: =0
+            Width: =1295
+            X: =0
+            Y: =1
             ZIndex: =2
 
             DataCardKey21 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue8.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue8 As text:
@@ -115,9 +116,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey21.Y + DataCardKey21.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey21.X + DataCardKey21.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage21 As label:
@@ -155,19 +156,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue9.Selected
-            Width: =436
-            X: =4
-            Y: =0
+            Width: =1295
+            X: =0
+            Y: =2
             ZIndex: =2
 
             DataCardKey22 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue9.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue9 As combobox:
@@ -181,9 +182,9 @@ Screen2 As screen:
                 SearchItems: =Choices('Controle de contratos'.field_2,DataCardValue9.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey22.Y + DataCardKey22.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey22.X + DataCardKey22.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage22 As label:
@@ -222,19 +223,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_3)
             Required: =false
             Update: =DataCardValue10.Text
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =1
+            Y: =3
             ZIndex: =2
 
             DataCardKey23 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue10.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue10 As text:
@@ -249,9 +250,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey23.Y + DataCardKey23.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey23.X + DataCardKey23.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage23 As label:
@@ -290,19 +291,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_4)
             Required: =false
             Update: =DataCardValue11.Text
-            Width: =436
-            X: =2
-            Y: =1
+            Width: =1295
+            X: =0
+            Y: =4
             ZIndex: =2
 
             DataCardKey24 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue11.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue11 As text:
@@ -317,9 +318,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey24.Y + DataCardKey24.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey24.X + DataCardKey24.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage24 As label:
@@ -358,19 +359,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_5)
             Required: =false
             Update: =DataCardValue12.Text
-            Width: =436
-            X: =4
-            Y: =1
+            Width: =1295
+            X: =0
+            Y: =5
             ZIndex: =2
 
             DataCardKey25 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue12.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue12 As text:
@@ -385,9 +386,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey25.Y + DataCardKey25.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey25.X + DataCardKey25.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage25 As label:
@@ -426,19 +427,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_6)
             Required: =false
             Update: =DataCardValue13.Text
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =2
+            Y: =6
             ZIndex: =2
 
             DataCardKey26 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue13.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue13 As text:
@@ -453,9 +454,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey26.Y + DataCardKey26.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey26.X + DataCardKey26.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage26 As label:
@@ -493,19 +494,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue14.SelectedDate
-            Width: =436
-            X: =2
-            Y: =2
+            Width: =1295
+            X: =0
+            Y: =7
             ZIndex: =2
 
             DataCardKey27 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue14.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue14 As datepicker:
@@ -518,9 +519,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey27.Y + DataCardKey27.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey27.X + DataCardKey27.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage27 As label:
@@ -559,19 +560,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_9)
             Required: =false
             Update: =DataCardValue15.Text
-            Width: =436
-            X: =4
-            Y: =2
+            Width: =1295
+            X: =0
+            Y: =8
             ZIndex: =2
 
             DataCardKey28 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue15.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue15 As text:
@@ -586,9 +587,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey28.Y + DataCardKey28.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey28.X + DataCardKey28.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage28 As label:
@@ -626,19 +627,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue16.SelectedDate
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =3
+            Y: =9
             ZIndex: =2
 
             DataCardKey29 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue16.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue16 As datepicker:
@@ -651,9 +652,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey29.Y + DataCardKey29.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey29.X + DataCardKey29.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage29 As label:
@@ -692,19 +693,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_11)
             Required: =false
             Update: =DataCardValue17.Text
-            Width: =436
-            X: =2
-            Y: =3
+            Width: =1295
+            X: =0
+            Y: =10
             ZIndex: =2
 
             DataCardKey30 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue17.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue17 As text:
@@ -719,9 +720,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey30.Y + DataCardKey30.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey30.X + DataCardKey30.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage30 As label:
@@ -759,19 +760,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue18.SelectedDate
-            Width: =436
-            X: =4
-            Y: =3
+            Width: =1295
+            X: =0
+            Y: =11
             ZIndex: =2
 
             DataCardKey31 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue18.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue18 As datepicker:
@@ -784,9 +785,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey31.Y + DataCardKey31.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey31.X + DataCardKey31.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage31 As label:
@@ -824,19 +825,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue19.SelectedDate
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =4
+            Y: =12
             ZIndex: =2
 
             DataCardKey32 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue19.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue19 As datepicker:
@@ -849,9 +850,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey32.Y + DataCardKey32.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey32.X + DataCardKey32.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage32 As label:
@@ -890,19 +891,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_14)
             Required: =false
             Update: =DataCardValue20.Text
-            Width: =436
-            X: =2
-            Y: =4
+            Width: =1295
+            X: =0
+            Y: =13
             ZIndex: =2
 
             DataCardKey33 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue20.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue20 As text:
@@ -917,9 +918,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey33.Y + DataCardKey33.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey33.X + DataCardKey33.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage33 As label:
@@ -958,19 +959,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_15)
             Required: =false
             Update: =DataCardValue21.Text
-            Width: =436
-            X: =4
-            Y: =4
+            Width: =1295
+            X: =0
+            Y: =14
             ZIndex: =2
 
             DataCardKey34 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue21.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue21 As text:
@@ -985,9 +986,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey34.Y + DataCardKey34.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey34.X + DataCardKey34.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage34 As label:
@@ -1025,19 +1026,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue22.SelectedDate
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =5
+            Y: =15
             ZIndex: =2
 
             DataCardKey35 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue22.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue22 As datepicker:
@@ -1050,9 +1051,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey35.Y + DataCardKey35.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey35.X + DataCardKey35.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage35 As label:
@@ -1090,19 +1091,19 @@ Screen2 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue23.SelectedItems
-            Width: =436
-            X: =2
-            Y: =5
+            Width: =1295
+            X: =0
+            Y: =16
             ZIndex: =2
 
             DataCardKey36 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue23.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue23 As combobox:
@@ -1115,9 +1116,9 @@ Screen2 As screen:
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_17,DataCardValue23.SearchText)
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey36.Y + DataCardKey36.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey36.X + DataCardKey36.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage36 As label:
@@ -1155,19 +1156,19 @@ Screen2 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue24.SelectedItems
-            Width: =436
-            X: =4
-            Y: =5
+            Width: =1295
+            X: =0
+            Y: =17
             ZIndex: =2
 
             DataCardKey37 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue24.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue24 As combobox:
@@ -1180,9 +1181,9 @@ Screen2 As screen:
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_20,DataCardValue24.SearchText)
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey37.Y + DataCardKey37.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey37.X + DataCardKey37.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage37 As label:
@@ -1220,19 +1221,19 @@ Screen2 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue25.SelectedItems
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =6
+            Y: =18
             ZIndex: =2
 
             DataCardKey38 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue25.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue25 As combobox:
@@ -1245,9 +1246,9 @@ Screen2 As screen:
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_23,DataCardValue25.SearchText)
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey38.Y + DataCardKey38.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey38.X + DataCardKey38.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage38 As label:
@@ -1285,19 +1286,19 @@ Screen2 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue26.SelectedItems
-            Width: =436
-            X: =2
-            Y: =6
+            Width: =1295
+            X: =0
+            Y: =19
             ZIndex: =2
 
             DataCardKey39 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue26.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue26 As combobox:
@@ -1310,9 +1311,9 @@ Screen2 As screen:
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_26,DataCardValue26.SearchText)
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey39.Y + DataCardKey39.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey39.X + DataCardKey39.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage39 As label:
@@ -1351,19 +1352,19 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_29)
             Required: =false
             Update: =DataCardValue27.Text
-            Width: =436
-            X: =4
-            Y: =6
+            Width: =1295
+            X: =0
+            Y: =20
             ZIndex: =2
 
             DataCardKey40 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue27.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue27 As text:
@@ -1378,9 +1379,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey40.Y + DataCardKey40.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey40.X + DataCardKey40.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage40 As label:
@@ -1418,19 +1419,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue28.Selected
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =7
+            Y: =21
             ZIndex: =2
 
             DataCardKey41 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue28.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue28 As combobox:
@@ -1444,9 +1445,9 @@ Screen2 As screen:
                 SearchItems: =Choices('Controle de contratos'.field_30,DataCardValue28.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey41.Y + DataCardKey41.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey41.X + DataCardKey41.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage41 As label:
@@ -1484,19 +1485,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue29.SelectedDate
-            Width: =436
-            X: =2
-            Y: =7
+            Width: =1295
+            X: =0
+            Y: =22
             ZIndex: =2
 
             DataCardKey42 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue29.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue29 As datepicker:
@@ -1509,9 +1510,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey42.Y + DataCardKey42.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey42.X + DataCardKey42.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage42 As label:
@@ -1549,19 +1550,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue30.SelectedDate
-            Width: =436
-            X: =4
-            Y: =7
+            Width: =1295
+            X: =0
+            Y: =23
             ZIndex: =2
 
             DataCardKey43 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue30.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue30 As datepicker:
@@ -1574,9 +1575,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey43.Y + DataCardKey43.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey43.X + DataCardKey43.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage43 As label:
@@ -1614,19 +1615,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue31.SelectedDate
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =8
+            Y: =24
             ZIndex: =2
 
             DataCardKey44 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue31.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue31 As datepicker:
@@ -1639,9 +1640,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey44.Y + DataCardKey44.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey44.X + DataCardKey44.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage44 As label:
@@ -1679,19 +1680,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue32.SelectedDate
-            Width: =436
-            X: =2
-            Y: =8
+            Width: =1295
+            X: =0
+            Y: =25
             ZIndex: =2
 
             DataCardKey45 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue32.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue32 As datepicker:
@@ -1704,9 +1705,9 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 StartYear: =1899
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey45.Y + DataCardKey45.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey45.X + DataCardKey45.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage45 As label:
@@ -1744,19 +1745,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue33.Text)
-            Width: =436
-            X: =4
-            Y: =8
+            Width: =1295
+            X: =0
+            Y: =26
             ZIndex: =2
 
             DataCardKey46 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue33.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue33 As text:
@@ -1771,9 +1772,9 @@ Screen2 As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey46.Y + DataCardKey46.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey46.X + DataCardKey46.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage46 As label:
@@ -1811,19 +1812,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue34.Selected
-            Width: =436
+            Width: =1295
             X: =0
-            Y: =9
+            Y: =27
             ZIndex: =2
 
             DataCardKey47 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue34.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue34 As combobox:
@@ -1837,9 +1838,9 @@ Screen2 As screen:
                 SearchItems: =Choices('Controle de contratos'.Status,DataCardValue34.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey47.Y + DataCardKey47.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey47.X + DataCardKey47.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage47 As label:
@@ -1877,19 +1878,19 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue35.Attachments
-            Width: =436
-            X: =2
-            Y: =9
+            Width: =1295
+            X: =0
+            Y: =28
             ZIndex: =2
 
             DataCardKey48 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue35.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue35 As attachments:
@@ -1902,9 +1903,9 @@ Screen2 As screen:
                 PaddingRight: =5
                 PaddingTop: =5
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey48.Y + DataCardKey48.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey48.X + DataCardKey48.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage48 As label:
