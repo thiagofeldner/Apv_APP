@@ -6,6 +6,7 @@ Screen2 As screen:
         Height: =601
         Item: =Gallery3.Selected
         NumberOfColumns: =2
+        OnFailure: =Notify("Não foi possível salvar as alterções feitas. Tente novamente ou entre em contato com o Administrado,", NotificationType.Error)
         OnSuccess: =Navigate(ProjetosScreen, ScreenTransition.Fade)
         Width: =1295
         X: =35
