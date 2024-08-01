@@ -106,7 +106,7 @@ ScreencontContratos As screen:
             FontSize: =13
             FontWeight: =FontWeight.Normal
             Height: =25
-            OnSelect: =Select(Parent)
+            OnSelect: =Navigate(ScreenControleContratos, ScreenTransition.Fade); Gallery3.Selected
             Text: ="Editar"
             Width: =62
             X: =368
@@ -361,74 +361,6 @@ ScreencontContratos As screen:
                 Y: =DataCardKey51.Y
                 ZIndex: =4
 
-        "'Nº da modalidade_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="field_3"
-            Default: =ThisItem.'Nº da modalidade'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_3)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_3)
-            Required: =false
-            Update: =DataCardValue39.Text
-            Width: =292
-            X: =0
-            Y: =1
-            ZIndex: =5
-
-            DataCardKey52 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue39 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey52.Y + DataCardKey52.Height + 5
-                ZIndex: =2
-
-            ErrorMessage52 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue39.Y + DataCardValue39.Height
-                ZIndex: =3
-
-            StarVisible52 As label:
-                Align: =Align.Center
-                Height: =DataCardKey52.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey52.Y
-                ZIndex: =4
-
         Contratada_DataCard2 As typedDataCard.textualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_4"
@@ -631,6 +563,74 @@ ScreencontContratos As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey57.Y
+                ZIndex: =4
+
+        "'Nº da modalidade_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="field_3"
+            Default: =ThisItem.'Nº da modalidade'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_3)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_3)
+            Required: =false
+            Update: =DataCardValue39.Text
+            Width: =292
+            X: =0
+            Y: =1
+            ZIndex: =5
+
+            DataCardKey52 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue39 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey52.Y + DataCardKey52.Height + 5
+                ZIndex: =2
+
+            ErrorMessage52 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue39.Y + DataCardValue39.Height
+                ZIndex: =3
+
+            StarVisible52 As label:
+                Align: =Align.Center
+                Height: =DataCardKey52.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey52.Y
                 ZIndex: =4
 
         "'Nº do contrato_DataCard2' As typedDataCard.textualEditCard":
