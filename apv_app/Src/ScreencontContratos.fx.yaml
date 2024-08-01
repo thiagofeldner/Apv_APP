@@ -150,8 +150,7 @@ ScreencontContratos As screen:
             ZIndex: =2
 
     Form2 As form:
-        AcceptsFocus: =true
-        BorderColor: =RGBA(132, 40, 38, 1)
+        AcceptsFocus: =false
         BorderThickness: =1
         DataSource: ='Controle de contratos'
         DefaultMode: =FormMode.View
