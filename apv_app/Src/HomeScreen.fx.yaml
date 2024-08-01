@@ -48,7 +48,7 @@ HomeScreen As screen:
             Height: =50
             Text: ="Bem vindo, " & varUserInfo.displayName
             Width: =224
-            X: =1038
+            X: =1060
             Y: =11
             ZIndex: =3
 
