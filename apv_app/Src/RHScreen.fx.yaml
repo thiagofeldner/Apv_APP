@@ -62,14 +62,14 @@ RHScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
-        FontSize: =24
+        FontSize: =18
         FontWeight: =FontWeight.Semibold
-        Height: =93
+        Height: =61
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
         OnSelect: =Navigate(ScreenSolicitacoesFerias,ScreenTransition.Fade)
         Text: ="Solicitação de Férias"
         VerticalAlign: =VerticalAlign.Middle
-        Width: =247
+        Width: =147
         X: =164
         Y: =188
         ZIndex: =2
@@ -86,15 +86,15 @@ RHScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
-        FontSize: =24
+        FontSize: =18
         FontWeight: =FontWeight.Semibold
-        Height: =93
+        Height: =61
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
         OnSelect: =Navigate(ScreenAtestadoMedico, ScreenTransition.Cover)
         Text: ="Atestado Médico"
         VerticalAlign: =VerticalAlign.Middle
-        Width: =247
-        X: =499
+        Width: =147
+        X: =385
         Y: =188
         ZIndex: =3
 
