@@ -41,10 +41,11 @@ HomeScreen As screen:
             DisplayMode: =DisplayMode.View
             Font: =Font.Lato
             Height: =50
+            Size: =12
             Text: ="Bem vindo, " & varUserInfo.displayName
             Width: =224
-            X: =1060
-            Y: =11
+            X: =1058
+            Y: =17
             ZIndex: =3
 
         lblApv As label:
@@ -60,8 +61,8 @@ HomeScreen As screen:
                 "
             Width: =321
             Wrap: =false
-            X: =545
-            Y: =11
+            X: =549
+            Y: =8
             ZIndex: =4
 
     lblEmail As label:
