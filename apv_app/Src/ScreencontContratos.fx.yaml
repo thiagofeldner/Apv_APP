@@ -99,6 +99,19 @@ ScreencontContratos As screen:
             Width: =4
             ZIndex: =6
 
+        ButtonCanvas8 As Botão:
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.Lato
+            FontSize: =13
+            FontWeight: =FontWeight.Normal
+            Height: =25
+            OnSelect: =Select(Parent)
+            Text: ="Editar"
+            Width: =62
+            X: =368
+            Y: =83
+            ZIndex: =7
+
     Container1_2 As groupContainer.manualLayoutContainer:
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(15, 108, 189, 1)
