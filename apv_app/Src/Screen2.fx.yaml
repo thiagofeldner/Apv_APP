@@ -4,7 +4,7 @@ Screen2 As screen:
         BorderColor: =RGBA(71, 158, 245, 1)
         DataSource: ='Controle de contratos'
         Height: =657
-        NumberOfColumns: =1
+        NumberOfColumns: =2
         Width: =1295
         X: =35
         Y: =60
@@ -21,7 +21,7 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, Title)
             Required: =false
             Update: =DataCardValue7.Text
-            Width: =1295
+            Width: =647
             X: =0
             Y: =0
             ZIndex: =2
@@ -89,9 +89,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_1)
             Required: =false
             Update: =DataCardValue8.Text
-            Width: =1295
-            X: =0
-            Y: =1
+            Width: =647
+            X: =1
+            Y: =0
             ZIndex: =2
 
             DataCardKey21 As label:
@@ -156,9 +156,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue9.Selected
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =2
+            Y: =1
             ZIndex: =2
 
             DataCardKey22 As label:
@@ -223,9 +223,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_3)
             Required: =false
             Update: =DataCardValue10.Text
-            Width: =1295
-            X: =0
-            Y: =3
+            Width: =647
+            X: =1
+            Y: =1
             ZIndex: =2
 
             DataCardKey23 As label:
@@ -291,9 +291,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_4)
             Required: =false
             Update: =DataCardValue11.Text
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =4
+            Y: =2
             ZIndex: =2
 
             DataCardKey24 As label:
@@ -359,9 +359,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_5)
             Required: =false
             Update: =DataCardValue12.Text
-            Width: =1295
-            X: =0
-            Y: =5
+            Width: =647
+            X: =1
+            Y: =2
             ZIndex: =2
 
             DataCardKey25 As label:
@@ -427,9 +427,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_6)
             Required: =false
             Update: =DataCardValue13.Text
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =6
+            Y: =3
             ZIndex: =2
 
             DataCardKey26 As label:
@@ -494,9 +494,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue14.SelectedDate
-            Width: =1295
-            X: =0
-            Y: =7
+            Width: =647
+            X: =1
+            Y: =3
             ZIndex: =2
 
             DataCardKey27 As label:
@@ -560,9 +560,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_9)
             Required: =false
             Update: =DataCardValue15.Text
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =8
+            Y: =4
             ZIndex: =2
 
             DataCardKey28 As label:
@@ -627,9 +627,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue16.SelectedDate
-            Width: =1295
-            X: =0
-            Y: =9
+            Width: =647
+            X: =1
+            Y: =4
             ZIndex: =2
 
             DataCardKey29 As label:
@@ -693,9 +693,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_11)
             Required: =false
             Update: =DataCardValue17.Text
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =10
+            Y: =5
             ZIndex: =2
 
             DataCardKey30 As label:
@@ -760,9 +760,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue18.SelectedDate
-            Width: =1295
-            X: =0
-            Y: =11
+            Width: =647
+            X: =1
+            Y: =5
             ZIndex: =2
 
             DataCardKey31 As label:
@@ -825,9 +825,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue19.SelectedDate
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =12
+            Y: =6
             ZIndex: =2
 
             DataCardKey32 As label:
@@ -891,9 +891,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_14)
             Required: =false
             Update: =DataCardValue20.Text
-            Width: =1295
-            X: =0
-            Y: =13
+            Width: =647
+            X: =1
+            Y: =6
             ZIndex: =2
 
             DataCardKey33 As label:
@@ -959,9 +959,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_15)
             Required: =false
             Update: =DataCardValue21.Text
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =14
+            Y: =7
             ZIndex: =2
 
             DataCardKey34 As label:
@@ -1026,9 +1026,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue22.SelectedDate
-            Width: =1295
-            X: =0
-            Y: =15
+            Width: =647
+            X: =1
+            Y: =7
             ZIndex: =2
 
             DataCardKey35 As label:
@@ -1091,9 +1091,9 @@ Screen2 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue23.SelectedItems
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =16
+            Y: =8
             ZIndex: =2
 
             DataCardKey36 As label:
@@ -1156,9 +1156,9 @@ Screen2 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue24.SelectedItems
-            Width: =1295
-            X: =0
-            Y: =17
+            Width: =647
+            X: =1
+            Y: =8
             ZIndex: =2
 
             DataCardKey37 As label:
@@ -1221,9 +1221,9 @@ Screen2 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue25.SelectedItems
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =18
+            Y: =9
             ZIndex: =2
 
             DataCardKey38 As label:
@@ -1286,9 +1286,9 @@ Screen2 As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue26.SelectedItems
-            Width: =1295
-            X: =0
-            Y: =19
+            Width: =647
+            X: =1
+            Y: =9
             ZIndex: =2
 
             DataCardKey39 As label:
@@ -1352,9 +1352,9 @@ Screen2 As screen:
             MaxLength: =DataSourceInfo([@'Controle de contratos'], DataSourceInfo.MaxLength, field_29)
             Required: =false
             Update: =DataCardValue27.Text
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =20
+            Y: =10
             ZIndex: =2
 
             DataCardKey40 As label:
@@ -1419,9 +1419,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue28.Selected
-            Width: =1295
-            X: =0
-            Y: =21
+            Width: =647
+            X: =1
+            Y: =10
             ZIndex: =2
 
             DataCardKey41 As label:
@@ -1485,9 +1485,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue29.SelectedDate
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =22
+            Y: =11
             ZIndex: =2
 
             DataCardKey42 As label:
@@ -1550,9 +1550,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue30.SelectedDate
-            Width: =1295
-            X: =0
-            Y: =23
+            Width: =647
+            X: =1
+            Y: =11
             ZIndex: =2
 
             DataCardKey43 As label:
@@ -1615,9 +1615,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue31.SelectedDate
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =24
+            Y: =12
             ZIndex: =2
 
             DataCardKey44 As label:
@@ -1680,9 +1680,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue32.SelectedDate
-            Width: =1295
-            X: =0
-            Y: =25
+            Width: =647
+            X: =1
+            Y: =12
             ZIndex: =2
 
             DataCardKey45 As label:
@@ -1745,9 +1745,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =Value(DataCardValue33.Text)
-            Width: =1295
+            Width: =647
             X: =0
-            Y: =26
+            Y: =13
             ZIndex: =2
 
             DataCardKey46 As label:
@@ -1812,9 +1812,9 @@ Screen2 As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue34.Selected
-            Width: =1295
-            X: =0
-            Y: =27
+            Width: =647
+            X: =1
+            Y: =13
             ZIndex: =2
 
             DataCardKey47 As label:
@@ -1875,12 +1875,12 @@ Screen2 As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,'{Attachments}')
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =124
+            Height: =245
             Required: =false
             Update: =DataCardValue35.Attachments
-            Width: =1295
+            Width: =1294
             X: =0
-            Y: =28
+            Y: =14
             ZIndex: =2
 
             DataCardKey48 As label:
@@ -1890,13 +1890,13 @@ Screen2 As screen:
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =193
+                Y: =35
                 ZIndex: =1
 
             DataCardValue35 As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DisplayMode: =Parent.DisplayMode
-                Height: =167
+                Height: =275
                 IsInDataCard: =true
                 Items: =Parent.Default
                 PaddingBottom: =5
@@ -1906,7 +1906,7 @@ Screen2 As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =673
                 X: =592
-                Y: =143
+                Y: =35
                 ZIndex: =2
 
             ErrorMessage48 As label:
