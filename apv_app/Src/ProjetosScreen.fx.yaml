@@ -62,14 +62,14 @@ ProjetosScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
-        FontSize: =24
+        FontSize: =18
         FontWeight: =FontWeight.Semibold
-        Height: =93
+        Height: =62
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
         OnSelect: =Navigate(ScreenSolictacoesViagens,ScreenTransition.Fade)
         Text: ="Solicitação de Viagem"
         VerticalAlign: =VerticalAlign.Middle
-        Width: =215
+        Width: =131
         X: =164
         Y: =188
         ZIndex: =2
