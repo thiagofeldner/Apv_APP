@@ -3,14 +3,14 @@ ScreenControleContratos As screen:
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =687
+        Height: =594
         Items: ='Controle de contratos'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =116
-        Width: =574
-        Y: =80
+        Width: =551
+        Y: =114
         ZIndex: =1
 
         Title2 As label:
@@ -150,12 +150,12 @@ ScreenControleContratos As screen:
     ButtonCanvas3 As Botão:
         DisplayMode: =DisplayMode.Edit
         FontSize: =24
-        Height: =57
+        Height: =41
         OnSelect: =Collect(colItemsCollection, 'Controle de contratos')
         Text: ="Add to collection"
         Width: =213
-        X: =574
-        Y: =692
+        X: =22
+        Y: =708
         ZIndex: =5
 
     Label8 As label:

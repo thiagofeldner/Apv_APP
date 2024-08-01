@@ -100,6 +100,7 @@ ScreencontContratos As screen:
             ZIndex: =6
 
         ButtonCanvas8 As Botão:
+            BorderStyle: =BorderStyle.None
             DisplayMode: =DisplayMode.Edit
             Font: =Font.Lato
             FontSize: =13
