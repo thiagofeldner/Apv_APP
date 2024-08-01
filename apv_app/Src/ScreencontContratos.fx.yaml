@@ -106,7 +106,7 @@ ScreencontContratos As screen:
             FontSize: =13
             FontWeight: =FontWeight.Normal
             Height: =25
-            OnSelect: =Navigate(ScreenControleContratos, ScreenTransition.Fade); Gallery3.Selected
+            OnSelect: =Navigate(Screen2, ScreenTransition.Fade); Gallery3.Selected
             Text: ="Editar"
             Width: =62
             X: =368
