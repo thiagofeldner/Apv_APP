@@ -1,4 +1,6 @@
 HomeScreen As screen:
+    BackgroundImage: =
+    Fill: =RGBA(255, 255, 255, 1)
 
     cont_Home As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(0, 0, 0, 0)
