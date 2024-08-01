@@ -676,7 +676,7 @@
       "MetaDataIDKey": "",
       "Name": "Assinatura do contrato_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1236,7 +1236,7 @@
       "MetaDataIDKey": "",
       "Name": "CNPJ_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1593,7 +1593,7 @@
       "MetaDataIDKey": "",
       "Name": "Contratada_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -29787,7 +29787,7 @@
       "MetaDataIDKey": "",
       "Name": "Nº da modalidade_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -29948,7 +29948,7 @@
       "MetaDataIDKey": "",
       "Name": "Nº da OS_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30109,7 +30109,7 @@
       "MetaDataIDKey": "",
       "Name": "Nº do contrato_DataCard2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
