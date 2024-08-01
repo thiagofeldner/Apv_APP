@@ -227,6 +227,7 @@ ScreenControleContratos As screen:
 
     Form3 As form:
         DataSource: ='Controle de contratos'
+        Item: =Gallery3.Selected
         X: =566
         Y: =268
         ZIndex: =13
