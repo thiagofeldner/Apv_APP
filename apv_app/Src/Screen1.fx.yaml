@@ -26,6 +26,7 @@ Screen1 As screen:
             ZIndex: =3
 
         field_4_Coluna3 As dataTableColumn.textualColumn:
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="field_4"
             FieldName: ="field_4"
@@ -34,7 +35,7 @@ Screen1 As screen:
             LayoutHeight: =Parent.Height
             Order: =4
             Text: =ThisItem.field_4
-            Width: =100
+            Width: =330
             X: =0
             Y: =0
             ZIndex: =4
