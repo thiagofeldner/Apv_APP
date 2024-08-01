@@ -1939,7 +1939,7 @@ Screen2 As screen:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        OnSelect: =SubmitForm('Controle de contratos')
+        OnSelect: =SubmitForm(Form2)
         Text: ="Salvar"
         Width: =96
         X: =55
