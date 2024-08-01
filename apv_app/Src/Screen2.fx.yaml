@@ -3,7 +3,7 @@ Screen2 As screen:
     Form1 As form:
         BorderColor: =RGBA(71, 158, 245, 1)
         DataSource: ='Controle de contratos'
-        Height: =657
+        Height: =601
         Item: =Gallery3.Selected
         NumberOfColumns: =2
         Width: =1295
@@ -1934,4 +1934,15 @@ Screen2 As screen:
                 Wrap: =false
                 Y: =DataCardKey48.Y
                 ZIndex: =4
+
+    ButtonCanvas9 As Botão:
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        OnSelect: =SubmitForm(Form1)
+        Text: ="Salvar"
+        Width: =96
+        X: =55
+        Y: =690
+        ZIndex: =2
 
