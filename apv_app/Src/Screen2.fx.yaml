@@ -2173,10 +2173,10 @@ Screen2 As screen:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        OnSelect: =If(Form1.Unsaved = false, SubmitForm(Form1), Navigate(ScreenControleContratos, ScreenTransition.Cover))
+        OnSelect: =If(Form1.Unsaved = false, Navigate(Screen2, ScreenTransition.None), If(Form1.Unsaved = true, Navigate(ScreenControleContratos, ScreenTransition.Fade)))
         Text: ="Salvar"
         Width: =96
-        X: =55
+        X: =45
         Y: =690
         ZIndex: =2
 
