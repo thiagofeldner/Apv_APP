@@ -2173,10 +2173,10 @@ Screen2 As screen:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
         DisplayMode: =DisplayMode.Edit
         Height: =32
-        OnSelect: =If(Form1.Unsaved = true, Navigate(Screen2, ScreenTransition.None), If(Form1.Unsaved = false, Navigate(ScreenControleContratos, ScreenTransition.Fade)))
+        OnSelect: =If(Form1.Unsaved = true, Error("Erro ao salvar alterações"), If(Form1.Unsaved = false, Navigate(ScreenControleContratos, ScreenTransition.Fade)))
         Text: ="Salvar"
         Width: =96
-        X: =45
+        X: =40
         Y: =690
         ZIndex: =2
 
@@ -2188,4 +2188,13 @@ Screen2 As screen:
         X: =216
         Y: =690
         ZIndex: =3
+
+    BadgeCanvas1 As Notificação:
+        Content: =
+        DisplayMode: =DisplayMode.Edit
+        Height: =34
+        Width: =143
+        X: =530
+        Y: =10
+        ZIndex: =4
 
