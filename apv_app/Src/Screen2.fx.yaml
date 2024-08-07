@@ -2171,7 +2171,9 @@ Screen2 As screen:
 
     ButtonCanvas9 As Botão:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         OnSelect: =If(SubmitForm(Form1), Navigate(FinanScreen))
         Text: ="Salvar"
@@ -2181,7 +2183,10 @@ Screen2 As screen:
         ZIndex: =2
 
     TextCanvas2 As Texto:
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        Fill: =
+        FontColor: =
         Height: =32
         Text: =Form1.Error
         Width: =96

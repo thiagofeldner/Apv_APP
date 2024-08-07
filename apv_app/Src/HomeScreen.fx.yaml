@@ -83,6 +83,7 @@ HomeScreen As screen:
         Align: =Align.Center
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -91,6 +92,7 @@ HomeScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =24
         FontWeight: =FontWeight.Semibold
         Height: =68
@@ -106,6 +108,7 @@ HomeScreen As screen:
     btnFinan As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -114,6 +117,7 @@ HomeScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =24
         FontWeight: =FontWeight.Semibold
         Height: =68
@@ -129,6 +133,7 @@ HomeScreen As screen:
     btnProjetos As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -137,6 +142,7 @@ HomeScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =24
         FontWeight: =FontWeight.Semibold
         Height: =68
@@ -152,6 +158,7 @@ HomeScreen As screen:
     btnIntegracao As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -160,6 +167,7 @@ HomeScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =24
         FontWeight: =FontWeight.Semibold
         Height: =68
@@ -174,6 +182,7 @@ HomeScreen As screen:
     btnJuridico As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -182,6 +191,7 @@ HomeScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =24
         FontWeight: =FontWeight.Semibold
         Height: =68
@@ -196,6 +206,7 @@ HomeScreen As screen:
     btnContratos As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -204,6 +215,7 @@ HomeScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =24
         FontWeight: =FontWeight.Semibold
         Height: =68
@@ -218,6 +230,7 @@ HomeScreen As screen:
     btnFinan_1 As Botão:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -226,6 +239,7 @@ HomeScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =32
         FontWeight: =FontWeight.Semibold
         Height: =52

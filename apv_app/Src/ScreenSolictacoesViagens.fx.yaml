@@ -291,7 +291,9 @@ ScreenSolictacoesViagens As screen:
 
         txtSolViag As Texto:
             Align: ='TextCanvas.Align'.Center
+            BorderColor: =
             DisplayMode: =DisplayMode.Edit
+            Fill: =
             Font: =Font.'Lato Black'
             FontColor: =RGBA(255, 255, 255, 1)
             Height: =53

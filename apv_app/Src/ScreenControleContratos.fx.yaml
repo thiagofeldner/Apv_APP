@@ -111,7 +111,9 @@ ScreenControleContratos As screen:
 
         TextCanvas1 As Texto:
             Align: ='TextCanvas.Align'.Center
+            BorderColor: =
             DisplayMode: =DisplayMode.Edit
+            Fill: =
             Font: =Font.'Lato Black'
             FontColor: =RGBA(255, 255, 255, 1)
             Height: =53
@@ -148,7 +150,10 @@ ScreenControleContratos As screen:
             ZIndex: =3
 
     ButtonCanvas3 As Botão:
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         FontSize: =24
         Height: =41
         OnSelect: =Collect(colItemsCollection, 'Controle de contratos')
@@ -168,7 +173,9 @@ ScreenControleContratos As screen:
 
     ButtonCanvas4 As Botão:
         BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         FontSize: =24
         Height: =44
         OnSelect: =false
@@ -189,8 +196,12 @@ ScreenControleContratos As screen:
         ZIndex: =9
 
     "txtContratada As 'Entrada de texto'":
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        Fill: =
         Font: =Font.Lato
+        FontColor: =
         FontSize: =18
         Height: =45
         Value: =Gallery1.Selected.Contratada
@@ -200,8 +211,12 @@ ScreenControleContratos As screen:
         ZIndex: =10
 
     "txtCG As 'Entrada de texto'":
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        Fill: =
         Font: =Font.Lato
+        FontColor: =
         FontSize: =18
         Height: =40
         Value: =Gallery1.Selected.'Contrato de gestão '

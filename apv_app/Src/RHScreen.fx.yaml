@@ -54,6 +54,7 @@ RHScreen As screen:
         Align: =Align.Center
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -62,6 +63,7 @@ RHScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =18
         FontWeight: =FontWeight.Semibold
         Height: =61
@@ -78,6 +80,7 @@ RHScreen As screen:
         Align: =Align.Center
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
         BorderRadiusTopLeft: =10
@@ -86,6 +89,7 @@ RHScreen As screen:
         BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
+        FontColor: =
         FontSize: =18
         FontWeight: =FontWeight.Semibold
         Height: =61

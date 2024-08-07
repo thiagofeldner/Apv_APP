@@ -140,7 +140,10 @@ Screen1 As screen:
             ZIndex: =11
 
     ButtonCanvas1 As Botão:
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         OnSelect: =Collect(colAddCollection, AddColumns(colItemsCollection, Revenue, 'Valor contrato' * Execução))
         Text: ="Adicionar Coluna"
@@ -150,7 +153,10 @@ Screen1 As screen:
         ZIndex: =2
 
     ButtonCanvas1_1 As Botão:
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         OnSelect: =Collect(colDropCollection, DropColumns(colItemsCollection, 'Final do termo'))
         Text: ="Descartar Coluna"
@@ -160,7 +166,10 @@ Screen1 As screen:
         ZIndex: =3
 
     ButtonCanvas1_2 As Botão:
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         OnSelect: =Collect(colShowCollection, ShowColumns(colItemsCollection, 'Contrato de gestão '))
         Text: ="Mostrar Coluna"
@@ -170,7 +179,10 @@ Screen1 As screen:
         ZIndex: =4
 
     ButtonCanvas1_3 As Botão:
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =32
         OnSelect: =Collect(colRenameCollection, RenameColumns(colItemsCollection, 'Contrato de gestão ', Teste_deColuna ))
         Text: ="Renomear Coluna"
