@@ -6,7 +6,7 @@ Screen3 As screen:
         Items: =FlooringEstimates
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(Screen1)
+        OnSelect: =Navigate(Screen4)
         TemplatePadding: =0
         TemplateSize: =104
         X: =40
