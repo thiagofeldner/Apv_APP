@@ -3,7 +3,7 @@ Screen5 As screen:
     Form5 As form:
         DataSource: =' Solicitação de Reserva'
         Height: =456
-        OnSuccess: =SubmitForm(Form5); Navigate(Screen5, ScreenTransition.Cover)
+        OnSuccess: =SubmitForm(Form5); Navigate(Screen6, ScreenTransition.Cover)
         Width: =1076
         X: =40
         Y: =40
