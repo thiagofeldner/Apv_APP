@@ -1,0 +1,7 @@
+{
+  "DataEntityMetadataJson": {
+    "FlooringEstimates": "{\"name\":\"FlooringEstimates\",\"title\":\"FlooringEstimates\",\"x-ms-permission\":\"read-write\",\"schema\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Name\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Name\"},\"Category\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Category\"},\"Price\":{\"type\":\"number\",\"format\":\"double\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Price\"},\"Image\":{\"type\":\"string\",\"format\":\"uri\",\"x-ms-media-kind\":\"image\",\"x-ms-media-base-url\":\"https://brazil-001.azure-apim.net/apim/onedriveforbusiness/70edfedaebf54be8a3a34323e21817c3/datasets/default\",\"x-ms-media-default-folder-path\":\"/drives/b!pIRC3Wgackm0gES0iUsydfVZPDCzJxdMm_EQTx5_dQFk2mLE-SpiQIvef3j9AfoR/root:/Documentos/FlooringEstimates_images\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Image\"},\"Overview\":{\"type\":\"string\",\"x-ms-keyOrder\":0,\"x-ms-keyType\":\"none\",\"x-ms-sort\":\"none\",\"title\":\"Overview\"},\"__PowerAppsId__\":{\"type\":\"string\",\"x-ms-keyOrder\":1,\"x-ms-keyType\":\"primary\",\"x-ms-sort\":\"none\",\"x-ms-permission\":\"read-only\",\"title\":\"Row id\"}}}}}"
+  },
+  "EntityName": "FlooringEstimates",
+  "TableName": "FlooringEstimates"
+}
