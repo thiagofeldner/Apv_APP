@@ -3,79 +3,10 @@ Screen5 As screen:
     Form5 As form:
         DataSource: =' Solicitação de Reserva'
         Height: =456
-        OnSuccess: =SubmitForm(Form5); Navigate(Screen6, ScreenTransition.Cover)
         Width: =1076
         X: =40
         Y: =40
         ZIndex: =1
-
-        "'Nome do animal de estimação_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="cr63a_nomedoanimaldeestimacao"
-            Default: =ThisItem.'Nome do animal de estimação'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_nomedoanimaldeestimacao)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@' Solicitação de Reserva'], DataSourceInfo.MaxLength, cr63a_nomedoanimaldeestimacao)
-            Required: =true
-            Update: =DataCardValue78.Text
-            Width: =358
-            X: =2
-            Y: =0
-            ZIndex: =2
-
-            DataCardKey94 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue78 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey94.Y + DataCardKey94.Height + 5
-                ZIndex: =2
-
-            ErrorMessage92 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue78.Y + DataCardValue78.Height
-                ZIndex: =3
-
-            StarVisible92 As label:
-                Align: =Align.Center
-                Height: =DataCardKey94.Height
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey94.Y
-                ZIndex: =4
 
         "'Nome do Proprietário_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
@@ -211,6 +142,74 @@ Screen5 As screen:
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey96.Y
+                ZIndex: =4
+
+        "'Nome do animal de estimação_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="cr63a_nomedoanimaldeestimacao"
+            Default: =ThisItem.'Nome do animal de estimação'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_nomedoanimaldeestimacao)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@' Solicitação de Reserva'], DataSourceInfo.MaxLength, cr63a_nomedoanimaldeestimacao)
+            Required: =true
+            Update: =DataCardValue78.Text
+            Width: =358
+            X: =2
+            Y: =0
+            ZIndex: =2
+
+            DataCardKey94 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue78 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey94.Y + DataCardKey94.Height + 5
+                ZIndex: =2
+
+            ErrorMessage92 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue78.Y + DataCardValue78.Height
+                ZIndex: =3
+
+            StarVisible92 As label:
+                Align: =Align.Center
+                Height: =DataCardKey94.Height
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey94.Y
                 ZIndex: =4
 
         "' Data de Início_DataCard2' As typedDataCard.dateTimeEditCard":
@@ -574,6 +573,7 @@ Screen5 As screen:
     ButtonCanvas6 As Botão:
         DisplayMode: =DisplayMode.Edit
         Height: =47
+        OnSelect: =SubmitForm(Form5); Navigate(Screen6, ScreenTransition.Cover)
         Text: ="Enviar Formulário"
         Width: =143
         X: =224
