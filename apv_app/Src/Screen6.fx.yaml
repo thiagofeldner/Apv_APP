@@ -1,0 +1,12 @@
+Screen6 As screen:
+
+    ButtonCanvas2 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Height: =70
+        OnSelect: =NewForm(Form5); Navigate(Screen6)
+        Text: ="Nova Solicitação de Reserva"
+        Width: =267
+        X: =416
+        Y: =320
+        ZIndex: =1
+
