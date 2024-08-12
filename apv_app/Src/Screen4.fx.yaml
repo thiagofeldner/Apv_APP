@@ -27,7 +27,10 @@ Screen4 As screen:
             ZIndex: =1
 
             DataCardKey83 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -39,7 +42,11 @@ Screen4 As screen:
 
             "DataCardValue69 As 'Entrada de texto'":
                 AccessibleLabel: =Parent.DisplayName
+                BasePaletteColor: =
+                BorderColor: =
                 DisplayMode: =Parent.DisplayMode
+                Fill: =
+                FontColor: =
                 Height: =32
                 Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                 Required: =Parent.Required
@@ -51,7 +58,10 @@ Screen4 As screen:
                 ZIndex: =2
 
             ErrorMessage83 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =30
                 Text: =Parent.Error
                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -63,7 +73,10 @@ Screen4 As screen:
 
             StarVisible83 As Texto:
                 Align: ='TextCanvas.Align'.Center
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =30
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -88,7 +101,10 @@ Screen4 As screen:
             ZIndex: =1
 
             DataCardKey84 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =34
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -117,7 +133,10 @@ Screen4 As screen:
                 ZIndex: =3
 
             ErrorMessage84 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =10
                 Text: =Parent.Error
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
@@ -128,7 +147,10 @@ Screen4 As screen:
 
             StarVisible84 As Texto:
                 Align: ='TextCanvas.Align'.Center
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =DataCardKey84.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -155,7 +177,10 @@ Screen4 As screen:
             ZIndex: =1
 
             DataCardKey85 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -167,7 +192,11 @@ Screen4 As screen:
 
             "DataCardValue70 As 'Entrada de texto'":
                 AccessibleLabel: =Parent.DisplayName
+                BasePaletteColor: =
+                BorderColor: =
                 DisplayMode: =Parent.DisplayMode
+                Fill: =
+                FontColor: =
                 Height: =32
                 Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                 Required: =Parent.Required
@@ -179,7 +208,10 @@ Screen4 As screen:
                 ZIndex: =2
 
             ErrorMessage85 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =30
                 Text: =Parent.Error
                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -191,7 +223,10 @@ Screen4 As screen:
 
             StarVisible85 As Texto:
                 Align: ='TextCanvas.Align'.Center
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =30
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -217,7 +252,10 @@ Screen4 As screen:
             ZIndex: =1
 
             DataCardKey86 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -229,7 +267,11 @@ Screen4 As screen:
 
             "DataCardValue71 As 'Entrada de texto'":
                 AccessibleLabel: =Parent.DisplayName
+                BasePaletteColor: =
+                BorderColor: =
                 DisplayMode: =Parent.DisplayMode
+                Fill: =
+                FontColor: =
                 Height: =32
                 Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                 Required: =Parent.Required
@@ -241,7 +283,10 @@ Screen4 As screen:
                 ZIndex: =2
 
             ErrorMessage86 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =30
                 Text: =Parent.Error
                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -253,7 +298,10 @@ Screen4 As screen:
 
             StarVisible86 As Texto:
                 Align: ='TextCanvas.Align'.Center
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =30
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -278,7 +326,10 @@ Screen4 As screen:
             ZIndex: =1
 
             DataCardKey87 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -290,7 +341,11 @@ Screen4 As screen:
 
             "DataCardValue72 As 'Entrada de texto'":
                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                BasePaletteColor: =
+                BorderColor: =
                 DisplayMode: =Parent.DisplayMode
+                Fill: =
+                FontColor: =
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
@@ -300,7 +355,10 @@ Screen4 As screen:
                 ZIndex: =2
 
             ErrorMessage87 As Texto:
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =30
                 Text: =Parent.Error
                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -312,7 +370,10 @@ Screen4 As screen:
 
             StarVisible87 As Texto:
                 Align: ='TextCanvas.Align'.Center
+                BorderColor: =
                 DisplayMode: =DisplayMode.Edit
+                Fill: =
+                FontColor: =
                 Height: =30
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -322,7 +383,10 @@ Screen4 As screen:
                 ZIndex: =4
 
     ButtonCanvas5 As Botão:
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =43
         OnSelect: =NewForm(Form4)
         Text: ="Novo Formulário"

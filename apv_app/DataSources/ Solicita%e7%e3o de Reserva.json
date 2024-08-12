@@ -1,0 +1,124 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr63a_solicitacaodereservas",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr63a_solicitacaodereserva",
+    "Name": " Solicitação de Reserva",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "cr63a_datadeinicio": " Data de Início",
+      "cr63a_datadetermino": "Data de Término",
+      "cr63a_decisao": "Decisão",
+      "cr63a_emaildoproprietario": "Email do Proprietário",
+      "cr63a_nomedoanimaldeestimacao": "Nome do animal de estimação",
+      "cr63a_nomedoproprietario": "Nome do Proprietário",
+      "cr63a_novacoluna": "Nova coluna",
+      "cr63a_observacoes": "Observações",
+      "cr63a_solicitacaodereserva_AsyncOperations": "Trabalhos do Sistema",
+      "cr63a_solicitacaodereserva_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "cr63a_solicitacaodereserva_DuplicateBaseRecord": "Registros Duplicados (cr63a_solicitacaodereserva_DuplicateBaseRecord)",
+      "cr63a_solicitacaodereserva_DuplicateMatchingRecord": "Registros Duplicados (cr63a_solicitacaodereserva_DuplicateMatchingRecord)",
+      "cr63a_solicitacaodereserva_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "cr63a_solicitacaodereserva_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "cr63a_solicitacaodereserva_ProcessSession": "Sessões de Processo",
+      "cr63a_solicitacaodereserva_SyncErrors": "Erros de Sincronização",
+      "cr63a_solicitacaodereservaid": " Solicitação de Reserva",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": " Solicitação de Reserva",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": " Solicitação de Reserva (Modos de exibição)",
+    "Name": "_cr63a_solicitacaodereserva_views",
+    "RelatedEntityName": " Solicitação de Reserva",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "42cdd7af-fef6-4a5d-8d61-3a86537dff44": "Exibição Associada de  Solicitação de Reserva",
+      "65be529f-4fdc-44da-979f-9d5101d85574": "Exibição de Localização Avançada de  Solicitação de Reserva",
+      "772c4698-86ce-42b6-8f24-75d9ada246e4": " Solicitação de Reserva Inativos(as)",
+      "887c3d09-e6ab-4b83-8c6e-2befe4ba1120": " Solicitação de Reserva Ativos(as)",
+      "ca152eb7-3b11-485d-a1b1-7e9a81fe5514": "Exibição de Consulta de  Solicitação de Reserva"
+    }
+  },
+  {
+    "DisplayName": "Decisão ( Solicitação de Reserva)",
+    "Name": "cr63a_solicitacaodereserva_cr63a_decisao",
+    "OptionSetInfoNameMapping": {
+      "614040001": "Aceito",
+      "614040002": "Recusado",
+      "614040003": "Indeciso"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr63a_decisao",
+        "OptionSetReferenceEntityName": " Solicitação de Reserva"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr63a_decisao",
+    "RelatedEntityName": " Solicitação de Reserva",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status ( Solicitação de Reserva)",
+    "Name": "cr63a_solicitacaodereserva_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": " Solicitação de Reserva"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": " Solicitação de Reserva",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status ( Solicitação de Reserva)",
+    "Name": "cr63a_solicitacaodereserva_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": " Solicitação de Reserva"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": " Solicitação de Reserva",
+    "Type": "OptionSetInfo"
+  }
+]

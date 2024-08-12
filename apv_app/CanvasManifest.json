@@ -116,7 +116,6 @@
     "FileID": "43041b7d-62e6-4346-a453-f5e2f01de746",
     "Id": "43041b7d-62e6-4346-a453-f5e2f01de746",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "APP APV",
     "OriginatingVersion": "1.336",
@@ -148,6 +147,7 @@
     "Screen1",
     "Screen2",
     "Screen3",
-    "Screen4"
+    "Screen4",
+    "Screen5"
   ]
 }
