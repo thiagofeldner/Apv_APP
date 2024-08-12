@@ -3,6 +3,7 @@ Screen4 As screen:
     Form4 As form.PowerApps_CoreControls_Form:
         DataSource: =FlooringEstimates
         Item: =Gallery2.Selected
+        OnFailure: =falseNotify("Your data was not saved. Please try again or contact an administrator.", NotificationType.Error)
         OnSuccess: =Navigate(Screen3, ScreenTransition.Cover); Notify("You have successfully submitted a record for " & Self.LastSubmit.Name)
         UseFluentV9Cards: =true
         X: =40
