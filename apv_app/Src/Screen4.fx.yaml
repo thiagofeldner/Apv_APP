@@ -366,6 +366,7 @@ Screen4 As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =44
+        OnSelect: =SubmitForm(Form3)
         Text: ="Enviar Formulário"
         Width: =138
         X: =271
