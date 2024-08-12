@@ -20,8 +20,7 @@ HomeScreen As screen:
             DisplayMode: =DisplayMode.View
             Height: =73
             Image: =Logo_branco
-            Width: =122
-            X: =3
+            Width: =125
             ZIndex: =1
 
         imgUser As image:
