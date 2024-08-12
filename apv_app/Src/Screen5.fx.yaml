@@ -3,47 +3,11 @@ Screen5 As screen:
     Form5 As form:
         DataSource: =' Solicitação de Reserva'
         Height: =456
+        OnSuccess: =SubmitForm(Form5); Navigate(Screen5, ScreenTransition.Cover)
         Width: =1076
         X: =40
         Y: =40
         ZIndex: =1
-
-        "'Data de Criação_DataCard2' As typedDataCard.textualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="createdon"
-            Default: =ThisItem.'Data de Criação'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,createdon)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =358
-            X: =0
-            Y: =1
-            ZIndex: =2
-
-            DataCardKey93 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue77 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Default
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey93.Y + DataCardKey93.Height + 5
-                ZIndex: =2
 
         "'Nome do animal de estimação_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
@@ -260,7 +224,7 @@ Screen5 As screen:
             Required: =true
             Update: =If(Not IsBlank(DateValue3.SelectedDate), DateTime(Year(DateValue3.SelectedDate), Month(DateValue3.SelectedDate), Day(DateValue3.SelectedDate), Value(HourValue3.Selected.Value), Value(MinuteValue3.Selected.Value), 0))
             Width: =358
-            X: =1
+            X: =0
             Y: =1
             ZIndex: =2
 
@@ -373,7 +337,7 @@ Screen5 As screen:
             Required: =true
             Update: =If(Not IsBlank(DateValue4.SelectedDate), DateTime(Year(DateValue4.SelectedDate), Month(DateValue4.SelectedDate), Day(DateValue4.SelectedDate), Value(HourValue4.Selected.Value), Value(MinuteValue4.Selected.Value), 0))
             Width: =358
-            X: =2
+            X: =1
             Y: =1
             ZIndex: =2
 
@@ -486,8 +450,8 @@ Screen5 As screen:
             Required: =false
             Update: =DataCardValue81.Text
             Width: =358
-            X: =0
-            Y: =2
+            X: =2
+            Y: =1
             ZIndex: =2
 
             DataCardKey99 As label:
@@ -554,7 +518,7 @@ Screen5 As screen:
             Required: =true
             Update: =DataCardValue82.Selected.Value
             Width: =358
-            X: =1
+            X: =0
             Y: =2
             ZIndex: =2
 
@@ -606,4 +570,13 @@ Screen5 As screen:
                 Wrap: =false
                 Y: =DataCardKey100.Y
                 ZIndex: =4
+
+    ButtonCanvas6 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Height: =47
+        Text: ="Enviar Formulário"
+        Width: =143
+        X: =224
+        Y: =520
+        ZIndex: =2
 
