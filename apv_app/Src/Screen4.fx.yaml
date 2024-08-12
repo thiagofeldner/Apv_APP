@@ -350,3 +350,25 @@ Screen4 As screen:
                 Y: =DataCardKey82.Y
                 ZIndex: =4
 
+    ButtonCanvas2 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Height: =44
+        OnSelect: =NewForm(Form3)
+        Text: ="Novo Formulário"
+        Width: =138
+        X: =88
+        Y: =516
+        ZIndex: =2
+
+    ButtonCanvas2_1 As Botão:
+        BasePaletteColor: =
+        BorderColor: =
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =
+        Height: =44
+        Text: ="Enviar Formulário"
+        Width: =138
+        X: =271
+        Y: =516
+        ZIndex: =3
+
