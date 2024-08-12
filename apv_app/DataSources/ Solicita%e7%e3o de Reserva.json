@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "cr63a_solicitacaodereserva",
+    "MaxGetRowsCount": 500,
     "Name": " Solicitação de Reserva",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Proprietário",

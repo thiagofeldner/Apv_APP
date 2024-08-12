@@ -571,7 +571,10 @@ Screen5 As screen:
                 ZIndex: =4
 
     ButtonCanvas6 As Botão:
+        BasePaletteColor: =
+        BorderColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =47
         OnSelect: =SubmitForm(Form5); Navigate(Screen6, ScreenTransition.Cover)
         Text: ="Enviar Formulário"
