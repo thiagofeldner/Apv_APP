@@ -11,12 +11,12 @@ Screen5 As screen:
         "'Nome do Proprietário_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr63a_nomedoproprietario"
-            Default: =ThisItem.'Nome do Proprietário'
+            Default: =ThisItem.' Nome do Proprietário'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_nomedoproprietario)
+            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,' Nome do Proprietário')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@' Solicitação de Reserva'], DataSourceInfo.MaxLength, cr63a_nomedoproprietario)
+            MaxLength: =DataSourceInfo([@' Solicitação de Reserva'], DataSourceInfo.MaxLength, ' Nome do Proprietário')
             Required: =true
             Update: =DataCardValue79.Text
             Width: =358
@@ -81,10 +81,10 @@ Screen5 As screen:
             DataField: ="cr63a_emaildoproprietario"
             Default: =ThisItem.'Email do Proprietário'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_emaildoproprietario)
+            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,'Email do Proprietário')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@' Solicitação de Reserva'], DataSourceInfo.MaxLength, cr63a_emaildoproprietario)
+            MaxLength: =DataSourceInfo([@' Solicitação de Reserva'], DataSourceInfo.MaxLength, 'Email do Proprietário')
             Required: =true
             Update: =DataCardValue80.Text
             Width: =358
@@ -147,12 +147,12 @@ Screen5 As screen:
         "'Nome do animal de estimação_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr63a_nomedoanimaldeestimacao"
-            Default: =ThisItem.'Nome do animal de estimação'
+            Default: =ThisItem.' Nome do animal de estimação'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_nomedoanimaldeestimacao)
+            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,' Nome do animal de estimação')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
-            MaxLength: =DataSourceInfo([@' Solicitação de Reserva'], DataSourceInfo.MaxLength, cr63a_nomedoanimaldeestimacao)
+            MaxLength: =DataSourceInfo([@' Solicitação de Reserva'], DataSourceInfo.MaxLength, ' Nome do animal de estimação')
             Required: =true
             Update: =DataCardValue78.Text
             Width: =358
@@ -215,9 +215,9 @@ Screen5 As screen:
         "' Data de Início_DataCard2' As typedDataCard.dateTimeEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="cr63a_datadeinicio"
-            Default: =ThisItem.' Data de Início'
+            Default: =ThisItem.'Data de Início'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_datadeinicio)
+            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,'Data de Início')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
@@ -330,7 +330,7 @@ Screen5 As screen:
             DataField: ="cr63a_datadetermino"
             Default: =ThisItem.'Data de Término'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_datadetermino)
+            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,'Data de Término')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
@@ -443,7 +443,7 @@ Screen5 As screen:
             DataField: ="cr63a_observacoes"
             Default: =ThisItem.Observações
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_observacoes)
+            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,Observações)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -511,7 +511,7 @@ Screen5 As screen:
             DataField: ="cr63a_decisao"
             Default: =ThisItem.Decisão
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,cr63a_decisao)
+            DisplayName: =DataSourceInfo([@' Solicitação de Reserva'],DataSourceInfo.DisplayName,Decisão)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true

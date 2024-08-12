@@ -10,13 +10,12 @@
     "Name": " Solicitação de Reserva",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Proprietário",
-      "cr63a_datadeinicio": " Data de Início",
+      "cr63a_datadeinicio": "Data de Início",
       "cr63a_datadetermino": "Data de Término",
       "cr63a_decisao": "Decisão",
       "cr63a_emaildoproprietario": "Email do Proprietário",
-      "cr63a_nomedoanimaldeestimacao": "Nome do animal de estimação",
-      "cr63a_nomedoproprietario": "Nome do Proprietário",
-      "cr63a_novacoluna": "Nova coluna",
+      "cr63a_nomedoanimaldeestimacao": " Nome do animal de estimação",
+      "cr63a_nomedoproprietario": " Nome do Proprietário",
       "cr63a_observacoes": "Observações",
       "cr63a_solicitacaodereserva_AsyncOperations": "Trabalhos do Sistema",
       "cr63a_solicitacaodereserva_BulkDeleteFailures": "Falhas da Exclusão em Massa",
@@ -26,7 +25,7 @@
       "cr63a_solicitacaodereserva_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
       "cr63a_solicitacaodereserva_ProcessSession": "Sessões de Processo",
       "cr63a_solicitacaodereserva_SyncErrors": "Erros de Sincronização",
-      "cr63a_solicitacaodereservaid": " Solicitação de Reserva",
+      "cr63a_solicitacaodereservaid": "Solicitação de Reserva",
       "createdby": "Criada Por",
       "createdon": "Data de Criação",
       "createdonbehalfby": "Criado por (Delegado)",
@@ -54,20 +53,20 @@
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "42cdd7af-fef6-4a5d-8d61-3a86537dff44": "Exibição Associada de  Solicitação de Reserva",
-      "65be529f-4fdc-44da-979f-9d5101d85574": "Exibição de Localização Avançada de  Solicitação de Reserva",
-      "772c4698-86ce-42b6-8f24-75d9ada246e4": " Solicitação de Reserva Inativos(as)",
-      "887c3d09-e6ab-4b83-8c6e-2befe4ba1120": " Solicitação de Reserva Ativos(as)",
-      "ca152eb7-3b11-485d-a1b1-7e9a81fe5514": "Exibição de Consulta de  Solicitação de Reserva"
+      "17769044-2c62-42cf-92c2-6bd5440225ff": "Exibição de Consulta de Solicitação de Reserva",
+      "368f1c6d-76ef-4423-a652-d55a3028c331": "Exibição Associada de Solicitação de Reserva",
+      "7d80ab16-673a-46db-bfdf-06087a642c86": "Exibição de Localização Avançada de Solicitação de Reserva",
+      "cdecc43f-2446-49c0-8032-79de82cad5eb": "Solicitação de Reserva Ativos(as)",
+      "d92f0f24-474b-4684-a739-ba45c6e64bc3": "Solicitação de Reserva Inativos(as)"
     }
   },
   {
     "DisplayName": "Decisão ( Solicitação de Reserva)",
     "Name": "cr63a_solicitacaodereserva_cr63a_decisao",
     "OptionSetInfoNameMapping": {
+      "614040000": "Indeciso",
       "614040001": "Aceito",
-      "614040002": "Recusado",
-      "614040003": "Indeciso"
+      "614040002": "Recusado"
     },
     "OptionSetIsBooleanValued": false,
     "OptionSetIsGlobal": false,
