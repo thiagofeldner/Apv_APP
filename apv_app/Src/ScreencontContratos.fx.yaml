@@ -1402,6 +1402,7 @@ ScreencontContratos As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_17,DataCardValue52.SearchText)
+                Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -1475,6 +1476,7 @@ ScreencontContratos As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_20,DataCardValue53.SearchText)
+                Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -1548,6 +1550,7 @@ ScreencontContratos As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_23,DataCardValue54.SearchText)
+                Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
@@ -1621,6 +1624,7 @@ ScreencontContratos As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_26,DataCardValue55.SearchText)
+                Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30

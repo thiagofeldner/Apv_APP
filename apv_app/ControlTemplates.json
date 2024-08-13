@@ -98,7 +98,7 @@
     "Name": "PowerApps_CoreControls_ComboboxCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Caixa de Combinação",
-    "Version": "0.0.39"
+    "Version": "0.0.40"
   },
   "combobox": {
     "CustomGroupControlTemplateName": "",
@@ -183,7 +183,7 @@
     "Name": "PowerApps_CoreControls_TextInputCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Entrada de texto",
-    "Version": "0.0.41"
+    "Version": "0.0.44"
   },
   "form": {
     "CustomGroupControlTemplateName": "",
@@ -354,7 +354,7 @@
     "Name": "PowerApps_CoreControls_DatePickerCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Seletor de data",
-    "Version": "0.0.32"
+    "Version": "0.0.33"
   },
   "text": {
     "CustomGroupControlTemplateName": "",
@@ -383,7 +383,7 @@
     "Name": "PowerApps_CoreControls_TextCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Texto",
-    "Version": "0.0.39"
+    "Version": "0.0.40"
   },
   "typedDataCard": {
     "CustomGroupControlTemplateName": "",

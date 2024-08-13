@@ -534,10 +534,13 @@ Screen5 As screen:
             DataCardValue82 As combobox:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DefaultSelectedItems: =[Parent.Default]
+                DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
                 IsSearchable: =false
                 Items: =Choices('Decisão ( Solicitação de Reserva)')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["Value"]
+                SearchItems: =[]
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60

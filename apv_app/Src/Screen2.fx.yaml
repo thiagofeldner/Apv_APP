@@ -1248,6 +1248,7 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_17,DataCardValue23.SearchText)
+                Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey36.X + DataCardKey36.Width
@@ -1321,6 +1322,7 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_20,DataCardValue24.SearchText)
+                Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey37.X + DataCardKey37.Width
@@ -1394,6 +1396,7 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_23,DataCardValue25.SearchText)
+                Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey38.X + DataCardKey38.Width
@@ -1467,6 +1470,7 @@ Screen2 As screen:
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
                 SearchItems: =Choices('Controle de contratos'.field_26,DataCardValue26.SearchText)
+                Template: =ListItemTemplate.Person
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey39.X + DataCardKey39.Width
