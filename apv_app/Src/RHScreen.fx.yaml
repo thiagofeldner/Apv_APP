@@ -44,7 +44,7 @@ RHScreen As screen:
             FocusedBorderThickness: =0
             Height: =43
             Icon: =Icon.Home
-            OnSelect: =Navigate(HomeScreen_2, ScreenTransition.Cover)
+            OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
             Width: =47
             X: =8
             Y: =15
