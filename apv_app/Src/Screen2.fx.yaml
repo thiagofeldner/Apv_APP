@@ -1,7 +1,7 @@
 Screen2 As screen:
 
     Form1 As form:
-        BorderColor: =RGBA(71, 158, 245, 1)
+        BorderColor: =RGBA(0, 0, 0, 0)
         DataSource: ='Controle de contratos'
         Height: =601
         Item: =Gallery3.Selected
