@@ -51,9 +51,15 @@ LinksUteis As screen:
         ZIndex: =3
 
     btnHome As Botão:
+        Align: =Align.Center
+        BorderStyle: =BorderStyle.None
         DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
         FontColor: =RGBA(255, 255, 255, 1)
+        FontItalic: =false
         FontSize: =52
+        FontUnderline: =false
+        FontWeight: =FontWeight.Bold
         Height: =51
         Icon: ="Home"
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
