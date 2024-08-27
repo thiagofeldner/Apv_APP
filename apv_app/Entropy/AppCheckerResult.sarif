@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.btnIntegracao.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen_2.btnIntegracao.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.btnIntegracao.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen_2.btnIntegracao.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.btnIntegracao"
+                "module": "HomeScreen_2",
+                "type": "HomeScreen_2.btnIntegracao"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.btnRH.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen_2.btnRH.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.btnRH.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen_2.btnRH.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.btnRH"
+                "module": "HomeScreen_2",
+                "type": "HomeScreen_2.btnRH"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.btnJuridico.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen_2.btnJuridico.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.btnJuridico.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen_2.btnJuridico.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.btnJuridico"
+                "module": "HomeScreen_2",
+                "type": "HomeScreen_2.btnJuridico"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.btnFinan.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen_2.btnFinan.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.btnFinan.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen_2.btnFinan.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.btnFinan"
+                "module": "HomeScreen_2",
+                "type": "HomeScreen_2.btnFinan"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.btnContratos.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen_2.btnContratos.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.btnContratos.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen_2.btnContratos.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.btnContratos"
+                "module": "HomeScreen_2",
+                "type": "HomeScreen_2.btnContratos"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.btnProjetos.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen_2.btnProjetos.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.btnProjetos.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen_2.btnProjetos.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.btnProjetos"
+                "module": "HomeScreen_2",
+                "type": "HomeScreen_2.btnProjetos"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.btnFinan_1.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen_2.btnFinan_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.btnFinan_1.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen_2.btnFinan_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "HomeScreen",
-                "type": "HomeScreen.btnFinan_1"
+                "module": "HomeScreen_2",
+                "type": "HomeScreen_2.btnFinan_1"
               }
             }
           ],
@@ -3851,19 +3851,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.ButtonCanvas7"
+                "module": "HomeScreen",
+                "type": "HomeScreen.ButtonCanvas7"
               }
             }
           ],
@@ -3881,19 +3881,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_1.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_1.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.ButtonCanvas7_1"
+                "module": "HomeScreen",
+                "type": "HomeScreen.ButtonCanvas7_1"
               }
             }
           ],
@@ -3911,19 +3911,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_2.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_2.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.ButtonCanvas7_2"
+                "module": "HomeScreen",
+                "type": "HomeScreen.ButtonCanvas7_2"
               }
             }
           ],
@@ -3941,19 +3941,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_3.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_3.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.ButtonCanvas7_3"
+                "module": "HomeScreen",
+                "type": "HomeScreen.ButtonCanvas7_3"
               }
             }
           ],
@@ -3971,19 +3971,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_4.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_4.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.ButtonCanvas7_4"
+                "module": "HomeScreen",
+                "type": "HomeScreen.ButtonCanvas7_4"
               }
             }
           ],
@@ -4001,19 +4001,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_5.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_5.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.ButtonCanvas7_5"
+                "module": "HomeScreen",
+                "type": "HomeScreen.ButtonCanvas7_5"
               }
             }
           ],
@@ -4031,19 +4031,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_6.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.ButtonCanvas7_6.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.ButtonCanvas7_6"
+                "module": "HomeScreen",
+                "type": "HomeScreen.ButtonCanvas7_6"
               }
             }
           ],

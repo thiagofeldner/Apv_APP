@@ -1,261 +1,202 @@
 HomeScreen As screen:
-    BackgroundImage: =
-    Fill: =RGBA(255, 255, 255, 1)
 
-    cont_Home As groupContainer.manualLayoutContainer:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DropShadow: =DropShadow.None
-        Fill: =RGBA(39, 113, 194, 1)
-        Height: =74
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =1366
-        ZIndex: =1
-
-        imgLogo As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            DisplayMode: =DisplayMode.View
-            Height: =73
-            Image: =Logo_branco
-            Width: =125
-            ZIndex: =1
-
-        imgUser As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            DisplayMode: =DisplayMode.View
-            Height: =74
-            Image: =User().Image
-            ImagePosition: =ImagePosition.Fill
-            Width: =71
-            X: =1295
-            ZIndex: =2
-
-        lblUserName As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Font: =Font.Lato
-            Height: =50
-            Size: =12
-            Text: ="Bem vindo, " & varUserInfo.displayName
-            Width: =224
-            X: =1058
-            Y: =17
-            ZIndex: =3
-
-        lblApv As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =56
-            Size: =24
-            Text: |-
-                ="Agência Peixe Vivo
-                "
-            Width: =321
-            Wrap: =false
-            X: =549
-            Y: =8
-            ZIndex: =4
-
-    lblEmail As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Color: =RGBA(139, 154, 159, 1)
-        DisplayMode: =DisplayMode.View
+    Header4 As Cabeçalho:
+        DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
-        Height: =34
-        Text: =varUserInfo.mail
-        Width: =336
-        Y: =730
+        Height: =75
+        Logo: =Logo_branco
+        OnSelectLogo: =false
+        Style: ='Header.Style'.Primary
+        Title: =
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =1333
+        X: =15
+        Y: =19
         ZIndex: =2
 
-    btnRH As Botão:
-        Align: =Align.Center
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        BorderColor: =
-        BorderRadiusBottomLeft: =10
-        BorderRadiusBottomRight: =10
-        BorderRadiusTopLeft: =10
-        BorderRadiusTopRight: =10
+    TextCanvas5 As Texto:
+        Align: ='TextCanvas.Align'.Center
         BorderStyle: =BorderStyle.None
-        BorderThickness: =0
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
-        FontColor: =
-        FontSize: =24
-        FontWeight: =FontWeight.Semibold
-        Height: =68
-        IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =Navigate(RHScreen,ScreenTransition.Fade)
-        Text: ="RH"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =164
-        X: =386
-        Y: =213
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =64
+        Size: =32
+        Text: ="Agência Peixe Vivo"
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =346
+        X: =508
+        Y: =24
         ZIndex: =3
 
-    btnFinan As Botão:
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        BorderColor: =
-        BorderRadiusBottomLeft: =10
-        BorderRadiusBottomRight: =10
-        BorderRadiusTopLeft: =10
-        BorderRadiusTopRight: =10
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
+    TextCanvas6 As Texto:
+        Align: ='TextCanvas.Align'.Start
+        AutoHeight: =false
         DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontColor: =
-        FontSize: =24
-        FontWeight: =FontWeight.Semibold
-        Height: =68
-        IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        OnSelect: =Navigate(FinanScreen, ScreenTransition.Fade)
-        Text: ="Financeiro"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =164
-        X: =386
-        Y: =332
+        Font: =Font.Lato
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =38
+        Size: =12
+        Text: ="Bem vindo , " & varUserInfo.displayName
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =203
+        Wrap: =true
+        X: =1078
+        Y: =37
         ZIndex: =4
 
-    btnProjetos As Botão:
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        BorderColor: =
-        BorderRadiusBottomLeft: =10
-        BorderRadiusBottomRight: =10
-        BorderRadiusTopLeft: =10
-        BorderRadiusTopRight: =10
+    Container6 As groupContainer.horizontalAutoLayoutContainer:
+        BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
-        BorderThickness: =0
+        DropShadow: =DropShadow.Semibold
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =614
+        LayoutMode: =LayoutMode.Auto
+        Width: =277
+        X: =15
+        Y: =132
+        ZIndex: =5
+
+    Rectangle5 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderStyle: =BorderStyle.None
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =554
+        Width: =251
+        X: =31
+        Y: =189
+        ZIndex: =6
+
+    ButtonCanvas7 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontColor: =
-        FontSize: =24
-        FontWeight: =FontWeight.Semibold
-        Height: =68
-        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(RHScreen, ScreenTransition.Fade)
+        Text: ="RH"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =84
+        Y: =664
+        ZIndex: =7
+
+    ButtonCanvas7_1 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(FinanScreen, ScreenTransition.CoverRight)
+        Text: ="Financeiro"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =84
+        Y: =289
+        ZIndex: =8
+
+    ButtonCanvas7_2 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
         OnSelect: =Navigate(ProjetosScreen, ScreenTransition.Fade)
         Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Middle
-        Width: =164
-        X: =386
-        Y: =456
-        ZIndex: =5
-
-    btnIntegracao As Botão:
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        BorderColor: =
-        BorderRadiusBottomLeft: =10
-        BorderRadiusBottomRight: =10
-        BorderRadiusTopLeft: =10
-        BorderRadiusTopRight: =10
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontColor: =
-        FontSize: =24
-        FontWeight: =FontWeight.Semibold
-        Height: =68
-        IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        Text: ="Integração"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =164
-        X: =777
-        Y: =209
-        ZIndex: =6
-
-    btnJuridico As Botão:
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        BorderColor: =
-        BorderRadiusBottomLeft: =10
-        BorderRadiusBottomRight: =10
-        BorderRadiusTopLeft: =10
-        BorderRadiusTopRight: =10
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontColor: =
-        FontSize: =24
-        FontWeight: =FontWeight.Semibold
-        Height: =68
-        IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        Text: ="Jurídico"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =164
-        X: =777
-        Y: =328
-        ZIndex: =7
-
-    btnContratos As Botão:
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        BorderColor: =
-        BorderRadiusBottomLeft: =10
-        BorderRadiusBottomRight: =10
-        BorderRadiusTopLeft: =10
-        BorderRadiusTopRight: =10
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontColor: =
-        FontSize: =24
-        FontWeight: =FontWeight.Semibold
-        Height: =68
-        IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        Text: ="Contratos"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =164
-        X: =777
-        Y: =452
-        ZIndex: =8
-
-    btnFinan_1 As Botão:
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        BorderColor: =
-        BorderRadiusBottomLeft: =10
-        BorderRadiusBottomRight: =10
-        BorderRadiusTopLeft: =10
-        BorderRadiusTopRight: =10
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontColor: =
-        FontSize: =32
-        FontWeight: =FontWeight.Semibold
-        Height: =52
-        IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        Text: ="Admin"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =127
-        X: =1213
-        Y: =698
+        Width: =138
+        X: =84
+        Y: =594
         ZIndex: =9
 
-    Icon2 As icon.Settings:
-        Color: =RGBA(0, 0, 0, 1)
-        Height: =52
-        Icon: =Icon.Settings
-        Width: =56
-        X: =1142
-        Y: =698
+    ButtonCanvas7_3 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="Integração"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =84
+        Y: =368
         ZIndex: =10
+
+    ButtonCanvas7_4 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="Jurídico"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =84
+        Y: =444
+        ZIndex: =11
+
+    ButtonCanvas7_5 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="Contratos"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =84
+        Y: =216
+        ZIndex: =12
+
+    Container10 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(40, 112, 134, 1)
+        Height: =57
+        Width: =277
+        X: =15
+        Y: =132
+        ZIndex: =14
+
+        TextCanvas8 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            AutoHeight: =false
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =39
+            Size: =20
+            Text: ="Departamentos"
+            Width: =219
+            X: =28
+            Y: =12
+            ZIndex: =1
+
+    ButtonCanvas7_6 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(LinksUteis, ScreenTransition.Fade)
+        Text: ="Links Úteis"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =87
+        Y: =516
+        ZIndex: =15
 

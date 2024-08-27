@@ -44,7 +44,7 @@ ProjetosScreen As screen:
             FocusedBorderThickness: =0
             Height: =62
             Icon: =Icon.Home
-            OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
+            OnSelect: =Navigate(HomeScreen_2, ScreenTransition.Cover)
             Width: =68
             X: =19
             Y: =18

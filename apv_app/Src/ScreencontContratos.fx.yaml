@@ -148,7 +148,7 @@ ScreencontContratos As screen:
             Color: =RGBA(255, 255, 255, 1)
             Height: =41
             Icon: =Icon.Leave
-            OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCover)
+            OnSelect: =Navigate(HomeScreen_2, ScreenTransition.UnCover)
             Width: =41
             X: =1302
             Y: =21
