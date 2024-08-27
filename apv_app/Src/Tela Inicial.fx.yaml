@@ -93,6 +93,7 @@
         FontSize: =14
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(FinanScreen, ScreenTransition.CoverRight)
         Text: ="Financeiro"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138

@@ -2,7 +2,7 @@
   "DatasetName": "default.cds",
   "EntityName": " Solicitação de Reserva",
   "environmentVariableName": "",
-  "InstanceUrl": "https://org39d6dffa.crm2.dynamics.com",
+  "InstanceUrl": "https://org39d6dffa.crm2.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "cr63a_solicitacaodereservas",
     "logicalName": "cr63a_solicitacaodereserva"
