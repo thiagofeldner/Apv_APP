@@ -23,16 +23,18 @@ LinksUteis As screen:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
         FontColor: =RGBA(255, 255, 255, 1)
-        Height: =64
+        Height: =58
         Size: =32
-        Text: ="Agência Peixe Vivo"
+        Text: |-
+            ="Links Úteis
+            "
         Weight: ='TextCanvas.Weight'.Bold
-        Width: =346
-        X: =508
-        Y: =24
+        Width: =228
+        X: =567
+        Y: =27
         ZIndex: =2
 
-    TextCanvas6_1 As Texto:
+    txtUserLinks As Texto:
         Align: ='TextCanvas.Align'.Start
         AutoHeight: =false
         DisplayMode: =DisplayMode.Edit
@@ -48,7 +50,7 @@ LinksUteis As screen:
         Y: =37
         ZIndex: =3
 
-    ButtonCanvas2 As Botão:
+    btnHome As Botão:
         DisplayMode: =DisplayMode.Edit
         FontColor: =RGBA(255, 255, 255, 1)
         FontSize: =52

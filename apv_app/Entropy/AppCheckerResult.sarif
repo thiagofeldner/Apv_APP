@@ -4061,19 +4061,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LinksUteis.ButtonCanvas2.AccessibleLabel"
+                  "fullyQualifiedName": "LinksUteis.btnHome.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LinksUteis.ButtonCanvas2.AccessibleLabel",
+                  "fullyQualifiedName": "LinksUteis.btnHome.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "LinksUteis",
-                "type": "LinksUteis.ButtonCanvas2"
+                "type": "LinksUteis.btnHome"
               }
             }
           ],
