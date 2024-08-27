@@ -3,7 +3,7 @@ HomeScreen As screen:
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Fill
 
-    HeaderCabeçalho As Cabeçalho:
+    HeaderCabecalho As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         Height: =75
