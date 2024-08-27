@@ -1,4 +1,4 @@
-Screen6 As screen:
+"'Tela Inicial' As screen":
 
     Header4 As Cabeçalho:
         DisplayMode: =DisplayMode.Edit

@@ -134,6 +134,7 @@
   },
   "ScreenOrder": [
     "HomeScreen",
+    "Tela Inicial",
     "RHScreen",
     "FinanScreen",
     "ProjetosScreen",
@@ -146,7 +147,6 @@
     "Screen1",
     "Screen2",
     "Screen3",
-    "Screen6",
     "LinksUteis"
   ]
 }
