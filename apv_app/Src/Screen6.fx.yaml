@@ -1,0 +1,64 @@
+Screen6 As screen:
+
+    HeaderContainer As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DropShadow: =DropShadow.Semibold
+        Fill: =RGBA(62, 128, 149, 1)
+        Height: =86
+        Width: =1333
+        X: =16
+        Y: =16
+        ZIndex: =1
+
+        Avatar2 As Avatar:
+            Appearance: ='Avatar.Appearance'.Brand
+            DisplayMode: =DisplayMode.Edit
+            Height: =64
+            Image: =User().Image
+            Name: =User().FullName
+            Shape: ='Avatar.Shape'.Square
+            Width: =64
+            X: =1250
+            Y: =10
+            ZIndex: =1
+
+        Image2 As image:
+            Height: =64
+            Image: =Logo_branco
+            Width: =118
+            X: =18
+            Y: =10
+            ZIndex: =2
+
+        TextCanvas5 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            BorderStyle: =BorderStyle.None
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =64
+            Size: =32
+            Text: ="Agência Peixe Vivo"
+            Weight: ='TextCanvas.Weight'.Bold
+            Width: =346
+            X: =520
+            Y: =10
+            ZIndex: =3
+
+        TextCanvas6 As Texto:
+            Align: ='TextCanvas.Align'.Start
+            AutoHeight: =false
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.Lato
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =38
+            Size: =12
+            Text: ="Bem vindo, " & varUserInfo.displayName
+            Weight: ='TextCanvas.Weight'.Medium
+            Width: =203
+            Wrap: =true
+            X: =1026
+            Y: =23
+            ZIndex: =4
+

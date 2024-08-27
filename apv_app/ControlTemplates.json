@@ -27,6 +27,21 @@
     "OverridableProperties": {},
     "Version": "2.3.0"
   },
+  "Avatar": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_Avatar",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": true,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "PowerApps_CoreControls_Avatar",
+    "OverridableProperties": {},
+    "TemplateDisplayName": "Avatar",
+    "Version": "1.0.39"
+  },
   "Botão": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
