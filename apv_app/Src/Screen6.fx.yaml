@@ -81,8 +81,8 @@ Screen6 As screen:
         Text: ="RH"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =78
-        Y: =631
+        X: =84
+        Y: =664
         ZIndex: =7
 
     ButtonCanvas7_1 As Botão:
@@ -96,8 +96,8 @@ Screen6 As screen:
         Text: ="Financeiro"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =78
-        Y: =331
+        X: =84
+        Y: =289
         ZIndex: =8
 
     ButtonCanvas7_2 As Botão:
@@ -112,8 +112,8 @@ Screen6 As screen:
         Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =78
-        Y: =561
+        X: =84
+        Y: =594
         ZIndex: =9
 
     ButtonCanvas7_3 As Botão:
@@ -127,8 +127,8 @@ Screen6 As screen:
         Text: ="Integração"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =78
-        Y: =410
+        X: =84
+        Y: =368
         ZIndex: =10
 
     ButtonCanvas7_4 As Botão:
@@ -142,8 +142,8 @@ Screen6 As screen:
         Text: ="Jurídico"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =78
-        Y: =486
+        X: =84
+        Y: =444
         ZIndex: =11
 
     ButtonCanvas7_5 As Botão:
@@ -157,8 +157,8 @@ Screen6 As screen:
         Text: ="Contratos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =78
-        Y: =258
+        X: =84
+        Y: =216
         ZIndex: =12
 
     Container10 As groupContainer.manualLayoutContainer:
@@ -182,4 +182,20 @@ Screen6 As screen:
             X: =28
             Y: =12
             ZIndex: =1
+
+    ButtonCanvas7_6 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(RHScreen, ScreenTransition.Fade)
+        Text: ="Links Úteis"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =87
+        Y: =516
+        ZIndex: =15
 
