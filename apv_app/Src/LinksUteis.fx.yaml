@@ -48,14 +48,17 @@ LinksUteis As screen:
         Y: =37
         ZIndex: =3
 
-    Icon4 As Ícone:
+    ButtonCanvas2 As Botão:
         DisplayMode: =DisplayMode.Edit
-        Height: =43
+        FontColor: =RGBA(255, 255, 255, 1)
+        FontSize: =52
+        Height: =51
         Icon: ="Home"
-        IconColor: =RGBA(255, 255, 255, 1)
-        IconStyle: ='Icon.IconStyle'.Outline
-        Width: =53
-        X: =30
-        Y: =37
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
+        Text: =
+        Width: =54
+        X: =40
+        Y: =31
         ZIndex: =4
 
