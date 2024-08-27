@@ -77,7 +77,9 @@ HomeScreen As screen:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
+        FontItalic: =true
         FontSize: =14
+        FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         OnSelect: =Navigate(RHScreen, ScreenTransition.Fade)
@@ -93,7 +95,9 @@ HomeScreen As screen:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
+        FontItalic: =true
         FontSize: =14
+        FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         OnSelect: =Navigate(FinanScreen, ScreenTransition.CoverRight)
@@ -109,7 +113,9 @@ HomeScreen As screen:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
+        FontItalic: =true
         FontSize: =14
+        FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         OnSelect: =Navigate(ProjetosScreen, ScreenTransition.Fade)
@@ -125,7 +131,9 @@ HomeScreen As screen:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
+        FontItalic: =true
         FontSize: =14
+        FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         Text: ="Integração"
@@ -140,7 +148,9 @@ HomeScreen As screen:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
+        FontItalic: =true
         FontSize: =14
+        FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         Text: ="Jurídico"
@@ -155,7 +165,9 @@ HomeScreen As screen:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
+        FontItalic: =true
         FontSize: =14
+        FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         Text: ="Contratos"
@@ -192,7 +204,9 @@ HomeScreen As screen:
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
+        FontItalic: =true
         FontSize: =14
+        FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         OnSelect: =Navigate(LinksUteis, ScreenTransition.Fade)
