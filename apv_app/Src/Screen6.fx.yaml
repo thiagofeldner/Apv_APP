@@ -52,7 +52,7 @@ Screen6 As screen:
         BorderStyle: =BorderStyle.None
         DropShadow: =DropShadow.Semibold
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =618
+        Height: =612
         LayoutMode: =LayoutMode.Auto
         Width: =331
         X: =15
