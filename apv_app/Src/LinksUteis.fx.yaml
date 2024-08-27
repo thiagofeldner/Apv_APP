@@ -1,6 +1,6 @@
 LinksUteis As screen:
 
-    Header4_1 As Cabeçalho:
+    HeaderLinks As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         Height: =75
@@ -17,7 +17,7 @@ LinksUteis As screen:
         Y: =19
         ZIndex: =1
 
-    TextCanvas5_1 As Texto:
+    txtLinks As Texto:
         Align: ='TextCanvas.Align'.Center
         BorderStyle: =BorderStyle.None
         DisplayMode: =DisplayMode.Edit
