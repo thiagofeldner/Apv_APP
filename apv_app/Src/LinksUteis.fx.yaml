@@ -24,7 +24,7 @@ LinksUteis As screen:
         Font: =Font.'Lato Black'
         FontColor: =RGBA(255, 255, 255, 1)
         Height: =58
-        Size: =32
+        Size: =28
         Text: |-
             ="Links Úteis
             "
