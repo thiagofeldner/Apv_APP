@@ -4181,6 +4181,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.grafismo-horizontal-01"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.grafismo-horizontal-01",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "grafismo-horizontal-01",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "ScreenControleContratos.ButtonCanvas3.OnSelect"
                 }
               ],
