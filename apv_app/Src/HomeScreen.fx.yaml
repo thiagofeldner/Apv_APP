@@ -3,7 +3,7 @@ HomeScreen As screen:
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Fill
 
-    Header4 As Cabeçalho:
+    HeaderCabeçalho As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         Height: =75
@@ -19,7 +19,7 @@ HomeScreen As screen:
         Y: =19
         ZIndex: =2
 
-    TextCanvas5 As Texto:
+    txtEmpresa As Texto:
         Align: ='TextCanvas.Align'.Center
         BorderStyle: =BorderStyle.None
         DisplayMode: =DisplayMode.Edit
@@ -34,7 +34,7 @@ HomeScreen As screen:
         Y: =24
         ZIndex: =3
 
-    TextCanvas6 As Texto:
+    txtUser As Texto:
         Align: ='TextCanvas.Align'.Start
         AutoHeight: =false
         DisplayMode: =DisplayMode.Edit
@@ -50,7 +50,7 @@ HomeScreen As screen:
         Y: =37
         ZIndex: =4
 
-    Container6 As groupContainer.horizontalAutoLayoutContainer:
+    ContainerDeptos As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         DropShadow: =DropShadow.Semibold
@@ -62,7 +62,7 @@ HomeScreen As screen:
         Y: =132
         ZIndex: =5
 
-    Rectangle5 As rectangle:
+    RectDeptos As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
@@ -72,7 +72,7 @@ HomeScreen As screen:
         Y: =189
         ZIndex: =6
 
-    ButtonCanvas7 As Botão:
+    btnRh As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
@@ -88,7 +88,7 @@ HomeScreen As screen:
         Y: =654
         ZIndex: =7
 
-    ButtonCanvas7_1 As Botão:
+    btnFinanceiro As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
@@ -104,7 +104,7 @@ HomeScreen As screen:
         Y: =279
         ZIndex: =8
 
-    ButtonCanvas7_2 As Botão:
+    btnProj As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
@@ -120,7 +120,7 @@ HomeScreen As screen:
         Y: =584
         ZIndex: =9
 
-    ButtonCanvas7_3 As Botão:
+    btnIntegração As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
@@ -135,7 +135,7 @@ HomeScreen As screen:
         Y: =358
         ZIndex: =10
 
-    ButtonCanvas7_4 As Botão:
+    btnJur As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
@@ -150,7 +150,7 @@ HomeScreen As screen:
         Y: =434
         ZIndex: =11
 
-    ButtonCanvas7_5 As Botão:
+    btnCont As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit
@@ -165,7 +165,7 @@ HomeScreen As screen:
         Y: =206
         ZIndex: =12
 
-    Container10 As groupContainer.manualLayoutContainer:
+    HeaderContainerDeptos As groupContainer.manualLayoutContainer:
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
         Width: =232
@@ -173,7 +173,7 @@ HomeScreen As screen:
         Y: =132
         ZIndex: =14
 
-        TextCanvas8 As Texto:
+        txtDeptos As Texto:
             Align: ='TextCanvas.Align'.Center
             AutoHeight: =false
             DisplayMode: =DisplayMode.Edit
@@ -187,7 +187,7 @@ HomeScreen As screen:
             Y: =8
             ZIndex: =1
 
-    ButtonCanvas7_6 As Botão:
+    btnLinksUteis As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit

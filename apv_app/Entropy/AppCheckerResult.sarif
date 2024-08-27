@@ -3851,19 +3851,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_5.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.btnCont.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_5.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.btnCont.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ButtonCanvas7_5"
+                "type": "HomeScreen.btnCont"
               }
             }
           ],
@@ -3881,19 +3881,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_1.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.btnFinanceiro.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_1.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.btnFinanceiro.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ButtonCanvas7_1"
+                "type": "HomeScreen.btnFinanceiro"
               }
             }
           ],
@@ -3911,19 +3911,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_3.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.btnIntegração.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_3.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.btnIntegração.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ButtonCanvas7_3"
+                "type": "HomeScreen.btnIntegração"
               }
             }
           ],
@@ -3941,19 +3941,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_4.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.btnJur.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_4.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.btnJur.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ButtonCanvas7_4"
+                "type": "HomeScreen.btnJur"
               }
             }
           ],
@@ -3971,19 +3971,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_6.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.btnLinksUteis.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_6.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.btnLinksUteis.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ButtonCanvas7_6"
+                "type": "HomeScreen.btnLinksUteis"
               }
             }
           ],
@@ -4001,19 +4001,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_2.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.btnProj.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7_2.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.btnProj.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ButtonCanvas7_2"
+                "type": "HomeScreen.btnProj"
               }
             }
           ],
@@ -4031,19 +4031,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7.AccessibleLabel"
+                  "fullyQualifiedName": "HomeScreen.btnRh.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "HomeScreen.ButtonCanvas7.AccessibleLabel",
+                  "fullyQualifiedName": "HomeScreen.btnRh.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "HomeScreen",
-                "type": "HomeScreen.ButtonCanvas7"
+                "type": "HomeScreen.btnRh"
               }
             }
           ],
