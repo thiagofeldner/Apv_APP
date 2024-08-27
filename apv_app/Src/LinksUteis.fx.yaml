@@ -4,6 +4,7 @@ LinksUteis As screen:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         Height: =75
+        IsLogoVisible: =false
         Logo: =Logo_branco
         OnSelectLogo: =false
         Style: ='Header.Style'.Primary
@@ -46,4 +47,15 @@ LinksUteis As screen:
         X: =1078
         Y: =37
         ZIndex: =3
+
+    Icon4 As Ícone:
+        DisplayMode: =DisplayMode.Edit
+        Height: =43
+        Icon: ="Home"
+        IconColor: =RGBA(255, 255, 255, 1)
+        IconStyle: ='Icon.IconStyle'.Filled
+        Width: =53
+        X: =30
+        Y: =37
+        ZIndex: =4
 
