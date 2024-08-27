@@ -191,7 +191,7 @@ Screen6 As screen:
         FontSize: =14
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =Navigate(RHScreen, ScreenTransition.Fade)
+        OnSelect: =Navigate(LinksUteis, ScreenTransition.Fade)
         Text: ="Links Úteis"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138

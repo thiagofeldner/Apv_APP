@@ -1,4 +1,4 @@
-Screen7 As screen:
+LinksUteis As screen:
 
     Header4_1 As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
