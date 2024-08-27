@@ -183,7 +183,7 @@ HomeScreen As screen:
             Size: =20
             Text: ="Departamentos"
             Width: =176
-            X: =20
+            X: =28
             Y: =8
             ZIndex: =1
 
