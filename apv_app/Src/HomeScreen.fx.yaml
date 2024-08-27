@@ -1,4 +1,7 @@
 HomeScreen As screen:
+    BackgroundImage: ='grafismo-horizontal-01'
+    Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Fill
 
     Header4 As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
