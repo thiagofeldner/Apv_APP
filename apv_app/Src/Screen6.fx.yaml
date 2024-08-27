@@ -47,3 +47,128 @@ Screen6 As screen:
         Y: =37
         ZIndex: =4
 
+    Container6 As groupContainer.horizontalAutoLayoutContainer:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderStyle: =BorderStyle.None
+        DropShadow: =DropShadow.Semibold
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =618
+        LayoutMode: =LayoutMode.Auto
+        Width: =331
+        X: =15
+        Y: =112
+        ZIndex: =5
+
+    Rectangle5 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderStyle: =BorderStyle.None
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =591
+        Width: =331
+        X: =15
+        Y: =125
+        ZIndex: =6
+
+    ButtonCanvas7 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="RH"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =111
+        Y: =570
+        ZIndex: =7
+
+    ButtonCanvas7_1 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="Financeiro"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =111
+        Y: =285
+        ZIndex: =8
+
+    ButtonCanvas7_2 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="Projetos"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =111
+        Y: =499
+        ZIndex: =9
+
+    ButtonCanvas7_3 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="Integração"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =111
+        Y: =357
+        ZIndex: =10
+
+    ButtonCanvas7_4 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="Jurídico"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =111
+        Y: =427
+        ZIndex: =11
+
+    ButtonCanvas7_5 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =14
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Text: ="Contratos"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =111
+        Y: =204
+        ZIndex: =12
+
+    TextCanvas7 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        Height: =38
+        Size: =24
+        Text: ="Departamentos"
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =283
+        X: =40
+        Y: =123
+        ZIndex: =13
+
