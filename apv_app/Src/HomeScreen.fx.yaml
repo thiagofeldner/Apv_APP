@@ -57,7 +57,7 @@ HomeScreen As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =614
         LayoutMode: =LayoutMode.Auto
-        Width: =277
+        Width: =232
         X: =15
         Y: =132
         ZIndex: =5
@@ -67,7 +67,7 @@ HomeScreen As screen:
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
         Height: =554
-        Width: =251
+        Width: =210
         X: =31
         Y: =189
         ZIndex: =6
@@ -84,8 +84,8 @@ HomeScreen As screen:
         Text: ="RH"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =84
-        Y: =664
+        X: =60
+        Y: =654
         ZIndex: =7
 
     ButtonCanvas7_1 As Botão:
@@ -100,8 +100,8 @@ HomeScreen As screen:
         Text: ="Financeiro"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =84
-        Y: =289
+        X: =60
+        Y: =279
         ZIndex: =8
 
     ButtonCanvas7_2 As Botão:
@@ -116,8 +116,8 @@ HomeScreen As screen:
         Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =84
-        Y: =594
+        X: =60
+        Y: =584
         ZIndex: =9
 
     ButtonCanvas7_3 As Botão:
@@ -131,8 +131,8 @@ HomeScreen As screen:
         Text: ="Integração"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =84
-        Y: =368
+        X: =60
+        Y: =358
         ZIndex: =10
 
     ButtonCanvas7_4 As Botão:
@@ -146,8 +146,8 @@ HomeScreen As screen:
         Text: ="Jurídico"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =84
-        Y: =444
+        X: =60
+        Y: =434
         ZIndex: =11
 
     ButtonCanvas7_5 As Botão:
@@ -161,14 +161,14 @@ HomeScreen As screen:
         Text: ="Contratos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =84
-        Y: =216
+        X: =60
+        Y: =206
         ZIndex: =12
 
     Container10 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
-        Width: =277
+        Width: =232
         X: =15
         Y: =132
         ZIndex: =14
@@ -179,12 +179,12 @@ HomeScreen As screen:
             DisplayMode: =DisplayMode.Edit
             Font: =Font.'Lato Black'
             FontColor: =RGBA(255, 255, 255, 1)
-            Height: =39
+            Height: =37
             Size: =20
             Text: ="Departamentos"
-            Width: =219
-            X: =28
-            Y: =12
+            Width: =176
+            X: =20
+            Y: =8
             ZIndex: =1
 
     ButtonCanvas7_6 As Botão:
@@ -199,7 +199,7 @@ HomeScreen As screen:
         Text: ="Links Úteis"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =87
-        Y: =516
+        X: =63
+        Y: =506
         ZIndex: =15
 
