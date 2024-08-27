@@ -82,7 +82,7 @@ Screen6 As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =111
-        Y: =626
+        Y: =586
         ZIndex: =7
 
     ButtonCanvas7_1 As Botão:
@@ -97,7 +97,7 @@ Screen6 As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =111
-        Y: =326
+        Y: =286
         ZIndex: =8
 
     ButtonCanvas7_2 As Botão:
@@ -113,7 +113,7 @@ Screen6 As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =111
-        Y: =556
+        Y: =516
         ZIndex: =9
 
     ButtonCanvas7_3 As Botão:
@@ -128,7 +128,7 @@ Screen6 As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =111
-        Y: =405
+        Y: =365
         ZIndex: =10
 
     ButtonCanvas7_4 As Botão:
@@ -143,7 +143,7 @@ Screen6 As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =111
-        Y: =481
+        Y: =441
         ZIndex: =11
 
     ButtonCanvas7_5 As Botão:
@@ -158,12 +158,12 @@ Screen6 As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =111
-        Y: =253
+        Y: =213
         ZIndex: =12
 
     Container10 As groupContainer.manualLayoutContainer:
         Fill: =RGBA(40, 112, 134, 1)
-        Height: =93
+        Height: =59
         Width: =331
         X: =15
         Y: =112
@@ -171,14 +171,15 @@ Screen6 As screen:
 
         TextCanvas8 As Texto:
             Align: ='TextCanvas.Align'.Center
+            AutoHeight: =false
             DisplayMode: =DisplayMode.Edit
             Font: =Font.'Lato Black'
             FontColor: =RGBA(255, 255, 255, 1)
-            Height: =35
-            Size: =24
+            Height: =39
+            Size: =20
             Text: ="Departamentos"
-            Width: =246
-            X: =44
-            Y: =28
+            Width: =219
+            X: =56
+            Y: =12
             ZIndex: =1
 
