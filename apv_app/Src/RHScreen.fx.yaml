@@ -63,8 +63,8 @@ RHScreen As screen:
         UserImage: =User().Image
         UserName: =User().FullName
         Width: =1333
-        X: =17
-        Y: =11
+        X: =15
+        Y: =19
         ZIndex: =4
 
     TextCanvas3 As Texto:
@@ -77,8 +77,8 @@ RHScreen As screen:
         Text: ="RH"
         Weight: ='TextCanvas.Weight'.Regular
         Width: =96
-        X: =635
-        Y: =22
+        X: =633
+        Y: =30
         ZIndex: =5
 
     ButtonCanvas2 As Botão:
@@ -92,7 +92,7 @@ RHScreen As screen:
         Text: =
         VerticalAlign: =VerticalAlign.Middle
         Width: =49
-        X: =30
-        Y: =27
+        X: =31
+        Y: =35
         ZIndex: =6
 
