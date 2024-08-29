@@ -715,12 +715,26 @@
         FontSize: =42
         Height: =43
         Icon: ="Home"
-        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
         OnSelect: =Navigate(HomeScreen, ScreenTransition.Fade)
         Text: =
         VerticalAlign: =VerticalAlign.Middle
         Width: =49
-        X: =31
-        Y: =35
+        X: =28
+        Y: =38
         ZIndex: =6
+
+    ButtonCanvas5 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =42
+        Height: =37
+        Icon: ="ArrowUndo"
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: =Navigate(RHScreen, ScreenTransition.CoverRight)
+        Text: =
+        Width: =32
+        X: =95
+        Y: =41
+        ZIndex: =8
 
