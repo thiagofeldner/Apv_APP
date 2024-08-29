@@ -1,55 +1,5 @@
 RHScreen As screen:
 
-    containerRH As groupContainer.manualLayoutContainer:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        Fill: =RGBA(15, 108, 189, 1)
-        Height: =74
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =1366
-        ZIndex: =1
-
-        imgUserRH As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            DisplayMode: =DisplayMode.View
-            Height: =74
-            Image: =User().Image
-            ImagePosition: =ImagePosition.Fill
-            Width: =74
-            X: =1290
-            ZIndex: =2
-
-        lblRH As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =49
-            Size: =24
-            Text: ="RH"
-            Width: =94
-            Wrap: =false
-            X: =647
-            Y: =12
-            ZIndex: =4
-
-        icon_RH As icon.Home:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            Color: =RGBA(255, 255, 255, 1)
-            FocusedBorderThickness: =0
-            Height: =43
-            Icon: =Icon.Home
-            OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
-            Width: =47
-            X: =8
-            Y: =15
-            ZIndex: =5
-
     btnRH_1 As Botão:
         Align: =Align.Center
         Appearance: ='ButtonCanvas.Appearance'.Primary
@@ -72,8 +22,8 @@ RHScreen As screen:
         Text: ="Solicitação de Férias"
         VerticalAlign: =VerticalAlign.Middle
         Width: =147
-        X: =164
-        Y: =188
+        X: =67
+        Y: =411
         ZIndex: =2
 
     btnRH_2 As Botão:
@@ -98,7 +48,51 @@ RHScreen As screen:
         Text: ="Atestado Médico"
         VerticalAlign: =VerticalAlign.Middle
         Width: =147
-        X: =385
-        Y: =188
+        X: =67
+        Y: =518
         ZIndex: =3
+
+    Header3 As Cabeçalho:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        IsLogoVisible: =false
+        IsTitleVisible: =false
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =1333
+        X: =17
+        Y: =11
+        ZIndex: =4
+
+    TextCanvas3 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =53
+        Size: =32
+        Text: ="RH"
+        Weight: ='TextCanvas.Weight'.Regular
+        Width: =96
+        X: =635
+        Y: =22
+        ZIndex: =5
+
+    ButtonCanvas2 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =42
+        Height: =43
+        Icon: ="Home"
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.Fade)
+        Text: =
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =49
+        X: =30
+        Y: =27
+        ZIndex: =6
 
