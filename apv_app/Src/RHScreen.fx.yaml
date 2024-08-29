@@ -3,7 +3,7 @@ RHScreen As screen:
     btnRH_1 As Botão:
         Align: =Align.Center
         Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BasePaletteColor: =RGBA(40, 112, 134, 1)
         BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
@@ -23,13 +23,13 @@ RHScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =147
         X: =67
-        Y: =411
+        Y: =353
         ZIndex: =2
 
     btnRH_2 As Botão:
         Align: =Align.Center
         Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        BasePaletteColor: =RGBA(40, 112, 134, 1)
         BorderColor: =
         BorderRadiusBottomLeft: =10
         BorderRadiusBottomRight: =10
