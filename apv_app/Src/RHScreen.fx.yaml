@@ -187,7 +187,7 @@ RHScreen As screen:
         FontColor: =RGBA(255, 255, 255, 1)
         Height: =38
         Size: =12
-        Text: ="Bem vindo , " & varUserInfo.displayName
+        Text: =varUserInfo.displayName
         Weight: ='TextCanvas.Weight'.Medium
         Width: =203
         Wrap: =true
