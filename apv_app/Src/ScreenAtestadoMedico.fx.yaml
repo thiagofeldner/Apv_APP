@@ -2,7 +2,7 @@
 
     ScreenContainer1 As groupContainer.verticalAutoLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
-        Height: =Parent.Height
+        Height: =643
         LayoutAlignItems: =LayoutAlignItems.Stretch
         LayoutDirection: =LayoutDirection.Vertical
         LayoutGap: =16
@@ -12,37 +12,8 @@
         PaddingRight: =16
         PaddingTop: =16
         Width: =Parent.Width
+        Y: =124
         ZIndex: =1
-
-        HeaderContainer1 As groupContainer.horizontalAutoLayoutContainer:
-            Fill: =RGBA(255, 255, 255, 1)
-            FillPortions: =0
-            Height: =75
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            LayoutMode: =LayoutMode.Auto
-            RadiusBottomLeft: =8
-            RadiusBottomRight: =8
-            RadiusTopLeft: =8
-            RadiusTopRight: =8
-            ZIndex: =2
-
-            Header3_1 As Cabeçalho:
-                DisplayMode: =DisplayMode.Edit
-                Height: =75
-                IsLogoVisible: =false
-                IsTitleVisible: =false
-                LayoutMinHeight: =75
-                LayoutMinWidth: =Parent.Width
-                OnSelectLogo: =false
-                Title: =App.ActiveScreen.Name
-                UserEmail: =User().Email
-                UserImage: =User().Image
-                UserName: =User().FullName
-                Width: =1333
-                X: =15
-                Y: =19
-                ZIndex: =1
 
         MainContainer1 As groupContainer.horizontalAutoLayoutContainer:
             DropShadow: =DropShadow.None
@@ -693,16 +664,63 @@
         Y: =27
         ZIndex: =2
 
-    TextCanvas5 As Texto:
+    Header3_1 As Cabeçalho:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        IsLogoVisible: =false
+        IsTitleVisible: =false
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =1333
+        X: =15
+        Y: =19
+        ZIndex: =3
+
+    TextCanvas3_1 As Texto:
         Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =53
+        Size: =32
+        Text: ="Atestado Médico"
+        Weight: ='TextCanvas.Weight'.Regular
+        Width: =286
+        X: =538
+        Y: =30
+        ZIndex: =4
+
+    txtUser_2 As Texto:
+        Align: ='TextCanvas.Align'.Start
+        AutoHeight: =false
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         FontColor: =RGBA(255, 255, 255, 1)
-        Height: =49
-        Size: =32
-        Text: ="Atestado Médico"
-        Width: =286
-        X: =540
-        Y: =27
-        ZIndex: =3
+        Height: =38
+        Size: =12
+        Text: ="Bem vindo , " & varUserInfo.displayName
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =203
+        Wrap: =true
+        X: =1078
+        Y: =37
+        ZIndex: =5
+
+    ButtonCanvas2_1 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =42
+        Height: =43
+        Icon: ="Home"
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.Fade)
+        Text: =
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =49
+        X: =31
+        Y: =35
+        ZIndex: =6
 
