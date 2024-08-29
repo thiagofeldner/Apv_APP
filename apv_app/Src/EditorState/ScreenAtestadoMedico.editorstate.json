@@ -487,7 +487,7 @@
       "MetaDataIDKey": "",
       "Name": "ButtonCanvas2_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4301,7 +4301,7 @@
       "MetaDataIDKey": "",
       "Name": "Icon3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5660,7 +5660,7 @@
       "MetaDataIDKey": "%ScreenContainer.ID%",
       "Name": "ScreenContainer1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7056,7 +7056,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas3_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7369,7 +7369,7 @@
       "MetaDataIDKey": "",
       "Name": "txtUser_2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
