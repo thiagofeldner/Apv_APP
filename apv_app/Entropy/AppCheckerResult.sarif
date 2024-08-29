@@ -1843,19 +1843,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RHScreen.btnRH_1.AccessibleLabel"
+                  "fullyQualifiedName": "RHScreen.btnFinanceiro_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RHScreen.btnRH_1.AccessibleLabel",
+                  "fullyQualifiedName": "RHScreen.btnFinanceiro_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RHScreen",
-                "type": "RHScreen.btnRH_1"
+                "type": "RHScreen.btnFinanceiro_1"
               }
             }
           ],
@@ -1873,19 +1873,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RHScreen.btnRH_2.AccessibleLabel"
+                  "fullyQualifiedName": "RHScreen.btnIntegração_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RHScreen.btnRH_2.AccessibleLabel",
+                  "fullyQualifiedName": "RHScreen.btnIntegração_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RHScreen",
-                "type": "RHScreen.btnRH_2"
+                "type": "RHScreen.btnIntegração_1"
               }
             }
           ],
@@ -3804,6 +3804,96 @@
                 "member": "AccessibleLabel",
                 "module": "LinksUteis",
                 "type": "LinksUteis.btnHome"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RHScreen.btnJur_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RHScreen.btnJur_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RHScreen",
+                "type": "RHScreen.btnJur_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RHScreen.btnCont_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RHScreen.btnCont_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RHScreen",
+                "type": "RHScreen.btnCont_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RHScreen.btnLinksUteis_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "RHScreen.btnLinksUteis_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "RHScreen",
+                "type": "RHScreen.btnLinksUteis_1"
               }
             }
           ],
