@@ -35,7 +35,7 @@ RHScreen As screen:
         FontSize: =42
         Height: =43
         Icon: ="Home"
-        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
         OnSelect: =Navigate(HomeScreen, ScreenTransition.Fade)
         Text: =
         VerticalAlign: =VerticalAlign.Middle
