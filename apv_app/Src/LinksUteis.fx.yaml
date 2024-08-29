@@ -34,22 +34,6 @@ LinksUteis As screen:
         Y: =27
         ZIndex: =2
 
-    txtUserLinks As Texto:
-        Align: ='TextCanvas.Align'.Start
-        AutoHeight: =false
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.Lato
-        FontColor: =RGBA(255, 255, 255, 1)
-        Height: =38
-        Size: =12
-        Text: ="Bem vindo , " & varUserInfo.displayName
-        Weight: ='TextCanvas.Weight'.Medium
-        Width: =203
-        Wrap: =true
-        X: =1078
-        Y: =37
-        ZIndex: =3
-
     btnHome As Botão:
         Align: =Align.Center
         BorderStyle: =BorderStyle.None
@@ -69,4 +53,20 @@ LinksUteis As screen:
         X: =40
         Y: =31
         ZIndex: =4
+
+    txtUser_3 As Texto:
+        Align: ='TextCanvas.Align'.Start
+        AutoHeight: =false
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =41
+        Size: =12
+        Text: =varUserInfo.displayName
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =148
+        Wrap: =true
+        X: =1133
+        Y: =37
+        ZIndex: =5
 
