@@ -25,7 +25,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =3
 
-        field_4_Coluna3 As dataTableColumn.textualColumn:
+        Nome_Empresa As dataTableColumn.textualColumn:
             AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Nome Empesa"
@@ -40,7 +40,7 @@ Screen1 As screen:
             Y: =0
             ZIndex: =4
 
-        field_5_Coluna3 As dataTableColumn.textualColumn:
+        CNPJ As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="CNPJ"
             FieldName: ="field_5"
