@@ -93,7 +93,7 @@ ProjetosScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =Navigate(ScreencontContratos,ScreenTransition.Fade)
+        OnSelect: =Navigate(ScreenSolictacoesViagens,ScreenTransition.CoverRight)
         Text: ="Solicitação de Viagem"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
