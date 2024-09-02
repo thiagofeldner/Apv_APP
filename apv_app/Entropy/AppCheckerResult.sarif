@@ -3731,19 +3731,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FinanScreen.ButtonCanvas2_2.AccessibleLabel"
+                  "fullyQualifiedName": "FinanScreen.btnHome_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FinanScreen.ButtonCanvas2_2.AccessibleLabel",
+                  "fullyQualifiedName": "FinanScreen.btnHome_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FinanScreen",
-                "type": "FinanScreen.ButtonCanvas2_2"
+                "type": "FinanScreen.btnHome_2"
               }
             }
           ],
