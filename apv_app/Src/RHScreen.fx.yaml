@@ -110,7 +110,7 @@ RHScreen As screen:
         Height: =57
         Width: =232
         X: =15
-        Y: =130
+        Y: =132
         ZIndex: =15
 
         txtOpcoes As Texto:
