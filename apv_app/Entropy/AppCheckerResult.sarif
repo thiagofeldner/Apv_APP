@@ -3791,36 +3791,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.logoagenciapeixevivo"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.logoagenciapeixevivo",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "logoagenciapeixevivo",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.566255303_super"
                 }
               ],

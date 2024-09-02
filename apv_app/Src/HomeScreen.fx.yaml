@@ -1,7 +1,7 @@
 HomeScreen As screen:
-    BackgroundImage: =
-    Fill: =RGBA(0, 0, 0, 0)
-    ImagePosition: =ImagePosition.Fill
+    BackgroundImage: =logoagenciapeixevivo
+    Fill: =RGBA(255, 255, 255, 1)
+    ImagePosition: =ImagePosition.Center
 
     cabecalhoHome As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
