@@ -34,26 +34,6 @@ LinksUteis As screen:
         Y: =27
         ZIndex: =2
 
-    btnHome As Botão:
-        Align: =Align.Center
-        BorderStyle: =BorderStyle.None
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontColor: =RGBA(255, 255, 255, 1)
-        FontItalic: =false
-        FontSize: =52
-        FontUnderline: =false
-        FontWeight: =FontWeight.Bold
-        Height: =51
-        Icon: ="Home"
-        IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
-        Text: =
-        Width: =54
-        X: =31
-        Y: =31
-        ZIndex: =4
-
     txtUser_3 As Texto:
         Align: ='TextCanvas.Align'.Start
         AutoHeight: =false
@@ -69,4 +49,19 @@ LinksUteis As screen:
         X: =1133
         Y: =37
         ZIndex: =5
+
+    btnHomeRh_1 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =42
+        Height: =43
+        Icon: ="Home"
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.Fade)
+        Text: =
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =49
+        X: =27
+        Y: =34
+        ZIndex: =6
 
