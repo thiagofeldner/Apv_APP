@@ -69,7 +69,7 @@ ProjetosScreen As screen:
         LayoutMode: =LayoutMode.Auto
         Width: =232
         X: =15
-        Y: =143
+        Y: =132
         ZIndex: =7
 
     retOpcFinan_1 As rectangle:
@@ -79,7 +79,7 @@ ProjetosScreen As screen:
         Height: =554
         Width: =200
         X: =31
-        Y: =200
+        Y: =189
         ZIndex: =8
 
     btnConCont_1 As Botão:
@@ -106,7 +106,7 @@ ProjetosScreen As screen:
         Height: =57
         Width: =232
         X: =15
-        Y: =143
+        Y: =132
         ZIndex: =10
 
         txtDeptos_3 As Texto:
