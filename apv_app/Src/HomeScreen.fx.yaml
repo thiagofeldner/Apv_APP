@@ -178,6 +178,7 @@ HomeScreen As screen:
         ZIndex: =12
 
     headerHome As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Semilight
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
         Width: =232
