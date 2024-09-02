@@ -50,7 +50,7 @@ LinksUteis As screen:
         OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
         Text: =
         Width: =54
-        X: =40
+        X: =31
         Y: =31
         ZIndex: =4
 
