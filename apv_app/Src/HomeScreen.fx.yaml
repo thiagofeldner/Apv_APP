@@ -67,7 +67,7 @@ HomeScreen As screen:
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
         Height: =554
-        Width: =210
+        Width: =202
         X: =31
         Y: =189
         ZIndex: =6
