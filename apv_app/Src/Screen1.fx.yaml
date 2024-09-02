@@ -42,7 +42,7 @@ Screen1 As screen:
 
         field_5_Coluna3 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="field_5"
+            FieldDisplayName: ="CNPJ"
             FieldName: ="field_5"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height

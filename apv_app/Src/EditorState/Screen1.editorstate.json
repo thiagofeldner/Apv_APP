@@ -1012,7 +1012,14 @@
         "FieldName",
         "Order",
         "FieldVariantName",
-        "FieldDisplayName",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FieldDisplayName",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "LayoutHeight",
         "X",
         "Y",
