@@ -22,7 +22,7 @@ ProjetosScreen As screen:
         Height: =43
         Icon: ="Home"
         IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        OnSelect: =Navigate(HomeScreen, ScreenTransition.Fade)
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCoverRight)
         Text: =
         VerticalAlign: =VerticalAlign.Middle
         Width: =49
