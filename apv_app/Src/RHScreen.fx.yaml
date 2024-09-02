@@ -86,40 +86,6 @@ RHScreen As screen:
         Y: =292
         ZIndex: =10
 
-    btnIntegração_1 As Botão:
-        Align: =Align.Justify
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.Lato
-        FontItalic: =true
-        FontSize: =14
-        FontWeight: =FontWeight.Semibold
-        Height: =42
-        IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        Text: ="Integração"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =138
-        X: =60
-        Y: =371
-        ZIndex: =12
-
-    btnJur_1 As Botão:
-        Align: =Align.Justify
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.Lato
-        FontItalic: =true
-        FontSize: =14
-        FontWeight: =FontWeight.Semibold
-        Height: =42
-        IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        Text: ="Jurídico"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =138
-        X: =60
-        Y: =447
-        ZIndex: =13
-
     btnCont_1 As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
@@ -175,8 +141,8 @@ RHScreen As screen:
         Text: ="Links Úteis"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =63
-        Y: =519
+        X: =62
+        Y: =362
         ZIndex: =16
 
     txtUser_1 As Texto:
