@@ -63,7 +63,7 @@ RHScreen As screen:
         Height: =554
         Width: =210
         X: =31
-        Y: =187
+        Y: =189
         ZIndex: =8
 
     btnFinanceiro_1 As Botão:
