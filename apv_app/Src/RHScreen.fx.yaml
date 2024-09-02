@@ -32,7 +32,7 @@ RHScreen As screen:
         ZIndex: =5
 
     btnHomeRh As Botão:
-        DisplayMode: =DisplayMode.Edit
+        DisplayMode: =DisplayMode.View
         Font: =Font.Lato
         FontSize: =42
         Height: =43
