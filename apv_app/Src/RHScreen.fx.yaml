@@ -121,7 +121,7 @@ RHScreen As screen:
             FontColor: =RGBA(255, 255, 255, 1)
             Height: =37
             Size: =20
-            Text: ="Departamentos"
+            Text: ="Opções"
             Width: =176
             X: =28
             Y: =8
