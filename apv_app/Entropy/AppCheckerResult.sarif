@@ -2562,36 +2562,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FinanScreen.btnCtrlContratos.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "FinanScreen.btnCtrlContratos.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "FinanScreen",
-                "type": "FinanScreen.btnCtrlContratos"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ScreenSolictacoesViagens.contSolViag.iconVoltar.AccessibleLabel"
                 }
               ],

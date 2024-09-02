@@ -1,31 +1,5 @@
 FinanScreen As screen:
 
-    btnCtrlContratos As Botão:
-        Align: =Align.Center
-        Appearance: ='ButtonCanvas.Appearance'.Primary
-        BasePaletteColor: =RGBA(5, 102, 178, 1)
-        BorderColor: =
-        BorderRadiusBottomLeft: =10
-        BorderRadiusBottomRight: =10
-        BorderRadiusTopLeft: =10
-        BorderRadiusTopRight: =10
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =0
-        DisplayMode: =DisplayMode.Edit
-        Font: =Font.'Lato Black'
-        FontColor: =
-        FontSize: =18
-        FontWeight: =FontWeight.Semibold
-        Height: =62
-        IconStyle: ='ButtonCanvas.IconStyle'.Filled
-        OnSelect: =Navigate(ScreencontContratos,ScreenTransition.Fade)
-        Text: ="Controle Contratos"
-        VerticalAlign: =VerticalAlign.Middle
-        Width: =123
-        X: =864
-        Y: =372
-        ZIndex: =2
-
     headerFinanceiro As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
         Height: =75
@@ -139,8 +113,8 @@ FinanScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =Navigate(ScreenSolicitacoesFerias,ScreenTransition.Fade)
-        Text: ="Solicitação de Férias"
+        OnSelect: =Navigate(ScreencontContratos,ScreenTransition.Fade)
+        Text: ="Controle Contratos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =60
