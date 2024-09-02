@@ -82,7 +82,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =Navigate(RHScreen, ScreenTransition.Fade)
+        OnSelect: =Navigate(RHScreen, ScreenTransition.CoverRight)
         Text: ="RH"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
@@ -118,7 +118,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =Navigate(ProjetosScreen, ScreenTransition.Fade)
+        OnSelect: =Navigate(ProjetosScreen, ScreenTransition.CoverRight)
         Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
@@ -209,7 +209,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
-        OnSelect: =Navigate(LinksUteis, ScreenTransition.Fade)
+        OnSelect: =Navigate(LinksUteis, ScreenTransition.CoverRight)
         Text: ="Links Úteis"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
