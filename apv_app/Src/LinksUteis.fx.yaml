@@ -46,7 +46,7 @@ LinksUteis As screen:
         FontWeight: =FontWeight.Bold
         Height: =51
         Icon: ="Home"
-        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
         OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
         Text: =
         Width: =54
