@@ -86,3 +86,104 @@ FinanScreen As screen:
         Y: =37
         ZIndex: =7
 
+    ContainerDeptos_2 As groupContainer.horizontalAutoLayoutContainer:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderStyle: =BorderStyle.None
+        DropShadow: =DropShadow.Semibold
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =614
+        LayoutMode: =LayoutMode.Auto
+        Width: =232
+        X: =15
+        Y: =122
+        ZIndex: =8
+
+    RectDeptos_2 As rectangle:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderStyle: =BorderStyle.None
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =554
+        Width: =210
+        X: =31
+        Y: =179
+        ZIndex: =9
+
+    btnFinanceiro_2 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        BasePaletteColor: =
+        ContentLanguage: =""
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontItalic: =true
+        FontSize: =14
+        FontWeight: =FontWeight.Semibold
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(ScreenAtestadoMedico, ScreenTransition.Cover)
+        Text: ="Atestado Médico"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =60
+        Y: =284
+        ZIndex: =10
+
+    btnCont_2 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        BasePaletteColor: =
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontItalic: =true
+        FontSize: =14
+        FontWeight: =FontWeight.Semibold
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(ScreenSolicitacoesFerias,ScreenTransition.Fade)
+        Text: ="Solicitação de Férias"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =60
+        Y: =211
+        ZIndex: =11
+
+    HeaderContainerDeptos_2 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(40, 112, 134, 1)
+        Height: =57
+        Width: =232
+        X: =15
+        Y: =122
+        ZIndex: =12
+
+        txtDeptos_2 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            AutoHeight: =false
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =37
+            Size: =20
+            Text: ="Departamentos"
+            Width: =176
+            X: =28
+            Y: =8
+            ZIndex: =1
+
+    btnLinksUteis_2 As Botão:
+        Align: =Align.Justify
+        Appearance: ='ButtonCanvas.Appearance'.Primary
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontItalic: =true
+        FontSize: =14
+        FontWeight: =FontWeight.Semibold
+        Height: =42
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(LinksUteis, ScreenTransition.Fade)
+        Text: ="Links Úteis"
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =138
+        X: =62
+        Y: =354
+        ZIndex: =13
+

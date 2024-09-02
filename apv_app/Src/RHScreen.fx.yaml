@@ -113,7 +113,7 @@ RHScreen As screen:
         Y: =130
         ZIndex: =15
 
-        txtDeptos_1 As Texto:
+        txtOpcoes As Texto:
             Align: ='TextCanvas.Align'.Center
             AutoHeight: =false
             DisplayMode: =DisplayMode.Edit
