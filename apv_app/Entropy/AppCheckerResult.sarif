@@ -344,19 +344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FinanScreen.btnHome_2.AccessibleLabel"
+                  "fullyQualifiedName": "FinanScreen.btnHomeFinan.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FinanScreen.btnHome_2.AccessibleLabel",
+                  "fullyQualifiedName": "FinanScreen.btnHomeFinan.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FinanScreen",
-                "type": "FinanScreen.btnHome_2"
+                "type": "FinanScreen.btnHomeFinan"
               }
             }
           ],
@@ -374,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FinanScreen.btnCont_2.AccessibleLabel"
+                  "fullyQualifiedName": "FinanScreen.btnConCont.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FinanScreen.btnCont_2.AccessibleLabel",
+                  "fullyQualifiedName": "FinanScreen.btnConCont.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FinanScreen",
-                "type": "FinanScreen.btnCont_2"
+                "type": "FinanScreen.btnConCont"
               }
             }
           ],
@@ -404,19 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "FinanScreen.btnLinksUteis_2.AccessibleLabel"
+                  "fullyQualifiedName": "FinanScreen.btnLinksUteisFinan.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "FinanScreen.btnLinksUteis_2.AccessibleLabel",
+                  "fullyQualifiedName": "FinanScreen.btnLinksUteisFinan.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "FinanScreen",
-                "type": "FinanScreen.btnLinksUteis_2"
+                "type": "FinanScreen.btnLinksUteisFinan"
               }
             }
           ],
