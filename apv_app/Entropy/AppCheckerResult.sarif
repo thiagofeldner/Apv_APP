@@ -403,19 +403,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.AccessibleLabel"
+                  "fullyQualifiedName": "ProjetosScreen.btnHomeProj.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.AccessibleLabel",
+                  "fullyQualifiedName": "ProjetosScreen.btnHomeProj.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ProjetosScreen",
-                "type": "ProjetosScreen.contProj.icon_Proj"
+                "type": "ProjetosScreen.btnHomeProj"
               }
             }
           ],
@@ -427,66 +427,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ProjetosScreen",
-                "type": "ProjetosScreen.contProj.icon_Proj"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ProjetosScreen.contProj.icon_Proj.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "ProjetosScreen",
-                "type": "ProjetosScreen.contProj.icon_Proj"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 3
         },
         {
           "locations": [
