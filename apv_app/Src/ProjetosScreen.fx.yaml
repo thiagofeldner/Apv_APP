@@ -60,7 +60,7 @@ ProjetosScreen As screen:
         Y: =37
         ZIndex: =6
 
-    containerFinan_1 As groupContainer.horizontalAutoLayoutContainer:
+    containerProj As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         DropShadow: =DropShadow.Semibold
@@ -72,7 +72,7 @@ ProjetosScreen As screen:
         Y: =132
         ZIndex: =7
 
-    retOpcFinan_1 As rectangle:
+    retOpcProj As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
@@ -101,7 +101,7 @@ ProjetosScreen As screen:
         Y: =219
         ZIndex: =9
 
-    headerOpcoesFinan_1 As groupContainer.manualLayoutContainer:
+    headerOpcoesProj As groupContainer.manualLayoutContainer:
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
         Width: =232
@@ -123,7 +123,7 @@ ProjetosScreen As screen:
             Y: =8
             ZIndex: =1
 
-    btnLinksUteisFinan_1 As Botão:
+    btnLinksUteisProj As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         DisplayMode: =DisplayMode.Edit

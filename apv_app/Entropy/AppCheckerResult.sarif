@@ -403,19 +403,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProjetosScreen.btnLinksUteisFinan_1.AccessibleLabel"
+                  "fullyQualifiedName": "ProjetosScreen.btnLinksUteisProj.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProjetosScreen.btnLinksUteisFinan_1.AccessibleLabel",
+                  "fullyQualifiedName": "ProjetosScreen.btnLinksUteisProj.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ProjetosScreen",
-                "type": "ProjetosScreen.btnLinksUteisFinan_1"
+                "type": "ProjetosScreen.btnLinksUteisProj"
               }
             }
           ],
