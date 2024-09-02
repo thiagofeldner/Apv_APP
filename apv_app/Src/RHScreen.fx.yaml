@@ -2,11 +2,13 @@ RHScreen As screen:
 
     headerRh As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
         Height: =75
         IsLogoVisible: =false
         IsTitleVisible: =false
         OnSelectLogo: =false
         Title: =App.ActiveScreen.Name
+        TitleFontSize: =0
         UserEmail: =User().Email
         UserImage: =User().Image
         UserName: =User().FullName
@@ -59,6 +61,7 @@ RHScreen As screen:
     rectOpRh As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
+        DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
         Height: =554
         Width: =201
@@ -106,6 +109,7 @@ RHScreen As screen:
         ZIndex: =14
 
     containerOpcoes As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Regular
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
         Width: =232
