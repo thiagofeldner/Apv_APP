@@ -61,7 +61,7 @@ LinksUteis As screen:
         Text: =
         VerticalAlign: =VerticalAlign.Middle
         Width: =49
-        X: =27
-        Y: =34
+        X: =31
+        Y: =35
         ZIndex: =6
 

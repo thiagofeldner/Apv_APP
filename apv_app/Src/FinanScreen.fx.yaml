@@ -26,8 +26,8 @@ FinanScreen As screen:
         Text: =
         VerticalAlign: =VerticalAlign.Middle
         Width: =49
-        X: =30
-        Y: =36
+        X: =31
+        Y: =35
         ZIndex: =5
 
     txtFinanceiro As Texto:
