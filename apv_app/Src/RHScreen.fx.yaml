@@ -61,7 +61,7 @@ RHScreen As screen:
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
         Height: =554
-        Width: =210
+        Width: =201
         X: =31
         Y: =189
         ZIndex: =8
