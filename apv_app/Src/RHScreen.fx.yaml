@@ -53,7 +53,7 @@ RHScreen As screen:
         LayoutMode: =LayoutMode.Auto
         Width: =232
         X: =15
-        Y: =130
+        Y: =132
         ZIndex: =7
 
     RectDeptos_1 As rectangle:
