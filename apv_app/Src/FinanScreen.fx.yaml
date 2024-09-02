@@ -98,7 +98,7 @@ FinanScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =60
-        Y: =214
+        Y: =219
         ZIndex: =11
 
     headerOpcoesFinan As groupContainer.manualLayoutContainer:
@@ -138,6 +138,6 @@ FinanScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =60
-        Y: =282
+        Y: =292
         ZIndex: =13
 
