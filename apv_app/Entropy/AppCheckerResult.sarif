@@ -463,19 +463,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ProjetosScreen.btnConCont_1.AccessibleLabel"
+                  "fullyQualifiedName": "ProjetosScreen.btnSolVia.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ProjetosScreen.btnConCont_1.AccessibleLabel",
+                  "fullyQualifiedName": "ProjetosScreen.btnSolVia.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ProjetosScreen",
-                "type": "ProjetosScreen.btnConCont_1"
+                "type": "ProjetosScreen.btnSolVia"
               }
             }
           ],
