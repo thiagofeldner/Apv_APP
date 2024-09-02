@@ -3,7 +3,7 @@ HomeScreen As screen:
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Fill
 
-    HeaderCabecalho As Cabeçalho:
+    cabecalhoHome As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         Height: =75
@@ -50,7 +50,7 @@ HomeScreen As screen:
         Y: =37
         ZIndex: =4
 
-    ContainerDeptos As groupContainer.horizontalAutoLayoutContainer:
+    containerHeader As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         DropShadow: =DropShadow.Semibold
@@ -62,7 +62,7 @@ HomeScreen As screen:
         Y: =132
         ZIndex: =5
 
-    RectDeptos As rectangle:
+    rectHome As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
@@ -177,7 +177,7 @@ HomeScreen As screen:
         Y: =221
         ZIndex: =12
 
-    HeaderContainerDeptos As groupContainer.manualLayoutContainer:
+    headerHome As groupContainer.manualLayoutContainer:
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
         Width: =232
