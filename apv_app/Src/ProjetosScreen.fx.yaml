@@ -98,7 +98,7 @@ ProjetosScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =60
-        Y: =230
+        Y: =219
         ZIndex: =9
 
     headerOpcoesFinan_1 As groupContainer.manualLayoutContainer:
