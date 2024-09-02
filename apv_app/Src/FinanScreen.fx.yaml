@@ -106,7 +106,7 @@ FinanScreen As screen:
         Height: =57
         Width: =232
         X: =15
-        Y: =122
+        Y: =132
         ZIndex: =12
 
         txtDeptos_2 As Texto:
