@@ -138,6 +138,6 @@ ProjetosScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =60
-        Y: =303
+        Y: =292
         ZIndex: =11
 
