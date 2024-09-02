@@ -28,7 +28,7 @@ Screen1 As screen:
         field_4_Coluna3 As dataTableColumn.textualColumn:
             AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="field_4"
+            FieldDisplayName: ="Nome Empesa"
             FieldName: ="field_4"
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
