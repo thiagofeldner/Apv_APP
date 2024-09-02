@@ -1,6 +1,6 @@
 RHScreen As screen:
 
-    Header3 As Cabeçalho:
+    headerRh As Cabeçalho:
         DisplayMode: =DisplayMode.Edit
         Height: =75
         IsLogoVisible: =false
@@ -15,7 +15,7 @@ RHScreen As screen:
         Y: =19
         ZIndex: =4
 
-    TextCanvas3 As Texto:
+    txtRh As Texto:
         Align: ='TextCanvas.Align'.Center
         DisplayMode: =DisplayMode.Edit
         Font: =Font.'Lato Black'
@@ -29,7 +29,7 @@ RHScreen As screen:
         Y: =30
         ZIndex: =5
 
-    ButtonCanvas2 As Botão:
+    btnHomeRh As Botão:
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         FontSize: =42
@@ -44,7 +44,7 @@ RHScreen As screen:
         Y: =35
         ZIndex: =6
 
-    ContainerDeptos_1 As groupContainer.horizontalAutoLayoutContainer:
+    containerOpRH As groupContainer.horizontalAutoLayoutContainer:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         DropShadow: =DropShadow.Semibold
@@ -56,7 +56,7 @@ RHScreen As screen:
         Y: =132
         ZIndex: =7
 
-    RectDeptos_1 As rectangle:
+    rectOpRh As rectangle:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
@@ -66,7 +66,7 @@ RHScreen As screen:
         Y: =189
         ZIndex: =8
 
-    btnFinanceiro_1 As Botão:
+    btnAtesMed As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =
@@ -86,7 +86,7 @@ RHScreen As screen:
         Y: =292
         ZIndex: =10
 
-    btnCont_1 As Botão:
+    btnSolFer As Botão:
         Align: =Align.Justify
         Appearance: ='ButtonCanvas.Appearance'.Primary
         BasePaletteColor: =
@@ -105,7 +105,7 @@ RHScreen As screen:
         Y: =219
         ZIndex: =14
 
-    HeaderContainerDeptos_1 As groupContainer.manualLayoutContainer:
+    containerOpcoes As groupContainer.manualLayoutContainer:
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
         Width: =232
@@ -145,7 +145,7 @@ RHScreen As screen:
         Y: =362
         ZIndex: =16
 
-    txtUser_1 As Texto:
+    txtUserRh As Texto:
         Align: ='TextCanvas.Align'.Start
         AutoHeight: =false
         DisplayMode: =DisplayMode.Edit

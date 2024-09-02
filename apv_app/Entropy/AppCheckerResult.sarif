@@ -2171,19 +2171,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RHScreen.ButtonCanvas2.AccessibleLabel"
+                  "fullyQualifiedName": "RHScreen.btnHomeRh.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RHScreen.ButtonCanvas2.AccessibleLabel",
+                  "fullyQualifiedName": "RHScreen.btnHomeRh.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RHScreen",
-                "type": "RHScreen.ButtonCanvas2"
+                "type": "RHScreen.btnHomeRh"
               }
             }
           ],
@@ -2201,19 +2201,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RHScreen.btnCont_1.AccessibleLabel"
+                  "fullyQualifiedName": "RHScreen.btnSolFer.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RHScreen.btnCont_1.AccessibleLabel",
+                  "fullyQualifiedName": "RHScreen.btnSolFer.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RHScreen",
-                "type": "RHScreen.btnCont_1"
+                "type": "RHScreen.btnSolFer"
               }
             }
           ],
@@ -2231,19 +2231,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "RHScreen.btnFinanceiro_1.AccessibleLabel"
+                  "fullyQualifiedName": "RHScreen.btnAtesMed.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "RHScreen.btnFinanceiro_1.AccessibleLabel",
+                  "fullyQualifiedName": "RHScreen.btnAtesMed.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "RHScreen",
-                "type": "RHScreen.btnFinanceiro_1"
+                "type": "RHScreen.btnAtesMed"
               }
             }
           ],
