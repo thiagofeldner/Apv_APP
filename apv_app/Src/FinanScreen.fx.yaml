@@ -67,7 +67,7 @@ FinanScreen As screen:
         Weight: ='TextCanvas.Weight'.Regular
         Width: =201
         X: =581
-        Y: =31
+        Y: =34
         ZIndex: =6
 
     txtUserFinanceiro As Texto:
