@@ -272,7 +272,7 @@ HomeScreen As screen:
         ZIndex: =19
 
     Container3 As groupContainer.verticalAutoLayoutContainer:
-        Height: =246
+        Height: =194
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
         Width: =389
@@ -288,17 +288,21 @@ HomeScreen As screen:
             ImagePosition: =ImagePosition.Stretch
             ZIndex: =1
 
-    TextCanvas4 As Texto:
+    LinkCanvas1 As Link:
+        AccessibleLabel: =
+        Appearance: ='LinkCanvas.Appearance'.Default
         AutoHeight: =false
+        BasePaletteColor: =RGBA(189, 178, 176, 1)
         DisplayMode: =DisplayMode.Edit
-        Font: =Font.Arial
-        FontColor: =RGBA(255, 255, 255, 1)
-        Height: =93
-        Size: =12
-        Text: ="APV apresenta contas finais do CBH Verde Grande para os Conselhos Fiscal e de Administração e tem relatórios aprovados pela Assembleia Geral."
-        Weight: ='TextCanvas.Weight'.Semibold
-        Width: =374
-        X: =237
-        Y: =356
-        ZIndex: =21
+        Font: =Font.'Lato Black'
+        FontSize: =12
+        FontWeight: =FontWeight.Normal
+        Height: =52
+        Text: ="APV apresenta contas finais do CBH Verde Grande para os Conselhos Fiscal e de Administração e tem relatórios aprovados pela Assembleia Geral"
+        URL: |-
+            ="https://agenciapeixevivo.org.br/noticias/novidades/apv-apresenta-contas-finais-do-cbh-verde-grande-para-os-conselhos-fiscal-e-de-administracao-e-tem-relatorios-aprovados-pela-assembleia-geral/"
+        Width: =383
+        X: =233
+        Y: =397
+        ZIndex: =22
 
