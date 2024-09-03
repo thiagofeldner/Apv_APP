@@ -221,31 +221,34 @@ HomeScreen As screen:
     Container5 As groupContainer.horizontalAutoLayoutContainer:
         Height: =614
         LayoutMode: =LayoutMode.Auto
-        Width: =1072
+        Width: =458
         X: =265
         Y: =132
         ZIndex: =16
 
-        Container7 As groupContainer.verticalAutoLayoutContainer:
-            Height: =300
-            LayoutDirection: =LayoutDirection.Vertical
-            LayoutMinHeight: =300
-            LayoutMinWidth: =400
-            LayoutMode: =LayoutMode.Auto
-            PaddingBottom: =10
-            PaddingLeft: =5
-            PaddingRight: =5
-            PaddingTop: =10
+        headerHome_1 As groupContainer.manualLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DropShadow: =DropShadow.Semilight
+            Fill: =RGBA(40, 112, 134, 1)
+            Height: =57
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            Width: =232
+            X: =15
+            Y: =132
             ZIndex: =1
 
-        Container8 As groupContainer.verticalAutoLayoutContainer:
-            LayoutDirection: =LayoutDirection.Vertical
-            LayoutMinHeight: =300
-            LayoutMinWidth: =400
-            LayoutMode: =LayoutMode.Auto
-            PaddingBottom: =10
-            PaddingLeft: =5
-            PaddingRight: =5
-            PaddingTop: =10
-            ZIndex: =2
+            txtDeptos_1 As Texto:
+                Align: ='TextCanvas.Align'.Center
+                AutoHeight: =false
+                DisplayMode: =DisplayMode.Edit
+                Font: =Font.'Lato Black'
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =37
+                Size: =20
+                Text: ="Últimas Nóticias"
+                Width: =176
+                X: =132
+                Y: =8
+                ZIndex: =1
 
