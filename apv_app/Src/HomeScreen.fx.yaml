@@ -57,7 +57,7 @@ HomeScreen As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =614
         LayoutMode: =LayoutMode.Auto
-        Width: =232
+        Width: =197
         X: =15
         Y: =132
         ZIndex: =5
@@ -67,7 +67,7 @@ HomeScreen As screen:
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
         Height: =554
-        Width: =202
+        Width: =170
         X: =31
         Y: =189
         ZIndex: =6
@@ -86,7 +86,7 @@ HomeScreen As screen:
         Text: ="RH"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =60
+        X: =45
         Y: =669
         ZIndex: =7
 
@@ -104,7 +104,7 @@ HomeScreen As screen:
         Text: ="Financeiro"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =60
+        X: =45
         Y: =294
         ZIndex: =8
 
@@ -122,7 +122,7 @@ HomeScreen As screen:
         Text: ="Projetos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =60
+        X: =45
         Y: =599
         ZIndex: =9
 
@@ -139,7 +139,7 @@ HomeScreen As screen:
         Text: ="Integração"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =60
+        X: =45
         Y: =373
         ZIndex: =10
 
@@ -156,7 +156,7 @@ HomeScreen As screen:
         Text: ="Jurídico"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =60
+        X: =45
         Y: =449
         ZIndex: =11
 
@@ -173,7 +173,7 @@ HomeScreen As screen:
         Text: ="Contratos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =60
+        X: =45
         Y: =221
         ZIndex: =12
 
@@ -181,7 +181,7 @@ HomeScreen As screen:
         DropShadow: =DropShadow.Semilight
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
-        Width: =232
+        Width: =197
         X: =15
         Y: =132
         ZIndex: =14
@@ -196,7 +196,7 @@ HomeScreen As screen:
             Size: =20
             Text: ="Departamentos"
             Width: =176
-            X: =28
+            X: =8
             Y: =8
             ZIndex: =1
 
@@ -214,27 +214,28 @@ HomeScreen As screen:
         Text: ="Links Úteis"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =63
+        X: =48
         Y: =521
         ZIndex: =15
 
     Rectangle2 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderColor: =RGBA(255, 191, 0, 1)
         BorderStyle: =BorderStyle.None
         BorderThickness: =25
         Fill: =RGBA(255, 255, 255, 1)
         Height: =614
-        Width: =377
-        X: =267
+        Width: =389
+        X: =230
         Y: =132
         ZIndex: =16
 
     headerHome_1 As groupContainer.manualLayoutContainer:
+        BorderColor: =RGBA(255, 255, 255, 1)
         DropShadow: =DropShadow.Semilight
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
-        Width: =377
-        X: =267
+        Width: =389
+        X: =230
         Y: =132
         ZIndex: =17
 
@@ -244,11 +245,11 @@ HomeScreen As screen:
             DisplayMode: =DisplayMode.Edit
             Font: =Font.'Lato Black'
             FontColor: =RGBA(255, 255, 255, 1)
-            Height: =38
+            Height: =41
             Size: =20
             Text: ="Últimas Nóticias"
-            Width: =264
-            X: =52
+            Width: =207
+            X: =88
             Y: =8
             ZIndex: =1
 
@@ -256,8 +257,8 @@ HomeScreen As screen:
         Height: =246
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =377
-        X: =267
+        Width: =389
+        X: =230
         Y: =203
         ZIndex: =18
 
@@ -265,8 +266,8 @@ HomeScreen As screen:
         Height: =281
         LayoutDirection: =LayoutDirection.Vertical
         LayoutMode: =LayoutMode.Auto
-        Width: =377
-        X: =267
+        Width: =389
+        X: =230
         Y: =461
         ZIndex: =19
 
