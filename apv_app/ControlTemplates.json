@@ -298,21 +298,6 @@
     "OverridableProperties": {},
     "Version": "2.5.1"
   },
-  "Link": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_LinkCanvas",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "PowerApps_CoreControls_LinkCanvas",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Link",
-    "Version": "0.0.39"
-  },
   "Notificação": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
