@@ -218,3 +218,34 @@ HomeScreen As screen:
         Y: =521
         ZIndex: =15
 
+    Container5 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =614
+        LayoutMode: =LayoutMode.Auto
+        Width: =1072
+        X: =265
+        Y: =132
+        ZIndex: =16
+
+        Container7 As groupContainer.verticalAutoLayoutContainer:
+            Height: =300
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =300
+            LayoutMinWidth: =400
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =10
+            PaddingLeft: =5
+            PaddingRight: =5
+            PaddingTop: =10
+            ZIndex: =1
+
+        Container8 As groupContainer.verticalAutoLayoutContainer:
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =300
+            LayoutMinWidth: =400
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =10
+            PaddingLeft: =5
+            PaddingRight: =5
+            PaddingTop: =10
+            ZIndex: =2
+
