@@ -219,7 +219,7 @@ HomeScreen As screen:
         ZIndex: =15
 
     Rectangle2 As rectangle:
-        BorderColor: =RGBA(255, 191, 0, 1)
+        BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =25
         Fill: =RGBA(255, 255, 255, 1)
@@ -281,7 +281,7 @@ HomeScreen As screen:
 
     LinkCanvas1 As Link:
         AccessibleLabel: =
-        Appearance: ='LinkCanvas.Appearance'.Default
+        Appearance: ='LinkCanvas.Appearance'.Subtle
         AutoHeight: =false
         BasePaletteColor: =RGBA(189, 178, 176, 1)
         DisplayMode: =DisplayMode.Edit
