@@ -60,6 +60,9 @@
     "datasets": {
       "https://agepeixevivo.sharepoint.com/sites/Intranet": {
         "dataSources": {
+          "Aniversariantes": {
+            "tableName": "83363ad1-2d6f-4df5-b78d-e4122930b780"
+          },
           "Controle de contratos": {
             "tableName": "97dc5553-caf9-4c15-a5e7-bb64b98b92f9"
           }
@@ -67,7 +70,8 @@
       }
     },
     "dataSources": [
-      "Controle de contratos"
+      "Controle de contratos",
+      "Aniversariantes"
     ],
     "dependencies": {},
     "dependents": [],
