@@ -218,37 +218,55 @@ HomeScreen As screen:
         Y: =521
         ZIndex: =15
 
-    Container5 As groupContainer.horizontalAutoLayoutContainer:
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =25
+        Fill: =RGBA(255, 255, 255, 1)
         Height: =614
-        LayoutMode: =LayoutMode.Auto
-        Width: =458
-        X: =265
+        Width: =377
+        X: =267
         Y: =132
         ZIndex: =16
 
-        headerHome_1 As groupContainer.manualLayoutContainer:
-            AlignInContainer: =AlignInContainer.SetByContainer
-            DropShadow: =DropShadow.Semilight
-            Fill: =RGBA(40, 112, 134, 1)
-            Height: =57
-            LayoutMinHeight: =100
-            LayoutMinWidth: =250
-            Width: =232
-            X: =15
-            Y: =132
+    headerHome_1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Semilight
+        Fill: =RGBA(40, 112, 134, 1)
+        Height: =57
+        Width: =377
+        X: =267
+        Y: =132
+        ZIndex: =17
+
+        txtDeptos_1 As Texto:
+            Align: ='TextCanvas.Align'.Center
+            AutoHeight: =false
+            DisplayMode: =DisplayMode.Edit
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =38
+            Size: =20
+            Text: ="Últimas Nóticias"
+            Width: =264
+            X: =52
+            Y: =8
             ZIndex: =1
 
-            txtDeptos_1 As Texto:
-                Align: ='TextCanvas.Align'.Center
-                AutoHeight: =false
-                DisplayMode: =DisplayMode.Edit
-                Font: =Font.'Lato Black'
-                FontColor: =RGBA(255, 255, 255, 1)
-                Height: =37
-                Size: =20
-                Text: ="Últimas Nóticias"
-                Width: =176
-                X: =132
-                Y: =8
-                ZIndex: =1
+    Container8 As groupContainer.verticalAutoLayoutContainer:
+        Height: =246
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =377
+        X: =267
+        Y: =203
+        ZIndex: =18
+
+    Container8_1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =281
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =377
+        X: =267
+        Y: =461
+        ZIndex: =19
 
