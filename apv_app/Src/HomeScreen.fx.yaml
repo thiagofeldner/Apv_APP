@@ -319,7 +319,7 @@ HomeScreen As screen:
             AlignInContainer: =AlignInContainer.Stretch
             BorderColor: =RGBA(255, 255, 255, 1)
             FillPortions: =1
-            Image: ='Rio-Verde-Grande_Leo-Boi_27a29_01_21-51'
+            Image: ='seca-img-scaled'
             ImagePosition: =ImagePosition.Stretch
             ZIndex: =1
 
@@ -333,9 +333,9 @@ HomeScreen As screen:
         FontSize: =12
         FontWeight: =FontWeight.Normal
         Height: =52
-        Text: ="APV apresenta contas finais do CBH Verde Grande para os Conselhos Fiscal e de Administração e tem relatórios aprovados pela Assembleia Geral"
+        Text: ="Colaborador da APV desenvolve estudo para análise e previsão de secas no Norte de Minas Gerais"
         URL: |-
-            ="https://agenciapeixevivo.org.br/noticias/novidades/apv-apresenta-contas-finais-do-cbh-verde-grande-para-os-conselhos-fiscal-e-de-administracao-e-tem-relatorios-aprovados-pela-assembleia-geral/"
+            ="https://agenciapeixevivo.org.br/noticias/novidades/colaborador-da-apv-desenvolve-estudo-para-analise-e-previsao-de-secas-no-norte-de-minas-gerais/"
         Width: =383
         X: =239
         Y: =690
