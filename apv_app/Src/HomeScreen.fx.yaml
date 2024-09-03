@@ -271,3 +271,20 @@ HomeScreen As screen:
         Y: =461
         ZIndex: =19
 
+    Container3 As groupContainer.verticalAutoLayoutContainer:
+        Height: =170
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =389
+        X: =230
+        Y: =203
+        ZIndex: =20
+
+        Image2 As image:
+            AlignInContainer: =AlignInContainer.Stretch
+            BorderColor: =RGBA(255, 255, 255, 1)
+            FillPortions: =1
+            Image: ='Rio-Verde-Grande_Leo-Boi_27a29_01_21-51'
+            ImagePosition: =ImagePosition.Stretch
+            ZIndex: =1
+
