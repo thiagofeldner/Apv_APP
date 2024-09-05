@@ -98,7 +98,7 @@
     "Name": "PowerApps_CoreControls_ComboboxCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Caixa de Combinação",
-    "Version": "0.0.40"
+    "Version": "0.0.41"
   },
   "combobox": {
     "CustomGroupControlTemplateName": "",
@@ -311,7 +311,7 @@
     "Name": "PowerApps_CoreControls_BadgeCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Notificação",
-    "Version": "0.0.21"
+    "Version": "0.0.23"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
@@ -411,7 +411,7 @@
     "Name": "PowerApps_CoreControls_TextCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Texto",
-    "Version": "0.0.40"
+    "Version": "0.0.42"
   },
   "typedDataCard": {
     "CustomGroupControlTemplateName": "",
