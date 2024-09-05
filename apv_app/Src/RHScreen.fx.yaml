@@ -53,7 +53,7 @@ RHScreen As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =614
         LayoutMode: =LayoutMode.Auto
-        Width: =232
+        Width: =183
         X: =15
         Y: =132
         ZIndex: =7
@@ -64,7 +64,7 @@ RHScreen As screen:
         DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
         Height: =554
-        Width: =201
+        Width: =156
         X: =31
         Y: =189
         ZIndex: =8
@@ -85,8 +85,8 @@ RHScreen As screen:
         Text: ="Atestado Médico"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =60
-        Y: =292
+        X: =37
+        Y: =290
         ZIndex: =10
 
     btnSolFer As Botão:
@@ -104,7 +104,7 @@ RHScreen As screen:
         Text: ="Solicitação de Férias"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =60
+        X: =37
         Y: =219
         ZIndex: =14
 
@@ -112,7 +112,7 @@ RHScreen As screen:
         DropShadow: =DropShadow.Regular
         Fill: =RGBA(40, 112, 134, 1)
         Height: =57
-        Width: =232
+        Width: =183
         X: =15
         Y: =132
         ZIndex: =15
@@ -123,10 +123,10 @@ RHScreen As screen:
             DisplayMode: =DisplayMode.Edit
             Font: =Font.'Lato Black'
             FontColor: =RGBA(255, 255, 255, 1)
-            Height: =37
+            Height: =39
             Size: =20
             Text: ="Opções"
-            Width: =176
+            Width: =124
             X: =28
             Y: =8
             ZIndex: =1
@@ -145,8 +145,8 @@ RHScreen As screen:
         Text: ="Links Úteis"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
-        X: =62
-        Y: =362
+        X: =37
+        Y: =360
         ZIndex: =16
 
     txtUserRh As Texto:
