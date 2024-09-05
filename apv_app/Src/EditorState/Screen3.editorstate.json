@@ -6188,7 +6188,14 @@
         "LayoutGap",
         "LayoutOverflowX",
         "LayoutOverflowY",
-        "LayoutWrap",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "LayoutWrap",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DropShadow",
         "ZIndex",
         "RadiusTopLeft",
@@ -6202,7 +6209,14 @@
       ],
       "DynamicProperties": [
         {
-          "ControlPropertyState": "FillPortions",
+          "ControlPropertyState": {
+            "AFDDataSourceName": "",
+            "AutoRuleBindingEnabled": false,
+            "AutoRuleBindingString": "",
+            "InvariantPropertyName": "FillPortions",
+            "IsLockable": false,
+            "NameMapSourceSchema": "?"
+          },
           "Property": {
             "Category": "Design",
             "PropertyName": "FillPortions",

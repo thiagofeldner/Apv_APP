@@ -23,6 +23,20 @@
     "dependents": [],
     "id": "0a43b623-44bf-4fc3-9e3c-809ae055d420"
   },
+  "0dbfe192-90c5-4d23-bd11-0cd762fd8df1": {
+    "connectionRef": {
+      "displayName": "Power BI",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1694/1.0.1694.3752/powerbi/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_powerbi"
+    },
+    "datasets": {},
+    "dataSources": [
+      "PowerBI"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0dbfe192-90c5-4d23-bd11-0cd762fd8df1"
+  },
   "3c4794ab-90fb-453f-958e-bff1f2be3f24": {
     "connectionRef": {
       "displayName": "OneDrive for Business",

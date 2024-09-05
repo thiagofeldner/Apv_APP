@@ -27,7 +27,7 @@ RHScreen As screen:
         Text: ="RH"
         Weight: ='TextCanvas.Weight'.Regular
         Width: =96
-        X: =633
+        X: =558
         Y: =30
         ZIndex: =5
 
