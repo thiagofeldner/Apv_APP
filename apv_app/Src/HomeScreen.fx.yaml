@@ -170,6 +170,7 @@ HomeScreen As screen:
         FontWeight: =FontWeight.Semibold
         Height: =42
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        OnSelect: =Navigate(ScreenControleContratos, ScreenTransition.CoverRight)
         Text: ="Contratos"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
