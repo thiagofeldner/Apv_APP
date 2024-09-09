@@ -97,58 +97,6 @@ ScreenControleContratos As screen:
             Width: =4
             ZIndex: =6
 
-    Container1 As groupContainer.manualLayoutContainer:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        Fill: =RGBA(15, 108, 189, 1)
-        Height: =80
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =1366
-        ZIndex: =4
-
-        TextCanvas1 As Texto:
-            Align: ='TextCanvas.Align'.Center
-            BorderColor: =
-            DisplayMode: =DisplayMode.Edit
-            Fill: =
-            Font: =Font.'Lato Black'
-            FontColor: =RGBA(255, 255, 255, 1)
-            Height: =53
-            Size: =28
-            Text: ="Controle de Contratos"
-            VerticalAlign: ='TextCanvas.VerticalAlign'.Middle
-            Weight: ='TextCanvas.Weight'.Regular
-            Width: =352
-            X: =460
-            Y: =15
-            ZIndex: =1
-
-        Icon1 As icon.Leave:
-            Color: =RGBA(255, 255, 255, 1)
-            Height: =47
-            Icon: =Icon.Leave
-            OnSelect: =Navigate(FinanScreen, ScreenTransition.Cover)
-            Width: =40
-            X: =81
-            Y: =18
-            ZIndex: =2
-
-        icon_RH_2 As icon.Home:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            Color: =RGBA(255, 255, 255, 1)
-            FocusedBorderThickness: =0
-            Height: =42
-            Icon: =Icon.Home
-            OnSelect: =Navigate(HomeScreen, ScreenTransition.Cover)
-            Width: =50
-            X: =17
-            Y: =20
-            ZIndex: =3
-
     ButtonCanvas3 As Botão:
         BasePaletteColor: =
         BorderColor: =
@@ -225,18 +173,63 @@ ScreenControleContratos As screen:
         Y: =188
         ZIndex: =11
 
-    imgUserRH_1 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        DisplayMode: =DisplayMode.View
-        Height: =80
-        Image: =User().Image
-        ImagePosition: =ImagePosition.Fill
-        RadiusBottomLeft: =50
-        RadiusBottomRight: =50
-        RadiusTopLeft: =50
-        RadiusTopRight: =50
-        Width: =78
-        X: =1287
+    headerProjetos_1 As Cabeçalho:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        IsLogoVisible: =false
+        IsTitleVisible: =false
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =1333
+        X: =15
+        Y: =19
         ZIndex: =12
+
+    btnHomeProj_1 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =42
+        Height: =43
+        Icon: ="Home"
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCoverRight)
+        Text: =
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =49
+        X: =31
+        Y: =35
+        ZIndex: =13
+
+    txtProjetos_1 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =47
+        Size: =32
+        Text: ="Controle de Contratos"
+        Weight: ='TextCanvas.Weight'.Regular
+        Width: =342
+        X: =435
+        Y: =34
+        ZIndex: =14
+
+    txtUserProjetos_1 As Texto:
+        Align: ='TextCanvas.Align'.Start
+        AutoHeight: =false
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =41
+        Size: =12
+        Text: =varUserInfo.displayName
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =148
+        Wrap: =true
+        X: =1133
+        Y: =37
+        ZIndex: =15
 
