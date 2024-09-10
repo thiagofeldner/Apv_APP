@@ -466,7 +466,8 @@ ScreenSolictacoesViagens As screen:
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Text: =Parent.Default
+                Text: |-
+                    =Text(Gallery2.Selected.'Valor a Restituir', "$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey108.X + DataCardKey108.Width
                 Y: =10
