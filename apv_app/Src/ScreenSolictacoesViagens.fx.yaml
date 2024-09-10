@@ -211,7 +211,7 @@ ScreenSolictacoesViagens As screen:
         Solicitante_DataCard1 As typedDataCard.fluentV9ComboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="solicitante"
-            Default: =varUserInfo.
+            Default: =ThisItem.Solicitante
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,solicitante)
             Fill: =RGBA(0, 0, 0, 0)
@@ -235,7 +235,7 @@ ScreenSolictacoesViagens As screen:
                 ZIndex: =1
 
             "DataCardValue66 As 'Caixa de Combinação'.pcfdataset":
-                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), varUserInfo.displayName)
+                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", varUserInfo.displayName), varUserInfo.displayName)
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
