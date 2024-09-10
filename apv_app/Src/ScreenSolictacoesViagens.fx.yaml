@@ -149,7 +149,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="Title"
             Default: =ThisItem.Título
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,Title)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,Título)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
@@ -186,7 +186,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="solicitante"
             Default: =ThisItem.Solicitante
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,solicitante)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,Solicitante)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
@@ -211,10 +211,10 @@ ScreenSolictacoesViagens As screen:
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["DisplayName","Email","Picture"]
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@'gasto de viagem'].solicitante)
+                Items: =Choices([@'gasto de viagem'].Solicitante)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["DisplayName"]
-                SearchItems: =Choices('gasto de viagem'.solicitante,DataCardValue88.SearchText)
+                SearchItems: =Choices('gasto de viagem'.Solicitante,DataCardValue88.SearchText)
                 SelectMultiple: =false
                 Template: =ListItemTemplate.Person
                 Width: =(Parent.Width - 60) * 0.6
@@ -252,7 +252,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="datasolicitacao"
             Default: =ThisItem.'Data Solicitação'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,datasolicitacao)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,'Data Solicitação')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
@@ -289,7 +289,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="valorsolicitado"
             Default: =ThisItem.'Valor Solicitado'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,valorsolicitado)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,'Valor Solicitado')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
@@ -327,7 +327,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="valorgasto"
             Default: =ThisItem.'Valor Gasto'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,valorgasto)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,'Valor Gasto')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
@@ -365,7 +365,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="diasdasolicitacao"
             Default: =ThisItem.'Dias Solicitados'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,diasdasolicitacao)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,'Dias Solicitados')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -402,7 +402,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="diferenca"
             Default: =ThisItem.'Valor a Devolver'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,diferenca)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,'Valor a Devolver')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
@@ -440,7 +440,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="restituir"
             Default: =ThisItem.'Valor a Restituir'
             DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,restituir)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,'Valor a Restituir')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
