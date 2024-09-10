@@ -134,19 +134,17 @@ ScreenSolictacoesViagens As screen:
         Y: =37
         ZIndex: =7
 
-    Form3 As form.PowerApps_CoreControls_Form:
-        BorderStyle: =BorderStyle.None
+    Form4 As form.PowerApps_CoreControls_Form:
         DataSource: ='gasto de viagem'
-        Height: =629
-        Item: =Gallery2.Selected
+        Height: =627
         NumberOfColumns: =1
         UseFluentV9Cards: =true
-        Width: =849
-        X: =491
-        Y: =110
+        Width: =863
+        X: =478
+        Y: =112
         ZIndex: =8
 
-        Título_DataCard2 As typedDataCard.fluentV9TextualEditCard:
+        Título_DataCard3 As typedDataCard.fluentV9TextualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.Título
@@ -156,13 +154,13 @@ ScreenSolictacoesViagens As screen:
             Height: =70
             MaxLength: =DataSourceInfo([@'gasto de viagem'], DataSourceInfo.MaxLength, Title)
             Required: =true
-            Update: =DataCardValue65.Value
-            Width: =849
+            Update: =DataCardValue76.Value
+            Width: =863
             X: =0
             Y: =0
             ZIndex: =9
 
-            DataCardKey78 As Texto:
+            DataCardKey89 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -170,10 +168,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue65.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue76.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue65 As 'Entrada de texto'":
+            "DataCardValue76 As 'Entrada de texto'":
                 AccessibleLabel: =Parent.DisplayName
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
@@ -182,11 +180,11 @@ ScreenSolictacoesViagens As screen:
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey78.X + DataCardKey78.Width
+                X: =DataCardKey89.X + DataCardKey89.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage78 As Texto:
+            ErrorMessage85 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
                 Text: =Parent.Error
@@ -194,10 +192,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =Parent.Width - 48
                 Wrap: =true
                 X: =24
-                Y: =DataCardValue65.Y + DataCardValue65.Height
+                Y: =DataCardValue76.Y + DataCardValue76.Height
                 ZIndex: =3
 
-            StarVisible78 As Texto:
+            StarVisible85 As Texto:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
@@ -205,10 +203,10 @@ ScreenSolictacoesViagens As screen:
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 X: =0
-                Y: =DataCardKey78.Y
+                Y: =DataCardKey89.Y
                 ZIndex: =4
 
-        Solicitante_DataCard1 As typedDataCard.fluentV9ComboBoxEditCard:
+        Solicitante_DataCard2 As typedDataCard.fluentV9ComboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="solicitante"
             Default: =ThisItem.Solicitante
@@ -217,13 +215,13 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =true
-            Update: =DataCardValue66.Selected
-            Width: =849
+            Update: =DataCardValue77.Selected
+            Width: =863
             X: =0
             Y: =1
             ZIndex: =9
 
-            DataCardKey79 As Texto:
+            DataCardKey90 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -231,22 +229,22 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue66.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue77.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue66 As 'Caixa de Combinação'.pcfdataset":
-                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", User().FullName), User().FullName)
+            "DataCardValue77 As 'Caixa de Combinação'.pcfdataset":
+                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
                 Items: =Choices([@'gasto de viagem'].solicitante)
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =(Parent.Width - 48) * 0.4
-                X: =337
+                X: =DataCardKey90.X + DataCardKey90.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage79 As Texto:
+            ErrorMessage86 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
                 Text: =Parent.Error
@@ -254,10 +252,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =Parent.Width - 48
                 Wrap: =true
                 X: =24
-                Y: =DataCardValue66.Y + DataCardValue66.Height
+                Y: =DataCardValue77.Y + DataCardValue77.Height
                 ZIndex: =3
 
-            StarVisible79 As Texto:
+            StarVisible86 As Texto:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
                 Height: =20
@@ -265,10 +263,10 @@ ScreenSolictacoesViagens As screen:
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 X: =0
-                Y: =DataCardKey79.Y
+                Y: =DataCardKey90.Y
                 ZIndex: =4
 
-        "'Data Solicitação_DataCard1' As typedDataCard.fluentV9DateEditCard":
+        "'Data Solicitação_DataCard2' As typedDataCard.fluentV9DateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="datasolicitacao"
             Default: =ThisItem.'Data Solicitação'
@@ -277,13 +275,13 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =true
-            Update: =DataCardValue67.SelectedDate
-            Width: =849
+            Update: =DataCardValue78.SelectedDate
+            Width: =863
             X: =0
             Y: =2
             ZIndex: =9
 
-            DataCardKey80 As Texto:
+            DataCardKey91 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -291,10 +289,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue67.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue78.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue67 As 'Seletor de data'":
+            "DataCardValue78 As 'Seletor de data'":
                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
                 DisplayMode: =Parent.DisplayMode
                 EndDate: =Date(Year(Today())+100, 12, 31)
@@ -303,11 +301,11 @@ ScreenSolictacoesViagens As screen:
                 StartDate: =Date(1900, 1, 1)
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey80.X + DataCardKey80.Width
+                X: =DataCardKey91.X + DataCardKey91.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage80 As Texto:
+            ErrorMessage87 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
                 Text: =Parent.Error
@@ -315,10 +313,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =Parent.Width - 48
                 Wrap: =true
                 X: =24
-                Y: =DataCardValue67.Y + DataCardValue67.Height
+                Y: =DataCardValue78.Y + DataCardValue78.Height
                 ZIndex: =3
 
-            StarVisible80 As Texto:
+            StarVisible87 As Texto:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
@@ -326,10 +324,10 @@ ScreenSolictacoesViagens As screen:
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 X: =0
-                Y: =DataCardKey80.Y
+                Y: =DataCardKey91.Y
                 ZIndex: =4
 
-        "'Valor Solicitado_DataCard1' As typedDataCard.fluentV9NumberEditCard":
+        "'Valor Solicitado_DataCard2' As typedDataCard.fluentV9NumberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="valorsolicitado"
             Default: =ThisItem.'Valor Solicitado'
@@ -338,13 +336,13 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =true
-            Update: =Value(DataCardValue68.Value)
-            Width: =849
+            Update: =Value(DataCardValue79.Value)
+            Width: =863
             X: =0
             Y: =3
             ZIndex: =9
 
-            DataCardKey81 As Texto:
+            DataCardKey92 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -352,21 +350,21 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue68.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue79.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue68 As 'Entrada de texto'":
+            "DataCardValue79 As 'Entrada de texto'":
                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey81.X + DataCardKey81.Width
+                X: =DataCardKey92.X + DataCardKey92.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage81 As Texto:
+            ErrorMessage88 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
                 Text: =Parent.Error
@@ -374,10 +372,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =Parent.Width - 48
                 Wrap: =true
                 X: =24
-                Y: =DataCardValue68.Y + DataCardValue68.Height
+                Y: =DataCardValue79.Y + DataCardValue79.Height
                 ZIndex: =3
 
-            StarVisible81 As Texto:
+            StarVisible88 As Texto:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
@@ -385,10 +383,10 @@ ScreenSolictacoesViagens As screen:
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 X: =0
-                Y: =DataCardKey81.Y
+                Y: =DataCardKey92.Y
                 ZIndex: =4
 
-        "'Valor Gasto_DataCard1' As typedDataCard.fluentV9NumberEditCard":
+        "'Valor Gasto_DataCard2' As typedDataCard.fluentV9NumberEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="valorgasto"
             Default: =ThisItem.'Valor Gasto'
@@ -397,13 +395,13 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =true
-            Update: =Value(DataCardValue69.Value)
-            Width: =849
+            Update: =Value(DataCardValue80.Value)
+            Width: =863
             X: =0
             Y: =4
             ZIndex: =9
 
-            DataCardKey82 As Texto:
+            DataCardKey93 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -411,21 +409,21 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue69.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue80.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue69 As 'Entrada de texto'":
+            "DataCardValue80 As 'Entrada de texto'":
                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey82.X + DataCardKey82.Width
+                X: =DataCardKey93.X + DataCardKey93.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage82 As Texto:
+            ErrorMessage89 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
                 Text: =Parent.Error
@@ -433,10 +431,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =Parent.Width - 48
                 Wrap: =true
                 X: =24
-                Y: =DataCardValue69.Y + DataCardValue69.Height
+                Y: =DataCardValue80.Y + DataCardValue80.Height
                 ZIndex: =3
 
-            StarVisible82 As Texto:
+            StarVisible89 As Texto:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
@@ -444,10 +442,10 @@ ScreenSolictacoesViagens As screen:
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 X: =0
-                Y: =DataCardKey82.Y
+                Y: =DataCardKey93.Y
                 ZIndex: =4
 
-        "'Data Atual_DataCard1' As typedDataCard.fluentV9TextualViewCard":
+        "'Data Atual_DataCard2' As typedDataCard.fluentV9TextualViewCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="dataatual"
             Default: =ThisItem.'Data Atual'
@@ -456,12 +454,12 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =849
+            Width: =863
             X: =0
             Y: =5
             ZIndex: =9
 
-            DataCardKey83 As Texto:
+            DataCardKey94 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -469,21 +467,21 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue70.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue81.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue70 As 'Entrada de texto'":
+            "DataCardValue81 As 'Entrada de texto'":
                 DisplayMode: =DisplayMode.View
                 Height: =32
                 Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey83.X + DataCardKey83.Width
+                X: =DataCardKey94.X + DataCardKey94.Width
                 Y: =10
                 ZIndex: =2
 
-        "'Dias Solicitados_DataCard1' As typedDataCard.fluentV9TextualViewCard":
+        "'Dias Solicitados_DataCard2' As typedDataCard.fluentV9TextualViewCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="diasdasolicitacao"
             Default: =ThisItem.'Dias Solicitados'
@@ -492,12 +490,12 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =849
+            Width: =863
             X: =0
             Y: =6
             ZIndex: =9
 
-            DataCardKey84 As Texto:
+            DataCardKey95 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -505,21 +503,21 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue71.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue82.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue71 As 'Entrada de texto'":
+            "DataCardValue82 As 'Entrada de texto'":
                 DisplayMode: =DisplayMode.View
                 Height: =32
                 Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey84.X + DataCardKey84.Width
+                X: =DataCardKey95.X + DataCardKey95.Width
                 Y: =10
                 ZIndex: =2
 
-        "'Valor a Devolver_DataCard1' As typedDataCard.fluentV9TextualViewCard":
+        "'Valor a Devolver_DataCard2' As typedDataCard.fluentV9TextualViewCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="diferenca"
             Default: =ThisItem.'Valor a Devolver'
@@ -528,12 +526,12 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =849
+            Width: =863
             X: =0
             Y: =7
             ZIndex: =9
 
-            DataCardKey85 As Texto:
+            DataCardKey96 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -541,21 +539,21 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue72.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue83.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue72 As 'Entrada de texto'":
+            "DataCardValue83 As 'Entrada de texto'":
                 DisplayMode: =DisplayMode.View
                 Height: =32
                 Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey85.X + DataCardKey85.Width
+                X: =DataCardKey96.X + DataCardKey96.Width
                 Y: =10
                 ZIndex: =2
 
-        "'Valor a Restituir_DataCard1' As typedDataCard.fluentV9TextualViewCard":
+        "'Valor a Restituir_DataCard2' As typedDataCard.fluentV9TextualViewCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="restituir"
             Default: =ThisItem.'Valor a Restituir'
@@ -564,12 +562,12 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =849
+            Width: =863
             X: =0
             Y: =8
             ZIndex: =9
 
-            DataCardKey86 As Texto:
+            DataCardKey97 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -577,21 +575,21 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue73.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue84.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue73 As 'Entrada de texto'":
+            "DataCardValue84 As 'Entrada de texto'":
                 DisplayMode: =DisplayMode.View
                 Height: =32
                 Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey86.X + DataCardKey86.Width
+                X: =DataCardKey97.X + DataCardKey97.Width
                 Y: =10
                 ZIndex: =2
 
-        Motivo_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+        Motivo_DataCard2 As typedDataCard.fluentV9TextualEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Motivo"
             Default: =ThisItem.Motivo
@@ -601,13 +599,13 @@ ScreenSolictacoesViagens As screen:
             Height: =70
             MaxLength: =DataSourceInfo([@'gasto de viagem'], DataSourceInfo.MaxLength, Motivo)
             Required: =true
-            Update: =DataCardValue74.Value
-            Width: =849
+            Update: =DataCardValue85.Value
+            Width: =863
             X: =0
             Y: =9
             ZIndex: =9
 
-            DataCardKey87 As Texto:
+            DataCardKey98 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =22
                 Text: =Parent.DisplayName
@@ -615,10 +613,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =(Parent.Width - 48) * 0.4
                 Wrap: =false
                 X: =24
-                Y: =4 + (DataCardValue74.Height / 2) - (Self.Height / 2)
+                Y: =4 + (DataCardValue85.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            "DataCardValue74 As 'Entrada de texto'":
+            "DataCardValue85 As 'Entrada de texto'":
                 AccessibleLabel: =Parent.DisplayName
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
@@ -627,11 +625,11 @@ ScreenSolictacoesViagens As screen:
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
                 Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey87.X + DataCardKey87.Width
+                X: =DataCardKey98.X + DataCardKey98.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage83 As Texto:
+            ErrorMessage90 As Texto:
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
                 Text: =Parent.Error
@@ -639,10 +637,10 @@ ScreenSolictacoesViagens As screen:
                 Width: =Parent.Width - 48
                 Wrap: =true
                 X: =24
-                Y: =DataCardValue74.Y + DataCardValue74.Height
+                Y: =DataCardValue85.Y + DataCardValue85.Height
                 ZIndex: =3
 
-            StarVisible83 As Texto:
+            StarVisible90 As Texto:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
                 Height: =30
@@ -650,10 +648,10 @@ ScreenSolictacoesViagens As screen:
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 X: =0
-                Y: =DataCardKey87.Y
+                Y: =DataCardKey98.Y
                 ZIndex: =4
 
-        Anexos_DataCard4 As typedDataCard.attachmentsEditCard:
+        Anexos_DataCard5 As typedDataCard.attachmentsEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="{Attachments}"
             Default: =ThisItem.Anexos
@@ -662,23 +660,23 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
-            Update: =DataCardValue75.Attachments
-            Width: =849
+            Update: =DataCardValue86.Attachments
+            Width: =863
             X: =0
             Y: =10
             ZIndex: =9
 
-            DataCardKey88 As label:
+            DataCardKey99 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue75.Height / 2) - (Self.Height / 2)
+                Y: =10 + (DataCardValue86.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            DataCardValue75 As attachments:
+            DataCardValue86 As attachments:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 DisplayMode: =Parent.DisplayMode
                 IsInDataCard: =true
@@ -689,11 +687,11 @@ ScreenSolictacoesViagens As screen:
                 PaddingTop: =5
                 Tooltip: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey88.X + DataCardKey88.Width
+                X: =DataCardKey99.X + DataCardKey99.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage84 As label:
+            ErrorMessage91 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -705,16 +703,16 @@ ScreenSolictacoesViagens As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue75.Y + DataCardValue75.Height
+                Y: =DataCardValue86.Y + DataCardValue86.Height
                 ZIndex: =3
 
-            StarVisible84 As label:
+            StarVisible91 As label:
                 Align: =Align.Center
-                Height: =DataCardKey88.Height
+                Height: =DataCardKey99.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey88.Y
+                Y: =DataCardKey99.Y
                 ZIndex: =4
 
