@@ -429,7 +429,7 @@ ScreenSolictacoesViagens As screen:
                 PaddingRight: =0
                 PaddingTop: =0
                 Text: |-
-                    =Text(ThisItem. 'Valor a Devolver',"$##.00")
+                    =Text(ThisItem.'Valor Solicitado' - ThisItem.'Valor Gasto', "$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey107.X + DataCardKey107.Width
                 Y: =10
