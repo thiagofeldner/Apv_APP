@@ -358,43 +358,6 @@ ScreenSolictacoesViagens As screen:
                 Y: =10
                 ZIndex: =2
 
-        "'Data Atual_DataCard3' As typedDataCard.textualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="dataatual"
-            Default: =ThisItem.'Data Atual'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,dataatual)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =40
-            Required: =false
-            Width: =745
-            X: =0
-            Y: =5
-            ZIndex: =9
-
-            DataCardKey105 As label:
-                AutoHeight: =true
-                Height: =34
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
-                Wrap: =false
-                X: =30
-                Y: =10 + (DataCardValue92.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            DataCardValue92 As label:
-                AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
-                Height: =27
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =Parent.Default
-                Width: =(Parent.Width - 60) * 0.6
-                X: =382
-                Y: =12
-                ZIndex: =2
-
         "'Dias Solicitados_DataCard3' As typedDataCard.textualViewCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="diasdasolicitacao"
@@ -406,7 +369,7 @@ ScreenSolictacoesViagens As screen:
             Required: =false
             Width: =745
             X: =0
-            Y: =6
+            Y: =5
             ZIndex: =9
 
             DataCardKey106 As label:
@@ -443,7 +406,7 @@ ScreenSolictacoesViagens As screen:
             Required: =false
             Width: =745
             X: =0
-            Y: =7
+            Y: =6
             ZIndex: =9
 
             DataCardKey107 As label:
@@ -480,7 +443,7 @@ ScreenSolictacoesViagens As screen:
             Required: =false
             Width: =745
             X: =0
-            Y: =8
+            Y: =7
             ZIndex: =9
 
             DataCardKey108 As label:
@@ -517,7 +480,7 @@ ScreenSolictacoesViagens As screen:
             Required: =true
             Width: =745
             X: =0
-            Y: =9
+            Y: =8
             ZIndex: =9
 
             DataCardKey109 As label:
