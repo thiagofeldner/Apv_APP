@@ -56,7 +56,7 @@ HomeScreen As screen:
         BorderStyle: =BorderStyle.None
         DropShadow: =DropShadow.Semibold
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =516
+        Height: =548
         LayoutMode: =LayoutMode.Auto
         Width: =197
         X: =15
@@ -67,10 +67,10 @@ HomeScreen As screen:
         BorderColor: =RGBA(255, 255, 255, 1)
         BorderStyle: =BorderStyle.None
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =456
+        Height: =464
         Width: =170
         X: =31
-        Y: =154
+        Y: =173
         ZIndex: =6
 
     btnRh As Botão:
@@ -81,14 +81,14 @@ HomeScreen As screen:
         FontItalic: =true
         FontSize: =14
         FontWeight: =FontWeight.Semibold
-        Height: =42
+        Height: =40
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         OnSelect: =Navigate(RHScreen, ScreenTransition.CoverRight)
         Text: ="RH"
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =47
-        Y: =556
+        Y: =580
         ZIndex: =7
 
     btnFinanceiro As Botão:
@@ -106,7 +106,7 @@ HomeScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =47
-        Y: =226
+        Y: =255
         ZIndex: =8
 
     btnProj As Botão:
@@ -124,7 +124,7 @@ HomeScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =47
-        Y: =493
+        Y: =522
         ZIndex: =9
 
     btnIntegração As Botão:
@@ -141,7 +141,7 @@ HomeScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =47
-        Y: =294
+        Y: =323
         ZIndex: =10
 
     btnJur As Botão:
@@ -158,7 +158,7 @@ HomeScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =47
-        Y: =358
+        Y: =387
         ZIndex: =11
 
     btnCont As Botão:
@@ -177,13 +177,13 @@ HomeScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =47
-        Y: =163
+        Y: =192
         ZIndex: =12
 
     headerHome As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Semilight
         Fill: =RGBA(40, 112, 134, 1)
-        Height: =45
+        Height: =52
         Width: =197
         X: =15
         Y: =109
@@ -195,12 +195,12 @@ HomeScreen As screen:
             DisplayMode: =DisplayMode.Edit
             Font: =Font.'Lato Black'
             FontColor: =RGBA(255, 255, 255, 1)
-            Height: =37
+            Height: =30
             Size: =20
             Text: ="Departamentos"
-            Width: =176
-            X: =8
-            Y: =0
+            Width: =169
+            X: =16
+            Y: =12
             ZIndex: =1
 
     btnLinksUteis As Botão:
@@ -218,7 +218,7 @@ HomeScreen As screen:
         VerticalAlign: =VerticalAlign.Middle
         Width: =138
         X: =47
-        Y: =430
+        Y: =459
         ZIndex: =15
 
     Container1 As groupContainer.verticalAutoLayoutContainer:
@@ -253,4 +253,11 @@ HomeScreen As screen:
         X: =1118
         Y: =688
         ZIndex: =17
+
+    Image5 As image:
+        Height: =63
+        Image: =Logo_branco
+        X: =31
+        Y: =692
+        ZIndex: =18
 
