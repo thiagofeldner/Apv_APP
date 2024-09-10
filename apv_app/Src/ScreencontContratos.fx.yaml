@@ -4,7 +4,7 @@ ScreencontContratos As screen:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DelayItemLoading: =true
-        Height: =658
+        Height: =624
         Items: ='Controle de contratos'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -12,7 +12,7 @@ ScreencontContratos As screen:
         TemplateSize: =116
         Width: =442
         X: =12
-        Y: =96
+        Y: =129
         ZIndex: =1
 
         Title5 As label:
@@ -116,54 +116,16 @@ ScreencontContratos As screen:
             Y: =83
             ZIndex: =7
 
-    Container1_2 As groupContainer.manualLayoutContainer:
-        BorderStyle: =BorderStyle.None
-        Fill: =RGBA(15, 108, 189, 1)
-        Height: =81
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =1366
-        ZIndex: =2
-
-        TextCanvas1_2 As Texto:
-            Align: ='TextCanvas.Align'.Center
-            BorderColor: =
-            DisplayMode: =DisplayMode.Edit
-            Fill: =
-            Font: =Font.'Lato Black'
-            FontColor: =RGBA(255, 255, 255, 1)
-            Height: =53
-            Size: =28
-            Text: ="Controle de Contratos"
-            VerticalAlign: ='TextCanvas.VerticalAlign'.Middle
-            Weight: ='TextCanvas.Weight'.Regular
-            Width: =352
-            X: =460
-            Y: =15
-            ZIndex: =1
-
-        Icon1_2 As icon.Leave:
-            Color: =RGBA(255, 255, 255, 1)
-            Height: =41
-            Icon: =Icon.Leave
-            OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCover)
-            Width: =41
-            X: =1302
-            Y: =21
-            ZIndex: =2
-
     Form2 As form:
         AcceptsFocus: =false
         BorderThickness: =1
         DataSource: ='Controle de contratos'
         DefaultMode: =FormMode.View
-        Height: =658
+        Height: =625
         Item: =Gallery3.Selected
         Width: =877
         X: =479
-        Y: =96
+        Y: =129
         ZIndex: =4
 
         "'Contrato de gestão _DataCard2' As typedDataCard.textualEditCard":
@@ -2325,4 +2287,64 @@ ScreencontContratos As screen:
                 Wrap: =false
                 Y: =DataCardKey77.Y
                 ZIndex: =4
+
+    headerProjetos_3 As Cabeçalho:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        IsLogoVisible: =false
+        IsTitleVisible: =false
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =1333
+        X: =15
+        Y: =19
+        ZIndex: =5
+
+    btnHomeProj_3 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =42
+        Height: =43
+        Icon: ="Home"
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCoverRight)
+        Text: =
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =49
+        X: =31
+        Y: =35
+        ZIndex: =6
+
+    txtProjetos_3 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =47
+        Size: =32
+        Text: ="Controle de Contrato"
+        Weight: ='TextCanvas.Weight'.Regular
+        Width: =354
+        X: =429
+        Y: =34
+        ZIndex: =7
+
+    txtUserProjetos_3 As Texto:
+        Align: ='TextCanvas.Align'.Start
+        AutoHeight: =false
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =41
+        Size: =12
+        Text: =varUserInfo.displayName
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =148
+        Wrap: =true
+        X: =1133
+        Y: =37
+        ZIndex: =8
 
