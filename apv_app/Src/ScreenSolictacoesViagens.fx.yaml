@@ -10,8 +10,8 @@ ScreenSolictacoesViagens As screen:
         TemplatePadding: =0
         TemplateSize: =90
         Width: =452
-        X: =15
-        Y: =129
+        X: =80
+        Y: =124
         ZIndex: =1
 
         Title3 As label:
@@ -139,9 +139,9 @@ ScreenSolictacoesViagens As screen:
         Height: =612
         Item: =Gallery2.Selected
         NumberOfColumns: =1
-        Width: =866
-        X: =454
-        Y: =129
+        Width: =745
+        X: =580
+        Y: =116
         ZIndex: =8
 
         Título_DataCard4 As typedDataCard.textualViewCard:
@@ -153,7 +153,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
-            Width: =866
+            Width: =745
             X: =0
             Y: =0
             ZIndex: =9
@@ -191,7 +191,7 @@ ScreenSolictacoesViagens As screen:
             Height: =50
             Required: =true
             Update: =DataCardValue88.Selected
-            Width: =866
+            Width: =745
             X: =0
             Y: =1
             ZIndex: =9
@@ -256,7 +256,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
-            Width: =866
+            Width: =745
             X: =0
             Y: =2
             ZIndex: =9
@@ -293,7 +293,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
-            Width: =866
+            Width: =745
             X: =0
             Y: =3
             ZIndex: =9
@@ -330,7 +330,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
-            Width: =866
+            Width: =745
             X: =0
             Y: =4
             ZIndex: =9
@@ -367,7 +367,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =866
+            Width: =745
             X: =0
             Y: =5
             ZIndex: =9
@@ -391,8 +391,8 @@ ScreenSolictacoesViagens As screen:
                 PaddingTop: =0
                 Text: =Parent.Default
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey105.X + DataCardKey105.Width
-                Y: =10
+                X: =382
+                Y: =12
                 ZIndex: =2
 
         "'Dias Solicitados_DataCard3' As typedDataCard.textualViewCard":
@@ -404,7 +404,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =866
+            Width: =745
             X: =0
             Y: =6
             ZIndex: =9
@@ -441,7 +441,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =866
+            Width: =745
             X: =0
             Y: =7
             ZIndex: =9
@@ -478,7 +478,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =false
-            Width: =866
+            Width: =745
             X: =0
             Y: =8
             ZIndex: =9
@@ -515,7 +515,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =40
             Required: =true
-            Width: =866
+            Width: =745
             X: =0
             Y: =9
             ZIndex: =9
