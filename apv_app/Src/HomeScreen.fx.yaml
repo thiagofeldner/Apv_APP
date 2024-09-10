@@ -248,9 +248,9 @@ HomeScreen As screen:
             Rua Carijós, 166, 5º andar – Centro
             CEP: 30120-060 – Tel.: (31) 3207-8500"
         VerticalAlign: ='TextCanvas.VerticalAlign'.Middle
-        Width: =246
+        Width: =213
         Wrap: =false
-        X: =31
+        X: =1118
         Y: =688
         ZIndex: =17
 
