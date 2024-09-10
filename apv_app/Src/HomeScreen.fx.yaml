@@ -219,3 +219,12 @@ HomeScreen As screen:
         Y: =476
         ZIndex: =15
 
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        Height: =70
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =1333
+        X: =15
+        Y: =687
+        ZIndex: =16
+
