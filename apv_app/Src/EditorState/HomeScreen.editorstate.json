@@ -109,7 +109,7 @@
       "MetaDataIDKey": "",
       "Name": "btnCont",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 9,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -302,7 +302,7 @@
       "MetaDataIDKey": "",
       "Name": "btnFinanceiro",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 10,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -482,7 +482,7 @@
       "MetaDataIDKey": "",
       "Name": "btnIntegração",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 11,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -657,7 +657,7 @@
       "MetaDataIDKey": "",
       "Name": "btnJur",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 12,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -840,7 +840,7 @@
       "MetaDataIDKey": "",
       "Name": "btnLinksUteis",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 13,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1028,7 +1028,7 @@
       "MetaDataIDKey": "",
       "Name": "btnProj",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 14,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1230,7 +1230,7 @@
       "MetaDataIDKey": "",
       "Name": "btnRh",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 15,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1553,7 +1553,7 @@
       "MetaDataIDKey": "",
       "Name": "containerHeader",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1759,7 +1759,7 @@
       "MetaDataIDKey": "",
       "Name": "Header1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1902,7 +1902,7 @@
       "MetaDataIDKey": "",
       "Name": "headerHome",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2173,7 +2173,7 @@
       "MetaDataIDKey": "",
       "Name": "Image5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2391,7 +2391,7 @@
       "MetaDataIDKey": "",
       "Name": "rectHome",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2539,7 +2539,7 @@
       "MetaDataIDKey": "",
       "Name": "TextCanvas4",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2814,7 +2814,7 @@
       "MetaDataIDKey": "",
       "Name": "txtEmpresa",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2971,7 +2971,7 @@
       "MetaDataIDKey": "",
       "Name": "txtUser",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
