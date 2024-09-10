@@ -236,7 +236,7 @@ ScreenSolictacoesViagens As screen:
             "DataCardValue77 As 'Caixa de Combinação'.pcfdataset":
                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
                 DefaultSelectedItems: =[Parent.Default]
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =varUserInfo.displayName 
                 Height: =32
                 Items: =Choices([@'gasto de viagem'].solicitante)
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
