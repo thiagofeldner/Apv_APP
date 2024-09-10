@@ -213,7 +213,7 @@ ScreenSolictacoesViagens As screen:
             DataField: ="solicitante"
             Default: =ThisItem.Solicitante
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,User().FullName)
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,solicitante)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =true
