@@ -391,8 +391,7 @@ ScreenSolictacoesViagens As screen:
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Text: |-
-                    =Text(Gallery2.Selected.'Dias Solicitados', "##")
+                Text: =Parent.DefaultTe
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey106.X + DataCardKey106.Width
                 Y: =10
@@ -430,7 +429,7 @@ ScreenSolictacoesViagens As screen:
                 PaddingRight: =0
                 PaddingTop: =0
                 Text: |-
-                    =Text(Gallery2.Selected.'Valor a Devolver', "$##.###00")
+                    =Text(ThisItem. 'Valor a Devolver',"$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey107.X + DataCardKey107.Width
                 Y: =10
