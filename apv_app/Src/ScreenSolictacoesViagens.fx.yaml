@@ -315,7 +315,8 @@ ScreenSolictacoesViagens As screen:
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Text: =Parent.Default
+                Text: |-
+                    =Text(Gallery2.Selected.'Valor Solicitado', "$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey103.X + DataCardKey103.Width
                 Y: =10
@@ -352,7 +353,8 @@ ScreenSolictacoesViagens As screen:
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Text: =Parent.Default
+                Text: |-
+                    =Text(Gallery2.Selected.'Valor Gasto', "$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey104.X + DataCardKey104.Width
                 Y: =10
@@ -426,7 +428,8 @@ ScreenSolictacoesViagens As screen:
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
-                Text: =Parent.Default
+                Text: |-
+                    =Text(Gallery2.Selected.'Valor a Devolver', "$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey107.X + DataCardKey107.Width
                 Y: =10
