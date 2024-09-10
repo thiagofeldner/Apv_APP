@@ -467,7 +467,7 @@ ScreenSolictacoesViagens As screen:
                 PaddingRight: =0
                 PaddingTop: =0
                 Text: |-
-                    =Text(Gallery2.Selected.'Valor a Restituir', "$##.###00")
+                    =Text(ThisItem.'Valor Gasto' - ThisItem.'Valor Solicitado', "$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey108.X + DataCardKey108.Width
                 Y: =10
