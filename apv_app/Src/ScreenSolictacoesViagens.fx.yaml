@@ -278,41 +278,63 @@ ScreenSolictacoesViagens As screen:
             Y: =370
             ZIndex: =17
 
-    contSolViag As groupContainer.manualLayoutContainer:
-        BorderStyle: =BorderStyle.None
-        Fill: =RGBA(15, 108, 189, 1)
-        Height: =83
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Width: =1366
+    headerProjetos_2 As Cabeçalho:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        IsLogoVisible: =false
+        IsTitleVisible: =false
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =1333
+        X: =15
+        Y: =19
+        ZIndex: =4
+
+    btnHomeProj_2 As Botão:
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontSize: =42
+        Height: =43
+        Icon: ="Home"
+        IconStyle: ='ButtonCanvas.IconStyle'.Filled
+        OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCoverRight)
+        Text: =
+        VerticalAlign: =VerticalAlign.Middle
+        Width: =49
+        X: =31
+        Y: =35
+        ZIndex: =5
+
+    txtProjetos_2 As Texto:
+        Align: ='TextCanvas.Align'.Center
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.'Lato Black'
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =47
+        Size: =32
+        Text: ="Solicitação de Viagens"
+        Weight: ='TextCanvas.Weight'.Regular
+        Width: =354
+        X: =429
+        Y: =34
         ZIndex: =6
 
-        txtSolViag As Texto:
-            Align: ='TextCanvas.Align'.Center
-            BorderColor: =
-            DisplayMode: =DisplayMode.Edit
-            Fill: =
-            Font: =Font.'Lato Black'
-            FontColor: =RGBA(255, 255, 255, 1)
-            Height: =53
-            Size: =28
-            Text: ="Solicitações de Viagens"
-            VerticalAlign: ='TextCanvas.VerticalAlign'.Middle
-            Weight: ='TextCanvas.Weight'.Regular
-            Width: =352
-            X: =444
-            Y: =21
-            ZIndex: =3
-
-        iconVoltar As icon.Leave:
-            Color: =RGBA(255, 255, 255, 1)
-            Height: =41
-            Icon: =Icon.Leave
-            OnSelect: =Navigate(ProjetosScreen, ScreenTransition.Cover)
-            Width: =41
-            X: =1283
-            Y: =21
-            ZIndex: =4
+    txtUserProjetos_2 As Texto:
+        Align: ='TextCanvas.Align'.Start
+        AutoHeight: =false
+        DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
+        FontColor: =RGBA(255, 255, 255, 1)
+        Height: =41
+        Size: =12
+        Text: =varUserInfo.displayName
+        Weight: ='TextCanvas.Weight'.Medium
+        Width: =148
+        Wrap: =true
+        X: =1133
+        Y: =37
+        ZIndex: =7
 

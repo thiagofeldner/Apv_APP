@@ -183,7 +183,7 @@
     "Name": "PowerApps_CoreControls_TextInputCanvas",
     "OverridableProperties": {},
     "TemplateDisplayName": "Entrada de texto",
-    "Version": "0.0.44"
+    "Version": "0.0.45"
   },
   "form": {
     "CustomGroupControlTemplateName": "",
