@@ -354,7 +354,7 @@ ScreenSolictacoesViagens As screen:
                 PaddingRight: =0
                 PaddingTop: =0
                 Text: |-
-                    =Text(Gallery2.Selected.'Valor Gasto', "$##.###00")
+                    =Text(ThisItem.'Valor Gasto', "$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey104.X + DataCardKey104.Width
                 Y: =10
