@@ -1,282 +1,78 @@
 ScreenSolictacoesViagens As screen:
 
-    "GalSolViagens As gallery.'BrowseLayout_Horizontal_TwoTextOneImageVariant_ver5.0'":
-        '#CopilotOverlayLabel': ="Filtrada"
-        BorderColor: =RGBA(0, 0, 0, 1)
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         BorderStyle: =BorderStyle.None
-        BorderThickness: =1
         DelayItemLoading: =true
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =509
+        Height: =595
         Items: ='gasto de viagem'
+        Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        ShowNavigation: =true
-        ShowScrollbar: =false
         TemplatePadding: =0
-        TemplateSize: =Min(440, Self.Height - 60)
-        Width: =1329
-        X: =20
-        Y: =128
-        ZIndex: =3
+        TemplateSize: =90
+        Width: =452
+        X: =15
+        Y: =129
+        ZIndex: =1
 
-        lblSolicitante As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Arial
-            FontWeight: =FontWeight.Bold
+        Title3 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
-            Size: =14
-            Text: |-
-                ="Solicitante:"
-            Width: =121
-            X: =8
-            Y: =36
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Título
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle3.Size * 1.8)) / 2
+            ZIndex: =1
+
+        Subtitle3 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Nome
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height
+            ZIndex: =2
+
+        NextArrow3 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Color: =RGBA(166, 166, 166, 1)
+            Height: =50
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            Tooltip: ="Exibir detalhes do item"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =3
 
-        lblSolBD As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =39
+        Separator3 As rectangle:
+            Height: =8
             OnSelect: =Select(Parent)
-            Text: =ThisItem.Solicitante.DisplayName
-            Width: =197
-            X: =170
-            Y: =37
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
             ZIndex: =4
 
-        lblValorGasto As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Arial
-            FontWeight: =FontWeight.Bold
-            Height: =36
+        Rectangle3 As rectangle:
+            Height: =Parent.TemplateHeight - Separator3.Height
             OnSelect: =Select(Parent)
-            Size: =14
-            Text: |-
-                ="Valor Gasto:"
-            Width: =162
-            X: =8
-            Y: =264
-            ZIndex: =6
-
-        lblValorSolicitado As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Arial
-            FontWeight: =FontWeight.Bold
-            Height: =33
-            OnSelect: =Select(Parent)
-            Size: =14
-            Text: |-
-                ="Valor Solicitado:"
-            Width: =162
-            X: =8
-            Y: =205
-            ZIndex: =7
-
-        lblDataSolicitacao As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Arial
-            FontWeight: =FontWeight.Bold
-            Height: =32
-            OnSelect: =Select(Parent)
-            Size: =14
-            Text: |-
-                ="Data Solicitação:"
-            Width: =162
-            X: =8
-            Y: =148
-            ZIndex: =8
-
-        lblValoDevolver As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Arial
-            FontWeight: =FontWeight.Bold
-            Height: =37
-            OnSelect: =Select(Parent)
-            Size: =14
-            Text: |-
-                ="Valor a Devolver:"
-            Width: =162
-            X: =8
-            Y: =318
-            ZIndex: =9
-
-        lblMotivo As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Arial
-            FontWeight: =FontWeight.Bold
-            Height: =30
-            OnSelect: =Select(Parent)
-            Size: =14
-            Text: |-
-                ="Motivo:"
-            Width: =147
-            X: =8
-            Y: =88
-            ZIndex: =10
-
-        lblMotivoBD As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =55
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Título
-            Width: =234
-            X: =170
-            Y: =76
-            ZIndex: =11
-
-        lblDataSolicitacaoBD As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =32
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.'Data Solicitação'
-            X: =175
-            Y: =154
-            ZIndex: =12
-
-        lblValorSolicitadoBD As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            OnSelect: =Select(Parent)
-            Text: |-
-                =Text(ThisItem.'Valor Solicitado',"$##.###00")
-            X: =175
-            Y: =204
-            ZIndex: =13
-
-        lblValorGastoBD As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            OnSelect: =Select(Parent)
-            Text: |-
-                =Text(ThisItem.'Valor Gasto', "$##.###00")
-            X: =175
-            Y: =260
-            ZIndex: =14
-
-        lblValoDevolverBD As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            DisplayMode: =Parent.DisplayMode
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            OnSelect: =Select(Parent)
-            Overflow: =Overflow.Scroll
-            TabIndex: =
-            Text: |-
-                =Text(Value(ThisItem.'Valor a Devolver', "en-US"), "R$ ##.###00", "en-US")
-            Width: =178
-            X: =175
-            Y: =315
-            ZIndex: =15
-
-        lblValoRestituir As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.Arial
-            FontWeight: =FontWeight.Bold
-            Height: =37
-            OnSelect: =Select(Parent)
-            Size: =14
-            Text: |-
-                ="Valor a Restituir:"
-            Width: =162
-            X: =8
-            Y: =370
-            ZIndex: =16
-
-        lblValoRestituirBD As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(161, 159, 157, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            OnSelect: =Select(Parent)
-            Overflow: =Overflow.Scroll
-            Text: |-
-                =Text(Value(ThisItem.'Valor a Restituir', "en-US"), "R$ ##.###00", "en-US")
-            Width: =178
-            X: =175
-            Y: =370
-            ZIndex: =17
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =5
 
     headerProjetos_2 As Cabeçalho:
         DisplayMode: =DisplayMode.Edit

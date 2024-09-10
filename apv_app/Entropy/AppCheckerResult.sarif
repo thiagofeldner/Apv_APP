@@ -134,49 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.GalSolViagens.AccessibleLabel"
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.GalSolViagens.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolictacoesViagens",
-                "type": "ScreenSolictacoesViagens.GalSolViagens"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.GalSolViagens.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.GalSolViagens.TabIndex",
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "ScreenSolictacoesViagens",
-                "type": "ScreenSolictacoesViagens.GalSolViagens"
+                "type": "ScreenSolictacoesViagens.Gallery2"
               }
             }
           ],
@@ -188,6 +158,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolictacoesViagens",
+                "type": "ScreenSolictacoesViagens.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
