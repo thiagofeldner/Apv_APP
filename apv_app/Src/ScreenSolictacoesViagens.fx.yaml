@@ -386,7 +386,7 @@ ScreenSolictacoesViagens As screen:
 
             DataCardValue93 As label:
                 AutoHeight: =true
-                DisplayMode: =Parent.DisplayMode
+                DisplayMode: =Text(ThisItem.'Dias Solicitados', "000")
                 Height: =27
                 PaddingLeft: =0
                 PaddingRight: =0
