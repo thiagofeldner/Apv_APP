@@ -209,7 +209,7 @@ ScreenSolictacoesViagens As screen:
 
         Solicitante_DataCard2 As typedDataCard.fluentV9ComboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
-            DataField: =varUserInfo.displayName
+            DataField: ="solicitante"
             Default: =ThisItem.Solicitante
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,solicitante)
