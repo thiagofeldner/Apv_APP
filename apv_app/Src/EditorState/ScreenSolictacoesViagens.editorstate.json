@@ -5280,8 +5280,8 @@
       "ControlPropertyState": [
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "\"solicitante\"",
           "InvariantPropertyName": "DataField",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -5352,7 +5352,7 @@
         {
           "Category": "Data",
           "PropertyName": "DataField",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
