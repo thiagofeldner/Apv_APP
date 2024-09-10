@@ -134,565 +134,95 @@ ScreenSolictacoesViagens As screen:
         Y: =37
         ZIndex: =7
 
-    Form4 As form.PowerApps_CoreControls_Form:
+    FormViewer1 As formViewer:
         DataSource: ='gasto de viagem'
-        Height: =627
+        Height: =612
         Item: =Gallery2.Selected
         NumberOfColumns: =1
-        UseFluentV9Cards: =true
-        Width: =745
-        X: =596
-        Y: =112
+        Width: =866
+        X: =454
+        Y: =129
         ZIndex: =8
 
-        Título_DataCard3 As typedDataCard.fluentV9TextualEditCard:
+        Título_DataCard4 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
             Default: =ThisItem.Título
-            DisplayMode: =Parent.DisplayMode
+            DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,Title)
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            MaxLength: =DataSourceInfo([@'gasto de viagem'], DataSourceInfo.MaxLength, Title)
+            Height: =40
             Required: =true
-            Update: =DataCardValue76.Value
-            Width: =745
+            Width: =866
             X: =0
             Y: =0
             ZIndex: =9
 
-            DataCardKey89 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue76.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue76 As 'Entrada de texto'":
-                AccessibleLabel: =Parent.DisplayName
-                DisplayMode: =Parent.DisplayMode
-                Height: =32
-                Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
-                Required: =Parent.Required
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Value: =Parent.Default
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey89.X + DataCardKey89.Width
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage85 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: =Parent.Error
-                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                Width: =Parent.Width - 48
-                Wrap: =true
-                X: =24
-                Y: =DataCardValue76.Y + DataCardValue76.Height
-                ZIndex: =3
-
-            StarVisible85 As Texto:
-                Align: ='TextCanvas.Align'.Center
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                X: =0
-                Y: =DataCardKey89.Y
-                ZIndex: =4
-
-        Solicitante_DataCard2 As typedDataCard.fluentV9ComboBoxEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="solicitante"
-            Default: =ThisItem.Solicitante
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,solicitante)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =true
-            Update: =DataCardValue77.Selected
-            Width: =745
-            X: =0
-            Y: =1
-            ZIndex: =9
-
-            DataCardKey90 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue77.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue77 As 'Caixa de Combinação'.pcfdataset":
-                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                DefaultSelectedItems: =[Parent.Default]
-                DisplayMode: =varUserInfo.displayName 
-                Height: =32
-                Items: =Choices([@'gasto de viagem'].solicitante)
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey90.X + DataCardKey90.Width
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage86 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: =Parent.Error
-                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                Width: =Parent.Width - 48
-                Wrap: =true
-                X: =24
-                Y: =DataCardValue77.Y + DataCardValue77.Height
-                ZIndex: =3
-
-            StarVisible86 As Texto:
-                Align: ='TextCanvas.Align'.Center
-                DisplayMode: =DisplayMode.Edit
-                Height: =20
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                X: =0
-                Y: =DataCardKey90.Y
-                ZIndex: =4
-
-        "'Data Solicitação_DataCard2' As typedDataCard.fluentV9DateEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="datasolicitacao"
-            Default: =ThisItem.'Data Solicitação'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,datasolicitacao)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =true
-            Update: =DataCardValue78.SelectedDate
-            Width: =745
-            X: =0
-            Y: =2
-            ZIndex: =9
-
-            DataCardKey91 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue78.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue78 As 'Seletor de data'":
-                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                DisplayMode: =Parent.DisplayMode
-                EndDate: =Date(Year(Today())+100, 12, 31)
-                Height: =32
-                SelectedDate: =Parent.Default
-                StartDate: =Date(1900, 1, 1)
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey91.X + DataCardKey91.Width
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage87 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: =Parent.Error
-                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                Width: =Parent.Width - 48
-                Wrap: =true
-                X: =24
-                Y: =DataCardValue78.Y + DataCardValue78.Height
-                ZIndex: =3
-
-            StarVisible87 As Texto:
-                Align: ='TextCanvas.Align'.Center
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                X: =0
-                Y: =DataCardKey91.Y
-                ZIndex: =4
-
-        "'Valor Solicitado_DataCard2' As typedDataCard.fluentV9NumberEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="valorsolicitado"
-            Default: =ThisItem.'Valor Solicitado'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,valorsolicitado)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =true
-            Update: =Value(DataCardValue79.Value)
-            Width: =745
-            X: =0
-            Y: =3
-            ZIndex: =9
-
-            DataCardKey92 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue79.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue79 As 'Entrada de texto'":
-                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                DisplayMode: =Parent.DisplayMode
-                Height: =32
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Value: =Parent.Default
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey92.X + DataCardKey92.Width
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage88 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: =Parent.Error
-                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                Width: =Parent.Width - 48
-                Wrap: =true
-                X: =24
-                Y: =DataCardValue79.Y + DataCardValue79.Height
-                ZIndex: =3
-
-            StarVisible88 As Texto:
-                Align: ='TextCanvas.Align'.Center
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                X: =0
-                Y: =DataCardKey92.Y
-                ZIndex: =4
-
-        "'Valor Gasto_DataCard2' As typedDataCard.fluentV9NumberEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="valorgasto"
-            Default: =ThisItem.'Valor Gasto'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,valorgasto)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =true
-            Update: =Value(DataCardValue80.Value)
-            Width: =745
-            X: =0
-            Y: =4
-            ZIndex: =9
-
-            DataCardKey93 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue80.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue80 As 'Entrada de texto'":
-                AccessibleLabel: =If(Parent.Required, Substitute("{0}. Obrigatório.", "{0}", Parent.DisplayName), Parent.DisplayName)
-                DisplayMode: =Parent.DisplayMode
-                Height: =32
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Value: =Parent.Default
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey93.X + DataCardKey93.Width
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage89 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: =Parent.Error
-                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                Width: =Parent.Width - 48
-                Wrap: =true
-                X: =24
-                Y: =DataCardValue80.Y + DataCardValue80.Height
-                ZIndex: =3
-
-            StarVisible89 As Texto:
-                Align: ='TextCanvas.Align'.Center
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                X: =0
-                Y: =DataCardKey93.Y
-                ZIndex: =4
-
-        "'Data Atual_DataCard2' As typedDataCard.fluentV9TextualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="dataatual"
-            Default: =ThisItem.'Data Atual'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,dataatual)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =false
-            Width: =745
-            X: =0
-            Y: =5
-            ZIndex: =9
-
-            DataCardKey94 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue81.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue81 As 'Entrada de texto'":
-                DisplayMode: =DisplayMode.View
-                Height: =32
-                Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Value: =Parent.Default
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey94.X + DataCardKey94.Width
-                Y: =10
-                ZIndex: =2
-
-        "'Dias Solicitados_DataCard2' As typedDataCard.fluentV9TextualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="diasdasolicitacao"
-            Default: =ThisItem.'Dias Solicitados'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,diasdasolicitacao)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =false
-            Width: =745
-            X: =0
-            Y: =6
-            ZIndex: =9
-
-            DataCardKey95 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue82.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue82 As 'Entrada de texto'":
-                DisplayMode: =DisplayMode.View
-                Height: =32
-                Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Value: =Parent.Default
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey95.X + DataCardKey95.Width
-                Y: =10
-                ZIndex: =2
-
-        "'Valor a Devolver_DataCard2' As typedDataCard.fluentV9TextualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="diferenca"
-            Default: =ThisItem.'Valor a Devolver'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,diferenca)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =false
-            Width: =745
-            X: =0
-            Y: =7
-            ZIndex: =9
-
-            DataCardKey96 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue83.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue83 As 'Entrada de texto'":
-                DisplayMode: =DisplayMode.View
-                Height: =32
-                Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Value: =Parent.Default
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey96.X + DataCardKey96.Width
-                Y: =10
-                ZIndex: =2
-
-        "'Valor a Restituir_DataCard2' As typedDataCard.fluentV9TextualViewCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="restituir"
-            Default: =ThisItem.'Valor a Restituir'
-            DisplayMode: =DisplayMode.View
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,restituir)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            Required: =false
-            Width: =745
-            X: =0
-            Y: =8
-            ZIndex: =9
-
-            DataCardKey97 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue84.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue84 As 'Entrada de texto'":
-                DisplayMode: =DisplayMode.View
-                Height: =32
-                Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Value: =Parent.Default
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey97.X + DataCardKey97.Width
-                Y: =10
-                ZIndex: =2
-
-        Motivo_DataCard2 As typedDataCard.fluentV9TextualEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="Motivo"
-            Default: =ThisItem.Motivo
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,Motivo)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =70
-            MaxLength: =DataSourceInfo([@'gasto de viagem'], DataSourceInfo.MaxLength, Motivo)
-            Required: =true
-            Update: =DataCardValue85.Value
-            Width: =745
-            X: =0
-            Y: =9
-            ZIndex: =9
-
-            DataCardKey98 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =22
-                Text: =Parent.DisplayName
-                Weight: ='TextCanvas.Weight'.Semibold
-                Width: =(Parent.Width - 48) * 0.4
-                Wrap: =false
-                X: =24
-                Y: =4 + (DataCardValue85.Height / 2) - (Self.Height / 2)
-                ZIndex: =1
-
-            "DataCardValue85 As 'Entrada de texto'":
-                AccessibleLabel: =Parent.DisplayName
-                DisplayMode: =Parent.DisplayMode
-                Height: =32
-                Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
-                Required: =Parent.Required
-                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
-                Value: =Parent.Default
-                Width: =(Parent.Width - 48) * 0.4
-                X: =DataCardKey98.X + DataCardKey98.Width
-                Y: =10
-                ZIndex: =2
-
-            ErrorMessage90 As Texto:
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: =Parent.Error
-                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
-                Width: =Parent.Width - 48
-                Wrap: =true
-                X: =24
-                Y: =DataCardValue85.Y + DataCardValue85.Height
-                ZIndex: =3
-
-            StarVisible90 As Texto:
-                Align: ='TextCanvas.Align'.Center
-                DisplayMode: =DisplayMode.Edit
-                Height: =30
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                X: =0
-                Y: =DataCardKey98.Y
-                ZIndex: =4
-
-        Anexos_DataCard5 As typedDataCard.attachmentsEditCard:
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="{Attachments}"
-            Default: =ThisItem.Anexos
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,'{Attachments}')
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            Required: =false
-            Update: =DataCardValue86.Attachments
-            Width: =745
-            X: =0
-            Y: =10
-            ZIndex: =9
-
-            DataCardKey99 As label:
+            DataCardKey100 As label:
                 AutoHeight: =true
                 Height: =34
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue86.Height / 2) - (Self.Height / 2)
+                Y: =10 + (DataCardValue87.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
-            DataCardValue86 As attachments:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+            DataCardValue87 As label:
+                AutoHeight: =true
                 DisplayMode: =Parent.DisplayMode
-                IsInDataCard: =true
-                Items: =Parent.Default
-                PaddingBottom: =5
-                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PaddingRight: =5
-                PaddingTop: =5
-                Tooltip: =Parent.DisplayName
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
                 Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey99.X + DataCardKey99.Width
+                X: =DataCardKey100.X + DataCardKey100.Width
                 Y: =10
                 ZIndex: =2
 
-            ErrorMessage91 As label:
+        Solicitante_DataCard3 As typedDataCard.comboBoxViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="solicitante"
+            Default: =ThisItem.Solicitante
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,solicitante)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =true
+            Update: =DataCardValue88.Selected
+            Width: =866
+            X: =0
+            Y: =1
+            ZIndex: =9
+
+            DataCardKey101 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue88.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue88 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                DefaultSelectedItems: =Parent.Default
+                DisplayFields: =["DisplayName","Email","Picture"]
+                DisplayMode: =Parent.DisplayMode
+                Items: =Choices([@'gasto de viagem'].solicitante)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SearchFields: =["DisplayName"]
+                SearchItems: =Choices('gasto de viagem'.solicitante,DataCardValue88.SearchText)
+                SelectMultiple: =false
+                Template: =ListItemTemplate.Person
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey101.X + DataCardKey101.Width
+                Y: =10
+                ZIndex: =2
+
+            ErrorMessage92 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -704,16 +234,312 @@ ScreenSolictacoesViagens As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue86.Y + DataCardValue86.Height
+                Y: =DataCardValue88.Y + DataCardValue88.Height
                 ZIndex: =3
 
-            StarVisible91 As label:
+            StarVisible92 As label:
                 Align: =Align.Center
-                Height: =DataCardKey99.Height
+                Height: =DataCardKey101.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey99.Y
+                Y: =DataCardKey101.Y
                 ZIndex: =4
+
+        "'Data Solicitação_DataCard3' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="datasolicitacao"
+            Default: =ThisItem.'Data Solicitação'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,datasolicitacao)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =true
+            Width: =866
+            X: =0
+            Y: =2
+            ZIndex: =9
+
+            DataCardKey102 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue89.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue89 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey102.X + DataCardKey102.Width
+                Y: =10
+                ZIndex: =2
+
+        "'Valor Solicitado_DataCard3' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="valorsolicitado"
+            Default: =ThisItem.'Valor Solicitado'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,valorsolicitado)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =true
+            Width: =866
+            X: =0
+            Y: =3
+            ZIndex: =9
+
+            DataCardKey103 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue90.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue90 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey103.X + DataCardKey103.Width
+                Y: =10
+                ZIndex: =2
+
+        "'Valor Gasto_DataCard3' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="valorgasto"
+            Default: =ThisItem.'Valor Gasto'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,valorgasto)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =true
+            Width: =866
+            X: =0
+            Y: =4
+            ZIndex: =9
+
+            DataCardKey104 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue91.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue91 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey104.X + DataCardKey104.Width
+                Y: =10
+                ZIndex: =2
+
+        "'Data Atual_DataCard3' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="dataatual"
+            Default: =ThisItem.'Data Atual'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,dataatual)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =866
+            X: =0
+            Y: =5
+            ZIndex: =9
+
+            DataCardKey105 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue92.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue92 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey105.X + DataCardKey105.Width
+                Y: =10
+                ZIndex: =2
+
+        "'Dias Solicitados_DataCard3' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="diasdasolicitacao"
+            Default: =ThisItem.'Dias Solicitados'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,diasdasolicitacao)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =866
+            X: =0
+            Y: =6
+            ZIndex: =9
+
+            DataCardKey106 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue93.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue93 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey106.X + DataCardKey106.Width
+                Y: =10
+                ZIndex: =2
+
+        "'Valor a Devolver_DataCard3' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="diferenca"
+            Default: =ThisItem.'Valor a Devolver'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,diferenca)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =866
+            X: =0
+            Y: =7
+            ZIndex: =9
+
+            DataCardKey107 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue94.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue94 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey107.X + DataCardKey107.Width
+                Y: =10
+                ZIndex: =2
+
+        "'Valor a Restituir_DataCard3' As typedDataCard.textualViewCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="restituir"
+            Default: =ThisItem.'Valor a Restituir'
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,restituir)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =false
+            Width: =866
+            X: =0
+            Y: =8
+            ZIndex: =9
+
+            DataCardKey108 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue95.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue95 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey108.X + DataCardKey108.Width
+                Y: =10
+                ZIndex: =2
+
+        Motivo_DataCard3 As typedDataCard.textualViewCard:
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Motivo"
+            Default: =ThisItem.Motivo
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'gasto de viagem'],DataSourceInfo.DisplayName,Motivo)
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =40
+            Required: =true
+            Width: =866
+            X: =0
+            Y: =9
+            ZIndex: =9
+
+            DataCardKey109 As label:
+                AutoHeight: =true
+                Height: =34
+                Text: =Parent.DisplayName
+                Width: =(Parent.Width - 60) * 0.4
+                Wrap: =false
+                X: =30
+                Y: =10 + (DataCardValue96.Height / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            DataCardValue96 As label:
+                AutoHeight: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =27
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =Parent.Default
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey109.X + DataCardKey109.Width
+                Y: =10
+                ZIndex: =2
 
