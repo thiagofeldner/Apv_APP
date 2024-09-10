@@ -231,12 +231,14 @@ HomeScreen As screen:
     Header1 As Cabeçalho:
         BasePaletteColor: =RGBA(141, 229, 250, 1)
         DisplayMode: =DisplayMode.Edit
+        Font: =Font.Lato
         Height: =77
         IsProfilePictureVisible: =false
         IsTitleVisible: =false
         Logo: =Logo_branco
         OnSelectLogo: =false
         Title: =App.ActiveScreen.Name
+        TitleFontSize: =12
         UserEmail: =User().Email
         UserImage: =User().Image
         UserName: =User().FullName
