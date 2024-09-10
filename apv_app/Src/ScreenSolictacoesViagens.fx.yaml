@@ -22,7 +22,7 @@ ScreenSolictacoesViagens As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Título
+            Text: =ThisItem.Nome
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =16
@@ -37,7 +37,7 @@ ScreenSolictacoesViagens As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.Nome
+            Text: =ThisItem.Solicitante.DisplayName
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3.Width
             X: =Title3.X
@@ -140,8 +140,8 @@ ScreenSolictacoesViagens As screen:
         Item: =Gallery2.Selected
         NumberOfColumns: =1
         UseFluentV9Cards: =true
-        Width: =863
-        X: =478
+        Width: =745
+        X: =596
         Y: =112
         ZIndex: =8
 
@@ -156,7 +156,7 @@ ScreenSolictacoesViagens As screen:
             MaxLength: =DataSourceInfo([@'gasto de viagem'], DataSourceInfo.MaxLength, Title)
             Required: =true
             Update: =DataCardValue76.Value
-            Width: =863
+            Width: =745
             X: =0
             Y: =0
             ZIndex: =9
@@ -217,7 +217,7 @@ ScreenSolictacoesViagens As screen:
             Height: =70
             Required: =true
             Update: =DataCardValue77.Selected
-            Width: =863
+            Width: =745
             X: =0
             Y: =1
             ZIndex: =9
@@ -277,7 +277,7 @@ ScreenSolictacoesViagens As screen:
             Height: =70
             Required: =true
             Update: =DataCardValue78.SelectedDate
-            Width: =863
+            Width: =745
             X: =0
             Y: =2
             ZIndex: =9
@@ -338,7 +338,7 @@ ScreenSolictacoesViagens As screen:
             Height: =70
             Required: =true
             Update: =Value(DataCardValue79.Value)
-            Width: =863
+            Width: =745
             X: =0
             Y: =3
             ZIndex: =9
@@ -397,7 +397,7 @@ ScreenSolictacoesViagens As screen:
             Height: =70
             Required: =true
             Update: =Value(DataCardValue80.Value)
-            Width: =863
+            Width: =745
             X: =0
             Y: =4
             ZIndex: =9
@@ -455,7 +455,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =863
+            Width: =745
             X: =0
             Y: =5
             ZIndex: =9
@@ -491,7 +491,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =863
+            Width: =745
             X: =0
             Y: =6
             ZIndex: =9
@@ -527,7 +527,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =863
+            Width: =745
             X: =0
             Y: =7
             ZIndex: =9
@@ -563,7 +563,7 @@ ScreenSolictacoesViagens As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             Required: =false
-            Width: =863
+            Width: =745
             X: =0
             Y: =8
             ZIndex: =9
@@ -601,7 +601,7 @@ ScreenSolictacoesViagens As screen:
             MaxLength: =DataSourceInfo([@'gasto de viagem'], DataSourceInfo.MaxLength, Motivo)
             Required: =true
             Update: =DataCardValue85.Value
-            Width: =863
+            Width: =745
             X: =0
             Y: =9
             ZIndex: =9
@@ -662,7 +662,7 @@ ScreenSolictacoesViagens As screen:
             Height: =50
             Required: =false
             Update: =DataCardValue86.Attachments
-            Width: =863
+            Width: =745
             X: =0
             Y: =10
             ZIndex: =9
