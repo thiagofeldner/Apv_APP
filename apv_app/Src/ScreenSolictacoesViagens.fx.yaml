@@ -316,7 +316,7 @@ ScreenSolictacoesViagens As screen:
                 PaddingRight: =0
                 PaddingTop: =0
                 Text: |-
-                    =Text(Gallery2.Selected.'Valor Solicitado', "$##.###00")
+                    =Text(ThisItem.'Valor Solicitado', "$##.###00")
                 Width: =(Parent.Width - 60) * 0.6
                 X: =DataCardKey103.X + DataCardKey103.Width
                 Y: =10
