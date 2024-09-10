@@ -238,7 +238,7 @@ ScreenSolictacoesViagens As screen:
                 DefaultSelectedItems: =[Parent.Default]
                 DisplayMode: =Parent.DisplayMode
                 Height: =32
-                Items: =Choices([@'gasto de viagem'].solicitante)
+                Items: =([@'gasto de viagem'].solicitante)
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Width: =(Parent.Width - 48) * 0.4
                 X: =DataCardKey90.X + DataCardKey90.Width
