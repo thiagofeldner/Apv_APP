@@ -91,7 +91,7 @@ ProjetosScreen As screen:
         FontItalic: =true
         FontSize: =14
         FontWeight: =FontWeight.Semibold
-        Height: =42
+        Height: =49
         IconStyle: ='ButtonCanvas.IconStyle'.Outline
         OnSelect: =Navigate(ScreenSolictacoesViagens,ScreenTransition.CoverRight)
         Text: ="Solicitação de Viagem"
