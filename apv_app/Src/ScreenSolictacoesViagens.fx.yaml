@@ -137,6 +137,7 @@ ScreenSolictacoesViagens As screen:
     Form4 As form.PowerApps_CoreControls_Form:
         DataSource: ='gasto de viagem'
         Height: =627
+        Item: =Gallery2.Selected
         NumberOfColumns: =1
         UseFluentV9Cards: =true
         Width: =863
