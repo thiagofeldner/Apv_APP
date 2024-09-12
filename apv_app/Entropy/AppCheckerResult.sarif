@@ -14,606 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.btnHomeProj_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.btnHomeProj_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolictacoesViagens",
-                "type": "ScreenSolictacoesViagens.btnHomeProj_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.FormViewer1.Solicitante_DataCard3.DataCardValue88.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.FormViewer1.Solicitante_DataCard3.DataCardValue88.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolictacoesViagens",
-                "type": "ScreenSolictacoesViagens.FormViewer1.Solicitante_DataCard3.DataCardValue88"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolictacoesViagens",
-                "type": "ScreenSolictacoesViagens.Gallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScreenSolictacoesViagens",
-                "type": "ScreenSolictacoesViagens.Gallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.NomeGerente_Value.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.NomeGerente_Value.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.NomeGerente_Value"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.EmailGerente_Value.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.EmailGerente_Value.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.EmailGerente_Value"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.InicioFerias_Value1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.InicioFerias_Value1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.InicioFerias_Value1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.FimFerias_Value1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.FimFerias_Value1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.FimFerias_Value1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.DiasFerias_Value1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.DiasFerias_Value1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.DiasFerias_Value1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.InicioFerias_Value2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.InicioFerias_Value2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.InicioFerias_Value2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.FimFerias_Value2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.FimFerias_Value2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.FimFerias_Value2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.DiasFerias_Value2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.DiasFerias_Value2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.DiasFerias_Value2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.InicioFerias_Value3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.InicioFerias_Value3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.InicioFerias_Value3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.FimFerias_Value3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.FimFerias_Value3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.FimFerias_Value3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.DiasFerias_Value3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.DiasFerias_Value3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.DiasFerias_Value3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.EmailColaborador_DataCard1.EmailColaborador_Value.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.EmailColaborador_DataCard1.EmailColaborador_Value.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.EmailColaborador_DataCard1.EmailColaborador_Value"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.Dropdown_PeriodoFerias.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScreenSolicitacoesFerias.Dropdown_PeriodoFerias.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScreenSolicitacoesFerias",
-                "type": "ScreenSolicitacoesFerias.Dropdown_PeriodoFerias"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ProjetosScreen.btnHomeProj.AccessibleLabel"
                 }
               ],
@@ -726,7 +126,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -875,7 +275,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1895,7 +1295,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -2802,6 +2202,606 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.btnHomeProj_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.btnHomeProj_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolictacoesViagens",
+                "type": "ScreenSolictacoesViagens.btnHomeProj_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.FormViewer1.Solicitante_DataCard3.DataCardValue88.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.FormViewer1.Solicitante_DataCard3.DataCardValue88.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolictacoesViagens",
+                "type": "ScreenSolictacoesViagens.FormViewer1.Solicitante_DataCard3.DataCardValue88"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolictacoesViagens",
+                "type": "ScreenSolictacoesViagens.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolictacoesViagens.Gallery2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ScreenSolictacoesViagens",
+                "type": "ScreenSolictacoesViagens.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.contSolViag_1.iconVoltar_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.NomeColaborador_DataCard1.Colaborador_Value1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.NomeGerente_Value.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.NomeGerente_Value.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Nome do Gerente_DataCard'.NomeGerente_Value"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.EmailGerente_Value.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.EmailGerente_Value.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Email do Gerente_DataCard'.EmailGerente_Value"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.InicioFerias_Value1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.InicioFerias_Value1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Inicio das Férias_DataCard1'.InicioFerias_Value1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.FimFerias_Value1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.FimFerias_Value1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard1'.FimFerias_Value1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.DiasFerias_Value1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.DiasFerias_Value1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard1'.DiasFerias_Value1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.InicioFerias_Value2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.InicioFerias_Value2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início das Férias_DataCard2'.InicioFerias_Value2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.FimFerias_Value2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.FimFerias_Value2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim das Férias_DataCard2'.FimFerias_Value2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.DiasFerias_Value2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.DiasFerias_Value2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard2'.DiasFerias_Value2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.InicioFerias_Value3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.InicioFerias_Value3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Início Férias_DataCard3'.InicioFerias_Value3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.FimFerias_Value3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.FimFerias_Value3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Fim Férias_DataCard3'.FimFerias_Value3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.DiasFerias_Value3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.DiasFerias_Value3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.'Dias de Férias_DataCard3'.DiasFerias_Value3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.EmailColaborador_DataCard1.EmailColaborador_Value.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.EmailColaborador_DataCard1.EmailColaborador_Value.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.'SolicitacoesFerias Form'.EmailColaborador_DataCard1.EmailColaborador_Value"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.Dropdown_PeriodoFerias.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ScreenSolicitacoesFerias.Dropdown_PeriodoFerias.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ScreenSolicitacoesFerias",
+                "type": "ScreenSolicitacoesFerias.Dropdown_PeriodoFerias"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "FinanScreen.btnHomeFinan.AccessibleLabel"
                 }
               ],
@@ -2975,7 +2975,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3155,7 +3155,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -3634,7 +3634,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -3930,23 +3930,6 @@
               }
             },
             {
-              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing tab stop"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
               "id": "acc-ReadableScreenNameNeeded",
               "messageStrings": {
                 "issue": {
@@ -3961,6 +3944,23 @@
                 "level": "Low",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
               }
             },
             {
