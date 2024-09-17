@@ -76,7 +76,7 @@ Screen1 As screen:
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
             Order: =7
-            Text: =ThisItem.field_8
+            Text: =ThisItem.'Ass do contrato'
             Width: =100
             X: =0
             Y: =0

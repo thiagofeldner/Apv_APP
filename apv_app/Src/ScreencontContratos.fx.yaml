@@ -662,7 +662,7 @@ ScreencontContratos As screen:
         "'Assinatura do contrato_DataCard2' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_8"
-            Default: =ThisItem.'Assinatura do contrato'
+            Default: =ThisItem.'Ass do contrato'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_8)
             Fill: =RGBA(0, 0, 0, 0)
@@ -1923,7 +1923,7 @@ ScreencontContratos As screen:
         "'Inicial do termo_DataCard2' As typedDataCard.dateEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_33"
-            Default: =ThisItem.'Inicial do termo'
+            Default: =ThisItem.field_33
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_33)
             Fill: =RGBA(0, 0, 0, 0)
