@@ -1,6 +1,8 @@
 RHScreen As screen:
 
     headerRh As Cabeçalho:
+        Align: =""
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         Height: =75

@@ -4,7 +4,9 @@ HomeScreen As screen:
     ImagePosition: =ImagePosition.Center
 
     cabecalhoHome As Cabeçalho:
+        Align: =""
         BasePaletteColor: =RGBA(141, 229, 250, 1)
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         Height: =75
@@ -229,7 +231,9 @@ HomeScreen As screen:
         ZIndex: =18
 
     Header1 As Cabeçalho:
+        Align: =""
         BasePaletteColor: =RGBA(141, 229, 250, 1)
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Font: =Font.Lato
         Height: =77

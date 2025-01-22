@@ -145,7 +145,7 @@ Screen1 As screen:
         DisplayMode: =DisplayMode.Edit
         FontColor: =
         Height: =32
-        OnSelect: =Collect(colAddCollection, AddColumns(colItemsCollection, Revenue, 'Valor contrato' * Execução))
+        OnSelect: =Collect(colAddCollection, AddColumns(colItemsCollection, Revenue, 'Valor contrato' * 'Ass. 1º Termo'))
         Text: ="Adicionar Coluna"
         Width: =140
         X: =40

@@ -27,6 +27,8 @@
             ZIndex: =2
 
             Header2 As Cabeçalho:
+                Align: =""
+                BorderStyle: =""
                 DisplayMode: =DisplayMode.Edit
                 Height: =75
                 IsTitleVisible: =true
@@ -133,7 +135,7 @@
                         LayoutMinWidth: =Parent.Width
                         Size: =16
                         Text: ="Descrição curta ou mensagem motivadora"
-                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width
                         X: =0
                         Y: =0
@@ -212,7 +214,7 @@
                         LayoutMinWidth: =Parent.Width
                         Size: =16
                         Text: ="Descrição curta ou mensagem motivadora"
-                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width
                         X: =0
                         Y: =0
@@ -291,7 +293,7 @@
                         LayoutMinWidth: =Parent.Width
                         Size: =16
                         Text: ="Descrição curta ou mensagem motivadora"
-                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width
                         X: =0
                         Y: =0
@@ -370,7 +372,7 @@
                         LayoutMinWidth: =Parent.Width
                         Size: =16
                         Text: ="Descrição curta ou mensagem motivadora"
-                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width
                         X: =0
                         Y: =0
@@ -449,7 +451,7 @@
                         LayoutMinWidth: =Parent.Width
                         Size: =16
                         Text: ="Descrição curta ou mensagem motivadora"
-                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width
                         X: =0
                         Y: =0
@@ -528,7 +530,7 @@
                         LayoutMinWidth: =Parent.Width
                         Size: =16
                         Text: ="Descrição curta ou mensagem motivadora"
-                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        VerticalAlign: =VerticalAlign.Top
                         Width: =Parent.Width
                         X: =0
                         Y: =0

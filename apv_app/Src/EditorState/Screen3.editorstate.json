@@ -3237,7 +3237,9 @@
           "InvariantPropertyName": "IsTitleVisible",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
-        }
+        },
+        "Align",
+        "BorderStyle"
       ],
       "DynamicProperties": [
         {
@@ -3333,6 +3335,16 @@
         {
           "Category": "Data",
           "PropertyName": "IsTitleVisible",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Align",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "BorderStyle",
           "RuleProviderType": "Unknown"
         },
         {

@@ -1,6 +1,8 @@
 ProjetosScreen As screen:
 
     headerProjetos As Cabeçalho:
+        Align: =""
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Height: =75
         IsLogoVisible: =false

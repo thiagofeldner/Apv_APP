@@ -1,6 +1,8 @@
 FinanScreen As screen:
 
     headerFinanceiro As Cabeçalho:
+        Align: =""
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Height: =75
         IsLogoVisible: =false

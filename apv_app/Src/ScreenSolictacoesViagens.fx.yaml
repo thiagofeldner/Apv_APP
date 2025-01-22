@@ -75,6 +75,8 @@ ScreenSolictacoesViagens As screen:
             ZIndex: =5
 
     headerProjetos_2 As Cabeçalho:
+        Align: =""
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Height: =75
         IsLogoVisible: =false

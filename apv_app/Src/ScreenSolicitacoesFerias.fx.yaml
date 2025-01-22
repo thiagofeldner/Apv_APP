@@ -1111,7 +1111,7 @@ ScreenSolicitacoesFerias As screen:
             Height: =53
             Size: =28
             Text: ="Solicitação de Férias"
-            VerticalAlign: ='TextCanvas.VerticalAlign'.Middle
+            VerticalAlign: =VerticalAlign.Middle
             Weight: ='TextCanvas.Weight'.Regular
             Width: =352
             X: =444

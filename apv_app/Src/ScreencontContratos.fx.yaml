@@ -1106,7 +1106,7 @@ ScreencontContratos As screen:
         "'Portaria anterior_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_14"
-            Default: =ThisItem.'Portaria anterior'
+            Default: =ThisItem.'1ª Portaria'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_14)
             Fill: =RGBA(0, 0, 0, 0)
@@ -1627,7 +1627,7 @@ ScreencontContratos As screen:
         "'Termo aditivo_DataCard2' As typedDataCard.textualEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_29"
-            Default: =ThisItem.'Termo aditivo'
+            Default: =ThisItem.'1º Termo aditivo'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_29)
             Fill: =RGBA(0, 0, 0, 0)
@@ -1703,7 +1703,7 @@ ScreencontContratos As screen:
         "'Objeto do termo_DataCard2' As typedDataCard.comboBoxEditCard":
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_30"
-            Default: =ThisItem.'Objeto do termo'
+            Default: =ThisItem.'2º Termo aditivo'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_30)
             Fill: =RGBA(0, 0, 0, 0)
@@ -1732,10 +1732,10 @@ ScreencontContratos As screen:
                 DefaultSelectedItems: =Parent.Default
                 DisplayFields: =["Value"]
                 DisplayMode: =Parent.DisplayMode
-                Items: =Choices([@'Controle de contratos'].field_30)
+                Items: =Choices([@'Controle de contratos'].'2º Termo aditivo')
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                 SearchFields: =["Value"]
-                SearchItems: =Choices('Controle de contratos'.field_30,DataCardValue57.SearchText)
+                SearchItems: =Choices('Controle de contratos'.'2º Termo aditivo',DataCardValue57.SearchText)
                 SelectMultiple: =false
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -1777,7 +1777,7 @@ ScreencontContratos As screen:
         Execução_DataCard2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_31"
-            Default: =ThisItem.Execução
+            Default: =ThisItem.'Ass. 1º Termo'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_31)
             Fill: =RGBA(0, 0, 0, 0)
@@ -1850,7 +1850,7 @@ ScreencontContratos As screen:
         Vigência_DataCard2 As typedDataCard.dateEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="field_32"
-            Default: =ThisItem.Vigência
+            Default: =ThisItem.'Venc. 1º termo'
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Controle de contratos'],DataSourceInfo.DisplayName,field_32)
             Fill: =RGBA(0, 0, 0, 0)
@@ -2289,6 +2289,8 @@ ScreencontContratos As screen:
                 ZIndex: =4
 
     headerProjetos_3 As Cabeçalho:
+        Align: =""
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Height: =75
         IsLogoVisible: =false

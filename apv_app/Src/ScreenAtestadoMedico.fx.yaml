@@ -184,6 +184,8 @@
                             DisplayMode: =Parent.DisplayMode
                             Height: =32
                             Items: =Choices([@'Cadastro de Atestado'].Etapa)
+                            Required: =false
+                            TriggerOutput: ="Keypress"
                             ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                             Width: =Parent.Width - 48
                             X: =24
@@ -647,7 +649,7 @@
                         FontColor: =
                         Height: =Parent.TemplateHeight / 2 - 5
                         Text: =varUserInfo.displayName
-                        VerticalAlign: ='TextCanvas.VerticalAlign'.Top
+                        VerticalAlign: =VerticalAlign.Top
                         Weight: =If(ThisItem.Current, "Bold", "Regular")
                         Width: =ReviewerNameText1.Width
                         X: =ReviewerNameText1.X
@@ -665,6 +667,8 @@
         ZIndex: =2
 
     Header3_1 As Cabeçalho:
+        Align: =""
+        BorderStyle: =""
         DisplayMode: =DisplayMode.Edit
         Height: =75
         IsLogoVisible: =false
