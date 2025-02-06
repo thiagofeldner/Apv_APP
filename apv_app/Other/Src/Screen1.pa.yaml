@@ -1,0 +1,139 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  Screen1:
+    Properties:
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - DataTable2:
+          Control: DataTable@1.0.3
+          Variant: DataTable
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            HeadingColor: =RGBA(255, 255, 255, 1)
+            HeadingFill: =RGBA(56, 96, 178, 1)
+            HeadingFont: =Font.'Open Sans'
+            Height: =610
+            HoverFill: =RGBA(186, 202, 226, .2)
+            Items: =colItemsCollection
+            SelectedFill: =RGBA(56, 96, 178, .2)
+            Width: =1303
+            X: =40
+            Y: =40
+          Children:
+            - field_3_Coluna3:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  FieldDisplayName: ="field_3"
+                  FieldName: ="field_3"
+                  Order: =3
+                  Text: =ThisItem.field_3
+            - Nome_Empresa:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  AutoWidth: =false
+                  FieldDisplayName: ="Nome Empesa"
+                  FieldName: ="field_4"
+                  Order: =4
+                  Text: =ThisItem.field_4
+                  Width: =330
+            - CNPJ:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  FieldDisplayName: ="CNPJ"
+                  FieldName: ="field_5"
+                  Order: =5
+                  Text: =ThisItem.field_5
+            - field_6_Coluna3:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  FieldDisplayName: ="field_6"
+                  FieldName: ="field_6"
+                  Order: =6
+                  Text: =ThisItem.field_6
+            - field_8_Coluna3:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  FieldDisplayName: ="field_8"
+                  FieldName: ="field_8"
+                  Order: =7
+                  Text: =ThisItem.'Ass do contrato'
+            - field_9_Coluna3:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  FieldDisplayName: ="field_9"
+                  FieldName: ="field_9"
+                  Order: =8
+                  Text: =ThisItem.field_9
+            - field_11_Coluna2:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  FieldDisplayName: ="field_11"
+                  FieldName: ="field_11"
+                  Order: =9
+                  Text: =ThisItem.field_11
+            - field_10_Coluna3:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  FieldDisplayName: ="field_10"
+                  FieldName: ="field_10"
+                  Order: =10
+                  Text: =ThisItem.field_10
+            - Finaldotermo_Coluna2:
+                Control: DataTableColumn@1.0.1
+                Variant: Textual
+                Properties:
+                  AutoWidth: =false
+                  FieldDisplayName: ="Finaldotermo"
+                  FieldName: ="Finaldotermo"
+                  Order: =11
+                  Text: =ThisItem.Finaldotermo
+                  Width: =167
+      - ButtonCanvas1:
+          Control: Button@0.0.44
+          Properties:
+            OnSelect: =Collect(colAddCollection, AddColumns(colItemsCollection, Revenue, 'Valor contrato' * 'Ass. 1º Termo'))
+            Text: ="Adicionar Coluna"
+            Width: =140
+            X: =40
+            Y: =695
+      - ButtonCanvas1_1:
+          Control: Button@0.0.44
+          Properties:
+            OnSelect: =Collect(colDropCollection, DropColumns(colItemsCollection, 'Final do termo'))
+            Text: ="Descartar Coluna"
+            Width: =136
+            X: =212
+            Y: =695
+      - ButtonCanvas1_2:
+          Control: Button@0.0.44
+          Properties:
+            OnSelect: =Collect(colShowCollection, ShowColumns(colItemsCollection, 'Contrato de gestão '))
+            Text: ="Mostrar Coluna"
+            Width: =132
+            X: =395
+            Y: =695
+      - ButtonCanvas1_3:
+          Control: Button@0.0.44
+          Properties:
+            OnSelect: =Collect(colRenameCollection, RenameColumns(colItemsCollection, 'Contrato de gestão ', Teste_deColuna ))
+            Text: ="Renomear Coluna"
+            Width: =141
+            X: =570
+            Y: =695

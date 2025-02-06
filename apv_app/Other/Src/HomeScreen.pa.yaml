@@ -1,0 +1,254 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  HomeScreen:
+    Properties:
+      Fill: =RGBA(0, 0, 0, 0)
+      ImagePosition: =ImagePosition.Center
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - cabecalhoHome:
+          Control: Header@0.0.42
+          Properties:
+            BasePaletteColor: =RGBA(141, 229, 250, 1)
+            Font: =Font.Lato
+            Logo: =Logo_branco
+            Style: ='Header.Style'.Primary
+            Title: =
+            Width: =1333
+            X: =15
+            Y: =19
+      - txtEmpresa:
+          Control: Text@0.0.50
+          Properties:
+            Align: ='TextCanvas.Align'.Center
+            BorderStyle: =BorderStyle.None
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =64
+            Size: =32
+            Text: ="Agência Peixe Vivo"
+            Weight: ='TextCanvas.Weight'.Bold
+            Width: =346
+            X: =508
+            Y: =24
+      - txtUser:
+          Control: Text@0.0.50
+          Properties:
+            Align: ='TextCanvas.Align'.Start
+            Font: =Font.Lato
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =38
+            Size: =12
+            Text: ="Bem vindo , " & varUserInfo.displayName
+            Weight: ='TextCanvas.Weight'.Medium
+            Width: =203
+            X: =1078
+            Y: =37
+      - containerHeader:
+          Control: GroupContainer@1.3.0
+          Variant: AutoLayout
+          Properties:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderStyle: =BorderStyle.None
+            DropShadow: =DropShadow.Semibold
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =548
+            LayoutDirection: =LayoutDirection.Horizontal
+            Width: =197
+            X: =15
+            Y: =109
+      - rectHome:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderStyle: =BorderStyle.None
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =464
+            Width: =170
+            X: =31
+            Y: =173
+      - btnRh:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =40
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            OnSelect: =Navigate(RHScreen, ScreenTransition.CoverRight)
+            Text: ="RH"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =47
+            Y: =580
+      - btnFinanceiro:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            OnSelect: =Navigate(FinanScreen, ScreenTransition.CoverRight)
+            Text: ="Financeiro"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =47
+            Y: =255
+      - btnProj:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            OnSelect: =Navigate(ProjetosScreen, ScreenTransition.CoverRight)
+            Text: ="Projetos"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =47
+            Y: =515
+      - btnIntegração:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            Text: ="Integração"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =47
+            Y: =323
+      - btnJur:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            Text: ="Jurídico"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =47
+            Y: =387
+      - btnCont:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            BasePaletteColor: =RGBA(141, 229, 250, 1)
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            OnSelect: =Navigate(ScreenControleContratos, ScreenTransition.CoverRight)
+            Text: ="Contratos"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =47
+            Y: =192
+      - headerHome:
+          Control: GroupContainer@1.3.0
+          Variant: ManualLayout
+          Properties:
+            DropShadow: =DropShadow.Semilight
+            Fill: =RGBA(40, 112, 134, 1)
+            Height: =52
+            Width: =197
+            X: =15
+            Y: =109
+          Children:
+            - txtDeptos:
+                Control: Text@0.0.50
+                Properties:
+                  Align: ='TextCanvas.Align'.Center
+                  Font: =Font.'Lato Black'
+                  FontColor: =RGBA(255, 255, 255, 1)
+                  Height: =30
+                  Size: =20
+                  Text: ="Departamentos"
+                  Width: =169
+                  X: =16
+                  Y: =12
+      - btnLinksUteis:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            OnSelect: =Navigate(LinksUteis, ScreenTransition.CoverRight)
+            Text: ="Links Úteis"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =47
+            Y: =451
+      - Image5:
+          Control: Image@2.2.3
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Height: =63
+            Image: =Logo_branco
+            X: =31
+            Y: =692
+      - Header1:
+          Control: Header@0.0.42
+          Properties:
+            BasePaletteColor: =RGBA(141, 229, 250, 1)
+            Font: =Font.Lato
+            Height: =77
+            IsProfilePictureVisible: =false
+            IsTitleVisible: =false
+            Logo: =Logo_branco
+            TitleFontSize: =12
+            Width: =1333
+            X: =15
+            Y: =677
+      - TextCanvas4:
+          Control: Text@0.0.50
+          Properties:
+            Font: =Font.Lato
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =63
+            Size: =12
+            Text: |-
+              ="Agência Peixe Vivo 
+              Rua Carijós, 166, 5º andar – Centro
+              CEP: 30120-060 – Tel.: (31) 3207-8500"
+            Weight: ='TextCanvas.Weight'.Semibold
+            Width: =222
+            X: =1107
+            Y: =684

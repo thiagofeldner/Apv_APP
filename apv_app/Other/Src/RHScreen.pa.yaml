@@ -1,0 +1,161 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  RHScreen:
+    Properties:
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - headerRh:
+          Control: Header@0.0.42
+          Properties:
+            Font: =Font.Lato
+            IsLogoVisible: =false
+            IsTitleVisible: =false
+            TitleFontSize: =0
+            Width: =1333
+            X: =15
+            Y: =19
+      - txtRh:
+          Control: Text@0.0.50
+          Properties:
+            Align: ='TextCanvas.Align'.Center
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =53
+            Size: =32
+            Text: ="RH"
+            Weight: ='TextCanvas.Weight'.Regular
+            X: =558
+            Y: =30
+      - btnHomeRh:
+          Control: Button@0.0.44
+          Properties:
+            Font: =Font.Lato
+            FontSize: =42
+            Height: =43
+            Icon: ="Home"
+            IconStyle: ='ButtonCanvas.IconStyle'.Filled
+            OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCoverRight)
+            Text: =
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =49
+            X: =31
+            Y: =35
+      - containerOpRH:
+          Control: GroupContainer@1.3.0
+          Variant: AutoLayout
+          Properties:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderStyle: =BorderStyle.None
+            DropShadow: =DropShadow.Semibold
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =614
+            LayoutDirection: =LayoutDirection.Horizontal
+            Width: =183
+            X: =15
+            Y: =132
+      - rectOpRh:
+          Control: Rectangle@2.3.0
+          Properties:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            BorderStyle: =BorderStyle.None
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =554
+            Width: =156
+            X: =31
+            Y: =189
+      - btnAtesMed:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            OnSelect: =Navigate(ScreenAtestadoMedico, ScreenTransition.Cover)
+            Text: ="Atestado Médico"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =37
+            Y: =290
+      - btnSolFer:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            OnSelect: =Navigate(ScreenSolicitacoesFerias,ScreenTransition.Fade)
+            Text: ="Solicitação de Férias"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =37
+            Y: =219
+      - containerOpcoes:
+          Control: GroupContainer@1.3.0
+          Variant: ManualLayout
+          Properties:
+            DropShadow: =DropShadow.Regular
+            Fill: =RGBA(40, 112, 134, 1)
+            Height: =57
+            Width: =183
+            X: =15
+            Y: =132
+          Children:
+            - txtOpcoes:
+                Control: Text@0.0.50
+                Properties:
+                  Align: ='TextCanvas.Align'.Center
+                  Font: =Font.'Lato Black'
+                  FontColor: =RGBA(255, 255, 255, 1)
+                  Height: =39
+                  Size: =20
+                  Text: ="Opções"
+                  Width: =124
+                  X: =28
+                  Y: =8
+      - btnLinksUteis_1:
+          Control: Button@0.0.44
+          Properties:
+            Align: =Align.Justify
+            Appearance: ='ButtonCanvas.Appearance'.Primary
+            Font: =Font.Lato
+            FontItalic: =true
+            FontSize: =14
+            FontWeight: =FontWeight.Semibold
+            Height: =42
+            IconStyle: ='ButtonCanvas.IconStyle'.Outline
+            OnSelect: =Navigate(LinksUteis, ScreenTransition.Fade)
+            Text: ="Links Úteis"
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =138
+            X: =37
+            Y: =360
+      - txtUserRh:
+          Control: Text@0.0.50
+          Properties:
+            Align: ='TextCanvas.Align'.Start
+            Font: =Font.Lato
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =41
+            Size: =12
+            Text: =varUserInfo.displayName
+            Weight: ='TextCanvas.Weight'.Medium
+            Width: =148
+            X: =1133
+            Y: =37

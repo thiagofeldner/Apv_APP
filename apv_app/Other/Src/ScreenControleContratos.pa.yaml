@@ -1,0 +1,224 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  ScreenControleContratos:
+    Properties:
+      Fill: =RGBA(255, 255, 255, 1)
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - Gallery1:
+          Control: Gallery@2.15.0
+          Variant: BrowseLayout_Vertical_ThreeTextVariant_ver5.0
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Height: =594
+            Items: ='Controle de contratos'
+            Width: =551
+            Y: =114
+          Children:
+            - Title2:
+                Control: Label@2.5.1
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Color: =RGBA(50, 49, 48, 1)
+                  Font: =Font.'Open Sans'
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =Self.Size * 1.8
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =14
+                  Text: =ThisItem.Contratada
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =Parent.TemplateWidth - 86
+                  X: =16
+                  Y: =(Parent.TemplateHeight - (Self.Size*1.8 + Subtitle2.Size*1.8 + 2 + Body1.Size*1.8)) / 2
+            - Subtitle2:
+                Control: Label@2.5.1
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Font: =Font.'Open Sans'
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =Self.Size * 1.8
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =12
+                  Text: =ThisItem.CNPJ
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =Title2.Width
+                  X: =Title2.X
+                  Y: =Title2.Y + Title2.Height
+            - Body1:
+                Control: Label@2.5.1
+                Properties:
+                  BorderColor: =RGBA(0, 0, 0, 1)
+                  Font: =Font.'Open Sans'
+                  FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                  Height: =Self.Size * 1.8
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =0
+                  PaddingLeft: =0
+                  PaddingRight: =0
+                  PaddingTop: =0
+                  Size: =12
+                  Text: =ThisItem.'Contrato de gestão '
+                  VerticalAlign: =VerticalAlign.Top
+                  Width: =Title2.Width
+                  X: =Title2.X
+                  Y: =Subtitle2.Y + Subtitle2.Height
+            - NextArrow2:
+                Control: Classic/Icon@2.5.0
+                Properties:
+                  AccessibleLabel: =Self.Tooltip
+                  BorderColor: =RGBA(0, 18, 107, 1)
+                  Color: =RGBA(166, 166, 166, 1)
+                  Height: =50
+                  Icon: =Icon.ChevronRight
+                  OnSelect: =Select(Parent)
+                  PaddingBottom: =16
+                  PaddingLeft: =16
+                  PaddingRight: =16
+                  PaddingTop: =16
+                  Tooltip: ="Exibir detalhes do item"
+                  Width: =50
+                  X: =Parent.TemplateWidth - Self.Width - 12
+                  Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            - Separator2:
+                Control: Rectangle@2.3.0
+                Properties:
+                  BorderColor: =RGBA(0, 18, 107, 1)
+                  Fill: =RGBA(255, 255, 255, 1)
+                  Height: =8
+                  OnSelect: =Select(Parent)
+                  Width: =Parent.TemplateWidth
+                  Y: =Parent.TemplateHeight - Self.Height
+            - Rectangle4:
+                Control: Rectangle@2.3.0
+                Properties:
+                  BorderColor: =RGBA(0, 18, 107, 1)
+                  Fill: =RGBA(0, 18, 107, 1)
+                  Height: =Parent.TemplateHeight - Separator2.Height
+                  OnSelect: =Select(Parent)
+                  Visible: =ThisItem.IsSelected
+                  Width: =4
+      - ButtonCanvas3:
+          Control: Button@0.0.44
+          Properties:
+            FontSize: =24
+            Height: =41
+            OnSelect: =Collect(colItemsCollection, 'Controle de contratos')
+            Text: ="Add to collection"
+            Width: =213
+            X: =22
+            Y: =708
+      - Label8:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Size: =18
+            Text: ="Contratada"
+            X: =612
+            Y: =119
+      - ButtonCanvas4:
+          Control: Button@0.0.44
+          Properties:
+            FontSize: =24
+            Height: =44
+            Text: ="Update"
+            Width: =139
+            X: =617
+            Y: =240
+      - Label8_1:
+          Control: Label@2.5.1
+          Properties:
+            BorderColor: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Open Sans'
+            FontWeight: =FontWeight.Semibold
+            Height: =47
+            Size: =18
+            Text: ="Contrato gestão"
+            Width: =204
+            X: =612
+            Y: =181
+      - txtContratada:
+          Control: TextInput@0.0.53
+          Properties:
+            Font: =Font.Lato
+            FontSize: =18
+            Height: =45
+            Value: =Gallery1.Selected.Contratada
+            Width: =571
+            X: =762
+            Y: =114
+      - txtCG:
+          Control: TextInput@0.0.53
+          Properties:
+            Font: =Font.Lato
+            FontSize: =18
+            Height: =40
+            Value: =Gallery1.Selected.'Contrato de gestão '
+            Width: =517
+            X: =816
+            Y: =188
+      - headerProjetos_1:
+          Control: Header@0.0.42
+          Properties:
+            IsLogoVisible: =false
+            IsTitleVisible: =false
+            Width: =1333
+            X: =15
+            Y: =19
+      - btnHomeProj_1:
+          Control: Button@0.0.44
+          Properties:
+            Font: =Font.Lato
+            FontSize: =42
+            Height: =43
+            Icon: ="Home"
+            IconStyle: ='ButtonCanvas.IconStyle'.Filled
+            OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCoverRight)
+            Text: =
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =49
+            X: =31
+            Y: =35
+      - txtProjetos_1:
+          Control: Text@0.0.50
+          Properties:
+            Align: ='TextCanvas.Align'.Center
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =47
+            Size: =32
+            Text: ="Controle de Contratos"
+            Weight: ='TextCanvas.Weight'.Regular
+            Width: =342
+            X: =435
+            Y: =34
+      - txtUserProjetos_1:
+          Control: Text@0.0.50
+          Properties:
+            Align: ='TextCanvas.Align'.Start
+            Font: =Font.Lato
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =41
+            Size: =12
+            Text: =varUserInfo.displayName
+            Weight: ='TextCanvas.Weight'.Medium
+            Width: =148
+            X: =1133
+            Y: =37

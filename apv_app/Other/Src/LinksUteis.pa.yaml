@@ -1,0 +1,68 @@
+# ************************************************************************************************
+# Warning: YAML source code for Canvas Apps is in preview. The schema is being actively developed.
+# Content may be incomplete and subject to change.
+# This file is read-only and should only be used to review changes made within Power Apps Studio.
+# This file isn't used when loading the app. External editing, merging and conflict resolution are
+# not supported.
+# 
+# For more information, visit https://go.microsoft.com/fwlink/?linkid=2292623
+# ************************************************************************************************
+Screens:
+  LinksUteis:
+    Properties:
+      LoadingSpinnerColor: =RGBA(56, 96, 178, 1)
+    Children:
+      - HeaderLinks:
+          Control: Header@0.0.42
+          Properties:
+            Font: =Font.Lato
+            IsLogoVisible: =false
+            Logo: =Logo_branco
+            Style: ='Header.Style'.Primary
+            Title: =
+            Width: =1333
+            X: =15
+            Y: =19
+      - txtLinks:
+          Control: Text@0.0.50
+          Properties:
+            Align: ='TextCanvas.Align'.Center
+            BorderStyle: =BorderStyle.None
+            Font: =Font.'Lato Black'
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =58
+            Size: =28
+            Text: |-
+              ="Links Úteis
+              "
+            Weight: ='TextCanvas.Weight'.Bold
+            Width: =228
+            X: =567
+            Y: =27
+      - txtUser_3:
+          Control: Text@0.0.50
+          Properties:
+            Align: ='TextCanvas.Align'.Start
+            Font: =Font.Lato
+            FontColor: =RGBA(255, 255, 255, 1)
+            Height: =41
+            Size: =12
+            Text: =varUserInfo.displayName
+            Weight: ='TextCanvas.Weight'.Medium
+            Width: =148
+            X: =1133
+            Y: =37
+      - btnHomeRh_1:
+          Control: Button@0.0.44
+          Properties:
+            Font: =Font.Lato
+            FontSize: =42
+            Height: =43
+            Icon: ="Home"
+            IconStyle: ='ButtonCanvas.IconStyle'.Filled
+            OnSelect: =Navigate(HomeScreen, ScreenTransition.UnCoverRight)
+            Text: =
+            VerticalAlign: =VerticalAlign.Middle
+            Width: =49
+            X: =31
+            Y: =35
